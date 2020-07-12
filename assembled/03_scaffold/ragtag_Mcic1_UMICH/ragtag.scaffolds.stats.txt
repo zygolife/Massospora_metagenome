@@ -1,0 +1,11 @@
+Assembly statistics for: ragtag.scaffolds.fasta
+   CONTIG COUNT  =  78761
+   TOTAL LENGTH  =  1326780308
+            MIN  =  207
+            MAX  =  1864501
+         MEDIAN  =  10226
+           MEAN  =  16845.65
+            L50  =  13024
+            N50  =  29102
+            L90  =  46880
+            N90  =  7756
