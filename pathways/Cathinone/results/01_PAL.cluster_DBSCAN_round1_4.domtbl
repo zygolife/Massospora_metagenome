@@ -1,0 +1,16 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00000934_RagTag_2808 -            346 PAL                  -            727   9.6e-38  128.7   1.5   1   1   3.4e-41   1.2e-37  128.4   1.5   240   536    12   311     8   334 0.85 # 1560977 # 1562014 # 1 # ;gc_cont=0.392
+tig00000934_RagTag_889  -            437 PAL                  -            727   1.4e-32  111.7   0.0   1   1     5e-36   1.8e-32  111.3   0.0   163   538    31   389     8   412 0.87 # 471852 # 473162 # -1 # ;gc_cont=0.419
+tig00000934_RagTag_2807 -            136 PAL                  -            727   3.2e-11   41.1   0.0   1   1   1.1e-14   3.9e-11   40.8   0.0    87   205    19   130    13   134 0.85 # 1560528 # 1560935 # 1 # ;gc_cont=0.363
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/01_PAL.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round1_4.faa
+# Option settings: hmmsearch --domtblout results/01_PAL.cluster_DBSCAN_round1_4.domtbl -E 1e-3 steps/01_PAL.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round1_4.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 17:22:15 2020
+# [ok]

@@ -1,0 +1,114 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/01_PAL.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round1_4.faa
+# per-dom hits tabular output:     results/01_PAL.cluster_DBSCAN_round1_4.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PAL  [M=727]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    9.6e-38  128.7   1.5    1.2e-37  128.4   1.5    1.0  1  tig00000934_RagTag_2808  # 1560977 # 1562014 # 1 # ;gc_cont=0
+    1.4e-32  111.7   0.0    1.8e-32  111.3   0.0    1.0  1  tig00000934_RagTag_889   # 471852 # 473162 # -1 # ;gc_cont=0.
+    3.2e-11   41.1   0.0    3.9e-11   40.8   0.0    1.0  1  tig00000934_RagTag_2807  # 1560528 # 1560935 # 1 # ;gc_cont=0
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00000934_RagTag_2808  # 1560977 # 1562014 # 1 # ;gc_cont=0.392
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.4   1.5   3.4e-41   1.2e-37     240     536 ..      12     311 ..       8     334 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 128.4 bits;  conditional E-value: 3.4e-41
+                      PAL 240 gevlsakealkkigiekgffelqpkeglalvngtavgaalaslvlfeanvlallaevlaaifaevmsgkpefadhlihrlkhhpgq 325
+                              ge  s+ke ++  g+e    +++ +eg+al+ngt+v +++  +  ++a+ l  ++  l++ + e+++   +   + +   k+h gq
+  tig00000934_RagTag_2808  12 GERKSTKEIFEIEGLEPI--KVEIREGIALMNGTSVMSGIGIVNAYKAEQLMEISIKLSCAINEIVQAYDDHLSEALNGTKKHYGQ 95 
+                              788899*****9999866..88899**********************************999**9999888777777788999999 PP
+
+                      PAL 326 ieaaaime.yvldgssymklavkvh....erdplqkpk.qdryalrtspqwlgpqieviraatksiereinsvsdnplidvardka 405
+                               + a  m  ++ d     k a +++    e++ + k k q+ y+lr  pq lgp ++ +  + k++e eins +dnp+i+v  ++ 
+  tig00000934_RagTag_2808  96 QKVAERMRaHLADSKLIRKRADHLYthfeEQEKVFKDKvQEYYSLRCVPQILGPVLDTLEYTEKVLENEINSANDNPIINVEDQHV 181
+                              9999988725555555667787653223378888888768999******************************************* PP
+
+                      PAL 406 lhggnfqgtpigvsmdnlrlavaaigklmfaqlselvndyynnglpsnlsassnpsldygfkgaeiamasycselqylanpvtshv 491
+                               hggnf g  i + md+l++ v+ +  l   ql  l+n   n+ lp  +  + +  +++g++g + + +s  +e q l+n +  h 
+  tig00000934_RagTag_2808 182 YHGGNFHGDYISLEMDKLKIVVTKLTMLAERQLNYLLNAKINEILPPFVNLG-KLGFNFGMQGVQFTATSTTAESQMLSNSMYVHS 266
+                              **********************************************988766.5689***************************** PP
+
+                      PAL 492 esaeqhnqdvnslglvsa...rks.eealeilklmlstylvaicqavdl 536
+                                 ++ nqd+ s+g  +a   rk  e+a e+l + +     +i+qa++ 
+  tig00000934_RagTag_2808 267 IPNNNDNQDIVSMGTNAAvicRKViENAFEVLAIEAI----TIVQAIEY 311
+                              *************975541115532556777766554....56666665 PP
+
+>> tig00000934_RagTag_889  # 471852 # 473162 # -1 # ;gc_cont=0.419
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.3   0.0     5e-36   1.8e-32     163     538 ..      31     389 ..       8     412 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 111.3 bits;  conditional E-value: 5e-36
+                     PAL 163 pveatraamlvrvntllqgysgirfeileavesllnanlspklplrgtisasgdlvplsyiaglltgrpnskvttrdgevlsakeal 249
+                              +e ++  m+ +v +l +g+sg+  +++e +  +l++++ p +p +g++ asgdl pl+++   l g  +      d +v  + + l
+  tig00000934_RagTag_889  31 DKELSKIMMIAKVHALSKGFSGVSLDVIERMILMLEKDIIPVVPEQGSVGASGDLAPLAHLVLPLLGLGQV--WEGD-QVSDTMDVL 114
+                             56778899*****************************************************9999997654..3333.344467899 PP
+
+                     PAL 250 kkigiekgffelqpkeglalvngtavgaalaslvlfeanvlallaevlaaifaevmsgkpefadhlihrlkhhpgqieaaaimeyvl 336
+                             +k  +e   + l pkegl l+ngt    a a   l + + l  la++ aa+  e   g      + +h ++   g  + aa m   l
+  tig00000934_RagTag_889 115 EKHNLEP--LVLGPKEGLGLINGTQFILAHAIKGLEKFEYLLDLADMTAAMSIEAYRGSESPFKKELHEIRPFEGSKKVAARMLKFL 199
+                             9999985..589************9887777766666677888***************988888888******************** PP
+
+                     PAL 337 dgssymklavkvherdplqkpkqdryalrtspqwlgpqieviraatksiereinsvsdnplidvardkalhggnfqgtpigvsmdnl 423
+                              gs  mk   +           qd y++r  pq  g   +   +   + e e+nsv+dnp++ ++ + ++ ggnf g  + + +d  
+  tig00000934_RagTag_889 200 KGSENMKAHEDC-------ERVQDPYSMRCVPQVHGASRNAFEHLRGMAETELNSVTDNPIV-LSAEESISGGNFHGQLMALPLDYA 278
+                             ******965443.......235899***********************************87.678899****************** PP
+
+                     PAL 424 rlavaaigklmfaqlselvndyynnglpsnlsassnpsldygfkgaeiamasycselqylanpvtshvesaeqhnqdvnslglvsar 510
+                              la a +g++   +   l++  y  glp  l+ ss   l+ gf   + + a+ ++e + l+ p ++    +   ++d  s+g +s r
+  tig00000934_RagTag_889 279 TLAAAELGNISDRRSYLLLEGKY--GLPRLLTESS--GLNSGFMIPQYTSAALVTENKTLCFPASADSIPTSLGQEDHVSMGSISGR 361
+                             *********99888778888776..9******997..699*************************99999999999*********** PP
+
+                     PAL 511 kseealeilklmlstylvaicqavdlrh 538
+                             k ++ l  l  +l+  l+   q +++r 
+  tig00000934_RagTag_889 362 KFNQVLGNLVNILAVELMFAAQGLEFRR 389
+                             ****999888888888888888888775 PP
+
+>> tig00000934_RagTag_2807  # 1560528 # 1560935 # 1 # ;gc_cont=0.363
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   40.8   0.0   1.1e-14   3.9e-11      87     205 ..      19     130 ..      13     134 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 40.8 bits;  conditional E-value: 1.1e-14
+                      PAL  87 kvkvkldaeaakerveksadwvlesmnkgtdsygvttgfgatshrrt..kqgvklqkelirflnagvlgsddetcnvlpveatraa 170
+                              + k++ld ++  ++v++s ++ l+++ k    ygv tgfg  ++ +   ++  +lq +lir   +g+        n lp e  +a+
+  tig00000934_RagTag_2807  19 NEKIELD-QSLLSKVDESFQF-LKKFSKNKVIYGVNTGFGPMAQFKIsdEDTHQLQYNLIRSHSSGI-------GNPLPAEEVKAC 95 
+                              5678884.4556788888876.78999999**********88776641156789*********9998.......368********* PP
+
+                      PAL 171 mlvrvntllqgysgirfeileavesllnanlspkl 205
+                              ml r ntl  g sg+ + ++  +++l+n +++p +
+  tig00000934_RagTag_2807  96 MLARLNTLSLGNSGVHHSVIYLLQELINRDITPLI 130
+                              ********************************965 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (727 nodes)
+Target sequences:                      10540  (1416525 residues searched)
+Passed MSV filter:                       209  (0.0198292); expected 210.8 (0.02)
+Passed bias filter:                      173  (0.0164137); expected 210.8 (0.02)
+Passed Vit filter:                        22  (0.00208729); expected 10.5 (0.001)
+Passed Fwd filter:                         3  (0.00028463); expected 0.1 (1e-05)
+Initial search space (Z):              10540  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.14u 0.02s 00:00:00.16 Elapsed: 00:00:00.08
+# Mc/sec: 12553.14
+//
+[ok]

@@ -1,0 +1,154 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/01_PAL.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round3_20.faa
+# per-dom hits tabular output:     results/01_PAL.cluster_DBSCAN_round3_20.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PAL  [M=727]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                             -----------
+    2.4e-72  241.6   0.0    3.8e-72  240.9   0.0    1.2  1  split6_split0_tig00000001_RagTag_180  # 156812 # 158353 # -1 # ;gc_con
+    9.8e-52  173.4   0.7    1.2e-51  173.2   0.7    1.0  1  split6_split0_tig00000001_RagTag_98   # 83731 # 84786 # 1 # ;gc_cont=0
+    4.1e-37  125.1   3.2      5e-37  124.8   3.2    1.0  1  split6_split0_tig00000001_RagTag_97   # 82215 # 83684 # 1 # ;gc_cont=0
+
+
+Domain annotation for each sequence (and alignments):
+>> split6_split0_tig00000001_RagTag_180  # 156812 # 158353 # -1 # ;gc_cont=0.653
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  240.9   0.0   3.3e-75   3.8e-72      66     538 ..       8     461 ..       3     468 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 240.9 bits;  conditional E-value: 3.3e-75
+                                   PAL  66 vslegktltvaqvaavarkaekvkvkldaeaakerveksadwvlesmnkgtdsygvttgfgatshrrt..kqg 136
+                                           v+++ ++l + +v a+a++   ++++ d  a ++r+ k a+++ + ++k    ygvttg+g +       ++ 
+  split6_split0_tig00000001_RagTag_180   8 VTFGERALRIEDVLALANRQAPTQLQDD-AAYRQRIAKGAQFLDSLLDKEGVIYGVTTGYGDSCVVAVplQHV 79 
+                                           7788899*************99999975.5889****************************987654311333 PP
+
+                                   PAL 137 vklqkelirflnagvlgsddetcnvlpveatraamlvrvntllqgysgirfeileavesllnanlspklplrg 209
+                                            +l + l  f      g+     + l  +atra +  r ++l  g sg+r e+le ++++l++++ p +p  g
+  split6_split0_tig00000001_RagTag_180  80 EALPRHLYTF-----HGCGL--GKLLDAQATRAVLAARLQSLCHGVSGVRVELLERLHAFLQHDVLPLIPEEG 145
+                                           3455555555.....55554..67999********************************************** PP
+
+                                   PAL 210 tisasgdlvplsyiaglltgrpnskvttrdgevlsakealkkigiekgffelqpkeglalvngtavgaalasl 282
+                                           ++ asgdl plsy+a  l+g  +       ge   a +  +++g e   + l+pke lal+ngtav ++la l
+  split6_split0_tig00000001_RagTag_180 146 SVGASGDLTPLSYVAATLSGEREVMF---RGERRQAADVHRELGWEP--LVLRPKEALALMNGTAVMTGLACL 213
+                                           ********************987654...578889999******985..58********************** PP
+
+                                   PAL 283 vlfeanvlallaevlaaifaevmsgkpefadhlihrlkhhpgqieaaaimeyvldgssymklavkvherdplq 355
+                                               a+ l  la  ++a+ +  ++g+pe  d+ +   k hpgq++ aa +   l        a +     pl 
+  split6_split0_tig00000001_RagTag_180 214 AFARADYLLQLATRITAMNVVALQGNPEHFDERLFAAKPHPGQMQVAAWLRKDL--------AIDA-PTAPLH 277
+                                           ***********************************************9887544........3332.356887 PP
+
+                                   PAL 356 kpkqdryalrtspqwlgpqieviraatksiereinsvsdnplidvardkalhggnfqgtpigvsmdnlrlava 428
+                                           +  qdry+lr +p  lg   + +      ie e+ns +dnp+id   ++ lhgg f g  i  +md l+  va
+  split6_split0_tig00000001_RagTag_180 278 R-LQDRYSLRCAPHVLGVLADSLNWLRSFIEIELNSANDNPIIDAEEERVLHGGHFYGGHIAFAMDSLKTLVA 349
+                                           6.69********************************************************************* PP
+
+                                   PAL 429 aigklmfaqlselvndyynnglpsnlsassn..psldygfkgaeiamasycselqylanpvtshvesaeqhnq 499
+                                            +  l+  ql+ lv+  yn glpsnls+++     +++gfk  +i  +++ +e    + p +   +s+e hnq
+  split6_split0_tig00000001_RagTag_180 350 NVADLLDRQLALLVDVRYNHGLPSNLSGAPAdrAMINHGFKAVQIGTSAWTAEALKNTMPASVFSRSTECHNQ 422
+                                           ****************************98622579******************9999*************** PP
+
+                                   PAL 500 dvnslglvsarkseealeilklmlstylvaicqavdlrh 538
+                                           d  s+g ++ar +   le+   ++++ l a  q v lr 
+  split6_split0_tig00000001_RagTag_180 423 DKVSMGTIAARDAIRVLELTEQVAAATLLAANQGVWLRA 461
+                                           *********************99999999999*999996 PP
+
+>> split6_split0_tig00000001_RagTag_98  # 83731 # 84786 # 1 # ;gc_cont=0.646
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  173.2   0.7   9.8e-55   1.2e-51      72     431 ..      10     350 ..       2     351 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 173.2 bits;  conditional E-value: 9.8e-55
+                                  PAL  72 tltvaqvaavarkaekvkvkldaeaakerveksadwvlesmnkgtdsygvttgfgatshrr..tkqgvklqkel 143
+                                           l++aq+ a+ ++   v++ l  ++a +++e+s   v + +     +yg+ tgfg  +  r  +++  +lq+ l
+  split6_split0_tig00000001_RagTag_98  10 QLSLAQLRAIYQQ--PVTLSL-DDSATAQIEASVACVEQILAENRTAYGINTGFGLLASTRiaSEDLENLQRSL 80 
+                                          5788888888765..577888.5678899**************************7655441134556899999 PP
+
+                                  PAL 144 irflnagvlgsddetcnvlpveatraamlvrvntllqgysgirfeileavesllnanlspklplrgtisasgdl 217
+                                          +    agv          +     r  m+++vn+l +g+sgir ++++a+ +l+na++ p++pl+g++ asgdl
+  split6_split0_tig00000001_RagTag_98  81 VLSHAAGVGE-------PISDALVRLVMVLKVNSLSRGFSGIRRQVIDALIALINAEVYPHIPLKGSVGASGDL 147
+                                          9999999843.......34456689************************************************* PP
+
+                                  PAL 218 vplsyiaglltgrpnskvttrdgevlsakealkkigiekgffelqpkeglalvngtavgaalaslvlfeanvla 291
+                                           pl++++ +l g  +++     ge l a+ealk +g+  + + l  keglal+ngt v++a a   lfe + l 
+  split6_split0_tig00000001_RagTag_98 148 APLAHMSLVLLGEGKARY---KGEWLEATEALKVVGLT-P-LTLAAKEGLALLNGTQVSTAYALRGLFEGEDLF 216
+                                          ************887664...699************95.6.79***************************9988 PP
+
+                                  PAL 292 llaevlaaifaevmsgkpefadhlihrlkhhpgqieaaaimeyvldgssymklavkvherdplqkpkqdryalr 365
+                                            a     + +e + g     d  ih  + + gqi++aa    +l  ss + ++ +  + d      qd y+lr
+  split6_split0_tig00000001_RagTag_98 217 AAALACGGLTVEAVLGSRSPFDARIHAARGQRGQIDSAAAYRDLLGESSQVSQSHQ--NCDK----VQDPYSLR 284
+                                          88888899****999999999*************************9998765543..3444....4788**** PP
+
+                                  PAL 366 tspqwlgpqieviraatksiereinsvsdnplidvardkalhggnfqgtpigvsmdnlrlavaaig 431
+                                            pq +g  +   r+a+ ++  e n+vsdnpl+  a    + ggnf   p+ ++ dn+ la+a ig
+  split6_split0_tig00000001_RagTag_98 285 CQPQVMGACLTQFRQAADVLVVEANAVSDNPLVFAAEGDVISGGNFHAEPVAMAADNMALAIAEIG 350
+                                          *****************************************************************9 PP
+
+>> split6_split0_tig00000001_RagTag_97  # 82215 # 83684 # 1 # ;gc_cont=0.650
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.8   3.2   4.3e-40     5e-37      88     528 ..       9     427 ..       1     436 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 124.8 bits;  conditional E-value: 4.3e-40
+                                  PAL  88 vkvkldaeaakerveksadwvlesmnkgtdsygvttgfgatshrrtkqgvklqkelirflnagvlgsddetcnv 161
+                                          ++++l +  a +r++++   v   +  g  +ygv tg+ga      k g +l     ++    +l     +  v
+  split6_split0_tig00000001_RagTag_97   9 AQLEL-SGHAWARIDNAQAIVQRIVTSGERAYGVNTGLGALCNVSLK-GEQLS----QLSRNTLLSHACGVGPV 76 
+                                          35677.778999****9999*9******************9865433.33333....22233444444455679 PP
+
+                                  PAL 162 lpveatraamlvrvntllqgysgirfeileavesllnanlspklplrgtisasgdlvplsyiaglltgrpnskv 235
+                                          l  e tra +   +     g sg+  ++++++ +lln++++p++p +g++   g l  ++++   l g     +
+  split6_split0_tig00000001_RagTag_97  77 LSDEQTRAIICAAIINYSHGKSGLHPQVVHSLLALLNHGITPQVPSQGSV---GYLTHMAHVGVALLGVG---T 144
+                                          999********************************************987...77888888877777765...4 PP
+
+                                  PAL 236 ttrdgevlsakealkkigiekgffelqpkeglalvngtavgaalaslvlfeanvlallaevlaaifaevmsgkp 309
+                                           +  g++++a+eal+  g++     l  k+gl+lvngt   ++l+ l l +a  l   a+v+ a+  e   g+ 
+  split6_split0_tig00000001_RagTag_97 145 VSYRGQIVTAQEALQAEGLQPV--ILGAKDGLCLVNGTPCMTGLSCLALADAHHLLQWADVIGAMSFEAQRGQI 216
+                                          56779*************9876..799*********************************************** PP
+
+                                  PAL 310 efadhlihrlkhhpgqieaaaimeyvldgssymklavkvherdplqkpkqdryalrtspqwlgpqieviraatk 383
+                                          +  d+ i  lk hpg  +    +  +ldgs  +  ++ +          qd  ++r+ pq  g   + + +at+
+  split6_split0_tig00000001_RagTag_97 217 DAFDEAIIALKPHPGMQQVGINLRALLDGSEVIASSQGIRT--------QDALSIRSIPQIHGAARDQVEHATR 282
+                                          ***************9999999***********99999975........77779******************** PP
+
+                                  PAL 384 siereinsvsdnplidvard..kalhggnfqgtpigvsmdnlrlavaaigklmfaqlselvndyynnglpsnls 455
+                                           ie e+ns +dnpl+  + d  + +   n  g  + ++ d l +a+a ig +   +l  l+n +  +glp+ l 
+  split6_split0_tig00000001_RagTag_97 283 QIETELNSATDNPLVLGTPDayRVVSQANPHGQSVALAADMLAIAMAEIGSVAERRLDRLINPHV-SGLPAFLV 355
+                                          **************9877663368999***********************************975.79***996 PP
+
+                                  PAL 456 assnpsldygfkgaeiamasycselqylanpvt..shvesaeqhnqdvnslglvsarkseeal.eilklmlsty 526
+                                            snp ++ g+   +   as c + + la+p    + v s  q  +d  s+g  +a k ++ l ++ ++++  y
+  split6_split0_tig00000001_RagTag_97 356 --SNPGVNSGMMIVQYVAASLCGQNRQLAQPAVldNFVTSGLQ--EDHLSMGTNAALKLHQLLaNVTQILAIEY 425
+                                          ..79***************************652267777666..56778888877777665524555555566 PP
+
+                                  PAL 527 lv 528
+                                          l 
+  split6_split0_tig00000001_RagTag_97 426 LL 427
+                                          65 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (727 nodes)
+Target sequences:                       3533  (956789 residues searched)
+Passed MSV filter:                        52  (0.0147184); expected 70.7 (0.02)
+Passed bias filter:                       45  (0.0127371); expected 70.7 (0.02)
+Passed Vit filter:                         9  (0.00254741); expected 3.5 (0.001)
+Passed Fwd filter:                         3  (0.000849137); expected 0.0 (1e-05)
+Initial search space (Z):               3533  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.11u 0.01s 00:00:00.12 Elapsed: 00:00:00.07
+# Mc/sec: 8939.07
+//
+[ok]
