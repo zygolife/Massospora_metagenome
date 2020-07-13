@@ -1,0 +1,18 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00012298_RagTag_56  -            181 EsNMT6               -            473   1.5e-09   35.5   0.0   1   1   1.5e-12   1.8e-09   35.2   0.0   179   254    38   110     2   117 0.90 # 24527 # 25069 # 1 # ;gc_cont=0.324
+tig00001142_RagTag_867 -            119 EsNMT6               -            473   9.5e-07   26.3   0.1   1   1   8.7e-10   1.1e-06   26.1   0.1   182   236    39    93    26   106 0.84 # 393797 # 394153 # 1 # ;gc_cont=0.426
+tig00001144_RagTag_40  -            134 EsNMT6               -            473   8.2e-06   23.2   0.0   1   1   8.2e-09     1e-05   22.9   0.0   182   226    63   108    50   116 0.81 # 14818 # 15219 # -1 # ;gc_cont=0.425
+tig00001256_RagTag_188 -            113 EsNMT6               -            473   9.5e-06   23.0   0.1   1   1   8.4e-09     1e-05   22.8   0.1   185   256    13    82     4   101 0.84 # 87692 # 88030 # -1 # ;gc_cont=0.351
+tig00001142_RagTag_433 -            129 EsNMT6               -            473   0.00073   16.8   0.0   1   1   6.7e-07   0.00083   16.6   0.0   185   240    43    98    29   114 0.91 # 180110 # 180496 # -1 # ;gc_cont=0.375
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsNMT6.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round2_43.faa
+# Option settings: hmmsearch --domtblout results/EsNMT6.cluster_DBSCAN_round2_43.domtbl -E 1e-3 steps/EsNMT6.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round2_43.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:04:54 2020
+# [ok]

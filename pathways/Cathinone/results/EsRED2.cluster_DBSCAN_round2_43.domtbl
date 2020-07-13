@@ -1,0 +1,24 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00047268_RagTag_45   -            208 EsRED2               -            252   1.5e-37  127.7   7.6   1   1   3.1e-40   1.8e-37  127.5   7.6     7   198     4   191     1   204 0.93 # 20022 # 20645 # 1 # ;gc_cont=0.367
+tig00088447_RagTag_25   -            183 EsRED2               -            252   3.3e-29  100.4   0.0   1   1   6.5e-32   3.6e-29  100.2   0.0    80   252     9   179     1   179 0.93 # 13898 # 14446 # -1 # ;gc_cont=0.339
+tig00003613_RagTag_125  -            192 EsRED2               -            252   1.8e-21   75.0   2.9   1   1   3.9e-24   2.2e-21   74.7   2.9    12   197     2   176     1   188 0.88 # 52678 # 53253 # -1 # ;gc_cont=0.401
+tig00012298_RagTag_31   -            165 EsRED2               -            252   7.1e-19   66.5   0.1   1   1   1.8e-21     1e-18   66.0   0.1   137   233    14   120     3   124 0.87 # 13067 # 13561 # 1 # ;gc_cont=0.358
+tig00001142_RagTag_835  -            158 EsRED2               -            252   8.9e-12   43.3   0.0   1   1     2e-14   1.1e-11   42.9   0.0    75   193    10   125     5   133 0.91 # 380762 # 381235 # -1 # ;gc_cont=0.399
+tig00001142_RagTag_1010 -            121 EsRED2               -            252   1.8e-10   39.0   0.1   1   1   3.7e-13   2.1e-10   38.8   0.1    11    99     3    85     1   105 0.84 # 455992 # 456354 # -1 # ;gc_cont=0.375
+tig00001256_RagTag_245  -            224 EsRED2               -            252   5.8e-08   30.8   1.5   1   1   1.3e-10   7.5e-08   30.4   1.5   125   250    94   219    90   221 0.82 # 114800 # 115471 # -1 # ;gc_cont=0.396
+tig00001256_RagTag_118  -            124 EsRED2               -            252   1.5e-07   29.4   0.0   1   1   3.1e-10   1.7e-07   29.2   0.0   141   197    44    98    24   113 0.90 # 56849 # 57220 # -1 # ;gc_cont=0.336
+tig00001144_RagTag_78   -            158 EsRED2               -            252   2.7e-07   28.6   0.0   1   1   5.3e-10     3e-07   28.4   0.0   116   196     8    88     1   127 0.82 # 28816 # 29289 # 1 # ;gc_cont=0.390
+tig00012298_RagTag_30   -             59 EsRED2               -            252   1.8e-06   25.8   0.0   1   1   3.3e-09   1.9e-06   25.8   0.0    77   124     2    46     1    56 0.89 # 12930 # 13106 # 1 # ;gc_cont=0.345
+tig00012298_RagTag_29   -             67 EsRED2               -            252     7e-06   23.9   0.0   1   1   1.3e-08   7.1e-06   23.9   0.0     9    55     3    49     1    61 0.91 # 12733 # 12933 # 1 # ;gc_cont=0.383
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsRED2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round2_43.faa
+# Option settings: hmmsearch --domtblout results/EsRED2.cluster_DBSCAN_round2_43.domtbl -E 1e-3 steps/EsRED2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round2_43.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:05:06 2020
+# [ok]

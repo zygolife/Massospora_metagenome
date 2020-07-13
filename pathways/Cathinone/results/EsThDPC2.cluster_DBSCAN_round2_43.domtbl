@@ -1,0 +1,17 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00091734_RagTag_10  -            116 EsThDPC2             -            597   1.5e-17   61.9   0.1   1   1   1.1e-20   1.7e-17   61.7   0.1   482   583     2   104     1   110 0.92 # 4520 # 4867 # -1 # ;gc_cont=0.316
+tig00091734_RagTag_11  -            151 EsThDPC2             -            597     3e-15   54.3   0.0   1   1   2.2e-18   3.4e-15   54.1   0.0    99   225     9   129     3   147 0.79 # 5537 # 5989 # -1 # ;gc_cont=0.371
+tig00091734_RagTag_12  -             75 EsThDPC2             -            597   1.3e-13   48.9   0.0   1   1   8.7e-17   1.3e-13   48.8   0.0    36    98     3    65     1    72 0.94 # 5934 # 6158 # -1 # ;gc_cont=0.364
+tig00129831_RagTag_9   -             97 EsThDPC2             -            597   3.4e-07   27.7   0.1   1   1   2.4e-10   3.7e-07   27.6   0.1   446   503    10    67     4    83 0.91 # 2351 # 2641 # -1 # ;gc_cont=0.388
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsThDPC2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round2_43.faa
+# Option settings: hmmsearch --domtblout results/EsThDPC2.cluster_DBSCAN_round2_43.domtbl -E 1e-3 steps/EsThDPC2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round2_43.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:05:25 2020
+# [ok]

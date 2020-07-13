@@ -1,0 +1,38 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split35_split18_tig00000001_RagTag_386 -            248 EsRED1               -            264   2.9e-76  253.9   7.5   1   1   1.9e-78   3.3e-76  253.8   7.5     9   256     2   247     1   247 0.99 # 341522 # 342265 # -1 # ;gc_cont=0.597
+split35_split18_tig00000001_RagTag_360 -            274 EsRED1               -            264   6.8e-61  203.6   0.0   1   1   4.9e-63   8.3e-61  203.3   0.0     8   254    18   268    12   272 0.93 # 321890 # 322711 # -1 # ;gc_cont=0.629
+split35_split18_tig00000001_RagTag_308 -            249 EsRED1               -            264     6e-59  197.2   4.4   1   1   3.9e-61   6.6e-59  197.0   4.4     7   254     3   247     1   248 0.94 # 280138 # 280884 # 1 # ;gc_cont=0.637
+tig00007112_RagTag_9                   -            250 EsRED1               -            264   1.3e-56  189.6   0.3   1   1   8.3e-59   1.4e-56  189.4   0.3     8   254     2   247     1   249 0.93 # 4065 # 4814 # 1 # ;gc_cont=0.581
+split12_split18_tig00000001_RagTag_106 -            241 EsRED1               -            264   1.7e-52  176.0   0.0   1   1   1.2e-54     2e-52  175.8   0.0    32   254     1   223     1   230 0.96 # 100742 # 101464 # -1 # ;gc_cont=0.610
+tig00002684_RagTag_85                  -            436 EsRED1               -            264   2.7e-51  172.1   3.7   1   3   0.00065      0.11    9.4   0.0   125   195    87   152    36   158 0.65 # 53149 # 54456 # 1 # ;gc_cont=0.667
+tig00002684_RagTag_85                  -            436 EsRED1               -            264   2.7e-51  172.1   3.7   2   3      0.35        60    0.5   0.0   227   249   156   178   151   190 0.74 # 53149 # 54456 # 1 # ;gc_cont=0.667
+tig00002684_RagTag_85                  -            436 EsRED1               -            264   2.7e-51  172.1   3.7   3   3   4.2e-50   7.3e-48  160.9   1.8     8   252   192   430   186   435 0.91 # 53149 # 54456 # 1 # ;gc_cont=0.667
+tig00038906_RagTag_16                  -            227 EsRED1               -            264     2e-38  129.9   0.0   1   1   1.4e-40   2.4e-38  129.6   0.0    68   254     2   188     1   194 0.90 # 10484 # 11164 # -1 # ;gc_cont=0.648
+split12_split18_tig00000001_RagTag_114 -            238 EsRED1               -            264   1.4e-37  127.1   2.1   1   1   4.7e-39   8.1e-37  124.6   2.1    14   255     8   236     3   237 0.90 # 106965 # 107678 # -1 # ;gc_cont=0.622
+split1_split0_tig00001315_RagTag_107   -            277 EsRED1               -            264   1.4e-37  127.1   0.1   1   1   1.1e-39   1.9e-37  126.7   0.1    11   198     4   193     1   201 0.94 # 79484 # 80314 # -1 # ;gc_cont=0.616
+split1_tig00001141_RagTag_160          -            233 EsRED1               -            264   1.1e-36  124.1   0.1   1   1   7.5e-39   1.3e-36  124.0   0.1    31   255     2   232     1   232 0.90 # 106432 # 107130 # 1 # ;gc_cont=0.627
+tig00002684_RagTag_73                  -            249 EsRED1               -            264   3.2e-35  119.4   0.1   1   1   2.3e-37   3.9e-35  119.1   0.1     8   202     2   199     1   219 0.91 # 42282 # 43028 # -1 # ;gc_cont=0.628
+split5_tig00001040_RagTag_947          -            265 EsRED1               -            264   6.3e-28   95.5   0.0   1   1   4.5e-30   7.7e-28   95.2   0.0    13   216     3   205     1   210 0.90 # 750305 # 751099 # -1 # ;gc_cont=0.626
+split1_tig00001141_RagTag_727          -            146 EsRED1               -            264   6.8e-25   85.5   0.7   1   1   4.5e-27   7.8e-25   85.4   0.7     9   140     6   142     1   145 0.84 # 519210 # 519647 # -1 # ;gc_cont=0.626
+split5_tig00001040_RagTag_181          -            243 EsRED1               -            264   1.6e-24   84.3   0.0   1   1   1.8e-24     3e-22   76.9   0.0     9   252     3   238     1   242 0.85 # 150910 # 151638 # 1 # ;gc_cont=0.591
+split12_split18_tig00000001_RagTag_72  -            155 EsRED1               -            264   6.5e-18   62.7   1.0   1   1   2.3e-18     4e-16   56.8   1.0    10   171     3   152     1   154 0.85 # 64997 # 65461 # -1 # ;gc_cont=0.637
+split35_split18_tig00000001_RagTag_504 -            136 EsRED1               -            264   7.4e-17   59.2   0.1   1   1     5e-19   8.6e-17   59.0   0.1    15   142     8   134     3   135 0.92 # 443088 # 443495 # 1 # ;gc_cont=0.613
+tig00001770_RagTag_40                  -            134 EsRED1               -            264   1.6e-16   58.1   1.1   1   1   7.2e-18   1.2e-15   55.2   1.1    10   152     3   131     1   133 0.87 # 23183 # 23584 # 1 # ;gc_cont=0.639
+split1_tig00001141_RagTag_737          -            237 EsRED1               -            264   3.5e-15   53.7   0.0   1   1   3.3e-17   5.6e-15   53.0   0.0    15   254     8   234     3   236 0.87 # 525248 # 525958 # 1 # ;gc_cont=0.624
+split12_split18_tig00000001_RagTag_152 -            119 EsRED1               -            264   3.8e-14   50.3   0.3   1   1   2.5e-16   4.3e-14   50.1   0.3    15   135     3   116     1   118 0.92 # 133736 # 134092 # 1 # ;gc_cont=0.535
+split12_split18_tig00000001_RagTag_153 -            166 EsRED1               -            264   3.7e-11   40.5   0.0   1   1   2.7e-13   4.7e-11   40.2   0.0   140   208     4    72     1    89 0.89 # 134083 # 134580 # 1 # ;gc_cont=0.516
+split1_tig00001141_RagTag_726          -             55 EsRED1               -            264     3e-10   37.6   0.1   1   1   1.7e-12     3e-10   37.6   0.1   146   193     2    49     1    54 0.93 # 519049 # 519213 # -1 # ;gc_cont=0.642
+tig00025883_RagTag_65                  -            109 EsRED1               -            264   0.00018   18.6   0.0   1   1   1.2e-06    0.0002   18.4   0.0   161   203     2    44     1    68 0.88 # 38687 # 39013 # 1 # ;gc_cont=0.587
+split35_split18_tig00000001_RagTag_505 -            122 EsRED1               -            264   0.00061   16.9   0.0   1   1   3.9e-06   0.00068   16.7   0.0   158   202     7    51     1    71 0.87 # 443513 # 443878 # 1 # ;gc_cont=0.617
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsRED1.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round154_0.faa
+# Option settings: hmmsearch --domtblout results/EsRED1.cluster_DBSCAN_round154_0.domtbl -E 1e-3 steps/EsRED1.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round154_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:05:02 2020
+# [ok]

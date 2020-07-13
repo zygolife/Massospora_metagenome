@@ -1,0 +1,60 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/EsBDH2.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round4_36.faa
+# per-dom hits tabular output:     results/EsBDH2.cluster_DBSCAN_round4_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsBDH2  [M=534]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                              -----------
+    8.3e-08   25.8   0.2    4.1e-07   23.5   0.1    1.8  2  split19_split18_tig00000001_RagTag_80  # 59810 # 60784 # 1 # ;gc_cont=0
+
+
+Domain annotation for each sequence (and alignments):
+>> split19_split18_tig00000001_RagTag_80  # 59810 # 60784 # 1 # ;gc_cont=0.642
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5   0.1   8.5e-10   4.1e-07     238     357 ..       2     126 ..       1     138 [. 0.83
+   2 ?    0.0   0.0     0.011       5.5     284     321 ..     198     236 ..     190     254 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 23.5 bits;  conditional E-value: 8.5e-10
+                                 EsBDH2 238 akllkeaglpdgvlnivsgfgatagaaisshmdvdkvaftgstevgkailkaa.aksnlkavtlelggkspl 308
+                                            a+ +k  glpdgv  ++ g g+  g a+ +   +  v ftgs + g a+ +aa a+ +  +v  e+    p+
+  split19_split18_tig00000001_RagTag_80   2 AQAVKACGLPDGVFSLLYGAGTDIGIALVTDPRIKAVGFTGSRNAGIALTQAAqARPEPIPVYAEMSSINPV 73 
+                                            78899*****************************************999887635677889999*******9 PP
+
+                                 EsBDH2 309 ivledadideavelah..fa.lffnqgqvcla.gsrvfvqekiydefvekake 357
+                                             ++  a   +   la+   a l    gq c   g  + v  +  d+f+  a++
+  split19_split18_tig00000001_RagTag_80  74 YLFPAALQARGEALAQgfVAsLTQGAGQFCTNpGLVIAVAGSALDAFIASATQ 126
+                                            99999877766667653233155568999986377788999999999998876 PP
+
+  == domain 2  score: 0.0 bits;  conditional E-value: 0.011
+                                 EsBDH2 284 kailkaaaksnlkavtlelggk.splivledadideave 321
+                                              ++  a++ ++++vt  l g+ +  + l+dad+ +a  
+  split19_split18_tig00000001_RagTag_80 198 SLVVVCASEDEVRQVTEHLEGQlTATLHLDDADVARAKA 236
+                                            567788999999999999988735667899999998865 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (534 nodes)
+Target sequences:                        479  (106904 residues searched)
+Passed MSV filter:                        15  (0.0313152); expected 9.6 (0.02)
+Passed bias filter:                       13  (0.0271399); expected 9.6 (0.02)
+Passed Vit filter:                         3  (0.00626305); expected 0.5 (0.001)
+Passed Fwd filter:                         1  (0.00208768); expected 0.0 (1e-05)
+Initial search space (Z):                479  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 1499.58
+//
+[ok]

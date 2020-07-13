@@ -1,0 +1,29 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00020506_RagTag_16                  -            374 EsCHD1               -            720   1.1e-64  216.6   0.0   1   1   5.3e-67   1.3e-64  216.4   0.0   336   704     1   366     1   371 0.92 # 10245 # 11366 # -1 # ;gc_cont=0.601
+split35_split18_tig00000001_RagTag_332 -            272 EsCHD1               -            720     5e-35  118.6   0.2   1   1   2.3e-37   5.6e-35  118.4   0.2     8   213     7   219     1   250 0.85 # 297580 # 298395 # -1 # ;gc_cont=0.618
+split35_split18_tig00000001_RagTag_330 -            320 EsCHD1               -            720   5.9e-35  118.3   0.0   1   1     3e-37   7.3e-35  118.0   0.0   397   696     3   299     1   315 0.87 # 296232 # 297191 # -1 # ;gc_cont=0.609
+tig00020506_RagTag_18                  -            180 EsCHD1               -            720   5.9e-29   98.5   0.3   1   1   2.7e-31   6.7e-29   98.3   0.3    23   169    27   174     5   178 0.90 # 11848 # 12387 # -1 # ;gc_cont=0.557
+tig00007112_RagTag_41                  -            191 EsCHD1               -            720     2e-26   90.1   0.1   1   1   9.8e-29   2.4e-26   89.9   0.1   277   446     5   174     1   179 0.95 # 38330 # 38902 # -1 # ;gc_cont=0.538
+tig00007112_RagTag_42                  -            194 EsCHD1               -            720   5.3e-26   88.8   1.0   1   1   2.5e-28   6.1e-26   88.6   1.0    94   251     9   175     5   192 0.77 # 38908 # 39489 # -1 # ;gc_cont=0.627
+tig00038906_RagTag_11                  -            254 EsCHD1               -            720   5.4e-20   68.9   0.7   1   1   2.8e-22   6.9e-20   68.5   0.7    13   181    10   173     3   185 0.88 # 6960 # 7721 # -1 # ;gc_cont=0.642
+split35_split18_tig00000001_RagTag_325 -            231 EsCHD1               -            720   1.4e-14   51.0   0.3   1   1     7e-17   1.7e-14   50.7   0.3    12   217    10   207     4   227 0.79 # 292519 # 293211 # 1 # ;gc_cont=0.584
+split1_tig00001141_RagTag_478          -            166 EsCHD1               -            720   1.9e-13   47.2   0.6   1   1     8e-16     2e-13   47.2   0.6    94   197     4   108     1   143 0.90 # 328701 # 329198 # -1 # ;gc_cont=0.602
+tig00007112_RagTag_40                  -            213 EsCHD1               -            720   1.5e-10   37.6   0.0   1   1   1.2e-12   2.9e-10   36.7   0.0   486   685     2   197     1   212 0.76 # 37630 # 38268 # -1 # ;gc_cont=0.534
+split35_split18_tig00000001_RagTag_331 -            108 EsCHD1               -            720   1.1e-09   34.8   0.0   1   1   5.2e-12   1.3e-09   34.6   0.0   264   343     8    87     5   101 0.92 # 297281 # 297604 # -1 # ;gc_cont=0.608
+split5_tig00001040_RagTag_784          -            249 EsCHD1               -            720   1.5e-09   34.4   0.0   1   1   7.4e-12   1.8e-09   34.1   0.0   386   527     9   151     3   180 0.86 # 615584 # 616330 # -1 # ;gc_cont=0.614
+split12_split18_tig00000001_RagTag_102 -            252 EsCHD1               -            720   1.5e-08   31.1   0.0   1   1   6.5e-11   1.6e-08   31.0   0.0    45   186    17   158     6   228 0.91 # 96671 # 97426 # 1 # ;gc_cont=0.634
+tig00020506_RagTag_17                  -            154 EsCHD1               -            720   7.3e-07   25.5   0.1   1   1   3.2e-09     8e-07   25.3   0.1   233   325    54   144     7   147 0.82 # 11366 # 11827 # -1 # ;gc_cont=0.593
+split1_tig00001141_RagTag_479          -             85 EsCHD1               -            720   0.00022   17.3   0.0   1   1   9.6e-07   0.00024   17.2   0.0     9    72     7    71     1    77 0.90 # 329195 # 329449 # -1 # ;gc_cont=0.620
+tig00007112_RagTag_43                  -             67 EsCHD1               -            720   0.00074   15.5   0.0   1   1   3.3e-06   0.00081   15.4   0.0     8    62     6    61     1    63 0.93 # 39542 # 39742 # -1 # ;gc_cont=0.567
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsCHD1.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round154_0.faa
+# Option settings: hmmsearch --domtblout results/EsCHD1.cluster_DBSCAN_round154_0.domtbl -E 1e-3 steps/EsCHD1.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round154_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:04:29 2020
+# [ok]

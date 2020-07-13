@@ -1,0 +1,27 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split35_split18_tig00000001_RagTag_233 -            455 EsBDH1               -           1321  4.2e-102  340.2   0.0   1   1  1.3e-104  5.3e-102  339.9   0.0   570   998    20   446    11   453 0.95 # 209292 # 210656 # 1 # ;gc_cont=0.628
+split35_split18_tig00000001_RagTag_232 -            482 EsBDH1               -           1321   4.8e-78  260.5   0.8   1   2   3.6e-49   1.4e-46  156.3   4.3    17   194     8   185     1   196 0.85 # 207854 # 209299 # 1 # ;gc_cont=0.623
+split35_split18_tig00000001_RagTag_232 -            482 EsBDH1               -           1321   4.8e-78  260.5   0.8   2   2   7.2e-32   2.8e-29   99.0   0.0   242   527   203   465   190   473 0.87 # 207854 # 209299 # 1 # ;gc_cont=0.623
+split35_split18_tig00000001_RagTag_235 -            165 EsBDH1               -           1321   7.1e-47  157.3   0.0   1   1     2e-49   8.1e-47  157.1   0.0  1165  1308     3   144     1   157 0.92 # 211195 # 211689 # 1 # ;gc_cont=0.610
+split35_split18_tig00000001_RagTag_234 -            179 EsBDH1               -           1321   6.5e-35  117.7   0.4   1   1   1.8e-37   7.1e-35  117.5   0.4  1010  1147     1   154     1   173 0.93 # 210662 # 211198 # 1 # ;gc_cont=0.605
+split42_split18_tig00000001_RagTag_124 -            402 EsBDH1               -           1321   7.4e-33  110.8   0.0   1   1   2.3e-35   8.9e-33  110.6   0.0   574   895     2   326     1   337 0.83 # 128224 # 129429 # -1 # ;gc_cont=0.638
+split12_split18_tig00000001_RagTag_7   -            157 EsBDH1               -           1321   1.3e-29  100.1   1.6   1   1   4.3e-32   1.7e-29   99.7   1.6    12   157     9   141     5   147 0.94 # 5095 # 5565 # 1 # ;gc_cont=0.639
+split42_split18_tig00000001_RagTag_126 -            112 EsBDH1               -           1321     3e-22   75.7   1.7   1   1   9.5e-25   3.8e-22   75.4   1.7    73   166     6    97     3   104 0.94 # 130412 # 130747 # -1 # ;gc_cont=0.655
+split12_split18_tig00000001_RagTag_8   -           1026 EsBDH1               -           1321   2.7e-20   69.2   0.0   1   3   3.6e-08   1.4e-05   20.4   0.1  1027  1108    47   124    41   162 0.82 # 5582 # 8659 # 1 # ;gc_cont=0.655
+split12_split18_tig00000001_RagTag_8   -           1026 EsBDH1               -           1321   2.7e-20   69.2   0.0   2   3   3.2e-08   1.3e-05   20.6   0.0   567   954   179   550   136   562 0.75 # 5582 # 8659 # 1 # ;gc_cont=0.655
+split12_split18_tig00000001_RagTag_8   -           1026 EsBDH1               -           1321   2.7e-20   69.2   0.0   3   3   7.9e-08   3.1e-05   19.3   0.0  1156  1238   605   686   587   721 0.85 # 5582 # 8659 # 1 # ;gc_cont=0.655
+split42_split18_tig00000001_RagTag_123 -            312 EsBDH1               -           1321   8.5e-17   57.6   3.8   1   1   2.7e-19   1.1e-16   57.3   3.8  1015  1277    16   294    11   303 0.83 # 127248 # 128183 # -1 # ;gc_cont=0.620
+split42_split18_tig00000001_RagTag_125 -            330 EsBDH1               -           1321   1.1e-06   24.1   0.0   1   2    0.0037       1.5    3.8   0.0   335   355    93   113    14   123 0.71 # 129426 # 130415 # -1 # ;gc_cont=0.644
+split42_split18_tig00000001_RagTag_125 -            330 EsBDH1               -           1321   1.1e-06   24.1   0.0   2   2   1.5e-07   5.9e-05   18.4   0.0   363   518   161   315   148   320 0.75 # 129426 # 130415 # -1 # ;gc_cont=0.644
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsBDH1.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round154_0.faa
+# Option settings: hmmsearch --domtblout results/EsBDH1.cluster_DBSCAN_round154_0.domtbl -E 1e-3 steps/EsBDH1.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round154_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:04:18 2020
+# [ok]

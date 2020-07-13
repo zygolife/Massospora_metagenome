@@ -1,0 +1,20 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00001279_RagTag_2                  -            306 EsNMT2               -            496   5.9e-11   41.7   0.0   1   1   2.9e-14   7.9e-11   41.3   0.0   287   426    51   190    42   202 0.83 # 300 # 1217 # -1 # ;gc_cont=0.634
+split1_tig00001040_RagTag_67          -            214 EsNMT2               -            496     9e-10   37.8   0.0   1   1   4.7e-13   1.3e-09   37.3   0.0   274   393    14   138     3   154 0.82 # 47610 # 48251 # 1 # ;gc_cont=0.628
+split23_split0_tig00000001_RagTag_78  -            233 EsNMT2               -            496   7.6e-09   34.8   0.0   1   1   3.6e-12   9.8e-09   34.4   0.0   284   388    47   151    37   171 0.87 # 66830 # 67528 # -1 # ;gc_cont=0.621
+split1_tig00001441_RagTag_94          -            233 EsNMT2               -            496   8.1e-09   34.7   0.0   1   1   3.9e-12     1e-08   34.3   0.0   284   388    47   151    37   171 0.87 # 53579 # 54277 # -1 # ;gc_cont=0.635
+split30_split18_tig00000001_RagTag_84 -            255 EsNMT2               -            496   4.3e-07   29.0   0.0   1   1   1.9e-10   5.2e-07   28.7   0.0   284   387    44   147     8   178 0.80 # 64352 # 65116 # -1 # ;gc_cont=0.634
+tig00072706_RagTag_10                 -            207 EsNMT2               -            496   5.4e-06   25.4   0.0   1   1   2.3e-09   6.1e-06   25.2   0.0   283   386    69   172    24   187 0.80 # 4888 # 5508 # 1 # ;gc_cont=0.655
+split19_split0_tig00000034_RagTag_440 -            191 EsNMT2               -            496   7.1e-05   21.7   0.0   1   1   3.3e-08   8.9e-05   21.4   0.0   280   385    33   135    20   147 0.84 # 256857 # 257429 # 1 # ;gc_cont=0.517
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsNMT2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_unclustered.faa
+# Option settings: hmmsearch --domtblout results/EsNMT2.cluster_unclustered.domtbl -E 1e-3 steps/EsNMT2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_unclustered.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:04:40 2020
+# [ok]

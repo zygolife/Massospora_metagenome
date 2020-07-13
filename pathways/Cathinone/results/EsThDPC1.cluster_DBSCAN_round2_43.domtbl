@@ -1,0 +1,26 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00001142_RagTag_263 -            144 EsThDPC1             -            660   9.1e-21   72.1   0.0   1   1   2.3e-23   1.1e-20   71.8   0.0    92   222     7   138     3   141 0.90 # 105410 # 105841 # -1 # ;gc_cont=0.391
+tig00129831_RagTag_9   -             97 EsThDPC1             -            660   2.3e-15   54.2   0.7   1   1   5.6e-18   2.6e-15   54.0   0.7   499   571     9    81     3    92 0.92 # 2351 # 2641 # -1 # ;gc_cont=0.388
+tig00129831_RagTag_12  -             54 EsThDPC1             -            660   2.2e-12   44.3   0.0   1   1   4.7e-15   2.2e-12   44.3   0.0   119   163     5    49     1    52 0.91 # 3596 # 3757 # -1 # ;gc_cont=0.444
+tig00045741_RagTag_27  -            194 EsThDPC1             -            660   9.1e-12   42.3   0.0   1   1   2.3e-14   1.1e-11   42.0   0.0   380   522    29   172     3   183 0.89 # 10571 # 11152 # 1 # ;gc_cont=0.411
+tig00001142_RagTag_260 -            151 EsThDPC1             -            660   2.1e-11   41.1   0.1   1   1   5.4e-14   2.6e-11   40.8   0.1   462   562    11   111     4   129 0.91 # 104313 # 104765 # -1 # ;gc_cont=0.404
+tig00129831_RagTag_10  -             93 EsThDPC1             -            660   1.9e-10   37.9   0.1   1   1   4.9e-13   2.3e-10   37.7   0.1   377   453    12    85     6    90 0.90 # 2729 # 3007 # -1 # ;gc_cont=0.344
+tig00045741_RagTag_26  -            160 EsThDPC1             -            660   8.7e-10   35.8   0.0   1   1   2.6e-12   1.2e-09   35.3   0.0   180   330     9   156     2   158 0.83 # 10041 # 10520 # 1 # ;gc_cont=0.400
+tig00046864_RagTag_6   -             94 EsThDPC1             -            660   1.1e-08   32.1   0.0   1   1   2.5e-11   1.2e-08   32.0   0.0   159   248     3    92     1    93 0.98 # 2088 # 2369 # -1 # ;gc_cont=0.429
+tig00129831_RagTag_11  -             63 EsThDPC1             -            660   3.4e-07   27.2   0.0   1   1   7.2e-10   3.4e-07   27.2   0.0   183   216     3    36     1    49 0.90 # 3371 # 3559 # -1 # ;gc_cont=0.392
+tig00045741_RagTag_25  -             94 EsThDPC1             -            660   5.3e-07   26.6   0.0   1   1   1.2e-09   5.9e-07   26.4   0.0    87   160     3    76     1    83 0.95 # 9782 # 10063 # 1 # ;gc_cont=0.450
+tig00001142_RagTag_261 -            133 EsThDPC1             -            660   2.3e-06   24.5   0.0   1   1   5.9e-09   2.8e-06   24.2   0.0   296   419     2   121     1   130 0.85 # 104822 # 105220 # -1 # ;gc_cont=0.401
+tig00046864_RagTag_3   -             69 EsThDPC1             -            660   3.5e-05   20.5   0.0   1   1   7.4e-08   3.5e-05   20.5   0.0   459   511     8    60     1    68 0.85 # 1291 # 1497 # -1 # ;gc_cont=0.444
+tig00129831_RagTag_8   -             42 EsThDPC1             -            660   0.00033   17.3   0.1   1   1   6.9e-07   0.00033   17.3   0.1   626   651     2    27     1    36 0.86 # 2138 # 2263 # -1 # ;gc_cont=0.325
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsThDPC1.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round2_43.faa
+# Option settings: hmmsearch --domtblout results/EsThDPC1.cluster_DBSCAN_round2_43.domtbl -E 1e-3 steps/EsThDPC1.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round2_43.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:05:21 2020
+# [ok]

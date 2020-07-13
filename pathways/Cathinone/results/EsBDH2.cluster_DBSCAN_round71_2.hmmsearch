@@ -1,0 +1,94 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/EsBDH2.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round71_2.faa
+# per-dom hits tabular output:     results/EsBDH2.cluster_DBSCAN_round71_2.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsBDH2  [M=534]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+    1.4e-72  242.0   0.0    1.9e-72  241.6   0.0    1.1  1  split4_tig00001011_RagTag_20  # 10193 # 11230 # -1 # ;gc_cont=
+    8.8e-09   31.5   0.0    9.7e-09   31.3   0.0    1.0  1  split4_tig00001011_RagTag_19  # 10066 # 10239 # -1 # ;gc_cont=
+    1.4e-08   30.9   0.2    1.4e-08   30.9   0.2    1.0  1  split4_tig00001011_RagTag_21  # 11289 # 11504 # -1 # ;gc_cont=
+
+
+Domain annotation for each sequence (and alignments):
+>> split4_tig00001011_RagTag_20  # 10193 # 11230 # -1 # ;gc_cont=0.570
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  241.6   0.0   2.1e-75   1.9e-72     140     464 ..       2     324 ..       1     338 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 241.6 bits;  conditional E-value: 2.1e-75
+                        EsBDH2 140 twdngkplelalklelpavarllryyagwadkihgltvkadgp.ykvqtlhepigvagqiipwnfpllmfalkvapalacg 219
+                                   t ++gkpl+ a+  e+  +a +++++a  a +  g+ ++   p  ++ +  epigv+  i pwnfp+ m++ k++pala g
+  split4_tig00001011_RagTag_20   2 TTEQGKPLKEAE-GEVEYAASFIQWFAEQAKRTNGEIIPPAKPgSRILATREPIGVVAAITPWNFPMAMLTRKLGPALAAG 81 
+                                   6789****9875.6999********************9987773567899******************************* PP
+
+                        EsBDH2 220 ntvvlktaeqtpltalfvakllkeaglpdgvlnivsgfgatagaaisshmdvdkvaftgstevgkailkaaaksnlkavtl 300
+                                   +t ++k+a++tpl+a+ +  l+keag+pdgvln v+g  ++   ai     v k++ftgst+vgk +++ aa++ +k+v++
+  split4_tig00001011_RagTag_20  82 CTGIIKPANNTPLSAFALLALAKEAGVPDGVLNAVAGDTHAISDAIMASKAVRKISFTGSTQVGKLLMRNAAET-MKKVSM 161
+                                   *********************************************************************99985.8***** PP
+
+                        EsBDH2 301 elggksplivledadideavelahfalffnqgqvclagsrvfvqekiydefvekakeralkrvvgdpfkkgveqgpqvdee 381
+                                   elg   pli +           a       +  vc++  r ++++ iyd f ++ +  + k  vg+ +++gv  gp ++  
+  split4_tig00001011_RagTag_20 162 ELGV-MPLISCLTMPTLMPPYRAPLPTNSVMRAVCVSVNRFYIHNAIYDRFTQQLATEVNKLKVGNGMEEGVIVGPLIEAS 241
+                                   **85.799988877776666777777777899************************************************* PP
+
+                        EsBDH2 382 qfnkilkyieygkesgaklvtggdrlgskgfyieptifsdvkddakiatdeifgpvqsilkfktldevieranktsyglaa 462
+                                     +k+ ++++  + +g kl +gg+r +  g + +pt++++ ++ +++a++e fgpv + ++f + devi+ran+t +glaa
+  split4_tig00001011_RagTag_20 242 AVEKVEQHVNDAVAKGGKLLAGGERHALGGNFWQPTVITEAHEGMQLAQEETFGPVAACFRFDDEDEVIRRANDTPFGLAA 322
+                                   ********************************************************************************9 PP
+
+                        EsBDH2 463 gv 464
+                                    +
+  split4_tig00001011_RagTag_20 323 YL 324
+                                   65 PP
+
+>> split4_tig00001011_RagTag_19  # 10066 # 10239 # -1 # ;gc_cont=0.586
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.3   0.0   1.1e-11   9.7e-09     474     524 ..       3      53 ..       1      56 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 31.3 bits;  conditional E-value: 1.1e-11
+                        EsBDH2 474 klsralrvgtvwincfdvldadipfggykmsgigrekgiyslqnylqvkav 524
+                                   ++s al  g++ in   v     pfgg k sg+gre  + ++++yl+vka+
+  split4_tig00001011_RagTag_19   3 RVSAALESGMIGINECAVSTELAPFGGVKESGLGREGSVLGMEEYLEVKAL 53 
+                                   7899*********************************************96 PP
+
+>> split4_tig00001011_RagTag_21  # 11289 # 11504 # -1 # ;gc_cont=0.597
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9   0.2   1.5e-11   1.4e-08      56     105 ..      14      61 ..       4      71 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 30.9 bits;  conditional E-value: 1.5e-11
+                        EsBDH2  56 llidgkfvdavsgktfetldprtgeviakvaeadkedvdravkaarkafd 105
+                                    l dg++ +a    tf+  +p tgevia+va+a k + ++a++aa +af 
+  split4_tig00001011_RagTag_21  14 YLADGQWHQA--ASTFDVTNPATGEVIAQVAKAGKAETEQAIAAAERAFP 61 
+                                   5677787777..67***********************************5 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (534 nodes)
+Target sequences:                       2639  (424369 residues searched)
+Passed MSV filter:                        66  (0.0250095); expected 52.8 (0.02)
+Passed bias filter:                       56  (0.0212202); expected 52.8 (0.02)
+Passed Vit filter:                         7  (0.00265252); expected 2.6 (0.001)
+Passed Fwd filter:                         3  (0.00113679); expected 0.0 (1e-05)
+Initial search space (Z):               2639  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.04u 0.01s 00:00:00.05 Elapsed: 00:00:00.02
+# Mc/sec: 8985.11
+//
+[ok]

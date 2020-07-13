@@ -13,5 +13,5 @@ split1_tig00001040_RagTag_103 -            243 PAL                  -           
 # Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_unclustered.faa
 # Option settings: hmmsearch --domtblout results/01_PAL.cluster_unclustered.domtbl -E 1e-3 steps/01_PAL.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_unclustered.faa 
 # Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
-# Date:            Sun Jul 12 17:22:15 2020
+# Date:            Sun Jul 12 23:04:10 2020
 # [ok]

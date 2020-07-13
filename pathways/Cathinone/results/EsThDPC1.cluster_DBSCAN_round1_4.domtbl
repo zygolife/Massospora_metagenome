@@ -1,0 +1,20 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00001084_RagTag_257  -            350 EsThDPC1             -            660   9.4e-77  257.8   0.1   1   1   7.7e-80   1.2e-76  257.5   0.1   305   652     5   345     2   348 0.91 # 134936 # 135985 # 1 # ;gc_cont=0.441
+tig00001084_RagTag_256  -            156 EsThDPC1             -            660   6.6e-45  152.6   0.0   1   1   4.6e-48     7e-45  152.5   0.0   141   256     2   117     1   152 0.93 # 134451 # 134918 # 1 # ;gc_cont=0.466
+tig00000934_RagTag_2570 -            182 EsThDPC1             -            660     4e-16   57.5   0.9   1   1   5.7e-19   8.6e-16   56.4   0.9   491   633    12   145     1   156 0.86 # 1424677 # 1425222 # 1 # ;gc_cont=0.440
+tig00000934_RagTag_2569 -            142 EsThDPC1             -            660   1.2e-05   22.9   0.0   1   1   9.1e-09   1.4e-05   22.7   0.0   333   471     6   140     2   141 0.82 # 1424236 # 1424661 # 1 # ;gc_cont=0.425
+tig00000934_RagTag_2454 -            244 EsThDPC1             -            660   1.8e-05   22.3   0.0   1   1   1.3e-08   1.9e-05   22.2   0.0    83   198     3   116     1   174 0.79 # 1364549 # 1365280 # 1 # ;gc_cont=0.400
+tig00001084_RagTag_255  -             59 EsThDPC1             -            660   0.00072   17.0   0.0   1   1   4.8e-07   0.00072   17.0   0.0    90   116    13    39     4    53 0.89 # 134264 # 134440 # 1 # ;gc_cont=0.401
+tig00000934_RagTag_2567 -             78 EsThDPC1             -            660   0.00088   16.7   0.2   1   1   6.5e-07   0.00097   16.5   0.2    92   163     6    74     2    77 0.84 # 1423537 # 1423770 # 1 # ;gc_cont=0.462
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsThDPC1.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round1_4.faa
+# Option settings: hmmsearch --domtblout results/EsThDPC1.cluster_DBSCAN_round1_4.domtbl -E 1e-3 steps/EsThDPC1.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round1_4.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:05:21 2020
+# [ok]

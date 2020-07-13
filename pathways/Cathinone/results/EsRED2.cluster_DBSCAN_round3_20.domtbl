@@ -1,0 +1,43 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split21_split18_tig00000001_RagTag_43  -            256 EsRED2               -            252     2e-55  185.5   1.8   1   1     2e-57   2.4e-55  185.2   1.8     6   251     9   253     6   254 0.95 # 36563 # 37330 # 1 # ;gc_cont=0.617
+split16_split0_tig00000001_RagTag_60   -            250 EsRED2               -            252   5.8e-43  144.6   0.3   1   1   6.3e-45   7.4e-43  144.3   0.3     6   237     4   231     2   245 0.95 # 53136 # 53885 # 1 # ;gc_cont=0.667
+split11_split18_tig00000001_RagTag_135 -            249 EsRED2               -            252     1e-39  134.0   0.3   1   1   9.3e-42   1.1e-39  133.9   0.3     9   241     3   238     1   248 0.92 # 117557 # 118303 # 1 # ;gc_cont=0.641
+split11_split18_tig00000001_RagTag_68  -            266 EsRED2               -            252   5.7e-38  128.3   3.5   1   1   6.2e-40   7.3e-38  127.9   3.5     6   249    24   259    21   262 0.89 # 55152 # 55949 # 1 # ;gc_cont=0.653
+split36_split18_tig00000001_RagTag_4   -            253 EsRED2               -            252   1.1e-36  124.0   0.1   1   1   1.1e-38   1.3e-36  123.9   0.1     8   251     3   250     1   251 0.90 # 2944 # 3702 # 1 # ;gc_cont=0.622
+split9_split18_tig00000001_RagTag_6    -            258 EsRED2               -            252   2.6e-35  119.6   0.3   1   1   2.6e-37   3.1e-35  119.3   0.3     5   212     3   200     1   254 0.90 # 5134 # 5907 # -1 # ;gc_cont=0.640
+split34_split18_tig00000001_RagTag_5   -            291 EsRED2               -            252   2.3e-32  109.9   0.3   1   1   2.5e-34   2.9e-32  109.6   0.3     6   250    12   254     8   256 0.93 # 3565 # 4437 # 1 # ;gc_cont=0.648
+split27_split0_tig00000001_RagTag_41   -            202 EsRED2               -            252   1.3e-31  107.4   0.4   1   1   1.4e-33   1.6e-31  107.2   0.4    67   251     2   191     1   192 0.91 # 37730 # 38335 # -1 # ;gc_cont=0.614
+split9_split18_tig00000001_RagTag_81   -            266 EsRED2               -            252   8.2e-31  104.8   2.2   1   1   1.2e-32   1.4e-30  104.1   2.2     6   252     5   260     2   260 0.85 # 108410 # 109207 # 1 # ;gc_cont=0.640
+split10_split0_tig00000001_RagTag_179  -            285 EsRED2               -            252   3.4e-29   99.5   0.3   1   1   3.8e-31   4.5e-29   99.1   0.3     4   249    43   278    41   281 0.88 # 158227 # 159081 # -1 # ;gc_cont=0.675
+split18_split18_tig00000001_RagTag_101 -            168 EsRED2               -            252   1.1e-28   97.9   0.1   1   1   9.9e-31   1.2e-28   97.8   0.1    90   251     2   164     1   165 0.86 # 91884 # 92387 # -1 # ;gc_cont=0.585
+split18_split18_tig00000001_RagTag_114 -            162 EsRED2               -            252   7.8e-28   95.1   0.0   1   1   7.9e-30   9.3e-28   94.8   0.0    92   250     2   157     1   158 0.95 # 101261 # 101746 # 1 # ;gc_cont=0.597
+split6_split0_tig00000001_RagTag_170   -            185 EsRED2               -            252     2e-25   87.1   0.5   1   1   2.1e-27   2.5e-25   86.9   0.5    11   190     5   183     2   184 0.89 # 148723 # 149277 # -1 # ;gc_cont=0.650
+split18_split18_tig00000001_RagTag_135 -            256 EsRED2               -            252   2.9e-25   86.6   6.8   1   1   2.9e-27   3.4e-25   86.4   6.8     5   250     2   249     1   251 0.87 # 120638 # 121405 # -1 # ;gc_cont=0.667
+split11_split18_tig00000001_RagTag_54  -            207 EsRED2               -            252   8.3e-25   85.2   0.1   1   1   8.3e-27   9.8e-25   84.9   0.1     4   191     2   191     1   199 0.94 # 43260 # 43880 # -1 # ;gc_cont=0.639
+split38_split18_tig00000001_RagTag_6   -            304 EsRED2               -            252     1e-24   84.9   0.2   1   1   1.3e-26   1.6e-24   84.2   0.2     6   191     7   195     3   244 0.84 # 6698 # 7609 # -1 # ;gc_cont=0.635
+split18_split18_tig00000001_RagTag_169 -            235 EsRED2               -            252     1e-20   71.7   0.2   1   1   1.3e-22   1.5e-20   71.2   0.2     4   250     3   231     1   233 0.85 # 154644 # 155348 # -1 # ;gc_cont=0.647
+split10_split0_tig00000001_RagTag_60   -            255 EsRED2               -            252     2e-19   67.6   0.0   1   1     2e-21   2.3e-19   67.3   0.0    12   214     6   206     2   234 0.87 # 55308 # 56072 # 1 # ;gc_cont=0.634
+split14_split0_tig00000001_RagTag_327  -            271 EsRED2               -            252   4.6e-18   63.1   0.1   1   1   5.2e-20   6.1e-18   62.6   0.1    12   198     5   177     2   194 0.84 # 295783 # 296595 # -1 # ;gc_cont=0.649
+split38_split18_tig00000001_RagTag_17  -            237 EsRED2               -            252   1.9e-14   51.2   0.0   1   1   1.9e-16   2.3e-14   50.9   0.0    12   213     9   197     3   233 0.82 # 15324 # 16034 # 1 # ;gc_cont=0.620
+split14_split0_tig00000001_RagTag_66   -            261 EsRED2               -            252     8e-13   45.9   0.0   1   1   8.7e-15     1e-12   45.5   0.0    13   197    11   189     6   209 0.88 # 55958 # 56740 # -1 # ;gc_cont=0.639
+split16_split0_tig00000001_RagTag_58   -            117 EsRED2               -            252   4.8e-11   40.1   0.0   1   1   4.3e-13   5.1e-11   40.0   0.0     7   119     2   113     1   116 0.90 # 52244 # 52594 # 1 # ;gc_cont=0.661
+split10_split0_tig00000001_RagTag_201  -            229 EsRED2               -            252   6.4e-11   39.7   0.0   1   1   7.4e-13   8.8e-11   39.2   0.0     9   201     5   188     2   203 0.84 # 175970 # 176656 # -1 # ;gc_cont=0.611
+split33_split18_tig00000001_RagTag_7   -            111 EsRED2               -            252   7.2e-11   39.5   0.0   1   1   6.9e-13   8.2e-11   39.3   0.0    12    98     6    91     1    97 0.95 # 2445 # 2777 # -1 # ;gc_cont=0.622
+split33_split18_tig00000001_RagTag_6   -            117 EsRED2               -            252   4.1e-10   37.0   0.0   1   1   3.8e-12   4.5e-10   36.9   0.0   109   195     3    88     1   104 0.83 # 2137 # 2487 # -1 # ;gc_cont=0.598
+split16_split0_tig00000001_RagTag_59   -             97 EsRED2               -            252   3.2e-09   34.1   0.0   1   1   3.2e-11   3.8e-09   33.8   0.0   129   192     6    68     2    75 0.86 # 52594 # 52884 # 1 # ;gc_cont=0.691
+split6_split0_tig00000001_RagTag_169   -             54 EsRED2               -            252   1.9e-08   31.5   0.0   1   1   1.8e-10   2.1e-08   31.4   0.0   207   251     8    52     4    53 0.93 # 148550 # 148711 # -1 # ;gc_cont=0.599
+split17_split18_tig00000001_RagTag_9   -            147 EsRED2               -            252   3.6e-06   24.1   0.1   1   1   4.5e-08   5.3e-06   23.5   0.1    10    53     2    45     1    69 0.91 # 5209 # 5649 # -1 # ;gc_cont=0.628
+split27_split0_tig00000001_RagTag_42   -             71 EsRED2               -            252   6.4e-06   23.3   0.4   1   1   6.5e-08   7.6e-06   23.0   0.4     6    42     5    41     2    46 0.89 # 38314 # 38526 # -1 # ;gc_cont=0.653
+split18_split18_tig00000001_RagTag_113 -            103 EsRED2               -            252   1.6e-05   22.0   0.0   1   1   1.5e-07   1.8e-05   21.8   0.0     5    69    17    82    14    97 0.84 # 100956 # 101264 # 1 # ;gc_cont=0.641
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsRED2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round3_20.faa
+# Option settings: hmmsearch --domtblout results/EsRED2.cluster_DBSCAN_round3_20.domtbl -E 1e-3 steps/EsRED2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round3_20.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:05:06 2020
+# [ok]

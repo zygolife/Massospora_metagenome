@@ -1,0 +1,26 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00015596_RagTag_25                  -            332 EsRED3               -            323   2.6e-15   56.1   0.0   1   1     5e-17   8.5e-14   51.1   0.0    17   293    11   310     6   326 0.75 # 16166 # 17161 # -1 # ;gc_cont=0.638
+tig00001192_RagTag_342                 -            276 EsRED3               -            323     2e-11   43.3   0.0   1   2      0.24   4.2e+02   -0.4   0.0    19    56    33    74    21    79 0.64 # 239315 # 240142 # 1 # ;gc_cont=0.611
+tig00001192_RagTag_342                 -            276 EsRED3               -            323     2e-11   43.3   0.0   2   2   5.3e-14   9.1e-11   41.2   0.0    91   167   126   202   122   222 0.85 # 239315 # 240142 # 1 # ;gc_cont=0.611
+split1_split8_tig00001274_RagTag_11    -             64 EsRED3               -            323   1.2e-09   37.5   0.0   1   1   7.4e-13   1.3e-09   37.4   0.0   227   267    16    56     3    62 0.87 # 6959 # 7150 # 1 # ;gc_cont=0.589
+tig00081962_RagTag_10                  -            203 EsRED3               -            323   5.7e-09   35.3   0.0   1   1   4.4e-12   7.5e-09   34.9   0.0    14   125    20   146     8   169 0.74 # 2881 # 3489 # -1 # ;gc_cont=0.537
+tig00046356_RagTag_6                   -            243 EsRED3               -            323   1.1e-07   31.1   0.0   1   1   1.1e-09     2e-06   27.0   0.0    36   215    14   187     4   193 0.73 # 4207 # 4935 # -1 # ;gc_cont=0.627
+tig00090339_RagTag_21                  -            322 EsRED3               -            323   4.5e-07   29.0   0.1   1   2       1.7     3e+03   -3.2   0.0    36    53    48    65    45    67 0.83 # 9595 # 10560 # 1 # ;gc_cont=0.573
+tig00090339_RagTag_21                  -            322 EsRED3               -            323   4.5e-07   29.0   0.1   2   2   7.9e-09   1.4e-05   24.2   0.0    26   217    85   272    75   283 0.74 # 9595 # 10560 # 1 # ;gc_cont=0.573
+split1_tig00001040_RagTag_284          -            197 EsRED3               -            323   1.1e-06   27.8   0.0   1   1   8.3e-10   1.4e-06   27.4   0.0    15   128    21   153    15   176 0.73 # 215848 # 216438 # -1 # ;gc_cont=0.609
+tig00134841_RagTag_22                  -            111 EsRED3               -            323   1.1e-06   27.7   0.1   1   1   4.7e-08   8.1e-05   21.6   0.1   108   241     3   108     1   110 0.72 # 8448 # 8780 # -1 # ;gc_cont=0.637
+split19_split0_tig00000034_RagTag_422  -            298 EsRED3               -            323   2.4e-06   26.6   0.0   1   1   2.2e-08   3.7e-05   22.7   0.0    26   288    26   285    15   291 0.66 # 246559 # 247452 # -1 # ;gc_cont=0.584
+split28_split18_tig00000001_RagTag_318 -            359 EsRED3               -            323   1.1e-05   24.5   0.0   1   1   2.1e-07   0.00035   19.5   0.0    36   196    42   193    33   323 0.76 # 263381 # 264457 # 1 # ;gc_cont=0.629
+tig00134841_RagTag_23                  -            117 EsRED3               -            323     4e-05   22.6   0.0   1   1   2.4e-08   4.1e-05   22.6   0.0    15    67     7    67     1    94 0.75 # 8723 # 9073 # -1 # ;gc_cont=0.652
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsRED3.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_unclustered.faa
+# Option settings: hmmsearch --domtblout results/EsRED3.cluster_unclustered.domtbl -E 1e-3 steps/EsRED3.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_unclustered.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:05:09 2020
+# [ok]

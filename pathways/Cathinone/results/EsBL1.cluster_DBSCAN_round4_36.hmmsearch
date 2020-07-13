@@ -1,0 +1,58 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/EsBL1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round4_36.faa
+# per-dom hits tabular output:     results/EsBL1.cluster_DBSCAN_round4_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsBL1  [M=552]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+    8.2e-07   22.3   0.1    2.3e-06   20.8   0.1    1.6  1  split1_tig00002624_RagTag_71  # 51212 # 51805 # 1 # ;gc_cont=0
+
+
+Domain annotation for each sequence (and alignments):
+>> split1_tig00002624_RagTag_71  # 51212 # 51805 # 1 # ;gc_cont=0.646
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   20.8   0.1   4.9e-09   2.3e-06     187     339 ..       8     168 ..       4     175 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 20.8 bits;  conditional E-value: 4.9e-09
+                         EsBL1 187 lnytsGttsapkGvvyshrGaylsalsslllweldkkpvylwtlpl..fhcnGwtftwalaarg......Gtnvcl...rk 256
+                                   + +tsGtt apkGv +s       a +   + + ++   +l  lp+  +  n  +++ al a +         + +     
+  split1_tig00002624_RagTag_71   8 VTFTSGTTGAPKGVCLSADSLLRVARELYQASHSTDPRHHLALLPIaiLLENLGCYA-ALYAGAtlslpsQKRLGIqgaSA 87 
+                                   679**************9887666666555555555557788888622344555554.22222200010012222211146 PP
+
+                         EsBL1 257 vsaeeifsaiaehsvthlcaaptvlnlilnaapserrklpkkvev.ltgGapppaavlkkiealGfdvthayGltettGpa 336
+                                   v+a ++   +a  +   l   p +l +++ a ++++   p+ ++    gGa    ++l++ ++lG+ v   yGl+e++   
+  split1_tig00002624_RagTag_71  88 VNAAQLLGCLATRQPHSLILVPQLLLMLVIA-AEQNAFSPQSLRFaAVGGARVSRSLLQRAHHLGMPVYEGYGLSECASV- 166
+                                   78888889999999999999******99999.556667778777615689999***********************9754. PP
+
+                         EsBL1 337 lvc 339
+                                    vc
+  split1_tig00002624_RagTag_71 167 -VC 168
+                                   .34 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (552 nodes)
+Target sequences:                        479  (106904 residues searched)
+Passed MSV filter:                         8  (0.0167015); expected 9.6 (0.02)
+Passed bias filter:                        8  (0.0167015); expected 9.6 (0.02)
+Passed Vit filter:                         1  (0.00208768); expected 0.5 (0.001)
+Passed Fwd filter:                         1  (0.00208768); expected 0.0 (1e-05)
+Initial search space (Z):                479  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 1671.13
+//
+[ok]

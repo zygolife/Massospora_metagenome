@@ -1,0 +1,17 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split1_tig00001040_RagTag_101 -            455 EsPAL1               -            722   2.5e-56  191.1   1.8   1   1   6.6e-60   3.1e-56  190.7   1.8    72   493    10   415     2   425 0.88 # 72627 # 73991 # -1 # ;gc_cont=0.648
+tig00001279_RagTag_12         -            299 EsPAL1               -            722   4.6e-37  127.4   0.0   1   1   1.4e-40   6.6e-37  126.8   0.0    66   330     8   265     3   292 0.87 # 6546 # 7442 # -1 # ;gc_cont=0.681
+tig00001279_RagTag_11         -            221 EsPAL1               -            722     2e-29  102.1   0.0   1   1   5.2e-33   2.5e-29  101.8   0.0   380   538    12   172     6   186 0.95 # 5902 # 6564 # -1 # ;gc_cont=0.647
+split1_tig00001040_RagTag_103 -            243 EsPAL1               -            722   5.3e-14   51.1   0.2   1   1   1.4e-17   6.8e-14   50.8   0.2   307   492    44   222    37   234 0.87 # 74237 # 74965 # -1 # ;gc_cont=0.639
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/EsPAL1.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_unclustered.faa
+# Option settings: hmmsearch --domtblout results/EsPAL1.cluster_unclustered.domtbl -E 1e-3 steps/EsPAL1.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_unclustered.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Sun Jul 12 23:04:58 2020
+# [ok]

@@ -9,5 +9,5 @@
 # Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round5_19.faa
 # Option settings: hmmsearch --domtblout results/01_PAL.cluster_DBSCAN_round5_19.domtbl -E 1e-3 steps/01_PAL.hmm ../../processed/EukRep_autometa_Bacteria/MAGs//cluster_DBSCAN_round5_19.faa 
 # Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
-# Date:            Sun Jul 12 17:22:15 2020
+# Date:            Sun Jul 12 23:04:10 2020
 # [ok]
