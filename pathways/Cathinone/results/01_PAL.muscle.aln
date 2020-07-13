@@ -1,0 +1,206 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      MTTHLEPVTFGERALRIEDVLALANRQAPTQLQDDAAYRQRIAKGAQFLDSLLDKEGVIY
+01_PAL.cluster_unclustered|tig00      MTTHLEPVTFGERALRIEDVLALANRQAPTRLQDDAAYRQRIAKGAQFLDSLLDKEGVIY
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|split      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ---MFQAEKIVIADAPMGWQEVVAVARHGAVLELSAQVWARIDNAQAIVRKVVDSGERAY
+01_PAL.cluster_DBSCAN_round3_20|      -------------------MVAVA--RFGAQLELSGHAWARIDNAQAIVQRIVTSGERAY
+01_PAL.cluster_DBSCAN_round1_4|t      --------MKINNFLELKDFQKII--IGNEKIELDQSLLSKVDESFQFLKK-FSKNKVIY
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      MSGSFQALRSVPGEVDLATLRAIY--QGNVTLSLDDSARQAIAAAQQTVETIVASGNVVY
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      ----MTALNLIPGQLSLAQLRAIY--QQPVTLSLDDSATAQIEASVACVEQILAENRTAY
+01_PAL.cluster_unclustered|split      ----MTALNLIPGQLSLAQLRAIY--QQPVTLSLDDSATAQIEASVACVEQILAENRTAY
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      GVTTGYGDSCVVAVPLQHVEALPRHLYTFHGCGLGKLLDAQATRAVLAARLQSLCHGVSG
+01_PAL.cluster_unclustered|tig00      GVTTGYGDSCVVAVPLQHVEALPRHLYTFHGCGLGKLLDAQATRAVLAARLQSLCHGVSG
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|split      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      GISTGLGALCNVLLAGEQLSQLSRNTLLSHACGVGPVLADEQTRAIICAAIINYSHGKSG
+01_PAL.cluster_DBSCAN_round3_20|      GVNTGLGALCNVSLKGEQLSQLSRNTLLSHACGVGPVLSDEQTRAIICAAIINYSHGKSG
+01_PAL.cluster_DBSCAN_round1_4|t      GVNTGFGPMAQFKISDEDTHQLQYNLIRSHSSGIGNPLPAEEVKACMLARLNTLSLGNSG
+01_PAL.cluster_DBSCAN_round1_4|t      --------MCDTKISADETAQLQYNLIISHAVGVGKPIDKELSKIMMIAKVHALSKGFSG
+01_PAL.cluster_DBSCAN_round59_0|      GINTGFGKLAQTQIPASRLADLQRNLVLSHSVGLGDLLPDNVTRLVVATKIISLARGHSG
+01_PAL.cluster_DBSCAN_round2_5|s      --------------------------MLSHAAGVGEPISDDLVRLIMVLKVNSLSRGFSG
+01_PAL.cluster_DBSCAN_round3_20|      GINTGFGLLASTRIASEDLENLQRSLVLSHAAGVGEPISDALVRLVMVLKVNSLSRGFSG
+01_PAL.cluster_unclustered|split      GINTGFGLLASTRIASEDLENLQRSLVLSHAAGVGEPISDALVRLVMVLKVNSLSRGFSG
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      -----------------------------------------MLIGEGEVFYKGERKSTKE
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      VRVELLERLHAFLQHDVLPLIPEEGSVGASGDLTPLSYVAATLSGEREVMFRGERRQAAD
+01_PAL.cluster_unclustered|tig00      VRVELLERLQAFLEHDVLPLIPEEGSVGASGDLTPLSYVAATLSGEREVLFRGERRQAAD
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|split      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      IHRQVVEALLALLNRGITPQVPSQGSVGY---LTHMAHIGVALLGIGQVSYRGRIVSAEQ
+01_PAL.cluster_DBSCAN_round3_20|      LHPQVVHSLLALLNHGITPQVPSQGSVGY---LTHMAHVGVALLGVGTVSYRGQIVTAQE
+01_PAL.cluster_DBSCAN_round1_4|t      VHHSVIYLLQELINRDITPLIFEHGE----------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      VSLDVIERMILMLEKDIIPVVPEQGSVGASGDLAPLAHLVLPLLGLGQVWEGDQVSDTMD
+01_PAL.cluster_DBSCAN_round59_0|      VRIELVEALLALFNAGVMPCIPEKGSVGASGDLAPLAHMSLMLLGEGQVRVNGTLIPATE
+01_PAL.cluster_DBSCAN_round2_5|s      IRRQVIDALIALINAEVYPHIPLKGSVGASGDLRPWRTCPWCCWARAR-RYKGQWLDATA
+01_PAL.cluster_DBSCAN_round3_20|      IRRQVIDALIALINAEVYPHIPLKGSVGASGDLAPLAHMSLVLLGEGKARYKGEWLEATE
+01_PAL.cluster_unclustered|split      IRRQVIDALIALINAEVYPHIPLKGSVGASGDLAPLAHMSLVLLGEGKARYKGEWLEATE
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      IFEIEGLEPIKVEIREGIALMNGTSVMSGIGIVNAYKAEQLMEISIKLSCAINEIVQAYD
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      VHRELGWEPLVLRPKEALALMNGTAVMTGLACLAFARADYLLQLATRITAMNVVALQGNP
+01_PAL.cluster_unclustered|tig00      VHRELGWEPLVLRPKEALALMNGTAVMTGLACLAFARADYLLQLATRITALNVVALQGNP
+01_PAL.cluster_DBSCAN_round59_0|      --------------------------MTGLACLALDDAERLLDWADVTGAMSFEALRGQL
+01_PAL.cluster_unclustered|split      ------------MPGQRYAMYDRPELPGPGGCAS------LVAMGRRDRRHEFRSPAGQI
+01_PAL.cluster_DBSCAN_round2_5|s      ALAEEGLQAVQLGAKDGLCLVNGTPCMTGLGCLALADASRLLQWADVIGAMSFEAQRGQI
+01_PAL.cluster_DBSCAN_round3_20|      ALQAEGLQPVILGAKDGLCLVNGTPCMTGLSCLALADAHHLLQWADVIGAMSFEAQRGQI
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      VLEKHNLEPLVLGPKEGLGLINGTQFILAHAIKGLEKFEYLLDLADMTAAMSIEAYRGSE
+01_PAL.cluster_DBSCAN_round59_0|      GLASVGLSPFVLGPKEGLALLNGTVFRLRWRCAA--------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ALEVAGLKPLTLAAKEGLALLNGTQVSTAYALRGLFEGEDLFAGALVCGGLTVEAVLGSR
+01_PAL.cluster_DBSCAN_round3_20|      ALKVVGLTPLTLAAKEGLALLNGTQVSTAYALRGLFEGEDLFAAALACGGLTVEAVLGSR
+01_PAL.cluster_unclustered|split      ALKVAGLTPLTLAAKEGLALLNGTQVSTAYALRGLFEGEDLFAGALACGGLTVEAVLGSR
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      DHLSEALNGTKKHYGQQKVAERMRAHLADSKLIRKRADHLYTHFEEQEKVFKDKVQEYYS
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      EHFDERLFAAKPHPGQMQVAAWLRKDLAIDAPTAPLH----------------RLQDRYS
+01_PAL.cluster_unclustered|tig00      EHFDERLFAAKPHPGQMQVAAWLRKDLAIDAPAAPLH----------------RLQDRYS
+01_PAL.cluster_DBSCAN_round59_0|      VAFDPEVLALKASPGIQRSGERLRQLLRDSPLLNASV--------------GIRTQDALS
+01_PAL.cluster_unclustered|split      DAFDEEIIALKPHPGMQHVGINLRALLDGSEVIASSK--------------GIRTQDALS
+01_PAL.cluster_DBSCAN_round2_5|s      AAFDAEIIALKAHPGMQVVGSNLRALLDRSEVIATSK--------------GIRTRTP--
+01_PAL.cluster_DBSCAN_round3_20|      DAFDEAIIALKPHPGMQQVGINLRALLDGSEVIASSQ--------------GIRTQDALS
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      SPFKKELHEIRPFEGSKKVAARMLKFLKGSENMKAHED-------------CERVQDPYS
+01_PAL.cluster_DBSCAN_round59_0|      ---------------------------------------------------CLKVRT---
+01_PAL.cluster_DBSCAN_round2_5|s      SPFDSRIHAARGQRGQIDTAAAYRALLGDSTEVSTSHQN------------CDKVQDPYS
+01_PAL.cluster_DBSCAN_round3_20|      SPFDARIHAARGQRGQIDSAAAYRDLLGESSQVSQSHQN------------CDKVQDPYS
+01_PAL.cluster_unclustered|split      SPFDARIHAARGQRGQIDSAAAYRDLLGESSQVSQSHQN------------CDKVQDPYS
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      LRCVPQILGPVLDTLEYTEKVLENEINSANDNPIINVEDQ--HVYHGGNFHGDYISLEMD
+01_PAL.cluster_DBSCAN_round2_5|s      ---------MLADSLNWLRGFIETELNSANDNPIIDAEAE--RVLHGGHFYGGHIAFAMD
+01_PAL.cluster_unclustered|tig00      ---------MLADSLNWLRSFIEIELNSANDNPIIDAEEE--RVLHGGHFYGGHIAFAMD
+01_PAL.cluster_DBSCAN_round3_20|      LRCAPHVLGVLADSLNWLRSFIEIELNSANDNPIIDAEEE--RVLHGGHFYGGHIAFAMD
+01_PAL.cluster_unclustered|tig00      LRCAPTSSACWRTA----------------------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      LRSMPQVHGACRDQFDHAARQVETELNACTDNPLILGTPQAWRVVSQSHPHGESVAMACD
+01_PAL.cluster_unclustered|split      IRSIPQIHGAARDQVEHATRQIETELNSATDNPMLLGTPDNYRVVSQANPHGQSVALAAD
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      IRSIPQIHGAARDQVEHATRQIETELNSATDNPLVLGTPDAYRVVSQANPHGQSVALAAD
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      MRCVPQVHGASRNAFEHLRGMAETELNSVTDNPIVLSAEE---SISGGNFHGQLMALPLD
+01_PAL.cluster_DBSCAN_round59_0|      --CLPPV-----------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      LRCQPQVMGACLTQLRQAAEVLVVEANAVSDNPLVFAAEG--DVISGGNFHAEPVAMAAD
+01_PAL.cluster_DBSCAN_round3_20|      LRCQPQVMGACLTQFRQAADVLVVEANAVSDNPLVFAAEG--DVISGGNFHAEPVAMAAD
+01_PAL.cluster_unclustered|split      LRCQPQVMGACLTQFRQAADVLVVEANAVSDNPLVFAAEG--DVISGGNFHAEPVAMAAD
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      KLKIVVTKLTMLAERQLNYLLNAKINEILPPFVN---LGKLGFNFGMQGVQFTATSTTAE
+01_PAL.cluster_DBSCAN_round2_5|s      SLKNLVANVADLLDRQLALLVDVRYNHGLPSNLSGASAERAMLNHGFKAVQIGASAWTAE
+01_PAL.cluster_unclustered|tig00      SLKTLVANVADLLDRQLALLVDVRYNHGLPSNLSGAPAERAMINHGFKAVQIGTSAWTAE
+01_PAL.cluster_DBSCAN_round3_20|      SLKTLVANVADLLDRQLALLVDVRYNHGLPSNLSGAPADRAMINHGFKAVQIGTSAWTAE
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      LLAIALAELGSIAERRLDRLVNPLVS-GLPPFL----VAEPGVNSGMMIAQYVAASLCAE
+01_PAL.cluster_unclustered|split      MLAIAMAEIGSVAERRLDRLINPHVS-GLPAFL----VSNPGVNSGMMIVQYVAASLCGQ
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      MLAIAMAEIGSVAERRLDRLINPHVS-GLPAFL----VSNPGVNSGMMIVQYVAASLCGQ
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      YATLAAAELGNISDRRSYLLLEGKY--GLPRLL----TESSGLNSGFMIPQYTSAALVTE
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      NMALAIAEIASLSERRISLMMDKHMS-QLPPFP----VANGG-QLRLHDRPGHRSSPGQR
+01_PAL.cluster_DBSCAN_round3_20|      NMALAIAEIGS-------------------------------------------------
+01_PAL.cluster_unclustered|split      NMALAIAEIGSLSERRISLMMDKHMS-QLPPFL----VGNGGVNSGFMIAQVTAAALASE
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      SQMLSNSMYVHSIPNNNDNQDIVSMGTNAAVICRKVIENAFEVLAIEAITIVQA------
+01_PAL.cluster_DBSCAN_round2_5|s      ALKNTLPASVFSRSTECHNQDKVSMGTIAARDAIRVLELTEQVAAAALLAANQGSGCAAG
+01_PAL.cluster_unclustered|tig00      ALKNTMPASVFSRSTECHNQDKVSMGTIAARDAIRVLELTEQVAAATLLAANQG------
+01_PAL.cluster_DBSCAN_round3_20|      ALKNTMPASVFSRSTECHNQDKVSMGTIAARDAIRVLELTEQVAAATLLAANQG------
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      NRQLAQPAVLDNYVTSGLQEDHLSLGTGSALKLLKLVSNVDHIIAIEYLLAAQA------
+01_PAL.cluster_unclustered|split      NRQLAQPAVLDNFVTSGLQEDHLSMGTNAALCCTRCWAT---------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      NRQLAQPAVLDNFVTSGLQEDHLSMGTNAALKLHQLLANVTQILAIEYLLAAQA------
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      NKTLCFPASADSIPTSLGQEDHVSMGSISGRKFNQVLGNLVNILAVELMFAAQG------
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      EQGLAHPHSVDSIPTSANQEDHVSMAPAAGKRLWKWPRTPVVCSLWNGWRPARA------
+01_PAL.cluster_DBSCAN_round3_20|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|split      NKALAHPHSVDSLPTSANQEDHVSMAPAAGKR-RKWPRTPVAFWPLNGWPPARA------
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      ---------IEYLGFHNKVSSSTKSFMTKS------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      KPTPGYCRRLWMPCTGNWPRTSRPSSRTAPWSANCACACSASPSNTGGCMRSKGVIHADT
+01_PAL.cluster_unclustered|tig00      ---------VWLRARAEDARPLPPALAAMH------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      ---------VWLRAQADDARPLPPALAAMH------------------------------
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      ---------LEFHGESELAAGTRRAAAVAA------------------------------
+01_PAL.cluster_unclustered|split      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      ---------FEFLKDQRFGAGTDSAWRLLR------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      ---------LEFRRPSKCSKIIEENVAVLR------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|split      ------------------------------------------------------------
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      QILVPFFDVDTMRRLARALRQVEVARCALLDRLGHNYNQMLESGYAWPVIDLQLRYVRGA
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|split      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|split      ------------------------------------------------------------
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      -------------------------------EKLFLHFQMIWSCTRI-------------
+01_PAL.cluster_DBSCAN_round2_5|s      VFGQTLNVRASLVEWESRLKINYLITDQATGERMTRASSVQVAVEIASREMQLASPKVFT
+01_PAL.cluster_unclustered|tig00      -------------------------------KELAKDFAPVIEDRALEGELRLCLQRIAE
+01_PAL.cluster_DBSCAN_round3_20|      -------------------------------EALGKDFPPVIEDRALEGELRLCLKRIAE
+01_PAL.cluster_unclustered|tig00      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round59_0|      -------------------------------GG---------------------------
+01_PAL.cluster_unclustered|split      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round3_20|      -------------------------------EKVPPYEQDRWLAPDIASAAALLKDTALL
+01_PAL.cluster_DBSCAN_round1_4|t      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round1_4|t      -------------------------------SKVSKLEDDRLIGQDMLAIAALINERKFV
+01_PAL.cluster_DBSCAN_round59_0|      ------------------------------------------------------------
+01_PAL.cluster_DBSCAN_round2_5|s      -----------------------------------------WTCAKA-------------
+01_PAL.cluster_DBSCAN_round3_20|      ------------------------------------------------------------
+01_PAL.cluster_unclustered|split      -----------------------------------------WTCAKA-------------
+                                                                                                  
+
+01_PAL.cluster_DBSCAN_round1_4|t      --------
+01_PAL.cluster_DBSCAN_round2_5|s      DAVARALP
+01_PAL.cluster_unclustered|tig00      QHWRLHA-
+01_PAL.cluster_DBSCAN_round3_20|      QHWRLHA-
+01_PAL.cluster_unclustered|tig00      --------
+01_PAL.cluster_DBSCAN_round59_0|      --------
+01_PAL.cluster_unclustered|split      --------
+01_PAL.cluster_DBSCAN_round2_5|s      --------
+01_PAL.cluster_DBSCAN_round3_20|      HHVLPHLH
+01_PAL.cluster_DBSCAN_round1_4|t      --------
+01_PAL.cluster_DBSCAN_round1_4|t      VN------
+01_PAL.cluster_DBSCAN_round59_0|      --------
+01_PAL.cluster_DBSCAN_round2_5|s      --------
+01_PAL.cluster_DBSCAN_round3_20|      --------
+01_PAL.cluster_unclustered|split      --------
+                                              
