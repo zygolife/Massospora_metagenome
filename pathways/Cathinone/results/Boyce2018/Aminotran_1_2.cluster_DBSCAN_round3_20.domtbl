@@ -1,0 +1,31 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split52_split18_tig00000001_RagTag_40  -            394 Aminotran_1_2        PF00155.22   363   1.7e-53  179.8   0.0   1   1   9.7e-56   1.9e-53  179.6   0.0     3   363    39   378    37   378 0.95 # 35814 # 36995 # -1 # ;gc_cont=0.660
+split14_split0_tig00000001_RagTag_241  -            316 Aminotran_1_2        PF00155.22   363   4.6e-49  165.2   0.0   1   1   2.6e-51   5.2e-49  165.0   0.0     2   327    25   314    24   315 0.92 # 213941 # 214888 # 1 # ;gc_cont=0.617
+split20_split0_tig00000001_RagTag_75   -            400 Aminotran_1_2        PF00155.22   363   1.1e-48  163.9   0.0   1   1   6.5e-51   1.3e-48  163.7   0.0     4   351    32   378    29   391 0.90 # 65215 # 66414 # -1 # ;gc_cont=0.640
+split1_split0_tig00000001_RagTag_16    -            475 Aminotran_1_2        PF00155.22   363   1.4e-36  124.1   0.0   1   1   8.8e-39   1.7e-36  123.8   0.0    32   363   134   461   104   461 0.86 # 8950 # 10374 # 1 # ;gc_cont=0.613
+split59_split18_tig00000001_RagTag_210 -            385 Aminotran_1_2        PF00155.22   363   1.8e-36  123.8   0.0   1   1   1.1e-38   2.2e-36  123.5   0.0    40   363    52   371    36   371 0.90 # 188331 # 189485 # 1 # ;gc_cont=0.606
+split36_split18_tig00000001_RagTag_15  -            233 Aminotran_1_2        PF00155.22   363   1.9e-33  113.8   0.0   1   1   1.1e-35   2.1e-33  113.7   0.0   152   361     2   215     1   217 0.92 # 11117 # 11815 # 1 # ;gc_cont=0.615
+split11_split18_tig00000001_RagTag_184 -            382 Aminotran_1_2        PF00155.22   363     2e-31  107.2   0.0   1   1   1.2e-33   2.4e-31  106.9   0.0    55   362    71   373    33   374 0.86 # 164428 # 165573 # -1 # ;gc_cont=0.646
+split33_split18_tig00000001_RagTag_30  -            457 Aminotran_1_2        PF00155.22   363   2.5e-31  106.9   0.0   1   1   1.6e-33   3.1e-31  106.6   0.0    36   363   119   443   101   443 0.91 # 19935 # 21305 # -1 # ;gc_cont=0.619
+split11_split18_tig00000001_RagTag_138 -            470 Aminotran_1_2        PF00155.22   363   1.4e-29  101.1   0.0   1   1   8.5e-32   1.7e-29  100.8   0.0    44   348   147   447   120   462 0.87 # 119824 # 121233 # -1 # ;gc_cont=0.626
+split21_split18_tig00000001_RagTag_45  -            478 Aminotran_1_2        PF00155.22   363   9.3e-16   55.6   0.0   1   1   6.4e-18   1.3e-15   55.2   0.0    12   292   132   391   126   437 0.81 # 37926 # 39359 # 1 # ;gc_cont=0.655
+split9_split18_tig00000001_RagTag_88   -            398 Aminotran_1_2        PF00155.22   363   6.3e-14   49.6   0.0   1   1   4.6e-16     9e-14   49.1   0.0    30   261   145   372   129   382 0.86 # 114462 # 115655 # 1 # ;gc_cont=0.678
+split20_split0_tig00000001_RagTag_71   -            365 Aminotran_1_2        PF00155.22   363   9.6e-12   42.4   0.0   1   1   4.9e-13   9.7e-11   39.1   0.0    47   359    31   352    17   356 0.83 # 60622 # 61716 # -1 # ;gc_cont=0.638
+split1_split0_tig00000001_RagTag_124   -            297 Aminotran_1_2        PF00155.22   363   1.5e-09   35.2   0.0   1   1   1.1e-11   2.1e-09   34.7   0.0    40   132   184   271   157   282 0.91 # 120884 # 121774 # -1 # ;gc_cont=0.624
+split9_split18_tig00000001_RagTag_68   -            416 Aminotran_1_2        PF00155.22   363     3e-09   34.2   0.0   1   1   2.1e-11   4.1e-09   33.8   0.0    46   223    67   214    44   264 0.76 # 96410 # 97657 # -1 # ;gc_cont=0.639
+split18_split18_tig00000001_RagTag_98  -            431 Aminotran_1_2        PF00155.22   363   1.9e-07   28.3   0.0   1   1   8.1e-09   1.6e-06   25.2   0.0    12   360    58   418    53   421 0.69 # 88403 # 89695 # 1 # ;gc_cont=0.642
+split43_split18_tig00000001_RagTag_19  -            428 Aminotran_1_2        PF00155.22   363   6.1e-06   23.3   0.0   1   1   4.1e-08     8e-06   22.9   0.0   130   340   182   400   109   420 0.85 # 19011 # 20294 # 1 # ;gc_cont=0.635
+split52_split18_tig00000001_RagTag_86  -            265 Aminotran_1_2        PF00155.22   363    0.0001   19.3   0.1   1   1   8.2e-07   0.00016   18.6   0.1    53   215    78   224    32   252 0.69 # 79180 # 79974 # -1 # ;gc_cont=0.610
+split1_split0_tig00000001_RagTag_123   -            173 Aminotran_1_2        PF00155.22   363   0.00012   19.0   0.0   1   1   6.4e-07   0.00012   19.0   0.0   204   291    39   126     3   164 0.79 # 120369 # 120887 # -1 # ;gc_cont=0.684
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Aminotran_1_2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Aminotran_1_2.cluster_DBSCAN_round3_20.domtbl -E 1e-3 steps/Boyce2018/Aminotran_1_2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:07 2020
+# [ok]

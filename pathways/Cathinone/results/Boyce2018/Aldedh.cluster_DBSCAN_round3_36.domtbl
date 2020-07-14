@@ -1,0 +1,18 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split2_split2_tig00001253_RagTag_103 -            507 Aldedh               PF00171.23   462    4e-165  546.4   0.0   1   1  1.1e-167  4.5e-165  546.2   0.0     7   461    34   493    27   494 0.96 # 82931 # 84451 # 1 # ;gc_cont=0.615
+tig00001240_RagTag_277               -            359 Aldedh               PF00171.23   462   5.8e-73  242.5   0.0   1   1   1.7e-75     7e-73  242.2   0.0   134   456     2   322     1   327 0.97 # 194401 # 195477 # -1 # ;gc_cont=0.608
+split2_split2_tig00001253_RagTag_86  -            422 Aldedh               PF00171.23   462   2.3e-24   82.3   4.5   1   2     2e-18   8.1e-16   54.1   2.9    36   287    14   278     7   290 0.84 # 69333 # 70598 # -1 # ;gc_cont=0.646
+split2_split2_tig00001253_RagTag_86  -            422 Aldedh               PF00171.23   462   2.3e-24   82.3   4.5   2   2   3.2e-10   1.3e-07   27.1   0.0   367   430   314   377   304   385 0.92 # 69333 # 70598 # -1 # ;gc_cont=0.646
+tig00001240_RagTag_278               -            188 Aldedh               PF00171.23   462     2e-12   42.9   0.2   1   1   6.3e-15   2.5e-12   42.6   0.2    19   113    61   159    48   175 0.87 # 195453 # 196016 # -1 # ;gc_cont=0.617
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Aldedh.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_36.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Aldedh.cluster_DBSCAN_round3_36.domtbl -E 1e-3 steps/Boyce2018/Aldedh.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_36.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:06 2020
+# [ok]

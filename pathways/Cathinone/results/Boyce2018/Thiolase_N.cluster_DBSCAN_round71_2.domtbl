@@ -1,0 +1,17 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split66_split0_tig00000034_RagTag_11 -            285 Thiolase_N           PF00108.24   260     2e-45  152.5   0.3   1   1   4.4e-48   2.9e-45  151.9   0.3   100   260     1   149     1   149 0.98 # 6919 # 7773 # 1 # ;gc_cont=0.593
+split66_split0_tig00000034_RagTag_10 -            114 Thiolase_N           PF00108.24   260   2.9e-31  106.1   0.0   1   1     5e-34   3.3e-31  105.9   0.0     1    95     4   101     4   108 0.97 # 6605 # 6946 # 1 # ;gc_cont=0.608
+split3_split0_tig00000034_RagTag_353 -            159 Thiolase_N           PF00108.24   260   6.3e-23   78.7   0.1   1   1   1.2e-25   7.8e-23   78.4   0.1    76   200     3   142     1   156 0.89 # 196011 # 196487 # 1 # ;gc_cont=0.606
+split3_split0_tig00000034_RagTag_354 -            155 Thiolase_N           PF00108.24   260   2.2e-12   44.2   0.0   1   1   5.1e-15   3.4e-12   43.6   0.0   221   259     3    42     1    43 0.94 # 196484 # 196948 # 1 # ;gc_cont=0.617
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Thiolase_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Thiolase_N.cluster_DBSCAN_round71_2.domtbl -E 1e-3 steps/Boyce2018/Thiolase_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:10 2020
+# [ok]

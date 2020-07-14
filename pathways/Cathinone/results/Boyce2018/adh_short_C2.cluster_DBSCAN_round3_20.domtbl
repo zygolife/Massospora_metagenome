@@ -1,0 +1,50 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split16_split0_tig00000001_RagTag_60   -            250 adh_short            PF00106.26   195   2.2e-58  194.6   0.5   1   1   2.5e-60   2.6e-58  194.4   0.5     3   192     9   198     7   201 0.98 # 53136 # 53885 # 1 # ;gc_cont=0.667
+split9_split18_tig00000001_RagTag_6    -            258 adh_short            PF00106.26   195   7.7e-55  183.1   0.9   1   1     9e-57   9.3e-55  182.8   0.9     1   193     7   197     7   199 0.97 # 5134 # 5907 # -1 # ;gc_cont=0.640
+split21_split18_tig00000001_RagTag_43  -            256 adh_short            PF00106.26   195     4e-51  171.0   2.6   1   1   4.8e-53     5e-51  170.6   2.6     1   192    12   204    12   207 0.98 # 36563 # 37330 # 1 # ;gc_cont=0.617
+split11_split18_tig00000001_RagTag_135 -            249 adh_short            PF00106.26   195   5.5e-49  164.0   0.3   1   1   6.4e-51   6.6e-49  163.7   0.3     1   187     3   195     3   202 0.96 # 117557 # 118303 # 1 # ;gc_cont=0.641
+split6_split0_tig00000001_RagTag_170   -            185 adh_short            PF00106.26   195   1.3e-47  159.5   0.2   1   1   1.4e-49   1.5e-47  159.3   0.2     2   179     4   183     3   184 0.98 # 148723 # 149277 # -1 # ;gc_cont=0.650
+split34_split18_tig00000001_RagTag_5   -            291 adh_short            PF00106.26   195   3.6e-47  158.1   0.4   1   1   4.4e-49   4.6e-47  157.7   0.4     1   187    15   201    15   208 0.95 # 3565 # 4437 # 1 # ;gc_cont=0.648
+split11_split18_tig00000001_RagTag_68  -            266 adh_short            PF00106.26   195   4.7e-47  157.7   3.2   1   1   5.9e-49   6.1e-47  157.3   3.2     3   190    29   212    27   216 0.92 # 55152 # 55949 # 1 # ;gc_cont=0.653
+split10_split0_tig00000001_RagTag_60   -            255 adh_short            PF00106.26   195   5.2e-47  157.5   0.0   1   1   6.2e-49   6.4e-47  157.2   0.0     3   186     5   189     3   193 0.96 # 55308 # 56072 # 1 # ;gc_cont=0.634
+split14_split0_tig00000001_RagTag_327  -            271 adh_short            PF00106.26   195   8.3e-47  156.9   0.6   1   1     1e-48     1e-46  156.5   0.6     2   193     3   183     2   185 0.95 # 295783 # 296595 # -1 # ;gc_cont=0.649
+split11_split18_tig00000001_RagTag_54  -            207 adh_short            PF00106.26   195   6.4e-45  150.7   0.3   1   1   7.3e-47   7.6e-45  150.5   0.3     2   180     8   191     7   203 0.96 # 43260 # 43880 # -1 # ;gc_cont=0.639
+split36_split18_tig00000001_RagTag_4   -            253 adh_short            PF00106.26   195   1.4e-44  149.6   0.1   1   1   1.6e-46   1.7e-44  149.3   0.1     1   188     4   196     4   203 0.95 # 2944 # 3702 # 1 # ;gc_cont=0.622
+split18_split18_tig00000001_RagTag_135 -            256 adh_short            PF00106.26   195     3e-44  148.5   8.0   1   1   3.4e-46   3.5e-44  148.3   8.0     1   190     6   202     6   207 0.94 # 120638 # 121405 # -1 # ;gc_cont=0.667
+split10_split0_tig00000001_RagTag_179  -            285 adh_short            PF00106.26   195   2.3e-42  142.4   0.3   1   1   2.8e-44   2.9e-42  142.0   0.3     2   189    49   230    48   234 0.92 # 158227 # 159081 # -1 # ;gc_cont=0.675
+split38_split18_tig00000001_RagTag_6   -            304 adh_short            PF00106.26   195   5.9e-41  137.8   0.2   1   1   9.1e-43   9.5e-41  137.1   0.2     1   181    10   196    10   206 0.87 # 6698 # 7609 # -1 # ;gc_cont=0.635
+split14_split0_tig00000001_RagTag_66   -            261 adh_short            PF00106.26   195   1.1e-37  127.1   0.0   1   1   1.5e-39   1.6e-37  126.6   0.0     5   189    11   192     9   196 0.98 # 55958 # 56740 # -1 # ;gc_cont=0.639
+split9_split18_tig00000001_RagTag_81   -            266 adh_short            PF00106.26   195   1.8e-36  123.2   0.1   1   1   2.5e-38   2.6e-36  122.6   0.1     1   190     8   195     8   200 0.97 # 108410 # 109207 # 1 # ;gc_cont=0.640
+split27_split0_tig00000001_RagTag_41   -            202 adh_short            PF00106.26   195   6.4e-35  118.1   0.2   1   1   7.5e-37   7.8e-35  117.8   0.2    58   192     1   143     1   146 0.97 # 37730 # 38335 # -1 # ;gc_cont=0.614
+split10_split0_tig00000001_RagTag_201  -            229 adh_short            PF00106.26   195   8.8e-30  101.3   0.0   1   1     1e-31   1.1e-29  101.0   0.0     1   189     5   190     5   193 0.90 # 175970 # 176656 # -1 # ;gc_cont=0.611
+split18_split18_tig00000001_RagTag_114 -            162 adh_short            PF00106.26   195   1.2e-28   97.6   0.0   1   1   1.4e-30   1.4e-28   97.4   0.0    83   189     2   107     1   113 0.92 # 101261 # 101746 # 1 # ;gc_cont=0.597
+split18_split18_tig00000001_RagTag_101 -            168 adh_short            PF00106.26   195   3.7e-28   96.0   0.0   1   1   4.6e-30   4.8e-28   95.7   0.0    80   185     1   104     1   111 0.97 # 91884 # 92387 # -1 # ;gc_cont=0.585
+split38_split18_tig00000001_RagTag_17  -            237 adh_short            PF00106.26   195     2e-25   87.1   0.0   1   1   2.5e-27   2.6e-25   86.7   0.0     3   182     8   180     6   188 0.96 # 15324 # 16034 # 1 # ;gc_cont=0.620
+split16_split0_tig00000001_RagTag_58   -            117 adh_short            PF00106.26   195   5.2e-23   79.2   0.0   1   1   5.6e-25   5.8e-23   79.1   0.0     1   111     4   116     4   116 0.97 # 52244 # 52594 # 1 # ;gc_cont=0.661
+split33_split18_tig00000001_RagTag_6   -            117 adh_short            PF00106.26   195   6.1e-22   75.7   0.0   1   1   7.2e-24   7.4e-22   75.4   0.0    97   181     2    85     1    91 0.96 # 2137 # 2487 # -1 # ;gc_cont=0.598
+split18_split18_tig00000001_RagTag_169 -            235 adh_short            PF00106.26   195   1.1e-21   74.9   0.0   1   1   1.6e-23   1.6e-21   74.3   0.0     1   193     8   184     8   186 0.93 # 154644 # 155348 # -1 # ;gc_cont=0.647
+split33_split18_tig00000001_RagTag_7   -            111 adh_short            PF00106.26   195   5.9e-21   72.5   0.0   1   1   6.5e-23   6.7e-21   72.3   0.0     3    89     5    91     3   100 0.95 # 2445 # 2777 # -1 # ;gc_cont=0.622
+split16_split0_tig00000001_RagTag_59   -             97 adh_short            PF00106.26   195   2.2e-15   54.3   0.0   1   1   2.3e-17   2.4e-15   54.2   0.0   115   181     3    68     1    80 0.91 # 52594 # 52884 # 1 # ;gc_cont=0.691
+split18_split18_tig00000001_RagTag_113 -            103 adh_short            PF00106.26   195   2.5e-09   34.6   0.0   1   1   2.6e-11   2.7e-09   34.5   0.0     1    61    21    82    21    98 0.86 # 100956 # 101264 # 1 # ;gc_cont=0.641
+split27_split0_tig00000001_RagTag_42   -             71 adh_short            PF00106.26   195   1.3e-08   32.2   0.1   1   1   1.3e-10   1.4e-08   32.1   0.1     1    35     8    42     8    56 0.86 # 38314 # 38526 # -1 # ;gc_cont=0.653
+split6_split0_tig00000001_RagTag_6     -            182 adh_short            PF00106.26   195   1.3e-08   32.2   0.4   1   2   1.8e-06   0.00019   18.6   0.1     3    71     3    72     1   120 0.86 # 4433 # 4978 # -1 # ;gc_cont=0.599
+split6_split0_tig00000001_RagTag_6     -            182 adh_short            PF00106.26   195   1.3e-08   32.2   0.4   2   2   0.00027     0.028   11.6   0.0   141   165   151   175   148   179 0.87 # 4433 # 4978 # -1 # ;gc_cont=0.599
+split17_split18_tig00000001_RagTag_9   -            147 adh_short            PF00106.26   195   3.4e-08   30.9   0.6   1   2   1.3e-09   1.4e-07   28.9   0.7     2    45     2    45     1    55 0.90 # 5209 # 5649 # -1 # ;gc_cont=0.628
+split17_split18_tig00000001_RagTag_9   -            147 adh_short            PF00106.26   195   3.4e-08   30.9   0.6   2   2      0.76        79    0.3   0.0   174   192    47    65    40    69 0.82 # 5209 # 5649 # -1 # ;gc_cont=0.628
+split9_split0_tig00000001_RagTag_54    -            312 adh_short            PF00106.26   195   2.6e-06   24.7   0.8   1   1   4.4e-08   4.6e-06   23.9   0.8     1   138     6   125     6   157 0.82 # 58088 # 59023 # 1 # ;gc_cont=0.616
+split22_split0_tig00000001_RagTag_16   -            200 adh_short            PF00106.26   195   1.8e-05   22.0   0.4   1   1     1e-06    0.0001   19.5   0.4    53   183    35   158     1   165 0.86 # 16598 # 17197 # -1 # ;gc_cont=0.605
+split38_split18_tig00000001_RagTag_49  -            100 adh_short            PF00106.26   195   0.00044   17.5   2.6   1   1   5.7e-06   0.00059   17.0   2.6     3    41     3    41     1    87 0.85 # 39659 # 39958 # -1 # ;gc_cont=0.627
+split59_split18_tig00000001_RagTag_115 -            259 adh_short            PF00106.26   195   0.00099   16.3   2.1   1   2         6   6.3e+02   -2.6   0.0   105   123    45    63    42    68 0.66 # 103886 # 104662 # 1 # ;gc_cont=0.645
+split59_split18_tig00000001_RagTag_115 -            259 adh_short            PF00106.26   195   0.00099   16.3   2.1   2   2   9.9e-06     0.001   16.3   0.7     2    45    75   117    74   137 0.83 # 103886 # 104662 # 1 # ;gc_cont=0.645
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/adh_short_C2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/adh_short_C2.cluster_DBSCAN_round3_20.domtbl -E 1e-3 steps/Boyce2018/adh_short_C2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:11 2020
+# [ok]

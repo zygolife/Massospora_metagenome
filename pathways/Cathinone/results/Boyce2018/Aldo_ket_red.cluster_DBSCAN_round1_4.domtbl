@@ -1,0 +1,24 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00001173_RagTag_148  -            319 Aldo_ket_red         PF00248.22   291   1.1e-75  253.7   0.0   1   1   1.3e-78   1.3e-75  253.6   0.0     2   290    16   313    15   314 0.97 # 74242 # 75198 # 1 # ;gc_cont=0.425
+tig00001084_RagTag_1218 -            235 Aldo_ket_red         PF00248.22   291   6.3e-55  185.7   0.0   1   1   7.5e-58   7.2e-55  185.5   0.0    51   273     2   225     1   233 0.95 # 649705 # 650409 # -1 # ;gc_cont=0.451
+tig00001084_RagTag_1220 -            284 Aldo_ket_red         PF00248.22   291   4.6e-45  153.3   0.0   1   1   2.7e-46   2.6e-43  147.6   0.0     4   287    17   255    14   258 0.94 # 650620 # 651471 # -1 # ;gc_cont=0.419
+tig00001524_RagTag_246  -            150 Aldo_ket_red         PF00248.22   291   9.9e-42  142.3   0.1   1   1   1.2e-44   1.2e-41  142.1   0.1     1   140     3   145     3   148 0.98 # 121264 # 121713 # -1 # ;gc_cont=0.382
+tig00001524_RagTag_233  -            238 Aldo_ket_red         PF00248.22   291   2.9e-28   98.1   0.0   1   1   3.9e-31   3.7e-28   97.8   0.0    78   287    11   222     4   225 0.91 # 115108 # 115821 # -1 # ;gc_cont=0.427
+tig00000934_RagTag_184  -            165 Aldo_ket_red         PF00248.22   291   2.6e-27   95.0   0.0   1   1   1.5e-28   1.5e-25   89.3   0.0   123   289     1   138     1   140 0.96 # 105704 # 106198 # -1 # ;gc_cont=0.378
+tig00001524_RagTag_245  -            117 Aldo_ket_red         PF00248.22   291   7.2e-16   57.5   0.0   1   1   7.9e-19   7.6e-16   57.4   0.0   179   289     3   114     1   116 0.93 # 120806 # 121156 # -1 # ;gc_cont=0.427
+tig00000934_RagTag_198  -             80 Aldo_ket_red         PF00248.22   291   8.3e-10   37.6   0.0   1   1     9e-13   8.7e-10   37.5   0.0   181   253     3    77     1    79 0.88 # 112619 # 112858 # 1 # ;gc_cont=0.371
+tig00000934_RagTag_197  -             45 Aldo_ket_red         PF00248.22   291   1.3e-08   33.7   0.1   1   1   1.4e-11   1.3e-08   33.6   0.1   123   167     1    43     1    44 0.95 # 112462 # 112596 # 1 # ;gc_cont=0.459
+tig00000934_RagTag_185  -            143 Aldo_ket_red         PF00248.22   291   7.9e-07   27.8   0.1   1   1   9.4e-10     9e-07   27.6   0.1     2    59    23    72    22   104 0.84 # 106149 # 106577 # -1 # ;gc_cont=0.436
+tig00001524_RagTag_234  -             79 Aldo_ket_red         PF00248.22   291   6.4e-05   21.5   0.1   1   1     8e-08   7.7e-05   21.3   0.1     2    39    12    50    11    54 0.96 # 115865 # 116101 # -1 # ;gc_cont=0.380
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Aldo_ket_red.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round1_4.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Aldo_ket_red.cluster_DBSCAN_round1_4.domtbl -E 1e-3 steps/Boyce2018/Aldo_ket_red.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round1_4.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:07 2020
+# [ok]

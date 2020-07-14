@@ -1,0 +1,16 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split19_split18_tig00000001_RagTag_169 -            331 Aldo_ket_red         PF00248.22   291   8.3e-77  253.1   0.0   1   1   6.4e-79     1e-76  252.8   0.0     2   289    16   309    15   310 0.94 # 131967 # 132959 # 1 # ;gc_cont=0.621
+split19_split18_tig00000001_RagTag_235 -            289 Aldo_ket_red         PF00248.22   291   5.6e-53  174.8   0.0   1   1   4.3e-53   6.9e-51  168.0   0.0     1   289    19   286    19   288 0.95 # 190635 # 191501 # 1 # ;gc_cont=0.633
+split19_split18_tig00000001_RagTag_69  -             85 Aldo_ket_red         PF00248.22   291   7.2e-14   46.5   0.0   1   1     5e-16     8e-14   46.3   0.0     2    52    11    62    10    71 0.96 # 50712 # 50966 # 1 # ;gc_cont=0.635
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Aldo_ket_red.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Aldo_ket_red.cluster_DBSCAN_round4_36.domtbl -E 1e-3 steps/Boyce2018/Aldo_ket_red.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:07 2020
+# [ok]

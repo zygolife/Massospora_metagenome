@@ -1,0 +1,163 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Aldo_ket_red.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa
+# per-dom hits tabular output:     results/Boyce2018/Aldo_ket_red.cluster_DBSCAN_round71_2.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Aldo_ket_red  [M=291]
+Accession:   PF00248.22
+Description: Aldo/keto reductase family
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                              -----------
+    8.2e-55  183.3   0.0    9.1e-55  183.2   0.0    1.0  1  split3_split0_tig00000034_RagTag_684   # 388622 # 389338 # 1 # ;gc_cont
+    7.6e-39  130.9   0.0    9.4e-39  130.6   0.0    1.0  1  split3_split0_tig00000034_RagTag_288   # 160224 # 160793 # -1 # ;gc_con
+      5e-35  118.4   0.1    6.3e-35  118.0   0.1    1.0  1  split29_split0_tig00000034_RagTag_390  # 223389 # 223856 # 1 # ;gc_cont
+      2e-22   77.0   0.0    2.2e-22   76.9   0.0    1.0  1  split3_split0_tig00000034_RagTag_287   # 159805 # 160203 # -1 # ;gc_con
+    4.2e-15   53.0   0.1    4.5e-15   52.9   0.1    1.0  1  split29_split0_tig00000034_RagTag_391  # 223902 # 224171 # 1 # ;gc_cont
+    9.7e-10   35.4   0.0    1.1e-09   35.2   0.0    1.0  1  split3_split0_tig00000034_RagTag_683   # 388368 # 388673 # 1 # ;gc_cont
+
+
+Domain annotation for each sequence (and alignments):
+>> split3_split0_tig00000034_RagTag_684  # 388622 # 389338 # 1 # ;gc_cont=0.583
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  183.2   0.0   2.1e-57   9.1e-55      65     288 ..       1     231 [.       1     234 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 183.2 bits;  conditional E-value: 2.1e-57
+                                           EEEEEE--SSSTTSSSS-HHHHHHHHHHHHHHHT-S-EEEEEE-S--TTS-HHHHHHHHHHHHHTTSEEEEEE CS
+                          Aldo_ket_red  65 iiatKvdlrdseiksglskeniresleeslkrLktdyvDllllHrpdpslpieevldaleelvkeGkiraiGv 137
+                                           ++atKv++  s++k gl+++ ir+++e+sl+rL+tdy+Dl++ Hr d ++p++++l++++ l++eGk+raiG 
+  split3_split0_tig00000034_RagTag_684   1 MLATKVGMELSPEKTGLKPQYIRQAVEDSLRRLQTDYIDLYQAHRDDQDTPLADTLSTFDSLIREGKVRAIGA 73 
+                                           689********************************************************************** PP
+
+                                           ES--HHHHHHH....HHTTT--EEEEE-B-BTT.-HHHHTTHHHHHHHTT-EEEEBSTTGGGTTGTTTSS--- CS
+                          Aldo_ket_red 138 Snfsveileka....kkkkkvpivavqveynll.releeegllelckkkgvpliaysplggGlltgkyqeeed 205
+                                           Sn+s+++le+a    ++++  +  ++q eynl+ r+  e++l ++++++g ++i+y  l++G+l+gky++ +d
+  split3_split0_tig00000034_RagTag_684  74 SNYSAARLEEAlqisETEGLARYETLQPEYNLYdRQPYESELEPVVRAHGLGVINYYSLASGFLSGKYRDAAD 146
+                                           **************999****************999999********************************** PP
+
+                                           SSSCCC------..S-HHHHHHHHHHHHHHHHTT--HHHHHHHHHTTSTT-SEEEE--SSHHHHHHHHGGGG- CS
+                          Aldo_ket_red 206 kedkepredlkd..rtsknldaleelselakehgvsiaqvalryalsqpkvgivipgasnleqlednlealel 276
+                                           + +  + +   d   +++ l  l++l ++   h v+++qval++ +++p+ +++i++a++l+ql+d  +a +l
+  split3_split0_tig00000034_RagTag_684 147 ASKSARGQGVVDkyLNPRGLRILDALDAISDAHQVTPTQVALAWQIARPGITAPIVSATSLKQLDDLTGATQL 219
+                                           987666655555999********************************************************** PP
+
+                                           ---HHHHHHHHH CS
+                          Aldo_ket_red 277 elseeeiaelde 288
+                                           +l++e+i++ld+
+  split3_split0_tig00000034_RagTag_684 220 TLTPEQIDQLDQ 231
+                                           **********97 PP
+
+>> split3_split0_tig00000034_RagTag_288  # 160224 # 160793 # -1 # ;gc_cont=0.574
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  130.6   0.0   2.1e-41   9.4e-39       2     143 ..      28     173 ..      27     177 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 130.6 bits;  conditional E-value: 2.1e-41
+                                           EEEE-SSS-ST.TS-HHHHHHHHHHHHHTT--EEE--TT-..TTTHHHHHHHHHHHH.-TTTGGG-EEEEEE. CS
+                          Aldo_ket_red   2 lglGtwqlgskneiskeealellraaleaGinffDtAevY..gkgqsEellGealkk.srkkrekviiatKv. 70 
+                                           + lG+w+ +++  +  + + ellr+a++ Gi++fD+A+ Y   +g++Ee +G++l +  r+ r+++ii+tK  
+  split3_split0_tig00000034_RagTag_288  28 ISLGLWHNFGD-STRVDNSRELLRHAFDLGITHFDLANNYgpPPGSAEENFGRILREdFRAHRDELIISTKAg 99 
+                                           899******98.9999************************8889****************************8 PP
+
+                                           .--SSSTTSSSS-HHHHHHHHHHHHHHHT-S-EEEEEE-S--TTS-HHHHHHHHHHHHHTTSEEEEEEES--H CS
+                          Aldo_ket_red  71 .dlrdseiksglskeniresleeslkrLktdyvDllllHrpdpslpieevldaleelvkeGkiraiGvSnfsv 142
+                                            +++++++ + +s++ + +sl++slkr++++yvD+++ Hrpdp++p+ee+++al+++v++Gk+ + ++Sn+++
+  split3_split0_tig00000034_RagTag_288 100 yTMWQGPYGDWGSRKYLVASLDQSLKRMGLEYVDIFYHHRPDPETPLEETMRALDHVVRQGKALYAALSNYPA 172
+                                           88888999999999*********************************************************98 PP
+
+                                           H CS
+                          Aldo_ket_red 143 e 143
+                                           +
+  split3_split0_tig00000034_RagTag_288 173 D 173
+                                           7 PP
+
+>> split29_split0_tig00000034_RagTag_390  # 223389 # 223856 # 1 # ;gc_cont=0.571
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  118.0   0.1   1.4e-37   6.3e-35      51     187 ..       8     147 ..       4     149 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 118.0 bits;  conditional E-value: 1.4e-37
+                                            HHHHHH-TTTGGG-EEEEEE--SSSTTSSSS-HHHHHHHHHHHHHHHT-S-EEEEEE-S--TTS-HHHHHHH CS
+                           Aldo_ket_red  51 GealkksrkkrekviiatKvdlrdseiksglskeniresleeslkrLktdyvDllllHrpdpslpieevlda 122
+                                            G+alk+  ++re++++atKv++   + ++gls++ni +s+++sl+rL+ +yvDll++Hr+d+++p+e +l+a
+  split29_split0_tig00000034_RagTag_390   8 GRALKE-FARREEIVVATKVYFPLTNLSQGLSRKNILQSIDDSLQRLGMEYVDLLQIHRWDYETPLEVTLEA 78 
+                                            99****.999************************************************************** PP
+
+                                            HHHHHHTTSEEEEEEES--HHHHHHH....HHTTT--EEEEE-B-BTT-HHHHTTHHHHHHHTT-EEEE CS
+                           Aldo_ket_red 123 leelvkeGkiraiGvSnfsveileka....kkkkkvpivavqveynllreleeegllelckkkgvplia 187
+                                            l+++v++Gk+r+iG S+  +++  +a    ++++ +++v+ q +ynl +++ee+++ +lc k+++++ +
+  split29_split0_tig00000034_RagTag_390  79 LHDVVQSGKARYIGASSMHASQFAQAlqlqSEQGWHRFVSMQDQYNLIQREEEREMHPLCLKEQIAVLP 147
+                                            *******************99999999**999*******************************999865 PP
+
+>> split3_split0_tig00000034_RagTag_287  # 159805 # 160203 # -1 # ;gc_cont=0.602
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.9   0.0   4.9e-25   2.2e-22     165     289 ..       1     130 [.       1     132 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 76.9 bits;  conditional E-value: 4.9e-25
+                                           TT-HHHHTTHHHHHHHTT-EEEEBSTTGGGTTGTTTSS---SSSCCC------.......S-HHHHHHHHHHH CS
+                          Aldo_ket_red 165 llreleeegllelckkkgvpliaysplggGlltgkyqeeedkedkepredlkd.......rtsknldaleels 230
+                                           ++++ +e+gl++++ ++gv++ia+spl+gG lt +y +  + ++  +++   +        t+++++++++l+
+  split3_split0_tig00000034_RagTag_287   1 MFERTPEQGLIQTLGNEGVGCIAFSPLAGGVLTDRYLQGIPEDS-RAASG--SkfltenqLTDEKMEKVRKLN 70 
+                                           5678899******************************9887653.33333..234788999************ PP
+
+                                           HHHHHTT--HHHHHHHHHTTSTT-SEEEE--SSHHHHHHHHGGGG-.---HHHHHHHHHH CS
+                          Aldo_ket_red 231 elakehgvsiaqvalryalsqpkvgivipgasnleqlednlealel.elseeeiaeldel 289
+                                            +a+++  ++aq+al+++l  ++v++v++gas+ +q++d ++ l+  ++s+ e+a++d++
+  split3_split0_tig00000034_RagTag_287  71 VIAQQREQKLAQMALAWVLRDDRVTSVLIGASKTAQIDDAVAMLARrQFSDTELAAIDAA 130
+                                           ********************************************988**********986 PP
+
+>> split29_split0_tig00000034_RagTag_391  # 223902 # 224171 # 1 # ;gc_cont=0.585
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.9   0.1     1e-17   4.5e-15     225     289 ..      15      79 ..       3      81 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 52.9 bits;  conditional E-value: 1e-17
+                                            HHHHHHHHHHHTT--HHHHHHHHHTTSTT-SEEEE--SSHHHHHHHHGGGG----HHHHHHHHHH CS
+                           Aldo_ket_red 225 aleelselakehgvsiaqvalryalsqpkvgivipgasnleqlednlealelelseeeiaeldel 289
+                                             +e+l ++a+++gv+ aqval+++ls+p+v+++i+gas++eq ed ++a++++ls++ei+ l+e 
+  split29_split0_tig00000034_RagTag_391  15 IAERLAQVAESKGVTRAQVALAWLLSKPAVTAPIIGASRAEQFEDLVKAVDVTLSDDEITLLEET 79 
+                                            578999******************************************************99985 PP
+
+>> split3_split0_tig00000034_RagTag_683  # 388368 # 388673 # 1 # ;gc_cont=0.539
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.2   0.0   2.4e-12   1.1e-09       2      56 ..      19      78 ..      18      92 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 35.2 bits;  conditional E-value: 2.4e-12
+                                          EEEE-SSS-ST.TS-HHHHHHHHHHHHHTT--EEE--TT-.......TTTHHHHHHHHHHHH CS
+                          Aldo_ket_red  2 lglGtwqlgskneiskeealellraaleaGinffDtAevY.......gkgqsEellGealkk 56
+                                          l +G++ +g+  ++++ +++ ll+a +++G  f+DtA+vY       + g+sE+++Ge+lkk
+  split3_split0_tig00000034_RagTag_683 19 LTFGGNVFGW--TVDQTTSFSLLDALVDRGLWFIDTADVYsrwapgnKGGESETIIGEWLKK 78
+                                          789***9**8..9********************************9999************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (291 nodes)
+Target sequences:                       2639  (424369 residues searched)
+Passed MSV filter:                        71  (0.0269041); expected 52.8 (0.02)
+Passed bias filter:                       67  (0.0253884); expected 52.8 (0.02)
+Passed Vit filter:                        14  (0.00530504); expected 2.6 (0.001)
+Passed Fwd filter:                         6  (0.00227359); expected 0.0 (1e-05)
+Initial search space (Z):               2639  [actual number of targets]
+Domain search space  (domZ):               6  [number of targets reported over threshold]
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 4872.41
+//
+[ok]

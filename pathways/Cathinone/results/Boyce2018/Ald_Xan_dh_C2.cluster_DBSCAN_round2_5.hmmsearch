@@ -1,0 +1,103 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Ald_Xan_dh_C2.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_5.faa
+# per-dom hits tabular output:     results/Boyce2018/Ald_Xan_dh_C2.cluster_DBSCAN_round2_5.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Ald_Xan_dh_C2  [M=552]
+Accession:   PF02738.19
+Description: Molybdopterin-binding domain of aldehyde dehydrogenase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   8.5e-111  370.1   1.2     1e-110  369.8   1.2    1.0  1  tig00001491_RagTag_38  # 22817 # 23821 # -1 # ;gc_cont=0.635
+    4.7e-27   93.6   0.1    5.6e-27   93.4   0.1    1.1  1  tig00001491_RagTag_36  # 22042 # 22533 # -1 # ;gc_cont=0.650
+    2.5e-23   81.4   0.3    2.7e-23   81.2   0.3    1.0  1  tig00001491_RagTag_37  # 22530 # 22862 # -1 # ;gc_cont=0.637
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001491_RagTag_38  # 22817 # 23821 # -1 # ;gc_cont=0.635
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  369.8   1.2  3.6e-114    1e-110      54     354 ..       3     305 ..       1     311 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 369.8 bits;  conditional E-value: 3.6e-114
+                            TCTTEEEEEES-SSHHHHHHHHHHHHT--GGGEEEE-SB-S--TTTT.SS--HHHHHHHHHHHHHTS-EEEE--HHHHHHHS-EEEEE CS
+          Ald_Xan_dh_C2  54 dedgeltvysstqaphevrklvaevlglpenkvrvivprvGGGFGgK.tqsvpvevlaalaArktgrpVklvldReedmlatgkrhpf 140
+                            +edg + vy+stq+p+ev+klvaevl++++nk++v ++r+GGGFGgK tq+++ ++l+a++Ar tg+p k++l R edml+tgkrhpf
+  tig00001491_RagTag_38   3 TEDGGMIVYCSTQNPTEVQKLVAEVLNVSMNKIVVDMRRMGGGFGGKeTQAASPACLCAVVARLTGQPTKMRLPRVEDMLMTGKRHPF 90 
+                            79************************************************************************************** PP
+
+                            EEEEEEEE-TTS-EEEEEEEEEEEESSTHHHCHCCHCCTTGGGTTTB--SEEEEEEEEEE-SSS-EE-SSTTTHHHHHHHHHHHHHHH CS
+          Ald_Xan_dh_C2 141 kikykvgadkdGkitaldvdlladgGayadlspavleralshldgpYkipnvrvegrvvytNkpsntafRGfGgpqavfalErlmdel 228
+                            +++y+vg+d+ G++ +++++l  ++G++ dls ++++ra++h+d+ Y++ ++ ++g+ ++tN++snta+RGfGgpq+++a+E++md++
+  tig00001491_RagTag_38  91 YVEYDVGFDSTGRLHGIQLELAGNCGCSPDLSASIVDRAMFHSDNSYYLGDATINGHRCKTNTASNTAYRGFGGPQGMVAIEEVMDAI 178
+                            **************************************************************************************** PP
+
+                            HHHHT--HHHHHHHHBCECGCC...SEEESEESSS-HHHHHHHHHHHHTHHHHHHSCCHHCCT..ECEEEEEEEEEEEEBS--S.EET CS
+          Ald_Xan_dh_C2 229 AeelgldplelRrrNlikpgel..tpygqgvydsgdlpelldklkessdyeerraevaefnag..wkkrGiglapvvegiglgftakf 312
+                            A++l ldpl +R+ N++ + e+  t+y q+ ++++ l+e+ ++l++ss+y+err++++ +na+    k+G++l+pv++gi  +fta+f
+  tig00001491_RagTag_38 179 ARHLHLDPLAVRKANYYGKSERnvTHYYQT-VEHNMLEEMTAELEASSQYAERREAIRLYNANspILKKGLALTPVKFGI--SFTASF 263
+                            *****************8766544889887.799***************************8888889************..9999** PP
+
+                            TEEEEEEEEE-TTS-EEEEESS--SSS-HHHHHHHHHHHHHT CS
+          Ald_Xan_dh_C2 313 lnqegalvrvntdGsvtvstggtemGqGletkvaqiaaeeLg 354
+                            lnq+gal++v+tdGs+++++ggtemGqGl+ kvaq++ae+++
+  tig00001491_RagTag_38 264 LNQAGALIHVYTDGSIHLNHGGTEMGQGLNIKVAQVVAEVFK 305
+                            ***************************************987 PP
+
+>> tig00001491_RagTag_36  # 22042 # 22533 # -1 # ;gc_cont=0.650
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.4   0.1   1.9e-30   5.6e-27     480     552 .]       3      74 ..       1      74 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 93.4 bits;  conditional E-value: 1.9e-30
+                            EETTT--EEEEEEEEEEE-BS-S-HHHHHHHHHHHHHHHHHHHHT---EEETTTEESS-STTTS----GGGS- CS
+          Ald_Xan_dh_C2 480 vDtetgevkvlrvvivhDvGksiNpaivegQieGGfvqGiGlallEelvydedGqlltasladYkiPtaadiP 552
+                            vDt+tge+k+lr++i+hDvG s+Npai++gQ+eGG++qG+G++++E  v++++G+l t ++a+YkiP++ad+P
+  tig00001491_RagTag_36   3 VDTLTGEYKMLRTDILHDVGASLNPAIDIGQVEGGYIQGMGWLTTEL-VWSAKGKLETCGPASYKIPAVADMP 74 
+                            9*******************************************985.599*********************9 PP
+
+>> tig00001491_RagTag_37  # 22530 # 22862 # -1 # ;gc_cont=0.637
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.2   0.3   9.3e-27   2.7e-23     370     459 ..       1      92 [.       1     106 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 81.2 bits;  conditional E-value: 9.3e-27
+                            SS----S-TT-HHHHHHHHHHHHHHHHHHHHHHHHHHHCTS-CCCEEEETTEEEETCEEEECHHHHHHHHHHTTSSEEEEEEE..... CS
+          Ald_Xan_dh_C2 370 vpngsgtaaSrstdlsgnAvkkAaeklrerllkiaaellevspedleledgkvvvkpeksvslaelaaaaylervslsatgfykt... 454
+                            +pn+s+taaS+++dl+g+A+++Aa++++ rl ++aa++++vs+ed+e+++g+v+v+ ++ ++++el+++ay+++vsls tgfykt   
+  tig00001491_RagTag_37   1 MPNTSPTAASSGADLNGKAAQNAAQTIKSRLVEFAARQYKVSEEDVEFHNGHVRVR-DHILTFEELIQQAYFAQVSLSSTGFYKTpki 87 
+                            69******************************************************.8889**********************99876 PP
+
+                            ..EEE CS
+          Ald_Xan_dh_C2 455 eldke 459
+                             +d++
+  tig00001491_RagTag_37  88 YYDRA 92 
+                            44433 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (552 nodes)
+Target sequences:                       8697  (1658387 residues searched)
+Passed MSV filter:                       328  (0.0377142); expected 173.9 (0.02)
+Passed bias filter:                      237  (0.0272508); expected 173.9 (0.02)
+Passed Vit filter:                        23  (0.00264459); expected 8.7 (0.001)
+Passed Fwd filter:                         4  (0.000459929); expected 0.1 (1e-05)
+Initial search space (Z):               8697  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.13u 0.01s 00:00:00.14 Elapsed: 00:00:00.09
+# Mc/sec: 9296.55
+//
+[ok]

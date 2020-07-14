@@ -1,0 +1,35 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split19_split0_tig00000034_RagTag_40 -            543 Ald_Xan_dh_C2        PF02738.19   552    4e-184  613.2   2.1   1   1  5.3e-187  5.2e-184  612.8   2.1    13   513    24   526    13   527 0.97 # 25012 # 26640 # 1 # ;gc_cont=0.610
+split2_tig00001062_RagTag_415        -            393 Ald_Xan_dh_C2        PF02738.19   552   5.1e-65  220.1   0.0   1   1     6e-68   5.9e-65  219.9   0.0   225   552     1   335     1   335 0.88 # 263154 # 264332 # 1 # ;gc_cont=0.587
+split1_split18_tig00000001_RagTag_95 -            653 Ald_Xan_dh_C2        PF02738.19   552   2.7e-49  168.2   0.0   1   2   6.3e-16   6.2e-13   48.1   0.0   308   442    49   191    17   236 0.81 # 64369 # 66327 # -1 # ;gc_cont=0.662
+split1_split18_tig00000001_RagTag_95 -            653 Ald_Xan_dh_C2        PF02738.19   552   2.7e-49  168.2   0.0   2   2   4.5e-37   4.4e-34  117.9   0.0    14   245   336   571   325   601 0.90 # 64369 # 66327 # -1 # ;gc_cont=0.662
+split0_tig00001274_RagTag_43         -            570 Ald_Xan_dh_C2        PF02738.19   552   8.8e-46  156.6   0.0   1   2   1.2e-16   1.2e-13   50.5   0.0   292   441    29   184     5   221 0.83 # 33341 # 35050 # 1 # ;gc_cont=0.652
+split0_tig00001274_RagTag_43         -            570 Ald_Xan_dh_C2        PF02738.19   552   8.8e-46  156.6   0.0   2   2   7.8e-33   7.7e-30  103.9   0.0    14   237   330   557   319   560 0.90 # 33341 # 35050 # 1 # ;gc_cont=0.652
+split2_tig00001062_RagTag_414        -            385 Ald_Xan_dh_C2        PF02738.19   552   4.4e-45  154.3   0.0   1   1   6.9e-48   6.8e-45  153.6   0.0    12   213   171   366   160   370 0.94 # 262024 # 263178 # 1 # ;gc_cont=0.594
+split1_split2_tig00001253_RagTag_107 -            251 Ald_Xan_dh_C2        PF02738.19   552   5.4e-39  134.2   0.1   1   1   6.2e-42   6.1e-39  134.0   0.1   225   447     1   211     1   237 0.88 # 79580 # 80332 # -1 # ;gc_cont=0.643
+tig00092080_RagTag_25                -            192 Ald_Xan_dh_C2        PF02738.19   552   4.3e-38  131.2   0.0   1   1     5e-41   4.9e-38  131.0   0.0    79   255     1   174     1   184 0.90 # 17373 # 17948 # -1 # ;gc_cont=0.642
+tig00046055_RagTag_13                -            110 Ald_Xan_dh_C2        PF02738.19   552   4.7e-35  121.1   0.5   1   1   5.5e-38   5.5e-35  120.9   0.5   291   390     9   106     2   108 0.96 # 10866 # 11195 # 1 # ;gc_cont=0.636
+tig00005422_RagTag_29                -            792 Ald_Xan_dh_C2        PF02738.19   552   1.1e-33  116.6   0.1   1   2   2.1e-19     2e-16   59.6   0.0   110   300    22   207     8   219 0.76 # 17011 # 19386 # -1 # ;gc_cont=0.652
+tig00005422_RagTag_29                -            792 Ald_Xan_dh_C2        PF02738.19   552   1.1e-33  116.6   0.1   2   2   1.4e-18   1.4e-15   56.9   0.1   441   552   194   301   173   301 0.84 # 17011 # 19386 # -1 # ;gc_cont=0.652
+split1_split2_tig00001253_RagTag_108 -            352 Ald_Xan_dh_C2        PF02738.19   552   1.5e-33  116.1   0.0   1   1   2.1e-36   2.1e-33  115.7   0.0    14   199   154   333   142   337 0.93 # 80350 # 81405 # -1 # ;gc_cont=0.636
+tig00046055_RagTag_14                -            304 Ald_Xan_dh_C2        PF02738.19   552     5e-28   98.0   0.0   1   1   6.7e-31   6.7e-28   97.5   0.0   480   552     3    74     1    74 0.98 # 11448 # 12359 # 1 # ;gc_cont=0.677
+tig00005422_RagTag_30                -            381 Ald_Xan_dh_C2        PF02738.19   552   1.4e-22   80.0   0.2   1   1   1.9e-25   1.8e-22   79.6   0.2   316   452    44   185    29   207 0.88 # 19392 # 20534 # -1 # ;gc_cont=0.657
+tig00092080_RagTag_24                -            150 Ald_Xan_dh_C2        PF02738.19   552   2.8e-20   72.4   0.1   1   1   3.1e-23   3.1e-20   72.2   0.1   288   425     3   137     1   148 0.87 # 16901 # 17350 # -1 # ;gc_cont=0.616
+split1_split2_tig00001253_RagTag_106 -            132 Ald_Xan_dh_C2        PF02738.19   552     2e-19   69.6   0.1   1   1   2.5e-22   2.4e-19   69.3   0.1   481   551     2    73     1    74 0.97 # 79224 # 79619 # -1 # ;gc_cont=0.604
+tig00092080_RagTag_23                -            121 Ald_Xan_dh_C2        PF02738.19   552   6.2e-17   61.3   0.0   1   1   7.6e-20   7.5e-17   61.1   0.0   492   552     1    62     1    62 0.98 # 16339 # 16701 # -1 # ;gc_cont=0.606
+tig00046055_RagTag_11                -            190 Ald_Xan_dh_C2        PF02738.19   552   1.4e-16   60.1   0.0   1   1   2.2e-19   2.2e-16   59.5   0.0    11    74   121   185   111   189 0.90 # 9682 # 10251 # 1 # ;gc_cont=0.658
+tig00122310_RagTag_7                 -            180 Ald_Xan_dh_C2        PF02738.19   552     4e-15   55.4   0.0   1   1   6.1e-18   6.1e-15   54.8   0.0   142   298    29   177    23   178 0.87 # 2666 # 3205 # -1 # ;gc_cont=0.641
+split0_tig00001274_RagTag_44         -            137 Ald_Xan_dh_C2        PF02738.19   552     9e-13   47.6   0.0   1   1   1.1e-15   1.1e-12   47.3   0.0   470   547     4    80     1    85 0.90 # 35145 # 35555 # 1 # ;gc_cont=0.642
+tig00122310_RagTag_6                 -            105 Ald_Xan_dh_C2        PF02738.19   552   2.1e-10   39.8   0.0   1   1   2.3e-13   2.3e-10   39.6   0.0   460   513    28    81     2    84 0.76 # 1996 # 2310 # -1 # ;gc_cont=0.619
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Ald_Xan_dh_C2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_unclustered.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Ald_Xan_dh_C2.cluster_unclustered.domtbl -E 1e-3 steps/Boyce2018/Ald_Xan_dh_C2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_unclustered.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:05 2020
+# [ok]

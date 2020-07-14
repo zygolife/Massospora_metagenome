@@ -1,0 +1,32 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split12_split18_tig00000001_RagTag_126 -            494 Aldedh               PF00171.23   462    3e-173  574.4   0.0   1   1  1.6e-175  3.4e-173  574.2   0.0     1   462    13   479    13   479 0.97 # 115595 # 117076 # 1 # ;gc_cont=0.610
+split5_tig00001040_RagTag_386          -            498 Aldedh               PF00171.23   462  8.6e-168  556.4   0.5   1   1  4.5e-170  9.7e-168  556.3   0.5     5   461    32   492    28   493 0.97 # 318807 # 320300 # 1 # ;gc_cont=0.631
+split12_split18_tig00000001_RagTag_25  -            460 Aldedh               PF00171.23   462  1.4e-162  539.3   0.1   1   1  7.8e-165  1.7e-162  539.0   0.1    11   462     4   452     2   452 0.99 # 20733 # 22112 # -1 # ;gc_cont=0.612
+split1_split0_tig00001315_RagTag_67    -            493 Aldedh               PF00171.23   462  6.2e-151  500.9   0.0   1   1  3.2e-153    7e-151  500.7   0.0     1   462    21   481    21   481 0.98 # 44069 # 45547 # 1 # ;gc_cont=0.634
+split35_split18_tig00000001_RagTag_470 -            489 Aldedh               PF00171.23   462  2.8e-121  403.1   0.1   1   1  1.6e-123  3.4e-121  402.8   0.1     1   454    10   461    10   466 0.96 # 406928 # 408394 # -1 # ;gc_cont=0.639
+split1_tig00001141_RagTag_81           -            434 Aldedh               PF00171.23   462    3e-109  363.4   0.1   1   1  1.7e-111  3.7e-109  363.1   0.1     1   409    10   415    10   421 0.96 # 54994 # 56295 # -1 # ;gc_cont=0.655
+split1_tig00001141_RagTag_795          -            330 Aldedh               PF00171.23   462   1.6e-91  305.0   1.9   1   1   9.3e-94     2e-91  304.6   1.9     1   277    20   297    20   303 0.98 # 568942 # 569931 # -1 # ;gc_cont=0.631
+split5_tig00001040_RagTag_627          -            476 Aldedh               PF00171.23   462   4.1e-90  300.3   0.0   1   1   2.3e-92   4.9e-90  300.1   0.0    35   461    21   444     4   445 0.91 # 499160 # 500587 # -1 # ;gc_cont=0.618
+split1_split0_tig00001315_RagTag_144   -            261 Aldedh               PF00171.23   462   9.3e-90  299.2   0.0   1   1   5.1e-92   1.1e-89  298.9   0.0     2   237    12   249    11   253 0.98 # 103351 # 104133 # -1 # ;gc_cont=0.595
+split5_tig00001040_RagTag_772          -            186 Aldedh               PF00171.23   462   1.2e-66  223.0   0.2   1   1   6.2e-69   1.4e-66  222.8   0.2   157   333     1   178     1   184 0.97 # 603670 # 604227 # -1 # ;gc_cont=0.634
+split5_tig00001040_RagTag_771          -            141 Aldedh               PF00171.23   462   5.1e-49  164.9   0.0   1   1   2.6e-51   5.6e-49  164.7   0.0   335   462     2   129     1   129 0.98 # 603272 # 603694 # -1 # ;gc_cont=0.605
+tig00007112_RagTag_52                  -            350 Aldedh               PF00171.23   462   1.1e-47  160.5   1.0   1   2    0.0011      0.23    7.8   0.1    29   106     3    81     1   102 0.79 # 45988 # 47037 # -1 # ;gc_cont=0.594
+tig00007112_RagTag_52                  -            350 Aldedh               PF00171.23   462   1.1e-47  160.5   1.0   2   2   2.1e-47   4.6e-45  151.8   0.1   166   375   143   345   140   347 0.94 # 45988 # 47037 # -1 # ;gc_cont=0.594
+split1_split0_tig00001315_RagTag_143   -            112 Aldedh               PF00171.23   462   1.7e-37  126.9   0.0   1   1   8.6e-40   1.9e-37  126.7   0.0   366   462     2    97     1    97 0.98 # 102676 # 103011 # -1 # ;gc_cont=0.598
+split5_tig00001040_RagTag_773          -            173 Aldedh               PF00171.23   462   9.3e-31  104.7   1.1   1   1     5e-33   1.1e-30  104.4   1.1     6   115    20   131    15   144 0.93 # 604224 # 604742 # -1 # ;gc_cont=0.622
+split1_tig00001141_RagTag_794          -            124 Aldedh               PF00171.23   462   2.7e-25   86.6   0.0   1   1   1.4e-27     3e-25   86.5   0.0   363   462     1   102     1   102 0.98 # 568416 # 568787 # -1 # ;gc_cont=0.610
+split5_tig00001040_RagTag_235          -            336 Aldedh               PF00171.23   462     2e-18   64.0   0.1   1   1   1.2e-20   2.6e-18   63.6   0.1   389   461     1    74     1    75 0.95 # 202989 # 203996 # 1 # ;gc_cont=0.595
+tig00007112_RagTag_51                  -             61 Aldedh               PF00171.23   462   1.5e-07   28.1   0.0   1   1   7.4e-10   1.6e-07   28.0   0.0   370   419     8    57     1    59 0.94 # 45861 # 46043 # -1 # ;gc_cont=0.552
+tig00007112_RagTag_50                  -             72 Aldedh               PF00171.23   462   0.00029   17.3   0.0   1   1   1.4e-06    0.0003   17.3   0.0   431   461     9    40     1    41 0.79 # 45649 # 45864 # -1 # ;gc_cont=0.546
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Aldedh.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Aldedh.cluster_DBSCAN_round154_0.domtbl -E 1e-3 steps/Boyce2018/Aldedh.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:06 2020
+# [ok]

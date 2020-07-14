@@ -1,0 +1,85 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Aminotran_1_2.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa
+# per-dom hits tabular output:     results/Boyce2018/Aminotran_1_2.cluster_DBSCAN_round4_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Aminotran_1_2  [M=363]
+Accession:   PF00155.22
+Description: Aminotransferase class I and II
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                               -----------
+    1.8e-05   18.9   0.0    2.5e-05   18.4   0.0    1.2  1  split1_tig00002624_RagTag_47            # 29287 # 30012 # 1 # ;gc_cont=0
+     0.0002   15.5   0.0     0.0003   14.9   0.0    1.3  1  split19_split18_tig00000001_RagTag_219  # 174358 # 175524 # 1 # ;gc_cont
+     0.0007   13.7   0.0     0.0011   13.1   0.0    1.2  1  split19_split18_tig00000001_RagTag_179  # 142050 # 143126 # 1 # ;gc_cont
+
+
+Domain annotation for each sequence (and alignments):
+>> split1_tig00002624_RagTag_47  # 29287 # 30012 # 1 # ;gc_cont=0.544
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.4   0.0   1.6e-07   2.5e-05      68     194 ..      93     210 ..      68     224 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 18.4 bits;  conditional E-value: 1.6e-07
+                                   GEGEEEESHHHHHHHHHHHHHHHTTT-EEEEEES...S-THHHHHHHHTT..SEEEEEEBECCTTTEE-HHHHHHHHTTHH CS
+                 Aminotran_1_2  68 eaavvvgsGagaliealifllklnpgdeilvpdp...tyasyknilrlsg..gevvryplyseedfhldlealeealkeap 143
+                                     +v+  sG++a+++++++ll+  pgd++l+ d+    + s+    + sg  +++v+y   + e+ ++d +++e++  e+ 
+  split1_tig00002624_RagTag_47  93 V-NVQPHSGTQANQAVFFALLQ--PGDVVLSLDLaagGHLSHGAKPNQSGrwFTIVSYG-VDRETGRIDYDNVEALALEH- 168
+                                   4.9999*********9999998..*******9884336888876666666225566666.346999*********87774. PP
+
+                                   CTTETEEEEEEESS-TTT--B--HHHHHHHHHHHHHTTEEEEEEETTTTCB CS
+                 Aminotran_1_2 144 egnkktkvilvesphNPtGtvatleeleklldlakkynlllfvDeaYagfv 194
+                                       k+k+i+  + + P   ++++   +++   a+k ++  +vD+a+ ++ 
+  split1_tig00002624_RagTag_47 169 ----KPKLIISGGSSYPREIDFPR--MREI---ADKTGATYLVDMAHFAGL 210
+                                   ....88*******99998777776..7899...*************97665 PP
+
+>> split19_split18_tig00000001_RagTag_219  # 174358 # 175524 # 1 # ;gc_cont=0.635
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.9   0.0   1.8e-06    0.0003     131     191 ..     130     181 ..      55     196 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 1.8e-06
+                                             -HHHHHHHHTTHHCTTETEEEEEEESS-TTT--B--HHHHHHHHHHHHHTTEEEEEEETTT CS
+                           Aminotran_1_2 131 dlealeealkeapegnkktkvilvesphNPtGtvatleeleklldlakkynlllfvDeaYa 191
+                                             dl+a+e+ l++       t++++ve+p+NP    ++l +l +++++++ ++++ + D ++a
+  split19_split18_tig00000001_RagTag_219 130 DLQAFEASLQD------DTRMVWVETPSNPL---LSLTDLSAIARICRDRGIICVADNTFA 181
+                                             88999999999......89***********6...666666666666***********9987 PP
+
+>> split19_split18_tig00000001_RagTag_179  # 142050 # 143126 # 1 # ;gc_cont=0.594
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.1   0.0   6.6e-06    0.0011     159     196 ..     168     205 ..     165     223 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 13.1 bits;  conditional E-value: 6.6e-06
+                                             TTT--B--HHHHHHHHHHHHHTTEEEEEEETTTTCBSS CS
+                           Aminotran_1_2 159 NPtGtvatleeleklldlakkynlllfvDeaYagfvfg 196
+                                              P  +  ++e+l++l+d a++++l +++D +Y +f  +
+  split19_split18_tig00000001_RagTag_179 168 APHSSYGSPEQLKQLIDSAHEHGLAVMLDVVYNHFGPD 205
+                                             566666789**************************876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (363 nodes)
+Target sequences:                        479  (106904 residues searched)
+Passed MSV filter:                        23  (0.0480167); expected 9.6 (0.02)
+Passed bias filter:                       20  (0.0417537); expected 9.6 (0.02)
+Passed Vit filter:                         4  (0.00835073); expected 0.5 (0.001)
+Passed Fwd filter:                         3  (0.00626305); expected 0.0 (1e-05)
+Initial search space (Z):                479  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.03
+# Mc/sec: 1059.29
+//
+[ok]

@@ -1,0 +1,28 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00014932_RagTag_41        -            245 adh_short            PF00106.26   195   7.5e-62  206.3   2.7   1   1   2.7e-64   9.2e-62  206.0   2.7     1   194     6   196     6   197 0.98 # 20590 # 21324 # -1 # ;gc_cont=0.527
+tig00034198_RagTag_18        -            276 adh_short            PF00106.26   195   1.7e-54  182.2   0.3   1   2       2.2   7.4e+02   -2.6   0.1   108   132    11    35     5    37 0.79 # 9386 # 10213 # -1 # ;gc_cont=0.571
+tig00034198_RagTag_18        -            276 adh_short            PF00106.26   195   1.7e-54  182.2   0.3   2   2   5.1e-57   1.7e-54  182.2   0.3     1   182    67   248    67   256 0.97 # 9386 # 10213 # -1 # ;gc_cont=0.571
+tig00026519_RagTag_23        -            266 adh_short            PF00106.26   195   2.9e-42  142.3   0.0   1   1   1.1e-44   3.5e-42  142.1   0.0     2   166    54   219    53   229 0.94 # 10046 # 10843 # -1 # ;gc_cont=0.551
+split0_tig00015672_RagTag_33 -            185 adh_short            PF00106.26   195   1.4e-39  133.6   0.0   1   1   4.8e-42   1.6e-39  133.4   0.0     3   160     5   164     3   175 0.95 # 11991 # 12545 # -1 # ;gc_cont=0.595
+tig00095266_RagTag_27        -            124 adh_short            PF00106.26   195     2e-20   71.1   0.4   1   1   6.9e-23   2.3e-20   70.9   0.4    41   142     2   106     1   112 0.92 # 13094 # 13465 # 1 # ;gc_cont=0.597
+split6_tig00001819_RagTag_48 -            109 adh_short            PF00106.26   195   8.3e-13   46.2   0.1   1   2   5.2e-15   1.7e-12   45.2   0.0   146   192     1    47     1    50 0.94 # 25720 # 26046 # 1 # ;gc_cont=0.596
+split6_tig00001819_RagTag_48 -            109 adh_short            PF00106.26   195   8.3e-13   46.2   0.1   2   2       1.5     5e+02   -2.0   0.0    44    68    75    99    71   103 0.71 # 25720 # 26046 # 1 # ;gc_cont=0.596
+tig00034198_RagTag_32        -            103 adh_short            PF00106.26   195   3.3e-12   44.3   0.0   1   1   1.1e-14   3.8e-12   44.1   0.0     1    80    22   101    22   102 0.86 # 14990 # 15298 # -1 # ;gc_cont=0.573
+tig00034198_RagTag_31        -             76 adh_short            PF00106.26   195   3.9e-12   44.0   0.1   1   1   1.3e-14   4.5e-12   43.8   0.1   141   193    18    70    12    72 0.91 # 14639 # 14866 # -1 # ;gc_cont=0.605
+tig00034651_RagTag_91        -            105 adh_short            PF00106.26   195   1.7e-11   41.9   0.0   1   1   5.9e-14     2e-11   41.7   0.0    62   127    22    87     8    93 0.92 # 41226 # 41540 # -1 # ;gc_cont=0.603
+tig00095266_RagTag_28        -             86 adh_short            PF00106.26   195   2.4e-06   25.2   0.0   1   1   1.1e-08   3.7e-06   24.5   0.0   157   189     2    34     1    38 0.92 # 13453 # 13710 # 1 # ;gc_cont=0.620
+tig00060075_RagTag_43        -             85 adh_short            PF00106.26   195   9.2e-06   23.2   0.0   1   1   3.1e-08     1e-05   23.1   0.0     1    71     7    78     7    83 0.87 # 20604 # 20858 # -1 # ;gc_cont=0.482
+tig00015709_RagTag_87        -             55 adh_short            PF00106.26   195   4.6e-05   21.0   0.1   1   1   1.4e-07   4.8e-05   20.9   0.1     2    47     2    47     1    53 0.90 # 43987 # 44151 # 1 # ;gc_cont=0.539
+tig00007765_RagTag_164       -            201 adh_short            PF00106.26   195    0.0003   18.3   0.0   1   1   1.5e-06   0.00049   17.6   0.0     3    46    56    99    55   107 0.83 # 81356 # 81958 # -1 # ;gc_cont=0.637
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/adh_short_C2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round59_0.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/adh_short_C2.cluster_DBSCAN_round59_0.domtbl -E 1e-3 steps/Boyce2018/adh_short_C2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round59_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:11 2020
+# [ok]

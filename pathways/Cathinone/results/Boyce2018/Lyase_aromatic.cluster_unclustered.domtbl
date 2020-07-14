@@ -1,0 +1,24 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                 accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#         ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split1_tig00001040_RagTag_101 -            455 Lyase_aromatic       PF00221.20   463  6.3e-168  559.3  10.0   1   1  4.5e-171  7.7e-168  559.0  10.0     1   418    11   426    11   429 0.99 # 72627 # 73991 # -1 # ;gc_cont=0.648
+tig00001279_RagTag_12         -            299 Lyase_aromatic       PF00221.20   463   2.2e-97  326.7   0.6   1   1  1.4e-100   2.5e-97  326.5   0.6     1   277    15   291    15   298 0.96 # 6546 # 7442 # -1 # ;gc_cont=0.681
+split1_tig00001040_RagTag_103 -            243 Lyase_aromatic       PF00221.20   463   6.2e-71  239.5   0.6   1   1   4.7e-74   8.1e-71  239.1   0.6   221   422    39   238    35   241 0.96 # 74237 # 74965 # -1 # ;gc_cont=0.639
+tig00001279_RagTag_11         -            221 Lyase_aromatic       PF00221.20   463   8.8e-54  182.9   0.7   1   1   5.8e-57     1e-53  182.8   0.7   282   461     3   187     1   189 0.92 # 5902 # 6564 # -1 # ;gc_cont=0.647
+tig00033814_RagTag_55         -            154 Lyase_aromatic       PF00221.20   463   6.6e-42  143.8   0.3   1   1   4.4e-45   7.6e-42  143.6   0.3   327   456     1   128     1   133 0.94 # 31023 # 31484 # -1 # ;gc_cont=0.623
+split1_tig00001040_RagTag_104 -            178 Lyase_aromatic       PF00221.20   463   1.8e-29  102.8   0.1   1   1   1.2e-32   2.1e-29  102.6   0.1     1   129    14   143    14   146 0.92 # 75005 # 75538 # -1 # ;gc_cont=0.631
+tig00126126_RagTag_11         -             95 Lyase_aromatic       PF00221.20   463   4.2e-24   85.1   0.2   1   1   2.7e-27   4.6e-24   85.0   0.2   374   463     1    89     1    89 0.96 # 7894 # 8178 # -1 # ;gc_cont=0.611
+tig00126126_RagTag_12         -            112 Lyase_aromatic       PF00221.20   463   7.3e-24   84.3   0.2   1   1     5e-27   8.5e-24   84.1   0.2   274   349     1    76     1    86 0.95 # 8138 # 8473 # -1 # ;gc_cont=0.640
+tig00126126_RagTag_14         -             84 Lyase_aromatic       PF00221.20   463     2e-19   69.7   0.0   1   1   1.4e-22   2.3e-19   69.5   0.0    53   127     3    77     2    80 0.97 # 8880 # 9131 # -1 # ;gc_cont=0.619
+tig00126126_RagTag_13         -             79 Lyase_aromatic       PF00221.20   463   3.8e-15   55.6   0.0   1   1   2.5e-18   4.3e-15   55.4   0.0   191   258     1    68     1    77 0.94 # 8484 # 8720 # -1 # ;gc_cont=0.629
+tig00033814_RagTag_56         -            106 Lyase_aromatic       PF00221.20   463   1.5e-08   33.9   0.3   1   1   9.7e-12   1.7e-08   33.7   0.3   132   179    56   103    45   105 0.88 # 31905 # 32222 # -1 # ;gc_cont=0.613
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Lyase_aromatic.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_unclustered.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Lyase_aromatic.cluster_unclustered.domtbl -E 1e-3 steps/Boyce2018/Lyase_aromatic.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_unclustered.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:08 2020
+# [ok]

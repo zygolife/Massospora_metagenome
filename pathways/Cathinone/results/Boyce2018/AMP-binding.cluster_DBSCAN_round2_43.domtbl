@@ -1,0 +1,19 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+# ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00001256_RagTag_85 -            132 AMP-binding          PF00501.29   424   5.7e-09   33.5   0.0   1   1   5.9e-12     6e-09   33.5   0.0   124   191    31    98     7   125 0.64 # 41575 # 41970 # 1 # ;gc_cont=0.369
+tig00007797_RagTag_4  -            118 AMP-binding          PF00501.29   424   1.1e-06   26.0   0.3   1   1   1.1e-09   1.1e-06   26.0   0.3   168   294     3   112     1   117 0.77 # 994 # 1347 # 1 # ;gc_cont=0.379
+tig00091934_RagTag_18 -             72 AMP-binding          PF00501.29   424   1.5e-06   25.6   0.0   1   1   1.6e-09   1.7e-06   25.4   0.0   396   423    20    47     7    48 0.87 # 5769 # 5984 # -1 # ;gc_cont=0.394
+tig00015628_RagTag_34 -             84 AMP-binding          PF00501.29   424   1.1e-05   22.8   0.0   1   1     1e-08   1.1e-05   22.8   0.0   123   175    30    82     5    83 0.66 # 12752 # 13003 # 1 # ;gc_cont=0.357
+tig00033535_RagTag_27 -             83 AMP-binding          PF00501.29   424   0.00034   17.8   0.0   1   1   3.3e-07   0.00034   17.8   0.0   204   266     6    67     1    80 0.90 # 14375 # 14623 # -1 # ;gc_cont=0.345
+tig00033535_RagTag_28 -            109 AMP-binding          PF00501.29   424   0.00064   16.9   0.0   1   1   6.2e-07   0.00064   16.9   0.0    52   101     2    56     1    87 0.79 # 14676 # 15002 # -1 # ;gc_cont=0.388
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/AMP-binding.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/AMP-binding.cluster_DBSCAN_round2_43.domtbl -E 1e-3 steps/Boyce2018/AMP-binding.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:04 2020
+# [ok]

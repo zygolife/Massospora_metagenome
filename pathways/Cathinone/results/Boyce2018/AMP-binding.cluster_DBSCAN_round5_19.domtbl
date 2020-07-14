@@ -1,0 +1,18 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split9_split0_tig00000034_RagTag_347  -            264 AMP-binding          PF00501.29   424   2.8e-58  194.7   0.0   1   1   5.6e-61   3.4e-58  194.4   0.0   206   423     9   216     2   217 0.90 # 195510 # 196301 # 1 # ;gc_cont=0.544
+split9_split0_tig00000034_RagTag_346  -            237 AMP-binding          PF00501.29   424   2.9e-33  112.3   0.2   1   1   5.8e-36   3.5e-33  112.0   0.2     1   130    40   164    40   185 0.89 # 194748 # 195458 # 1 # ;gc_cont=0.544
+split22_split0_tig00000034_RagTag_523 -            198 AMP-binding          PF00501.29   424   1.3e-09   34.3   0.0   1   2   2.3e-07   0.00014   17.8   0.0    20    76    19    72     7    95 0.84 # 307165 # 307758 # -1 # ;gc_cont=0.626
+split22_split0_tig00000034_RagTag_523 -            198 AMP-binding          PF00501.29   424   1.3e-09   34.3   0.0   2   2   1.4e-06   0.00086   15.2   0.0   156   185   116   145    76   176 0.76 # 307165 # 307758 # -1 # ;gc_cont=0.626
+split22_split0_tig00000034_RagTag_522 -            108 AMP-binding          PF00501.29   424   6.9e-07   25.4   0.0   1   1   1.1e-09   6.9e-07   25.4   0.0   284   326    45    89     6   106 0.76 # 306888 # 307211 # -1 # ;gc_cont=0.627
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/AMP-binding.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round5_19.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/AMP-binding.cluster_DBSCAN_round5_19.domtbl -E 1e-3 steps/Boyce2018/AMP-binding.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round5_19.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:04 2020
+# [ok]

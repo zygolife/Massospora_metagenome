@@ -1,0 +1,33 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00020506_RagTag_16                  -            374 3HCDH_N              PF02737.19   180   3.3e-46  155.3   0.1   1   1   2.4e-48   6.3e-46  154.4   0.1    27   172     1   146     1   148 0.98 # 10245 # 11366 # -1 # ;gc_cont=0.601
+tig00007112_RagTag_41                  -            191 3HCDH_N              PF02737.19   180   1.5e-42  143.4   0.0   1   1   7.2e-45   1.9e-42  143.1   0.0     1   138    38   175    38   183 0.98 # 38330 # 38902 # -1 # ;gc_cont=0.538
+split35_split18_tig00000001_RagTag_330 -            320 3HCDH_N              PF02737.19   180   5.5e-31  105.7   0.0   1   2   1.9e-32     5e-30  102.6   0.0    87   179     2    94     1    95 0.98 # 296232 # 297191 # -1 # ;gc_cont=0.609
+split35_split18_tig00000001_RagTag_330 -            320 3HCDH_N              PF02737.19   180   5.5e-31  105.7   0.0   2   2      0.28        75    1.0   0.0     2    54   112   165   111   184 0.80 # 296232 # 297191 # -1 # ;gc_cont=0.609
+split5_tig00001040_RagTag_784          -            249 3HCDH_N              PF02737.19   180   1.9e-30  103.9   0.0   1   1   1.1e-32   2.8e-30  103.4   0.0    73   178     4   111     1   113 0.96 # 615584 # 616330 # -1 # ;gc_cont=0.614
+split35_split18_tig00000001_RagTag_331 -            108 3HCDH_N              PF02737.19   180   1.8e-11   42.1   0.2   1   1   8.8e-14   2.3e-11   41.8   0.2     1    40    54    93    54   105 0.93 # 297281 # 297604 # -1 # ;gc_cont=0.608
+split5_tig00001040_RagTag_133          -            289 3HCDH_N              PF02737.19   180   3.5e-06   24.9   0.1   1   2   5.1e-06    0.0013   16.5   0.1     1    43     2    44     2    86 0.84 # 105112 # 105978 # 1 # ;gc_cont=0.617
+split5_tig00001040_RagTag_133          -            289 3HCDH_N              PF02737.19   180   3.5e-06   24.9   0.1   2   2    0.0064       1.7    6.4   0.0     2    43   234   274   233   286 0.84 # 105112 # 105978 # 1 # ;gc_cont=0.617
+split5_tig00001040_RagTag_397          -            352 3HCDH_N              PF02737.19   180   2.1e-05   22.3   0.2   1   1   1.4e-07   3.6e-05   21.6   0.2     2    37     3    38     2    48 0.90 # 327609 # 328664 # 1 # ;gc_cont=0.634
+split5_tig00001040_RagTag_785          -             81 3HCDH_N              PF02737.19   180   2.6e-05   22.0   0.0   1   1     1e-07   2.7e-05   22.0   0.0     3    52    11    60     9    76 0.86 # 616306 # 616548 # -1 # ;gc_cont=0.687
+split1_tig00001141_RagTag_793          -            132 3HCDH_N              PF02737.19   180   0.00012   19.9   0.0   1   1   6.5e-07   0.00017   19.4   0.0     1    39     2    40     2    65 0.91 # 568005 # 568400 # -1 # ;gc_cont=0.662
+split5_tig00001040_RagTag_515          -             53 3HCDH_N              PF02737.19   180   0.00034   18.4   0.0   1   1   1.3e-06   0.00035   18.4   0.0     2    35     7    40     6    48 0.89 # 409895 # 410053 # 1 # ;gc_cont=0.667
+split1_tig00005191_RagTag_27           -            480 3HCDH_N              PF02737.19   180    0.0004   18.2   2.1   1   2      0.17        45    1.7   0.2     2    33     7    38     6    45 0.87 # 15434 # 16873 # -1 # ;gc_cont=0.583
+split1_tig00005191_RagTag_27           -            480 3HCDH_N              PF02737.19   180    0.0004   18.2   2.1   2   2     1e-05    0.0027   15.5   0.1     2    53   185   237   184   264 0.84 # 15434 # 16873 # -1 # ;gc_cont=0.583
+split5_tig00001040_RagTag_600          -            276 3HCDH_N              PF02737.19   180   0.00054   17.8   0.0   1   1   3.3e-06   0.00086   17.1   0.0     4    41     9    46     6    61 0.86 # 478755 # 479582 # 1 # ;gc_cont=0.649
+split5_tig00001040_RagTag_186          -            382 3HCDH_N              PF02737.19   180   0.00058   17.7   0.4   1   2   3.8e-06     0.001   16.9   0.0     2    38     7    44     6    72 0.86 # 153697 # 154842 # 1 # ;gc_cont=0.468
+split5_tig00001040_RagTag_186          -            382 3HCDH_N              PF02737.19   180   0.00058   17.7   0.4   2   2       6.6   1.7e+03   -3.4   0.1   106   121   297   312   289   319 0.48 # 153697 # 154842 # 1 # ;gc_cont=0.468
+split5_tig00001040_RagTag_711          -            222 3HCDH_N              PF02737.19   180   0.00059   17.6   0.5   1   1   3.5e-06   0.00091   17.0   0.5     1    32     4    35     4    47 0.91 # 553559 # 554224 # 1 # ;gc_cont=0.641
+split1_tig00001141_RagTag_443          -            223 3HCDH_N              PF02737.19   180   0.00066   17.5   0.1   1   2   4.8e-06    0.0012   16.6   0.0     4    39    36    71    33    84 0.90 # 302566 # 303234 # 1 # ;gc_cont=0.640
+split1_tig00001141_RagTag_443          -            223 3HCDH_N              PF02737.19   180   0.00066   17.5   0.1   2   2         7   1.8e+03   -3.5   0.0   105   114   148   157   142   159 0.76 # 302566 # 303234 # 1 # ;gc_cont=0.640
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/3HCDH_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/3HCDH_N.cluster_DBSCAN_round154_0.domtbl -E 1e-3 steps/Boyce2018/3HCDH_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:03 2020
+# [ok]

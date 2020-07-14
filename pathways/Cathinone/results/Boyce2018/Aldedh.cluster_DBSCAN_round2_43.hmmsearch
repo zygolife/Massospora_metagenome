@@ -1,0 +1,87 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Aldedh.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa
+# per-dom hits tabular output:     results/Boyce2018/Aldedh.cluster_DBSCAN_round2_43.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Aldedh  [M=462]
+Accession:   PF00171.23
+Description: Aldehyde dehydrogenase family
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    7.7e-12   42.9   0.1      2e-08   31.7   0.0    2.0  2  tig00001303_RagTag_215  # 89906 # 90424 # -1 # ;gc_cont=0.382
+    2.6e-11   41.2   0.1    1.4e-10   38.7   0.1    1.9  2  tig00001142_RagTag_456  # 197482 # 198681 # 1 # ;gc_cont=0.40
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001303_RagTag_215  # 89906 # 90424 # -1 # ;gc_cont=0.382
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.7   0.0     3e-05     0.091     268     296 ..      11      39 ..       7      50 .. 0.91
+   2 !   31.7   0.0   6.4e-12     2e-08     374     437 ..      73     135 ..      53     164 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 9.7 bits;  conditional E-value: 3e-05
+                             STTSEEEEEEEHHHHHHHHHHHHHHHHT- CS
+                  Aldedh 268 vCiaasrllvqesiydefveklveaakkl 296
+                             vC aa+ l+v+ +i+def+ kl ++++k+
+  tig00001303_RagTag_215  11 VCNAAESLVVHAKIADEFLPKLENEINKV 39 
+                             7*********************9998876 PP
+
+  == domain 2  score: 31.7 bits;  conditional E-value: 6.4e-12
+                             EEEEEEESSHHHHHHHHHSSSEESEEEEE-SBHHHHHHHHHHS-SSEEEESSSST--TTTSEB- CS
+                  Aldedh 374 VlsvikfkdeeeaieiaNdteyGLaagvftkdleraervaerleaGnvyiNdsttgdaealpfg 437
+                             +lsv ++++++eaie  N+     + +++t d  +a+++ ++++a  vy+N st+++     fg
+  tig00001303_RagTag_215  73 ILSVKTVDNLDEAIEHINAYSSRHSESIVTHDYFNAQKFQDEIDAAAVYVNASTRFTDGF-VFG 135
+                             89***************************************************7776655.665 PP
+
+>> tig00001142_RagTag_456  # 197482 # 198681 # 1 # ;gc_cont=0.403
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   38.7   0.1   4.7e-14   1.4e-10     166     292 ..      22     144 ..       4     154 .. 0.83
+   2 ?   -0.0   0.0     0.027        83     367     390 ..     213     236 ..     206     279 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 38.7 bits;  conditional E-value: 4.7e-14
+                             HHHHHHHHHHHHHTTS-TTSEEE--SSTCCHHHHHHH-TTESEEEEES-HHHHHHHHHHHHCTTSEEEEEE---EEEEE-TTSHHHH CS
+                  Aldedh 166 pltalllaelleeaglPkgvlnvvtgkgsevgealvehpevdkvsftGstevgrkiakaaaknlkrvtlElGGknpliVledaDldk 252
+                             ++ a ++  ++ eag P++ ++ +  +  ++  al+++++++ +  tG+  + +  +k+ +    + +    G+ ++ V + a++++
+  tig00001142_RagTag_456  22 SHAAKIVYDAAIEAGAPEDFIQWIEVPSLDMTTALIQNRGLATILATGGPGMVNAALKSGN----PSLGVGAGNGAVYVDATANIER 104
+                             33445556666777***********************************988777776544....5555666999************ PP
+
+                             HHHHHHHHHHGGGGTSTTSEEEEEEEHHHHHHHHHHHHHH CS
+                  Aldedh 253 aveaivkgafgnaGQvCiaasrllvqesiydefveklvea 292
+                             ave ++ +  + +G +C + +  ++  s+ydef++k++e+
+  tig00001142_RagTag_456 105 AVEDLLLSKRFDNGMICATENSAVIDASVYDEFIAKMQEQ 144
+                             *************************************986 PP
+
+  == domain 2  score: -0.0 bits;  conditional E-value: 0.027
+                             HS---SSEEEEEEESSHHHHHHHH CS
+                  Aldedh 367 qeEiFGPVlsvikfkdeeeaieia 390
+                              +E   P+lsv+k+++ ee iei+
+  tig00001142_RagTag_456 213 SSEKLSPLLSVYKAETREEGIEIV 236
+                             677889***************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (462 nodes)
+Target sequences:                       6176  (598731 residues searched)
+Passed MSV filter:                       181  (0.029307); expected 123.5 (0.02)
+Passed bias filter:                      137  (0.0221826); expected 123.5 (0.02)
+Passed Vit filter:                        14  (0.00226684); expected 6.2 (0.001)
+Passed Fwd filter:                         2  (0.000323834); expected 0.1 (1e-05)
+Initial search space (Z):               6176  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.06u 0.00s 00:00:00.06 Elapsed: 00:00:00.04
+# Mc/sec: 5634.30
+//
+[ok]

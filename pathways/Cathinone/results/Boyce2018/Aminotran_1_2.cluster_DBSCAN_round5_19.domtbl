@@ -1,0 +1,16 @@
+#                                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split18_split315_tig00000034_RagTag_325 -            440 Aminotran_1_2        PF00155.22   363   1.5e-32  110.3   0.0   1   2      0.11   1.3e+02   -1.4   0.0   289   310    47    68    29    85 0.84 # 198156 # 199475 # 1 # ;gc_cont=0.621
+split18_split315_tig00000034_RagTag_325 -            440 Aminotran_1_2        PF00155.22   363   1.5e-32  110.3   0.0   2   2     4e-35   4.9e-32  108.7   0.0    44   338   142   428   118   436 0.88 # 198156 # 199475 # 1 # ;gc_cont=0.621
+split9_split0_tig00000034_RagTag_151    -            294 Aminotran_1_2        PF00155.22   363   1.1e-27   94.4   0.0   1   1   1.1e-30   1.4e-27   94.0   0.0    19   252    39   264    26   283 0.86 # 91822 # 92703 # -1 # ;gc_cont=0.574
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Aminotran_1_2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round5_19.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Aminotran_1_2.cluster_DBSCAN_round5_19.domtbl -E 1e-3 steps/Boyce2018/Aminotran_1_2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round5_19.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:07 2020
+# [ok]

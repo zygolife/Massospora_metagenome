@@ -1,0 +1,19 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split45_split0_tig00000034_RagTag_227 -            300 TPP_enzyme_N         PF02776.19   172   1.5e-57  191.3   0.0   1   1   3.1e-60     2e-57  190.8   0.0     2   166     5   168     4   173 0.98 # 136595 # 137494 # -1 # ;gc_cont=0.566
+split3_split0_tig00000034_RagTag_289  -            242 TPP_enzyme_N         PF02776.19   172   1.9e-33  112.8   0.3   1   2   2.9e-36   1.9e-33  112.8   0.3     2   170     5   177     4   179 0.88 # 161013 # 161738 # 1 # ;gc_cont=0.585
+split3_split0_tig00000034_RagTag_289  -            242 TPP_enzyme_N         PF02776.19   172   1.9e-33  112.8   0.3   2   2      0.99   6.5e+02   -2.9   0.1   136   149   188   201   183   207 0.73 # 161013 # 161738 # 1 # ;gc_cont=0.585
+split17_tig00267433_RagTag_9          -            140 TPP_enzyme_N         PF02776.19   172   1.6e-17   60.9   3.1   1   2   2.6e-11   1.7e-08   31.5   1.1    53    82     1    30     1    30 0.96 # 3883 # 4302 # 1 # ;gc_cont=0.595
+split17_tig00267433_RagTag_9          -            140 TPP_enzyme_N         PF02776.19   172   1.6e-17   60.9   3.1   2   2   1.1e-10   7.2e-08   29.5   0.0   129   167    75   113    62   118 0.88 # 3883 # 4302 # 1 # ;gc_cont=0.595
+split17_tig00267433_RagTag_8          -             51 TPP_enzyme_N         PF02776.19   172   5.4e-13   46.2   0.0   1   1   9.5e-16   6.2e-13   46.0   0.0     1    49     1    48     1    49 0.96 # 3731 # 3883 # 1 # ;gc_cont=0.601
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/TPP_enzyme_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/TPP_enzyme_N.cluster_DBSCAN_round71_2.domtbl -E 1e-3 steps/Boyce2018/TPP_enzyme_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:09 2020
+# [ok]

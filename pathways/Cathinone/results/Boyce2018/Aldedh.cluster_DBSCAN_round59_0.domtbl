@@ -1,0 +1,25 @@
+#                                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00000355_RagTag_27                -            305 Aldedh               PF00171.23   462     2e-95  318.0   0.0   1   1   6.6e-98   2.4e-95  317.7   0.0    85   368     3   292     1   293 0.94 # 15654 # 16568 # -1 # ;gc_cont=0.598
+tig00060341_RagTag_2                 -            115 Aldedh               PF00171.23   462   8.8e-43  144.4   1.6   1   1   2.8e-45     1e-42  144.2   1.6   130   236     2   109     1   113 0.97 # 123 # 467 # -1 # ;gc_cont=0.574
+tig00012525_RagTag_24                -            153 Aldedh               PF00171.23   462   1.1e-42  144.1   0.2   1   1   3.3e-45   1.2e-42  144.0   0.2   308   457     1   151     1   152 0.96 # 11993 # 12451 # 1 # ;gc_cont=0.577
+tig00088312_RagTag_31                -            220 Aldedh               PF00171.23   462   3.5e-32  109.5   0.1   1   1     8e-34   2.9e-31  106.5   0.1     9   221     4   215     1   218 0.82 # 10331 # 10990 # 1 # ;gc_cont=0.571
+tig00060341_RagTag_3                 -            107 Aldedh               PF00171.23   462   7.3e-25   85.4   0.1   1   1   2.5e-27   8.9e-25   85.1   0.1    28   116     4    93     2   102 0.95 # 461 # 781 # -1 # ;gc_cont=0.601
+tig00012525_RagTag_22                -            135 Aldedh               PF00171.23   462   9.8e-14   48.7   0.0   1   1   3.1e-16   1.1e-13   48.5   0.0     4   103    16   114    13   133 0.88 # 11030 # 11434 # 1 # ;gc_cont=0.551
+split36_split0_tig00000034_RagTag_50 -            322 Aldedh               PF00171.23   462   1.4e-13   48.1   1.1   1   1   6.2e-16   2.2e-13   47.5   1.1    32   295     3   279     1   300 0.81 # 29360 # 30325 # -1 # ;gc_cont=0.597
+tig00088312_RagTag_32                -             56 Aldedh               PF00171.23   462   9.6e-09   32.2   0.0   1   1   2.9e-11   1.1e-08   32.1   0.0   322   369     2    46     1    48 0.93 # 11261 # 11428 # 1 # ;gc_cont=0.542
+tig00000355_RagTag_26                -            100 Aldedh               PF00171.23   462   9.4e-08   29.0   0.1   1   1   4.8e-10   1.8e-07   28.1   0.1   376   461     3    86     1    87 0.75 # 15377 # 15676 # -1 # ;gc_cont=0.567
+tig00012525_RagTag_23                -             36 Aldedh               PF00171.23   462   2.2e-06   24.4   4.8   1   1   6.1e-09   2.2e-06   24.4   4.8   125   150     2    27     1    32 0.91 # 11434 # 11541 # 1 # ;gc_cont=0.611
+split36_split0_tig00000034_RagTag_49 -             77 Aldedh               PF00171.23   462   0.00062   16.4   0.0   1   1   1.9e-06   0.00069   16.2   0.0   382   437     3    57     1    59 0.89 # 29130 # 29360 # -1 # ;gc_cont=0.619
+tig00060341_RagTag_1                 -             26 Aldedh               PF00171.23   462   0.00095   15.8   0.1   1   1   2.6e-06   0.00095   15.8   0.1   259   280     2    23     1    26 0.89 # 1 # 78 # -1 # ;gc_cont=0.577
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Aldedh.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round59_0.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Aldedh.cluster_DBSCAN_round59_0.domtbl -E 1e-3 steps/Boyce2018/Aldedh.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round59_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:06 2020
+# [ok]

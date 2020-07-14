@@ -1,0 +1,17 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split22_split0_tig00000001_RagTag_204 -            352 TPP_enzyme_N         PF02776.19   172   6.6e-50  166.7   0.3   1   1   9.4e-53   1.1e-49  166.0   0.3     2   169     3   171     2   173 0.97 # 185046 # 186101 # -1 # ;gc_cont=0.684
+split9_split18_tig00000001_RagTag_38  -            575 TPP_enzyme_N         PF02776.19   172     6e-43  144.1   2.0   1   2   8.9e-45     1e-41  140.1   0.2     2   169     5   170     4   172 0.98 # 35998 # 37722 # -1 # ;gc_cont=0.623
+split9_split18_tig00000001_RagTag_38  -            575 TPP_enzyme_N         PF02776.19   172     6e-43  144.1   2.0   2   2      0.01        12    3.1   0.1   113   159   486   527   365   537 0.74 # 35998 # 37722 # -1 # ;gc_cont=0.623
+split22_split0_tig00000001_RagTag_203 -            111 TPP_enzyme_N         PF02776.19   172   3.3e-07   27.8   0.0   1   1   3.8e-10   4.4e-07   27.3   0.0    67   169     2   109     1   110 0.72 # 184479 # 184811 # -1 # ;gc_cont=0.640
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/TPP_enzyme_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/TPP_enzyme_N.cluster_DBSCAN_round3_20.domtbl -E 1e-3 steps/Boyce2018/TPP_enzyme_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:09 2020
+# [ok]

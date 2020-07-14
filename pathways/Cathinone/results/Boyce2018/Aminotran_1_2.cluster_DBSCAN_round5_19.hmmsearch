@@ -1,0 +1,115 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Aminotran_1_2.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round5_19.faa
+# per-dom hits tabular output:     results/Boyce2018/Aminotran_1_2.cluster_DBSCAN_round5_19.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Aminotran_1_2  [M=363]
+Accession:   PF00155.22
+Description: Aminotransferase class I and II
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+    1.5e-32  110.3   0.0    4.9e-32  108.7   0.0    1.6  2  split18_split315_tig00000034_RagTag_325  # 198156 # 199475 # 1 # ;gc_cont
+    1.1e-27   94.4   0.0    1.4e-27   94.0   0.0    1.0  1  split9_split0_tig00000034_RagTag_151     # 91822 # 92703 # -1 # ;gc_cont=
+
+
+Domain annotation for each sequence (and alignments):
+>> split18_split315_tig00000034_RagTag_325  # 198156 # 199475 # 1 # ;gc_cont=0.621
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.0      0.11   1.3e+02     289     310 ..      47      68 ..      29      85 .. 0.84
+   2 !  108.7   0.0     4e-35   4.9e-32      44     338 ..     142     428 ..     118     436 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: -1.4 bits;  conditional E-value: 0.11
+                                              HHHHHHSTEEEECCSBSSEEEE CS
+                            Aminotran_1_2 289 rdeLaelglkvlasqsgmfllt 310
+                                              ++ L++ g++v  +qsg+++  
+  split18_split315_tig00000034_RagTag_325  47 YELLESQGWIVSRPQSGYYVAP 68 
+                                              5678888**********99875 PP
+
+  == domain 2  score: 108.7 bits;  conditional E-value: 4e-35
+                                              THHHHHHHHHHHHHHTCCTCHTTGGEGEEEESHHHHHHHHHHHHHHHTTT-EEEEEESS-THHHHHHHHT CS
+                            Aminotran_1_2  44 dglpeleealakflgrseklklkreaavvvgsGagaliealifllklnpgdeilvpdptyasyknilrls 113
+                                               g ++l++ la+ +  +++++l ++ ++v +sGa +++++  + l  +pgd +++ +p++    ++++  
+  split18_split315_tig00000034_RagTag_325 142 PGNATLRQLLAQRYA-RQGITLSPD-EIVITSGALEALNLSLQSL-TEPGDYVVIEQPSFYGALQAIERL 208
+                                              5789***********.99*******.9******999999999999.79********************** PP
+
+                                              TSEEEEEEBECCTTTEE-HHHHHHHHTTHHCTTETEEEEEEESS-TTT--B--HHHHHHHHHHHHHTTEE CS
+                            Aminotran_1_2 114 ggevvryplyseedfhldlealeealkeapegnkktkvilvesphNPtGtvatleeleklldlakkynll 183
+                                              +++   +p++  ++ ++dl +leeal++ p +     + l ++ +NP  + +t+e  ++l++l  +y + 
+  split18_split315_tig00000034_RagTag_325 209 KLKALAIPVD--AKQGIDLIQLEEALQRWPVK----ACWLMTTLQNPLSVTLTPERKQQLVTLLARYQVP 272
+                                              ****999977..999*************8733....4578899*************************** PP
+
+                                              EEEEETTTTCBSSSSHTHHH.HGGCTTSTTEEEEEESSSTTSSGGG-EEEEEEEHHHHHHHHHHHHHHTS CS
+                            Aminotran_1_2 184 lfvDeaYagfvfgsldavat.ranveeepnllivgslsKafGlaGeRvGyilgnaavvsqlrklsrpfls 252
+                                               + D++Ya++  g+  a+++     ++  n+l +gs+sK++ +aG+RvG++++ ++  + +r    + ls
+  split18_split315_tig00000034_RagTag_325 273 MIEDDVYAELWAGE--AAPLpAKAWDRQGNVLHCGSFSKSL-VAGFRVGWVAAGQHAQRIQRLQLMSTLS 339
+                                              *************5..44554555666677**********9.78*********88777777777777777 PP
+
+                                              .SHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHS...TEEEECCSBSSEEEEEECHH.SH CS
+                            Aminotran_1_2 253 .ssllqaavaaalsdallkqseleemrqrlqkrrkelrdeLael...glkvlasqsgmflltdlsae.ta 317
+                                               s+++q a+a  l +   ++ +l+  rq l+kr + +r++L +      +v +  +g+fl++ l+ + + 
+  split18_split315_tig00000034_RagTag_325 340 tSAPMQLALADFLATRR-YDTHLKRLRQILAKRQQMVRQALLKVlppQATVSEARGGYFLWVTLPDSiNT 408
+                                              7************9977.778********************999**999999999**********99999 PP
+
+                                              HHHHHHHHHTHTEEEEEGGGG CS
+                            Aminotran_1_2 318 kelskkLleevgvyvtpgtsf 338
+                                              + l+++ l + g ++ +g++f
+  split18_split315_tig00000034_RagTag_325 409 TRLYQQALAQ-GSVLHRGSCF 428
+                                              9999998888.6666666666 PP
+
+>> split9_split0_tig00000034_RagTag_151  # 91822 # 92703 # -1 # ;gc_cont=0.574
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   94.0   0.0   1.1e-30   1.4e-27      19     252 ..      39     264 ..      26     283 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 94.0 bits;  conditional E-value: 1.1e-30
+                                           HHHHHHHHHHHHHHHHTSTTST-BTTHHHHHHHHHHHHHHTCCTCHTTGGEGEEEESHHHHHHHHHHHHHHHT CS
+                         Aminotran_1_2  19 tlpevakaekegalaggtlneygpidglpeleealakflgrseklklkreaavvvgsGagaliealifllkln 91 
+                                            ++++++a k    a +++  yg++    e+    + +l ++++  +++e  +vv++G   +++++ +++   
+  split9_split0_tig00000034_RagTag_151  39 SPDCIIEAIKT--RAAHGIFGYGDTP--VEFIDSAIAWLASRYQWHVNPE-WIVVLPGVVCGLNLAVRAF-TA 105
+                                           56778888877..9************..8999999999999*********.9******999999999999.79 PP
+
+                                           TT-EEEEEESS-THHHHHHHHTTSEEEEEEBE.CCTTTEE-HHHHHHHHTTHHCTTETEEEEEEESS-TTT-- CS
+                         Aminotran_1_2  92 pgdeilvpdptyasyknilrlsggevvryply.seedfhldlealeealkeapegnkktkvilvesphNPtGt 163
+                                           p++  ++p+p y+++   ++l+     + pl  ++  + +d++a e++l+       k +++ +++p+NP Gt
+  split9_split0_tig00000034_RagTag_151 106 PDELTIAPTPIYPPFRGSAKLAERGQLSLPLMlQQGRWVVDMDAAEDQLTG------KERLLMLCNPQNPGGT 172
+                                           **********************999777776515699**************......999************* PP
+
+                                           B--HHHHHHHHHHHHHTTEEEEEEETTTTCBSSSSHTHHH.HGGCTTSTT..EEEEEESSSTTSSGGG-EEEE CS
+                         Aminotran_1_2 164 vatleeleklldlakkynlllfvDeaYagfvfgsldavat.ranveeepn..llivgslsKafGlaGeRvGyi 233
+                                           v+ ++el++ l++a+k+ l++ +De+++++ ++ ++a+ +  a ++e+ +   +++ s sK+f++aG+   ++
+  split9_split0_tig00000034_RagTag_151 173 VYRRDELQAQLEFAQKHDLIVCSDEIHSDLLLE-PGAEHIpFASLSEDAAqrSVTLMSPSKSFNIAGLGASIA 244
+                                           ********************************9.6666667566666655689**************777788 PP
+
+                                           EE.EHHHHHHHHHHHHHHTS CS
+                         Aminotran_1_2 234 lg.naavvsqlrklsrpfls 252
+                                           ++ na+++s  +++ r++  
+  split9_split0_tig00000034_RagTag_151 245 VIpNAELRSRFNRMRRGIVP 264
+                                           88999*********999654 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (363 nodes)
+Target sequences:                       2447  (366164 residues searched)
+Passed MSV filter:                        75  (0.0306498); expected 48.9 (0.02)
+Passed bias filter:                       67  (0.0273805); expected 48.9 (0.02)
+Passed Vit filter:                         8  (0.00326931); expected 2.4 (0.001)
+Passed Fwd filter:                         3  (0.00122599); expected 0.0 (1e-05)
+Initial search space (Z):               2447  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.04u 0.01s 00:00:00.05 Elapsed: 00:00:00.03
+# Mc/sec: 3614.69
+//
+[ok]

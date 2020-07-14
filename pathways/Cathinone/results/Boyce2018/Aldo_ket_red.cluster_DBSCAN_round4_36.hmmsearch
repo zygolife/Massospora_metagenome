@@ -1,0 +1,127 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Aldo_ket_red.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa
+# per-dom hits tabular output:     results/Boyce2018/Aldo_ket_red.cluster_DBSCAN_round4_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Aldo_ket_red  [M=291]
+Accession:   PF00248.22
+Description: Aldo/keto reductase family
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                               -----------
+    8.3e-77  253.1   0.0      1e-76  252.8   0.0    1.0  1  split19_split18_tig00000001_RagTag_169  # 131967 # 132959 # 1 # ;gc_cont
+    5.6e-53  174.8   0.0    6.9e-51  168.0   0.0    2.0  1  split19_split18_tig00000001_RagTag_235  # 190635 # 191501 # 1 # ;gc_cont
+    7.2e-14   46.5   0.0      8e-14   46.3   0.0    1.0  1  split19_split18_tig00000001_RagTag_69   # 50712 # 50966 # 1 # ;gc_cont=0
+
+
+Domain annotation for each sequence (and alignments):
+>> split19_split18_tig00000001_RagTag_169  # 131967 # 132959 # 1 # ;gc_cont=0.621
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  252.8   0.0   6.4e-79     1e-76       2     289 ..      16     309 ..      15     310 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 252.8 bits;  conditional E-value: 6.4e-79
+                                             EEEE-SSS-ST...TS-HHHHHHHHHHHHHTT--EEE--TT-TTTHHHHHHHHHHHH-TTTGGG-EEEEEE CS
+                            Aldo_ket_red   2 lglGtwqlgsk..neiskeealellraaleaGinffDtAevYgkgqsEellGealkksrkkrekviiatKv 70 
+                                             +glG + +++   + ++ +ea+++l++ale G++++DtA++Yg++++E l+G+a++    kr++v++a+K 
+  split19_split18_tig00000001_RagTag_169  16 IGLGCMGMTDFytTGTDTQEAIATLHRALELGVTLLDTADMYGPHTNEALIGKAIAG---KRDQVFLASKF 83 
+                                             89999999977999*******************************************...*********** PP
+
+                                             ....--SSSTTSSSS-HHHHHHHHHHHHHHHT-S-EEEEEE-S--TTS-HHHHHHHHHHHHHTTSEEEEEE CS
+                            Aldo_ket_red  71 ....dlrdseiksglskeniresleeslkrLktdyvDllllHrpdpslpieevldaleelvkeGkiraiGv 137
+                                                 d  + + +    +e ire+++ +lkrL+ +++Dl++ Hr+dp++ iee ++a++elvk+Gk+r++G+
+  split19_split18_tig00000001_RagTag_169  84 gfvrDPANPSARGVNGPEYIREAIDGTLKRLGIETLDLYYQHRVDPDVAIEESVGAMAELVKQGKVRYLGL 154
+                                             666422222222333477***************************************************** PP
+
+                                             ES--HHHHHHHHHTTT--EEEEE-B-BTT.-HHHHTTHHHHHHHTT-EEEEBSTTGGGTTGTTTSS---SS CS
+                            Aldo_ket_red 138 Snfsveilekakkkkkvpivavqveynll.releeegllelckkkgvpliaysplggGlltgkyqeeedke 207
+                                             S+ s+++le+a  +k++pi+a+q ey+l+ r++e++g+l +c+ +g+++++ysplg G+ltg  +++ed  
+  split19_split18_tig00000001_RagTag_169 155 SEASAASLERA--HKVHPISALQSEYSLWsRDQEDNGCLAACQRLGIAFVPYSPLGRGFLTGALNSPEDFA 223
+                                             *********99..********************************************************** PP
+
+                                             SCCC------....S-HHHHHHHHHHHHHHHHTT--HHHHHHHHHTTSTT-SEEEE--SSHHHHHHHHGGG CS
+                            Aldo_ket_red 208 dkepredlkd....rtsknldaleelselakehgvsiaqvalryalsqpkvgivipgasnleqlednleal 274
+                                              ++ r+++++    +++knl ++++++ la+++gv+  q+al+++l+q    i+ipg+++ + le+n++al
+  split19_split18_tig00000001_RagTag_169 224 ADDYRRSSPRfqgeNFAKNLLLVDQVKGLAAQKGVTAGQLALAWVLAQGDYLIPIPGTKQRKYLEENVAAL 294
+                                             *999999999************************************************************* PP
+
+                                             G----HHHHHHHHHH CS
+                            Aldo_ket_red 275 elelseeeiaeldel 289
+                                             ++ ls+ e+a+l ++
+  split19_split18_tig00000001_RagTag_169 295 DISLSPAELAALTSI 309
+                                             ***********9886 PP
+
+>> split19_split18_tig00000001_RagTag_235  # 190635 # 191501 # 1 # ;gc_cont=0.633
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  168.0   0.0   4.3e-53   6.9e-51       1     289 [.      19     286 ..      19     288 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 168.0 bits;  conditional E-value: 4.3e-53
+                                             .EEEE-SSS-ST.....TS-HHHHHHHHHHHHHTT--EEE--TT-TTTHHHHHHHHHHHH-TTTGGG-EEE CS
+                            Aldo_ket_red   1 elglGtwqlgsk....neiskeealellraaleaGinffDtAevYgkgqsEellGealkksrkkrekviia 67 
+                                             ++g+G++ql ++     +++++ al++lr a+eaG+n++Dt+++Yg++   +l+ eal      r+++ ++
+  split19_split18_tig00000001_RagTag_235  19 RIGYGAMQLAGPgvfgPPKDRAAALAVLREAVEAGVNHIDTSDFYGPHITNQLIREALHP---YRDDLTLV 86 
+                                             59************9999999999************************************...******** PP
+
+                                             EEE...--SSSTTSSSS-HHHHHHHHHHHHHHHT-S-EEEEEE-S--TTS-.....HHHHHHHHHHHHHTT CS
+                            Aldo_ket_red  68 tKv...dlrdseiksglskeniresleeslkrLktdyvDllllHrpdpslp.....ieevldaleelvkeG 130
+                                             tK+   +++ + +++  s+e +++++++ l++L++d +D++ +      +       e  l al+el+++G
+  split19_split18_tig00000001_RagTag_235  87 TKIgarRDSEGGWHAAPSREALIQAVHDNLRNLGLDVLDVVNFRASHNLMGpgegsNEAPLTALAELQQQG 157
+                                             ******9********************************9988665555556999899999********** PP
+
+                                             SEEEEEEES--HHHHHHHHHTTT--EEEEE-B-BTT-HHHHTTHHHHHHHTT-EEEEBSTTGGGTTGTTTS CS
+                            Aldo_ket_red 131 kiraiGvSnfsveilekakkkkkvpivavqveynllreleeegllelckkkgvpliaysplggGlltgkyq 201
+                                             ++r+iG+Sn +  ++ +a   + v++v+vq+ yn+  +++++ l++ ++++g++ +++ plg G+      
+  split19_split18_tig00000001_RagTag_235 158 LVRHIGISNVTPTQVAEA--RNIVKFVCVQNLYNIA-HQHDNALIDELAQQGIAYVPFFPLG-GFTP---- 220
+                                             ****************99..****************.************************9.6666.... PP
+
+                                             S---SSSCCC------S-HHHHHHHHHHHHHHHHTT--HHHHHHHHHTTSTT-SEEEE--SSHHHHHHHHG CS
+                            Aldo_ket_red 202 eeedkedkepredlkdrtsknldaleelselakehgvsiaqvalryalsqpkvgivipgasnleqlednle 272
+                                                                      ++l ++a+  gv++ q+al+++l +++++++ipg+s++++l++nl+
+  split19_split18_tig00000001_RagTag_235 221 ----------------------VQSSTLTRVAERLGVTPKQLALAWLLRRSPNILLIPGTSSVAHLHENLA 269
+                                             ......................3467999****************************************** PP
+
+                                             GGG----HHHHHHHHHH CS
+                            Aldo_ket_red 273 alelelseeeiaeldel 289
+                                             + el l++e++ael+++
+  split19_split18_tig00000001_RagTag_235 270 VGELALTDETVAELNAI 286
+                                             **************997 PP
+
+>> split19_split18_tig00000001_RagTag_69  # 50712 # 50966 # 1 # ;gc_cont=0.635
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.3   0.0     5e-16     8e-14       2      52 ..      11      62 ..      10      71 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 46.3 bits;  conditional E-value: 5e-16
+                                           EEEE-SSS-ST..TS-HHHHHHHHHHHHHTT--EEE--TT-TTTHHHHHHHH CS
+                           Aldo_ket_red  2 lglGtwqlgsk.neiskeealellraaleaGinffDtAevYgkgqsEellGe 52
+                                           lg+Gt+ lg+  ++i+++ea++++ aa   Gi+ffDtA++Yg g sE+ lG+
+  split19_split18_tig00000001_RagTag_69 11 LGFGTAPLGNMfRAIDEDEAAAAVAAAWAQGIRFFDTAPLYGAGLSETRLGK 62
+                                           9***********************************************9997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (291 nodes)
+Target sequences:                        479  (106904 residues searched)
+Passed MSV filter:                        15  (0.0313152); expected 9.6 (0.02)
+Passed bias filter:                       12  (0.0250522); expected 9.6 (0.02)
+Passed Vit filter:                         3  (0.00626305); expected 0.5 (0.001)
+Passed Fwd filter:                         3  (0.00626305); expected 0.0 (1e-05)
+Initial search space (Z):                479  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.03
+# Mc/sec: 987.42
+//
+[ok]

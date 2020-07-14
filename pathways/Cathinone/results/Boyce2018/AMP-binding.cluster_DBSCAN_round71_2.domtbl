@@ -1,0 +1,20 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split45_split0_tig00000034_RagTag_886 -            680 AMP-binding          PF00501.29   424   5.4e-90  299.3   0.0   1   1   1.6e-92   6.9e-90  298.9   0.0     2   423    83   521    82   522 0.87 # 538059 # 540098 # 1 # ;gc_cont=0.565
+split45_split0_tig00000034_RagTag_681 -            627 AMP-binding          PF00501.29   424   6.6e-76  252.8   0.0   1   2   5.4e-78   2.4e-75  251.0   0.0   153   424    43   318     1   318 0.85 # 412658 # 414538 # 1 # ;gc_cont=0.640
+split45_split0_tig00000034_RagTag_681 -            627 AMP-binding          PF00501.29   424   6.6e-76  252.8   0.0   2   2      0.17        76   -1.0   0.0   250   308   433   494   419   500 0.67 # 412658 # 414538 # 1 # ;gc_cont=0.640
+split45_split0_tig00000034_RagTag_697 -            270 AMP-binding          PF00501.29   424   1.6e-34  116.5   0.0   1   1   4.8e-37   2.1e-34  116.1   0.0   258   423     8   169     5   170 0.91 # 422227 # 423036 # 1 # ;gc_cont=0.589
+split45_split0_tig00000034_RagTag_587 -            230 AMP-binding          PF00501.29   424   1.6e-29  100.1   0.0   1   1   4.1e-32   1.8e-29   99.9   0.0    79   264     4   182     1   198 0.75 # 358558 # 359247 # -1 # ;gc_cont=0.590
+split45_split0_tig00000034_RagTag_695 -            161 AMP-binding          PF00501.29   424   3.3e-17   59.5   0.0   1   1   8.5e-20   3.7e-17   59.3   0.0    13   138     2   126     1   149 0.76 # 421542 # 422024 # 1 # ;gc_cont=0.594
+split45_split0_tig00000034_RagTag_586 -            200 AMP-binding          PF00501.29   424   1.6e-13   47.3   0.0   1   1   4.7e-16   2.1e-13   47.0   0.0   335   423     9   100     1   101 0.84 # 357941 # 358540 # -1 # ;gc_cont=0.617
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/AMP-binding.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/AMP-binding.cluster_DBSCAN_round71_2.domtbl -E 1e-3 steps/Boyce2018/AMP-binding.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:04 2020
+# [ok]

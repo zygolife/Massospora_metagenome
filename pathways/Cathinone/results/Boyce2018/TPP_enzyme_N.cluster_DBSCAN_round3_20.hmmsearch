@@ -1,0 +1,117 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/TPP_enzyme_N.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa
+# per-dom hits tabular output:     results/Boyce2018/TPP_enzyme_N.cluster_DBSCAN_round3_20.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TPP_enzyme_N  [M=172]
+Accession:   PF02776.19
+Description: Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                              -----------
+    6.6e-50  166.7   0.3    1.1e-49  166.0   0.3    1.3  1  split22_split0_tig00000001_RagTag_204  # 185046 # 186101 # -1 # ;gc_con
+      6e-43  144.1   2.0      1e-41  140.1   0.2    2.5  2  split9_split18_tig00000001_RagTag_38   # 35998 # 37722 # -1 # ;gc_cont=
+    3.3e-07   27.8   0.0    4.4e-07   27.3   0.0    1.2  1  split22_split0_tig00000001_RagTag_203  # 184479 # 184811 # -1 # ;gc_con
+
+
+Domain annotation for each sequence (and alignments):
+>> split22_split0_tig00000001_RagTag_204  # 185046 # 186101 # -1 # ;gc_cont=0.684
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  166.0   0.3   9.4e-53   1.1e-49       2     169 ..       3     171 ..       2     173 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 166.0 bits;  conditional E-value: 9.4e-53
+                                            EHHHHHHHHHHHCT--EEEE---CCCHHHHCCHHCT.TSEEEE-SSHHHHHHHHHHHHHHHTS-EEEEE-CH CS
+                           TPP_enzyme_N   2 tvaealvrvLkalgvetvfgvpGstnlplldalskedgirvvlarhEqgAafaAdgyaratgkpgvvlvtsg 73 
+                                            t +e+lv +L+++gv++vfg+pG + ++l+  l+++ +ir+v+ rhEqgA+f+Adg ar  gkpgv++  +g
+  split22_split0_tig00000001_RagTag_204   3 TCGEVLVNLLERYGVDQVFGIPGVHTVELYRGLARS-SIRHVTPRHEQGAGFMADGSARTRGKPGVCFIITG 73 
+                                            6799********************************.6********************************** PP
+
+                                            HHHHHCHHHHHHHHHHT--EEEEEEE--CCCHH..S..TC--T.-CCHHHCCCSSEEEE-SSGGGHHHHHHH CS
+                           TPP_enzyme_N  74 pGatnaltalanAkveriPllviagqrprserg..rgalqqel.dqlalfrpvtkyaervtspeelpealrr 142
+                                            pG+tn++ta+ +A+ ++iP+lvi+  ++rs+ g  rg l+ el +q+a+++ v+ +++++ s++elp +l+r
+  split22_split0_tig00000001_RagTag_204  74 PGMTNITTAMGQAYADSIPMLVISSVQSRSQLGggRGKLH-ELpNQSAMIAGVAAFSHTLMSAAELPGVLAR 144
+                                            ****************************************.555**************************** PP
+
+                                            HHHHHHSSS--EEEEEEEHHHCC-EEE CS
+                           TPP_enzyme_N 143 AirtalsgrpgPvyLelprdvleeevd 169
+                                            A++  + grp+Pv++e+p+dvl e++d
+  split22_split0_tig00000001_RagTag_204 145 AFALFQAGRPRPVHIEIPLDVLVENAD 171
+                                            *********************988876 PP
+
+>> split9_split18_tig00000001_RagTag_38  # 35998 # 37722 # -1 # ;gc_cont=0.623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  140.1   0.2   8.9e-45     1e-41       2     169 ..       5     170 ..       4     172 .. 0.98
+   2 ?    3.1   0.1      0.01        12     113     159 ..     486     527 ..     365     537 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 140.1 bits;  conditional E-value: 8.9e-45
+                                           EHHHHHHHHHHHCT--EEEE---CCCHHHHCCHHCT.TSEEEE-SSHHHHHHHHHHHHHHHTS-EEEEE-CHH CS
+                          TPP_enzyme_N   2 tvaealvrvLkalgvetvfgvpGstnlplldalskedgirvvlarhEqgAafaAdgyaratgkpgvvlvtsgp 74 
+                                           ++a+ l+ +L+++g++++ g+ G++++ l dal+  d+i+++ +rhE++AafaA + a atg++ v++ + gp
+  split9_split18_tig00000001_RagTag_38   5 NLAQQLATTLEQAGIKRIWGLTGDSLNGLTDALRTMDSIEWMHVRHEEVAAFAAGAEAAATGELTVCAGSCGP 77 
+                                           789********************************************************************** PP
+
+                                           HHHHCHHHHHHHHHHT--EEEEEEE--CCCHHS..TC--T-CCHHHCCCSSEEEE-SSGGGHHHHHHHHHHHH CS
+                          TPP_enzyme_N  75 GatnaltalanAkveriPllviagqrprsergrgalqqeldqlalfrpvtkyaervtspeelpealrrAirta 147
+                                           G ++++++l++++++++P+l+ia+q+p+se g +++q e+  ++lf+++ ++ e vt+p+++p++l+rA+r a
+  split9_split18_tig00000001_RagTag_38  78 GNLHLINGLFDCHRNHVPVLAIAAQIPSSEIGLNYFQ-ETHPQELFKECSHFIELVTNPAQMPQVLHRAMRSA 149
+                                           *************************************.*********************************** PP
+
+                                           HSSS--EEEEEEEHHHCC-EEE CS
+                          TPP_enzyme_N 148 lsgrpgPvyLelprdvleeevd 169
+                                              ++g +++++p dv   ev+
+  split9_split18_tig00000001_RagTag_38 150 -ILNRGVAVVVIPGDVSLLEVE 170
+                                           .***************888776 PP
+
+  == domain 2  score: 3.1 bits;  conditional E-value: 0.01
+                                           -T-CCHHHCCCSSEEEE-SSGGGHHHHHHHHHHHHHSSS--EEEEEE CS
+                          TPP_enzyme_N 113 eldqlalfrpvtkyaervtspeelpealrrAirtalsgrpgPvyLel 159
+                                           + d +a+ + +     rv+++e+l++alrrA+++      gPv++++
+  split9_split18_tig00000001_RagTag_38 486 NPDFAAMSNAMGILGIRVEQSEDLEPALRRALAHD-----GPVLVDV 527
+                                           44777776677777789999999999999999876.....8887776 PP
+
+>> split22_split0_tig00000001_RagTag_203  # 184479 # 184811 # -1 # ;gc_cont=0.640
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.3   0.0   3.8e-10   4.4e-07      67     169 ..       2     109 ..       1     110 [. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 27.3 bits;  conditional E-value: 3.8e-10
+                                            EEEE-CHHHHHHCHHHHHHHHHHT--EEEEEEE--CCCHH.S..TC--T-CCHH......HCCCSSEEEE-S CS
+                           TPP_enzyme_N  67 vvlvtsgpGatnaltalanAkveriPllviagqrprserg.rgalqqeldqlal......frpvtkyaervt 131
+                                            v+l   g G+   l+ la+A  +r+P++v+  +++ +e+  +++l+  ++ +++      f  v+k     +
+  split22_split0_tig00000001_RagTag_203   2 VCLIGDG-GLQFSLPELASAVEARVPVIVLLWNNQGYEEIkKYMLNRAIEPVGVdiytpdFIGVAKALGCAA 72 
+                                            4444444.99999****************9987765554437777766643333445555445666655555 PP
+
+                                            SGGGHHHHHHHHHHHHHSSS--EEEEEEEHHHCC-EEE CS
+                           TPP_enzyme_N 132 speelpealrrAirtalsgrpgPvyLelprdvleeevd 169
+                                            ++ +   +lr A+r+a  +r+gP+++e+ + ++++ev+
+  split22_split0_tig00000001_RagTag_203  73 ESIQGIAQLRTALRAA-ADRQGPTLIEIDQGLWMQEVA 109
+                                            6666666799999999.******************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (172 nodes)
+Target sequences:                       3533  (956789 residues searched)
+Passed MSV filter:                       185  (0.0523634); expected 70.7 (0.02)
+Passed bias filter:                      122  (0.0345316); expected 70.7 (0.02)
+Passed Vit filter:                         9  (0.00254741); expected 3.5 (0.001)
+Passed Fwd filter:                         3  (0.000849137); expected 0.0 (1e-05)
+Initial search space (Z):               3533  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.04u 0.00s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 5686.60
+//
+[ok]

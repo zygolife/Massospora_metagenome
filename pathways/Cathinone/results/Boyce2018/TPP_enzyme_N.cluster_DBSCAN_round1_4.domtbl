@@ -1,0 +1,17 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00001084_RagTag_256  -            156 TPP_enzyme_N         PF02776.19   172   3.1e-36  123.8   0.2   1   1   1.5e-39   3.9e-36  123.5   0.2    53   167     2   115     1   118 0.98 # 134451 # 134918 # 1 # ;gc_cont=0.466
+tig00000934_RagTag_2454 -            244 TPP_enzyme_N         PF02776.19   172   7.1e-29   99.8   0.0   1   1   3.8e-32   9.9e-29   99.4   0.0     5   165    13   177    10   183 0.91 # 1364549 # 1365280 # 1 # ;gc_cont=0.400
+tig00000934_RagTag_2567 -             78 TPP_enzyme_N         PF02776.19   172   5.6e-14   51.3   0.2   1   1   2.2e-17   5.9e-14   51.3   0.2     2    76     4    75     3    77 0.93 # 1423537 # 1423770 # 1 # ;gc_cont=0.462
+tig00000934_RagTag_2570 -            182 TPP_enzyme_N         PF02776.19   172   0.00026   19.9   0.0   1   1   1.5e-07   0.00039   19.3   0.0    50   159    26   141    23   147 0.82 # 1424677 # 1425222 # 1 # ;gc_cont=0.440
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/TPP_enzyme_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round1_4.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/TPP_enzyme_N.cluster_DBSCAN_round1_4.domtbl -E 1e-3 steps/Boyce2018/TPP_enzyme_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round1_4.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:09 2020
+# [ok]

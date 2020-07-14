@@ -1,0 +1,77 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Thiolase_N.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa
+# per-dom hits tabular output:     results/Boyce2018/Thiolase_N.cluster_DBSCAN_round4_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Thiolase_N  [M=260]
+Accession:   PF00108.24
+Description: Thiolase, N-terminal domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                     -----------
+      1e-12   42.8   0.1    1.2e-12   42.6   0.1    1.0  1  split1_tig00002624_RagTag_24  # 12857 # 13240 # -1 # ;gc_cont=
+    0.00025   15.3   0.7     0.0011   13.3   0.7    1.9  1  split1_tig00002624_RagTag_23  # 12039 # 12815 # -1 # ;gc_cont=
+
+
+Domain annotation for each sequence (and alignments):
+>> split1_tig00002624_RagTag_24  # 12857 # 13240 # -1 # ;gc_cont=0.625
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   42.6   0.1     5e-15   1.2e-12      17     114 ..      21     117 ..       9     125 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 42.6 bits;  conditional E-value: 5e-15
+                                   TTTTS-HHHHHHHHHHHHHHHHTSHGGGEEEEEEE-SSCT.TSTSCHHHHHHHHTTS-TTSEEEEEE-GGGHHHHHHHHHH CS
+                    Thiolase_N  17 slkdlsaeeLlaealkallekagvdpeevdevivGnvlqa.gegqniarqaalkagipeevpavtvnkvcsSglkavalaa 96 
+                                      d+s e+L  ea ++++++ag+ pe++d   +++ ++  g g+     ++ ++ +  ++ +++v+++c+ g +a+ +a+
+  split1_tig00002624_RagTag_24  21 ERWDASPEDLMVEAYSEAMADAGIVPEQIDAAWFSTHMEDvGTGRG-GTPMSTALRL-PNIGVTRVENFCAGGSEAIRAAV 99 
+                                   467899*****************************99998544443.3334444555.346899***************** PP
+
+                                   HHHHTTS-SEEEEEEEEE CS
+                    Thiolase_N  97 qsiaageadvvvagGvEs 114
+                                    ++a+g++d+++a GvE+
+  split1_tig00002624_RagTag_24 100 YAVASGACDIALALGVEN 117
+                                   *****************8 PP
+
+>> split1_tig00002624_RagTag_23  # 12039 # 12815 # -1 # ;gc_cont=0.593
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.3   0.7   4.4e-06    0.0011     170     258 ..      25      85 ..       6      87 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.3 bits;  conditional E-value: 4.4e-06
+                                   HHHHHHHHHHHHHHHHHHHHTTTTTTTBE-EEEECSSSEEEEESSTSSGTT--HHHHHTS-BSSSTTSS-BTTTB--BEEE CS
+                    Thiolase_N 170 ReeqdefAvkshqkaaaaqkagkFkdeivPvkvkgkkgkktvdkdeairsevtaekLaklkpaFkkeGtvtAgnasqisDG 250
+                                   +++ +++ vksh+++a+++ka+ +++ i             +++ + +++++ ae+L                +++++sDG
+  split1_tig00002624_RagTag_23  25 KRAIAHVSVKSHANGAKNPKAH-LRK-I-------------ITEAQCLSAPIIAEPLGLF-------------DCCGVSDG 77 
+                                   5678899999999999999999.777.4.............5788899999*******99.............******** PP
+
+                                   EEEEEEEE CS
+                    Thiolase_N 251 aaavllms 258
+                                   aaav++++
+  split1_tig00002624_RagTag_23  78 AAAVIVTR 85 
+                                   *****976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (260 nodes)
+Target sequences:                        479  (106904 residues searched)
+Passed MSV filter:                        13  (0.0271399); expected 9.6 (0.02)
+Passed bias filter:                       10  (0.0208768); expected 9.6 (0.02)
+Passed Vit filter:                         3  (0.00626305); expected 0.5 (0.001)
+Passed Fwd filter:                         2  (0.00417537); expected 0.0 (1e-05)
+Initial search space (Z):                479  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 1076.02
+//
+[ok]

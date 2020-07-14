@@ -1,0 +1,19 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split1_tig00002624_RagTag_28           -            243 adh_short            PF00106.26   195     2e-52  172.4   1.2   1   1   3.4e-54   2.7e-52  172.0   1.2     2   190     8   187     7   191 0.97 # 15631 # 16359 # -1 # ;gc_cont=0.634
+split1_tig00002624_RagTag_75           -            270 adh_short            PF00106.26   195   2.8e-45  149.1   0.0   1   1   4.6e-47   3.6e-45  148.7   0.0     3   192     8   193     6   196 0.97 # 52940 # 53749 # 1 # ;gc_cont=0.626
+split19_split18_tig00000001_RagTag_205 -            226 adh_short            PF00106.26   195   4.5e-45  148.4   0.2   1   1     7e-47   5.6e-45  148.1   0.2     1   184    42   220    42   223 0.98 # 165219 # 165896 # -1 # ;gc_cont=0.603
+split1_tig00002624_RagTag_37           -            228 adh_short            PF00106.26   195   8.5e-42  137.7   0.0   1   1   1.2e-43   9.9e-42  137.5   0.0     2   192     5   190     4   193 0.96 # 21820 # 22503 # 1 # ;gc_cont=0.576
+split19_split18_tig00000001_RagTag_96  -            262 adh_short            PF00106.26   195   2.5e-37  123.1   0.1   1   1   3.6e-39   2.9e-37  122.9   0.1     2   154     9   167     8   202 0.92 # 73516 # 74301 # 1 # ;gc_cont=0.651
+split19_split18_tig00000001_RagTag_226 -            288 adh_short            PF00106.26   195   0.00011   16.5   0.3   1   1   2.9e-06   0.00023   15.5   0.3     2    43     2    43     1    74 0.87 # 183779 # 184642 # -1 # ;gc_cont=0.655
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/adh_short_C2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/adh_short_C2.cluster_DBSCAN_round4_36.domtbl -E 1e-3 steps/Boyce2018/adh_short_C2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:11 2020
+# [ok]

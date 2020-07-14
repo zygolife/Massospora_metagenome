@@ -1,0 +1,15 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split1_tig00002624_RagTag_24 -            128 Thiolase_N           PF00108.24   260     1e-12   42.8   0.1   1   1     5e-15   1.2e-12   42.6   0.1    17   114    21   117     9   125 0.83 # 12857 # 13240 # -1 # ;gc_cont=0.625
+split1_tig00002624_RagTag_23 -            259 Thiolase_N           PF00108.24   260   0.00025   15.3   0.7   1   1   4.4e-06    0.0011   13.3   0.7   170   258    25    85     6    87 0.83 # 12039 # 12815 # -1 # ;gc_cont=0.593
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Thiolase_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Thiolase_N.cluster_DBSCAN_round4_36.domtbl -E 1e-3 steps/Boyce2018/Thiolase_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:10 2020
+# [ok]

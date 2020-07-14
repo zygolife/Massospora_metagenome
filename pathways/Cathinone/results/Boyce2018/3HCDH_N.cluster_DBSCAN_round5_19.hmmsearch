@@ -1,0 +1,87 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/3HCDH_N.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round5_19.faa
+# per-dom hits tabular output:     results/Boyce2018/3HCDH_N.cluster_DBSCAN_round5_19.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       3HCDH_N  [M=180]
+Accession:   PF02737.19
+Description: 3-hydroxyacyl-CoA dehydrogenase, NAD binding domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+    5.4e-06   23.6   0.1    5.5e-06   23.6   0.1    1.0  1  split13_split0_tig00000034_RagTag_9      # 4731 # 4883 # 1 # ;gc_cont=0.4
+    1.2e-05   22.5   0.2    0.00098   16.2   0.1    2.3  2  split18_split315_tig00000034_RagTag_201  # 124639 # 125610 # -1 # ;gc_con
+    7.8e-05   19.8   0.2    0.00011   19.4   0.2    1.3  1  split18_split315_tig00000034_RagTag_649  # 394188 # 394457 # 1 # ;gc_cont
+
+
+Domain annotation for each sequence (and alignments):
+>> split13_split0_tig00000034_RagTag_9  # 4731 # 4883 # 1 # ;gc_cont=0.438
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.6   0.1   6.7e-09   5.5e-06       1      41 [.       2      42 ..       2      49 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 23.6 bits;  conditional E-value: 6.7e-09
+                                         -EEEE--SHHHHHHHHHHHHTT--EEEE-S-HHHHHHHHHH CS
+                              3HCDH_N  1 kvaviGaGtmGagiaavfasagleVtlvdiseealekalek 41
+                                         kv+v G G +G   aav+a+ g++V  +d++++++e+ +++
+  split13_split0_tig00000034_RagTag_9  2 KVTVFGIGYVGLVQAAVLAEVGHDVLCIDVDANKVENLKKA 42
+                                         79********************************9998765 PP
+
+>> split18_split315_tig00000034_RagTag_201  # 124639 # 125610 # -1 # ;gc_cont=0.638
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.1   1.2e-06   0.00098       2      34 ..      32      64 ..      31     116 .. 0.88
+   2 !    4.4   0.0    0.0053       4.3       2      19 ..     153     170 ..     152     175 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 16.2 bits;  conditional E-value: 1.2e-06
+                                             EEEE--SHHHHHHHHHHHHTT--EEEE-S-HHH CS
+                                  3HCDH_N  2 vaviGaGtmGagiaavfasagleVtlvdiseea 34
+                                             +av+GaG  G   a ++a++g++Vtl++ ++++
+  split18_split315_tig00000034_RagTag_201 32 LAVVGAGPAGMAFALQAAQRGHQVTLYEAAPDI 64
+                                             69**************************98875 PP
+
+  == domain 2  score: 4.4 bits;  conditional E-value: 0.0053
+                                              EEEE--SHHHHHHHHHHH CS
+                                  3HCDH_N   2 vaviGaGtmGagiaavfa 19 
+                                              va+iGaG +G  +a+ + 
+  split18_split315_tig00000034_RagTag_201 153 VAIIGAGGIGFDVAEYLS 170
+                                              9************99876 PP
+
+>> split18_split315_tig00000034_RagTag_649  # 394188 # 394457 # 1 # ;gc_cont=0.548
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.2   1.3e-07   0.00011       1      48 [.       2      52 ..       2      84 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 19.4 bits;  conditional E-value: 1.3e-07
+                                             -EEEE--SHHHHHHHHHHHHTT--EEEE-S-HHH...HHHHHHHHHHHHHT CS
+                                  3HCDH_N  1 kvaviGaGtmGagiaavfasagleVtlvdiseea...lekalekiekslek 48
+                                             k++ iG+G+mG+ + + +++ag++ ++ d ++e    l++  ++++ks ++
+  split18_split315_tig00000034_RagTag_649  2 KIGFIGTGIMGKPMSKNLVKAGYSLVVRDHNAENeaeLTELGATVAKSPKE 52
+                                             6899*************************9665400033333333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (180 nodes)
+Target sequences:                       2447  (366164 residues searched)
+Passed MSV filter:                        95  (0.038823); expected 48.9 (0.02)
+Passed bias filter:                       78  (0.0318758); expected 48.9 (0.02)
+Passed Vit filter:                        18  (0.00735595); expected 2.4 (0.001)
+Passed Fwd filter:                         6  (0.00245198); expected 0.0 (1e-05)
+Initial search space (Z):               2447  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.02u 0.01s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 2238.16
+//
+[ok]

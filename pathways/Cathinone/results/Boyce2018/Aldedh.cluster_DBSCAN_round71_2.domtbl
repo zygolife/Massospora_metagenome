@@ -1,0 +1,16 @@
+#                                                                                    --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#        ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split4_tig00001011_RagTag_20 -            346 Aldedh               PF00171.23   462  3.5e-107  356.0   3.3   1   1  1.8e-109  1.6e-106  353.9   3.3    75   403     1   326     1   337 0.96 # 10193 # 11230 # -1 # ;gc_cont=0.570
+split4_tig00001011_RagTag_19 -             58 Aldedh               PF00171.23   462     1e-12   44.6   0.0   1   1   1.3e-15   1.1e-12   44.5   0.0   410   461     2    52     1    53 0.93 # 10066 # 10239 # -1 # ;gc_cont=0.586
+split4_tig00001011_RagTag_21 -             72 Aldedh               PF00171.23   462   3.5e-11   39.5   4.7   1   1   4.5e-14     4e-11   39.4   4.7     1    53    20    71    20    71 0.92 # 11289 # 11504 # -1 # ;gc_cont=0.597
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Aldedh.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Aldedh.cluster_DBSCAN_round71_2.domtbl -E 1e-3 steps/Boyce2018/Aldedh.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:06 2020
+# [ok]

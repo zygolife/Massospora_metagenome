@@ -1,0 +1,175 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/TPP_enzyme_N.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa
+# per-dom hits tabular output:     results/Boyce2018/TPP_enzyme_N.cluster_DBSCAN_round2_43.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TPP_enzyme_N  [M=172]
+Accession:   PF02776.19
+Description: Thiamine pyrophosphate enzyme, N-terminal TPP binding domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    3.4e-37  126.2   0.2      4e-37  125.9   0.2    1.0  1  tig00001142_RagTag_263  # 105410 # 105841 # -1 # ;gc_cont=0.3
+    4.6e-21   73.7   0.0    5.6e-21   73.4   0.0    1.0  1  tig00045741_RagTag_25   # 9782 # 10063 # 1 # ;gc_cont=0.450
+    2.6e-19   67.9   0.0    2.8e-19   67.8   0.0    1.0  1  tig00046864_RagTag_6    # 2088 # 2369 # -1 # ;gc_cont=0.429
+    9.4e-17   59.6   0.0    1.1e-16   59.5   0.0    1.0  1  tig00091734_RagTag_12   # 5934 # 6158 # -1 # ;gc_cont=0.364
+    1.7e-16   58.8   0.1    3.6e-16   57.7   0.0    1.6  2  tig00045741_RagTag_26   # 10041 # 10520 # 1 # ;gc_cont=0.400
+    1.7e-14   52.3   0.0    1.9e-14   52.1   0.0    1.0  1  tig00129831_RagTag_12   # 3596 # 3757 # -1 # ;gc_cont=0.444
+    1.8e-12   45.7   0.0    2.2e-12   45.4   0.0    1.1  1  tig00091734_RagTag_11   # 5537 # 5989 # -1 # ;gc_cont=0.371
+    0.00078   17.6   0.0    0.00078   17.6   0.0    1.1  1  tig00129831_RagTag_11   # 3371 # 3559 # -1 # ;gc_cont=0.392
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001142_RagTag_263  # 105410 # 105841 # -1 # ;gc_cont=0.391
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  125.9   0.2   5.2e-40     4e-37       2     138 ..       5     141 ..       4     142 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 125.9 bits;  conditional E-value: 5.2e-40
+                             EHHHHHHHHHHHCT--EEEE---CCCHHHHCCHHCT..TSEEEE-SSHHHHHHHHHHHHHHHTS-EEEEE-CHHHHHHCHHHHHHHH CS
+            TPP_enzyme_N   2 tvaealvrvLkalgvetvfgvpGstnlplldalsked.girvvlarhEqgAafaAdgyaratgkpgvvlvtsgpGatnaltalanAk 87 
+                             ++++a+++v++++gv+ ++g+pG+++ + ++al++++  ++++++rhE++ a aA+g a++tg++gv + ++gpGa+++l++l++A+
+  tig00001142_RagTag_263   5 NASDAMLKVIEDWGVKNIYGLPGGSIDSTMNALYNRRdTLNYIQVRHEEVGALAAVGEAKVTGEIGVTFGSAGPGAVHLLNGLYDAQ 91 
+                             789**********************************9************************************************* PP
+
+                             HHT--EEEEEEE--CCCHHS..TC--T-CCHHHCCCSSEEEE-SSGGGHHH CS
+            TPP_enzyme_N  88 veriPllviagqrprsergrgalqqeldqlalfrpvtkyaervtspeelpe 138
+                             ++++P+l+++gq+p+s  +++++q el+   +f++v  y+++v ++e++++
+  tig00001142_RagTag_263  92 YDHVPVLALVGQVPTSAMNTNYFQ-ELNENPMFADVSVYNRTVMTAEQIAS 141
+                             ************************.***********************975 PP
+
+>> tig00045741_RagTag_25  # 9782 # 10063 # 1 # ;gc_cont=0.450
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   73.4   0.0   7.3e-24   5.6e-21       3      72 ..       7      76 ..       6      79 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 73.4 bits;  conditional E-value: 7.3e-24
+                           HHHHHHHHHHHCT--EEEE---CCCHHHHCCHHCT.TSEEEE-SSHHHHHHHHHHHHHHHTS-EEEEE-C CS
+           TPP_enzyme_N  3 vaealvrvLkalgvetvfgvpGstnlplldalskedgirvvlarhEqgAafaAdgyaratgkpgvvlvts 72
+                           +a+++v+ L +++v++vfg+pG ++  ++d l++e+g ++v++rhEqgAaf+A+++ r+tg+pgvv+vt 
+  tig00045741_RagTag_25  7 GANLVVDSLINHKVKYVFGIPGAKIDRVFDLLENEEGPQMVVTRHEQGAAFMAQAVGRLTGEPGVVVVTR 76
+                           6899****************************************************************96 PP
+
+>> tig00046864_RagTag_6  # 2088 # 2369 # -1 # ;gc_cont=0.429
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.8   0.0   3.7e-22   2.8e-19      69     161 ..       1      92 [.       1      93 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 67.8 bits;  conditional E-value: 3.7e-22
+                           EE-CHHHHHHCHHHHHHHHHHT--EEEEEEE--CCCHHS..TC--T-CCHHHCCCSSEEEE-SSGGGHHHHHHHHHHHHHSSS--EEEE CS
+          TPP_enzyme_N  69 lvtsgpGatnaltalanAkveriPllviagqrprsergrgalqqeldqlalfrpvtkyaervtspeelpealrrAirtalsgrpgPvyL 157
+                           ++ sgpG+ n++t l++A +e+  +l+i gq++rs+r + a q  +d+++++++ tky+++v +p++l e ++ A+r+a+sg pg+++L
+  tig00046864_RagTag_6   1 MLRSGPGVSNLATPLLTATSEGDAILAIGGQVKRSDRLKRAHQ-SMDNAGMMQSATKYSAEVLDPDTLSESIANAYRIAKSGHPGATFL 88 
+                           5679**********************************88888.********************************************* PP
+
+                           EEEH CS
+          TPP_enzyme_N 158 elpr 161
+                           ++p+
+  tig00046864_RagTag_6  89 SIPK 92 
+                           ***7 PP
+
+>> tig00091734_RagTag_12  # 5934 # 6158 # -1 # ;gc_cont=0.364
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.5   0.0   1.4e-19   1.1e-16       2      62 ..       3      63 ..       2      68 .. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 59.5 bits;  conditional E-value: 1.4e-19
+                           EHHHHHHHHHHHCT--EEEE---CCCHHHHCCHHCT.TSEEEE-SSHHHHHHHHHHHHHHH CS
+           TPP_enzyme_N  2 tvaealvrvLkalgvetvfgvpGstnlplldalskedgirvvlarhEqgAafaAdgyarat 62
+                           tv+++l+++L++lg+e++fgvpG+ nl++ld +   +++++v   +E +A ++Adgyar +
+  tig00091734_RagTag_12  3 TVGDYLLDRLHELGIEEIFGVPGDYNLQFLDQIISCKDMKWVGNANELNASYMADGYARTK 63
+                           89********************************************************975 PP
+
+>> tig00045741_RagTag_26  # 10041 # 10520 # 1 # ;gc_cont=0.400
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   57.7   0.0   4.6e-19   3.6e-16      85     169 ..       2      85 ..       1      88 [. 0.94
+   2 ?   -1.6   0.0      0.76   5.9e+02     106     106 ..     132     132 ..     105     159 .. 0.50
+
+  Alignments for each domain:
+  == domain 1  score: 57.7 bits;  conditional E-value: 4.6e-19
+                            HHHHHT--EEEEEEE--CCCHHS..TC--T-CCHHHCCCSSEEEE-SSGGGHHHHHHHHHHHHHSSS--EEEEEEEHHHCC-EEE CS
+           TPP_enzyme_N  85 nAkveriPllviagqrprsergrgalqqeldqlalfrpvtkyaervtspeelpealrrAirtalsgrpgPvyLelprdvleeevd 169
+                            +A +e+  +l+i gq++rs+r + a q  +d+++++++ tky+++v +p++l e ++ A+r+a+sg pg+++L++p+dv ++ev 
+  tig00045741_RagTag_26   2 TATSEGDAILAIGGQVKRSDRLKRAHQ-SMDNAGMMQSATKYSAEVLDPDTLSESIANAYRIAKSGHPGATFLSIPQDVTDAEVS 85 
+                            577888899*************88888.*****************************************************9986 PP
+
+  == domain 2  score: -1.6 bits;  conditional E-value: 0.76
+                            H CS
+           TPP_enzyme_N 106 g 106
+                             
+  tig00045741_RagTag_26 132 A 132
+                            2 PP
+
+>> tig00129831_RagTag_12  # 3596 # 3757 # -1 # ;gc_cont=0.444
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.1   0.0   2.4e-17   1.9e-14      28      74 ..       2      48 ..       1      51 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 52.1 bits;  conditional E-value: 2.4e-17
+                           HHHHCCHHCT.TSEEEE-SSHHHHHHHHHHHHHHHTS-EEEEE-CHH CS
+           TPP_enzyme_N 28 lplldalskedgirvvlarhEqgAafaAdgyaratgkpgvvlvtsgp 74
+                           lpl+da+++ +gi+++larhEqgA++ A+gya+ +gk+gvv+vtsgp
+  tig00129831_RagTag_12  2 LPLYDAIHNFEGIQHILARHEQGATHEAEGYAKSSGKVGVVVVTSGP 48
+                           79********************************************9 PP
+
+>> tig00091734_RagTag_11  # 5537 # 5989 # -1 # ;gc_cont=0.371
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.4   0.0   2.8e-15   2.2e-12      60     169 ..       3     116 ..       1     119 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 45.4 bits;  conditional E-value: 2.8e-15
+                            HHHTS-EEEEE-CHHHHHHCHHHHHHHHHHT--EEEEEEE--CCCHH.....S..TC--T-CCHHHC.CCSSEEEE-SSGGGHHHHHH CS
+           TPP_enzyme_N  60 ratgkpgvvlvtsgpGatnaltalanAkveriPllviagqrprserg.....rgalqqeldqlalfr.pvtkyaervtspeelpealr 141
+                            ++ +k +++l+t g+G ++a+++la+ + e++P++ i+g++ ++ ++     +++l    d +++++ ++ +  e   ++e++ ++++
+  tig00091734_RagTag_11   3 MLVQKAAAFLTTFGVGELSAVNGLAGSYAENLPVVEIVGSPTSKVQNegkfvHHTLA-DGDFKHFMKmNLLQQLELYCTAENATVEID 89 
+                            56678999999************************************7666444444.44899998889999999999********** PP
+
+                            HHHHHHHSSS--EEEEEEEHHHCC-EEE CS
+           TPP_enzyme_N 142 rAirtalsgrpgPvyLelprdvleeevd 169
+                            r +     +++ Pvy++lp dv  ++  
+  tig00091734_RagTag_11  90 RVLFCT-IKERKPVYINLPVDVAAAKSR 116
+                            *99777.99999**********998765 PP
+
+>> tig00129831_RagTag_11  # 3371 # 3559 # -1 # ;gc_cont=0.392
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.6   0.0     1e-06   0.00078      93     128 ..       1      35 [.       1      52 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 17.6 bits;  conditional E-value: 1e-06
+                            EEEEEEE--CCCHHS..TC--T-CCHHHCCCSSEEE CS
+           TPP_enzyme_N  93 llviagqrprsergrgalqqeldqlalfrpvtkyae 128
+                            +lv++gq++r++ g++a+q e d +++ +p+tky++
+  tig00129831_RagTag_11   1 MLVFTGQVGRQSIGKDAFQ-EADTVGITAPITKYNY 35 
+                            89*****************.**************86 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (172 nodes)
+Target sequences:                       6176  (598731 residues searched)
+Passed MSV filter:                       155  (0.0250972); expected 123.5 (0.02)
+Passed bias filter:                      125  (0.0202396); expected 123.5 (0.02)
+Passed Vit filter:                        23  (0.00372409); expected 6.2 (0.001)
+Passed Fwd filter:                        12  (0.00194301); expected 0.1 (1e-05)
+Initial search space (Z):               6176  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.02
+# Mc/sec: 4135.62
+//
+[ok]

@@ -1,0 +1,103 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/AMP-binding.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_36.faa
+# per-dom hits tabular output:     results/Boyce2018/AMP-binding.cluster_DBSCAN_round3_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       AMP-binding  [M=424]
+Accession:   PF00501.29
+Description: AMP-binding enzyme
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    3.7e-99  328.8   0.0    4.3e-99  328.5   0.0    1.0  1  tig00001240_RagTag_196  # 131784 # 133418 # 1 # ;gc_cont=0.62
+    8.5e-09   31.0   0.0    2.6e-08   29.5   0.0    1.6  2  tig00001240_RagTag_254  # 175756 # 176658 # 1 # ;gc_cont=0.66
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001240_RagTag_196  # 131784 # 133418 # 1 # ;gc_cont=0.623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  328.5   0.0  5.3e-102   4.3e-99       1     423 [.      26     442 ..      26     443 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 328.5 bits;  conditional E-value: 5.3e-102
+                             HHHHHHHSTTSEEEEECCSTEEEEHHHHHHHHHHHHHHHHHTTSSTT-EEEEEESSSHHHHHHHHHHHHTT-EEEEEETTS-HHHHH CS
+             AMP-binding   1 leeqaaktpdkvalvdsgegqtlTYreldervnrlAagLrslGvkkgdrVaillpnspewvvallailkaGavvvplnptltaeela 87 
+                             +++++a +pd  alv +++++++T+r+l e v+  A+++++lG++ gdr +i++pn++ew ++ +a +k+G+++v +np++++ el+
+  tig00001240_RagTag_196  26 FDRTVALHPDGEALVVRHQQRRYTWRQLAETVDLHARAFLALGMQAGDRLGIWAPNCAEWCISQIASAKLGVILVNINPAYRSSELE 112
+                             6789999*******99899******************************************************************** PP
+
+                             HHHHHHTESEEEEE.TCTCCC.HHHHHHHHSCC-EECEEEEESCCS-HCCHCCCHCCCCSCTTS......-TSCCCS-BTTSEEEEE CS
+             AMP-binding  88 yiledseakvlita.tvdsel.leklleaaakleavklvivldadellkeeelkeeeeseekae......kpeeeeelkpddlayii 166
+                             y+l++s+++ l++a   ++ +   +l++     ++ + +i ld  +++    l++++ s+  a+      + +++++l+ d+ ++i+
+  tig00001240_RagTag_196 113 YVLQQSGCQWLVCAgSFKTSDyHGMLQALN---PDLRGMISLDPSPPP--GFLPWAQLSALGAGiapdqlH-RRQASLHFDQAVNIQ 193
+                             ************844333334233333333...445667777755554..568887766644425666743.45557899******* PP
+
+                             EE--SSSS-EEEEEEHHHHHHHHHHHHHHHCSCCTTT-EEEESS-TTSCHHHHHHHHHHHHTT-EEEE-TTCGCCHHHHHHHHHHHH CS
+             AMP-binding 167 YTSGTTGkPKGVmlshrnlvanvaslkletrfklkeddvvlsilplahifglilelllallsGatvvllekdaaldpklllelieel 253
+                             YTSGTTG PKG+ lsh n+++n + +   +  +l+++d+++  +pl+h+fg++++ l+++++G t+++++  + +dp l l +++e+
+  tig00001240_RagTag_196 194 YTSGTTGFPKGATLSHHNILNNGYMV--GESLGLTAQDRLVIPVPLYHCFGMVMGNLGCITHGTTMIYPN--DGFDPLLTLTAVAEE 276
+                             **********************7774..66788999********************************66..34788899******* PP
+
+                             T-SEEEEEHHHHHHHHHCCCHH.CHHHHCCGTT-SEEEEESS-EBHHHHHHHHHHHTC.EEEEEEEEGGGSSEC..EECHCTTTCTS CS
+             AMP-binding 254 kvtviagvPrvleallesgalk.aakkakdlsslrlvllggeplspellrffralfge.evlegYGlTEttgvv..tvlpleedkkk 336
+                             ++t ++gvP+++ a+l++++l  +     dls lr+ +++g+ ++ e++r++ + +   ev  +YG+TEt++v   t   +++ +++
+  tig00001240_RagTag_196 277 RATGLYGVPTMFIAMLDHPRLGdF-----DLSTLRTGIMAGATCPIEVMRRVISEMHMsEVQIAYGMTETSPVSlqT-GADDDLERR 357
+                             ******************999944.....**************************99999**************643.444666678 PP
+
+                             TTS-BEE-TTEEEEEE-TTTSCBEETTSEEEEEEEETTS-SEBTT-HHHHHHHEEETCCEEEEEEEEEEETTSEEEEEEECCCEEEE CS
+             AMP-binding 337 lgsvGkplpgvevkivDeetgepvpdgeeGellvrgpgvmkgYlkkpeataeafdseggwlrTGDlgrldedGyleivgRkkdlikl 423
+                             + +vG+  p  e ki+D + g+ v++ge Gel+ rg +vm gY+ +p+at+ea+d+  gw++TGDl+ +d+ Gy+ i gR kd+i++
+  tig00001240_RagTag_196 358 VTTVGRTQPQLENKIIDAD-GNTVAHGEIGELCTRGYSVMLGYWDNPDATREAIDDA-GWMHTGDLASMDAHGYVCIAGRNKDMIIR 442
+                             99****************9.**********************************944.6**************************86 PP
+
+>> tig00001240_RagTag_254  # 175756 # 176658 # 1 # ;gc_cont=0.662
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.5   0.0   3.2e-11   2.6e-08       2      95 ..      30     125 ..      29     151 .. 0.88
+   2 ?   -1.1   0.0     0.061        49     215     270 ..     181     231 ..     157     283 .. 0.69
+
+  Alignments for each domain:
+  == domain 1  score: 29.5 bits;  conditional E-value: 3.2e-11
+                             HHHHHHSTTSEEEEE..CCSTEEEEHHHHHHHHHHHHHHHHHTTSSTT-EEEEEESSSHHHHHHHHHHHHTT-EEEEEETTS-HHHH CS
+             AMP-binding   2 eeqaaktpdkvalvd..sgegqtlTYreldervnrlAagLrslGvkkgdrVaillpnspewvvallailkaGavvvplnptltaeel 86 
+                             +++a+ tp ++al    +g++  + + +  + v+rlA gLr+ G   ++r a+     p +++++la++++G+ v +l ++l +e+l
+  tig00001240_RagTag_254  30 RHWAQITPLHTALRHkrQGQWYAWRWIDALRDVERLADGLRQQGFSEQSRLALSGAFEPNLLLLALAAQSIGGQVLTLADDLEPEAL 116
+                             678999999****77788888888999999***********99******************************************** PP
+
+                             HHHHHHHTE CS
+             AMP-binding  87 ayiledsea 95 
+                             ++ l   ++
+  tig00001240_RagTag_254 117 QQHLWRIRP 125
+                             987766555 PP
+
+  == domain 2  score: -1.1 bits;  conditional E-value: 0.061
+                             CHHHHHHHHHHHHTT-EEEE-TTCGCCHHHHHHHHHHHHT-SEEEEEHHHHHHHHH CS
+             AMP-binding 215 ifglilelllallsGatvvllekdaaldpklllelieelkvtviagvPrvlealle 270
+                               gl + l  +l sG+ + ++e  a +      ++ +e  +t + + P+ l++l++
+  tig00001240_RagTag_254 181 QGGLAVVLAQWLNSGHGLAFPESPASA-----RRDRSEVAPTGLLLSPARLQHLAD 231
+                             555656666777777777776644442.....356777777777777777777744 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (424 nodes)
+Target sequences:                       1608  (319112 residues searched)
+Passed MSV filter:                        57  (0.0354478); expected 32.2 (0.02)
+Passed bias filter:                       49  (0.0304726); expected 32.2 (0.02)
+Passed Vit filter:                         5  (0.00310945); expected 1.6 (0.001)
+Passed Fwd filter:                         2  (0.00124378); expected 0.0 (1e-05)
+Initial search space (Z):               1608  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.04u 0.01s 00:00:00.05 Elapsed: 00:00:00.04
+# Mc/sec: 2894.37
+//
+[ok]

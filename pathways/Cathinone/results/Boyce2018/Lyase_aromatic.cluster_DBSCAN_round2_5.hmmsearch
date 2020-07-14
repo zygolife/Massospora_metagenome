@@ -1,0 +1,173 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Lyase_aromatic.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_5.faa
+# per-dom hits tabular output:     results/Boyce2018/Lyase_aromatic.cluster_DBSCAN_round2_5.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Lyase_aromatic  [M=463]
+Accession:   PF00221.20
+Description: Aromatic amino acid lyase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                              -----------
+   1.5e-119  398.7   0.4   1.8e-119  398.4   0.4    1.0  1  split6_split24_tig00000952_RagTag_948  # 695877 # 696998 # -1 # ;gc_con
+      4e-82  275.3   7.9    4.6e-82  275.1   7.9    1.0  1  split6_split24_tig00000952_RagTag_951  # 698044 # 698880 # -1 # ;gc_con
+    5.3e-51  172.7   0.3      7e-51  172.3   0.3    1.1  1  split6_split24_tig00000952_RagTag_842  # 623549 # 624622 # 1 # ;gc_cont
+    4.8e-27   93.7   0.3    5.6e-27   93.5   0.3    1.0  1  split6_split24_tig00000952_RagTag_949  # 697362 # 697766 # -1 # ;gc_con
+    2.2e-23   81.6   0.2    2.6e-23   81.4   0.2    1.0  1  split6_split24_tig00000952_RagTag_950  # 697736 # 698023 # -1 # ;gc_con
+
+
+Domain annotation for each sequence (and alignments):
+>> split6_split24_tig00000952_RagTag_948  # 695877 # 696998 # -1 # ;gc_cont=0.668
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  398.4   0.4  1.1e-122  1.8e-119      72     422 ..       2     348 ..       1     351 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 398.4 bits;  conditional E-value: 1.1e-122
+                                            HHC---EEEE--HHHHHHHHHHHHHHHTTS-S---HHHHHHHHHHHHCTEEE--EEES-------HHHHHHH CS
+                         Lyase_aromatic  72 rshaaGvgeplpeevvRaamllrlnslarGysGvrpevverllellnagitPvvperGSvGaSGDLaplahl 143
+                                             shaaGvgep++++ vR++m+l++nsl+rG+sG+r +v+++l++l+na+++P +p +GSvGaSGDL p   +
+  split6_split24_tig00000952_RagTag_948   2 LSHAAGVGEPISDDLVRLIMVLKVNSLSRGFSGIRRQVIDALIALINAEVYPHIPLKGSVGASGDLRPWRTC 73 
+                                            69********************************************************************** PP
+
+                                            HHHHTTSSTCCETTEEEEHHHHHHHTT------TTTHHHHCCSTTHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                         Lyase_aromatic 144 alaliGegevyykgerlpaaealkeaglepleleakEgLAlinGtalmtalaalaledaerlleladvltAl 215
+                                              +   + + +ykg+ l+a  al+ agl+pl+l+akEgLAl+nGt+++ta+a+  l++ e l++ a v++ l
+  split6_split24_tig00000952_RagTag_948  74 PWCCWARAR-RYKGQWLDATAALEVAGLKPLTLAAKEGLALLNGTQVSTAYALRGLFEGEDLFAGALVCGGL 144
+                                            *99999998.67************************************************************ PP
+
+                                            HHHHTT-BCGGG-HHHHCCS--HHHHHHHHHHHHHTTT-SSS...-SB-SS-SS--HHHHTHHHHHHHHHHH CS
+                         Lyase_aromatic 216 slealrGsteafdprihalrphpgqievAanlrallegSelv...ekdekrlvQDaysLRcaPqvhGavrda 284
+                                            ++ea+ Gs+++fd+riha+r ++gqi++Aa++rall +S+ v   ++++++ vQD+ysLRc Pqv+Ga++ +
+  split6_split24_tig00000952_RagTag_948 145 TVEAVLGSRSPFDSRIHAARGQRGQIDTAAAYRALLGDSTEVstsHQNCDK-VQDPYSLRCQPQVMGACLTQ 215
+                                            ***************************************9999**99****.******************** PP
+
+                                            HHHHHHHHHHHHTS--SSSEE..EGCCTCCE---TT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHC-TTTT CS
+                         Lyase_aromatic 285 laaarevleiElnsatDNPlvdedeeegevlsgGnFhgepvalalDklaialaelanlserrlarLvnpals 356
+                                            l++a+evl +E+n+++DNPlv   ++eg+v+sgGnFh+epva+a+D++a+a+ae+a+lserr++ ++++++s
+  split6_split24_tig00000952_RagTag_948 216 LRQAAEVLVVEANAVSDNPLV--FAAEGDVISGGNFHAEPVAMAADNMALAIAEIASLSERRISLMMDKHMS 285
+                                            *********************..7889********************************************9 PP
+
+                                            TT--GGG-SSTCTTB-TTHHHHHHHHHHHHHHHCHCS-SGGG--TCTTTTCSS---HHHHHHHHHH CS
+                         Lyase_aromatic 357 egLpafLaaeepglnsgfmiaqytaaalvselktlanPasvdsiptsanqeDhvSmgliaarklle 422
+                                             +Lp+f +a+ ++l+ +        ++  ++ + la+P svdsiptsanqeDhvSm++ a ++l++
+  split6_split24_tig00000952_RagTag_948 286 -QLPPFPVANGGQLRLH--DRPGHRSSPGQREQGLAHPHSVDSIPTSANQEDHVSMAPAAGKRLWK 348
+                                            .8******554444444..4444578888999****************************999986 PP
+
+>> split6_split24_tig00000952_RagTag_951  # 698044 # 698880 # -1 # ;gc_cont=0.652
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  275.1   7.9   2.6e-85   4.6e-82       3     258 ..      16     269 ..      14     277 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 275.1 bits;  conditional E-value: 2.6e-85
+                                            HHHHHHHHTCCCEEEE-HHHHHHHHHHHHHHHHHHHCTB--TTTSB-SGGGGGBB--HHHHHHHHHHHHHHC CS
+                         Lyase_aromatic   3 ledvvavargkakvelspearerveasralleeilaegepvYGvntGfGaladvripkedleelqrnllrsh 74 
+                                            +++vvavar++a +els+++++r++++ a++++++++ge  YG++tG+Gal++v ++ e+l++l rn l sh
+  split6_split24_tig00000952_RagTag_951  16 WQEVVAVARHGAVLELSAQVWARIDNAQAIVRKVVDSGERAYGISTGLGALCNVLLAGEQLSQLSRNTLLSH 87 
+                                            689********************************************************************* PP
+
+                                            ---EEEE--HHHHHHHHHHHHHHHTTS-S---HHHHHHHHHHHHCTEEE--EEES-------HHHHHHHHHH CS
+                         Lyase_aromatic  75 aaGvgeplpeevvRaamllrlnslarGysGvrpevverllellnagitPvvperGSvGaSGDLaplahlala 146
+                                            a+Gvg+ l +e++Ra++ + + + ++G sG++ +vve+ll+lln+gitP vp++GSvG    L+ +ah++ a
+  split6_split24_tig00000952_RagTag_951  88 ACGVGPVLADEQTRAIICAAIINYSHGKSGIHRQVVEALLALLNRGITPQVPSQGSVGY---LTHMAHIGVA 156
+                                            ***********************************************************...********** PP
+
+                                            HTTSSTCCETTEEEEHHHHHHHTT------TTTHHHHCCSTTHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                         Lyase_aromatic 147 liGegevyykgerlpaaealkeaglepleleakEgLAlinGtalmtalaalaledaerlleladvltAlsle 218
+                                            l+G g+v y+g++++a++al+e gl+ ++l+ak+gL l+nGt +mt+l++lal+da rll++adv++A+s+e
+  split6_split24_tig00000952_RagTag_951 157 LLGIGQVSYRGRIVSAEQALAEEGLQAVQLGAKDGLCLVNGTPCMTGLGCLALADASRLLQWADVIGAMSFE 228
+                                            ************************************************************************ PP
+
+                                            HTT-BCGGG-HHHHCCS--HHHHHHHHHHHHHTTT-SSS.- CS
+                         Lyase_aromatic 219 alrGsteafdprihalrphpgqievAanlrallegSelv.e 258
+                                            a rG+ +afd++i al+ hpg + v +nlrall+ Se++ +
+  split6_split24_tig00000952_RagTag_951 229 AQRGQIAAFDAEIIALKAHPGMQVVGSNLRALLDRSEVIaT 269
+                                            *************************************9941 PP
+
+>> split6_split24_tig00000952_RagTag_842  # 623549 # 624622 # 1 # ;gc_cont=0.676
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  172.3   0.3     4e-54     7e-51     282     444 ..       3     166 ..       1     178 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 172.3 bits;  conditional E-value: 4e-54
+                                            HHHHHHHHHHHHHHHTS--SSSEE..EGCCTCCE---TT--HHHHHHHHHHHHHHHHHHHHHHHHHHHHC-T CS
+                         Lyase_aromatic 282 rdalaaarevleiElnsatDNPlvdedeeegevlsgGnFhgepvalalDklaialaelanlserrlarLvnp 353
+                                             d+l+++r  +e+Elnsa+DNP++  d+e ++vl+gG+F+g ++a+a+D+l+  +a++a+l++r+la Lv+ 
+  split6_split24_tig00000952_RagTag_842   3 ADSLNWLRGFIETELNSANDNPII--DAEAERVLHGGHFYGGHIAFAMDSLKNLVANVADLLDRQLALLVDV 72 
+                                            699*********************..8899****************************************** PP
+
+                                            TTTTT--GGG...-SSTCTTB-TTHHHHHHHHHHHHHHHCHCS-SGGG--TCTTTTCSS---HHHHHHHHHH CS
+                         Lyase_aromatic 354 alsegLpafL...aaeepglnsgfmiaqytaaalvselktlanPasvdsiptsanqeDhvSmgliaarklle 422
+                                            ++++gLp++L   +ae++ ln+gf+++q+ a+a+++e  + + Pasv s++t+++++D vSmg+iaar++ +
+  split6_split24_tig00000952_RagTag_842  73 RYNHGLPSNLsgaSAERAMLNHGFKAVQIGASAWTAEALKNTLPASVFSRSTECHNQDKVSMGTIAARDAIR 144
+                                            **********77655779****************************************************** PP
+
+                                            HHHHHHHHHHHHHHHHHHHHHH CS
+                         Lyase_aromatic 423 vvenleqvlAiellaaaqaldl 444
+                                            v+e +eqv+A+ llaa q+  +
+  split6_split24_tig00000952_RagTag_842 145 VLELTEQVAAAALLAANQGSGC 166
+                                            ******************9766 PP
+
+>> split6_split24_tig00000952_RagTag_949  # 697362 # 697766 # -1 # ;gc_cont=0.635
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   93.5   0.3   3.2e-30   5.6e-27     366     448 ..       2      84 ..       1      97 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 93.5 bits;  conditional E-value: 3.2e-30
+                                            STCTTB-TTHHHHHHHHHHHHHHHCHCS-SGGG--TCTTTTCSS---HHHHHHHHHHHHHHHHHHHHHHHHH CS
+                         Lyase_aromatic 366 eepglnsgfmiaqytaaalvselktlanPasvdsiptsanqeDhvSmgliaarkllevvenleqvlAiella 437
+                                            +epg+nsg+miaqy aa+l++++++la+Pa +d+ +ts+ qeDh S+g++aa kl++v+en++q+lAie l 
+  split6_split24_tig00000952_RagTag_949   2 AEPGVNSGMMIAQYVAASLCAQNRQLAQPAVLDNFVTSCLQEDHLSLGTNAALKLQQVLENCTQILAIEYLL 73 
+                                            589********************************************************************* PP
+
+                                            HHHHHHHHHCT CS
+                         Lyase_aromatic 438 aaqaldlrrkl 448
+                                            aaqa ++ +++
+  split6_split24_tig00000952_RagTag_949  74 AAQAFEFLKAQ 84 
+                                            *******8743 PP
+
+>> split6_split24_tig00000952_RagTag_950  # 697736 # 698023 # -1 # ;gc_cont=0.694
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   81.4   0.2   1.5e-26   2.6e-23     277     353 ..       1      77 [.       1      81 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 81.4 bits;  conditional E-value: 1.5e-26
+                                            HHHHHHHHHHHHHHHHHHHHTS--SSSEE..EGCCTCCE---TT--HHHHHHHHHHHHHHHHHHHHHHHHHH CS
+                         Lyase_aromatic 277 vhGavrdalaaarevleiElnsatDNPlvdedeeegevlsgGnFhgepvalalDklaialaelanlserrla 348
+                                            +hGa+rd+la+a +++e Eln+atDNPl+  ++++ +v+s++n hg++vala+D laia+ae+++++errl+
+  split6_split24_tig00000952_RagTag_950   1 MHGAARDQLAHAVRQVEAELNAATDNPLLLGTPDSYRVVSQANPHGQSVALAADVLAIAMAEIGSIAERRLD 72 
+                                            69***************************7778899************************************ PP
+
+                                            HHC-T CS
+                         Lyase_aromatic 349 rLvnp 353
+                                            rL+np
+  split6_split24_tig00000952_RagTag_950  73 RLLNP 77 
+                                            ****8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (463 nodes)
+Target sequences:                       8697  (1658387 residues searched)
+Passed MSV filter:                       258  (0.0296654); expected 173.9 (0.02)
+Passed bias filter:                      158  (0.0181672); expected 173.9 (0.02)
+Passed Vit filter:                        15  (0.00172473); expected 8.7 (0.001)
+Passed Fwd filter:                         5  (0.000574911); expected 0.1 (1e-05)
+Initial search space (Z):               8697  [actual number of targets]
+Domain search space  (domZ):               5  [number of targets reported over threshold]
+# CPU time: 0.11u 0.01s 00:00:00.12 Elapsed: 00:00:00.07
+# Mc/sec: 9983.13
+//
+[ok]

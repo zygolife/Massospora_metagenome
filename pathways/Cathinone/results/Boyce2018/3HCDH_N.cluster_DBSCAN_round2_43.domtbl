@@ -1,0 +1,21 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00001256_RagTag_486  -            251 3HCDH_N              PF02737.19   180   1.7e-06   26.6   0.1   1   1     3e-09   3.1e-06   25.7   0.1     2    84    64   154    63   157 0.65 # 226360 # 227112 # -1 # ;gc_cont=0.368
+tig00012298_RagTag_29   -             67 3HCDH_N              PF02737.19   180   9.5e-06   24.1   0.0   1   1     1e-08     1e-05   24.0   0.0     3    47     6    51     4    62 0.91 # 12733 # 12933 # 1 # ;gc_cont=0.383
+tig00085279_RagTag_16   -             82 3HCDH_N              PF02737.19   180   1.3e-05   23.7   0.1   1   1   1.4e-08   1.4e-05   23.5   0.1     2    52    12    70    11    80 0.68 # 6813 # 7058 # 1 # ;gc_cont=0.358
+tig00001142_RagTag_581  -            116 3HCDH_N              PF02737.19   180   0.00013   20.4   0.1   1   1   1.5e-07   0.00016   20.1   0.1     1    73     3    71     3    84 0.71 # 257492 # 257839 # -1 # ;gc_cont=0.397
+tig00046853_RagTag_40   -            126 3HCDH_N              PF02737.19   180    0.0007   18.0   0.0   1   2   1.9e-06     0.002   16.5   0.0     1    36     8    43     8    82 0.89 # 13142 # 13519 # -1 # ;gc_cont=0.386
+tig00046853_RagTag_40   -            126 3HCDH_N              PF02737.19   180    0.0007   18.0   0.0   2   2      0.39     4e+02   -0.7   0.0   142   171    94   123    92   125 0.83 # 13142 # 13519 # -1 # ;gc_cont=0.386
+tig00001142_RagTag_285  -            142 3HCDH_N              PF02737.19   180   0.00071   18.0   0.0   1   2       2.5   2.6e+03   -3.4   0.0   146   159    39    52    32    57 0.71 # 114816 # 115241 # -1 # ;gc_cont=0.380
+tig00001142_RagTag_285  -            142 3HCDH_N              PF02737.19   180   0.00071   18.0   0.0   2   2   1.2e-06    0.0013   17.2   0.0     2    45    94   137    93   141 0.91 # 114816 # 115241 # -1 # ;gc_cont=0.380
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/3HCDH_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/3HCDH_N.cluster_DBSCAN_round2_43.domtbl -E 1e-3 steps/Boyce2018/3HCDH_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:03 2020
+# [ok]

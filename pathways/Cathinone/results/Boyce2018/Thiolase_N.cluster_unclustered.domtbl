@@ -1,0 +1,34 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split1_split8_tig00001274_RagTag_87    -            394 Thiolase_N           PF00108.24   260  3.2e-107  357.8   0.6   1   1  3.6e-110  4.3e-107  357.4   0.6     1   259     4   262     4   263 0.99 # 57381 # 58562 # 1 # ;gc_cont=0.657
+tig00077023_RagTag_3                   -            391 Thiolase_N           PF00108.24   260   9.8e-82  274.3   1.3   1   1   1.1e-84   1.3e-81  273.8   1.3     1   259     8   256     8   257 0.98 # 532 # 1704 # 1 # ;gc_cont=0.627
+tig00001302_RagTag_254                 -            397 Thiolase_N           PF00108.24   260   4.6e-76  255.7   0.5   1   1     5e-79   5.8e-76  255.3   0.5     1   259     4   267     4   268 0.91 # 174070 # 175260 # -1 # ;gc_cont=0.651
+split32_split18_tig00000001_RagTag_108 -            395 Thiolase_N           PF00108.24   260   1.1e-66  224.9   0.5   1   1   1.4e-69   1.7e-66  224.4   0.5     1   258     4   261     4   263 0.95 # 80393 # 81577 # -1 # ;gc_cont=0.622
+tig00002673_RagTag_82                  -            402 Thiolase_N           PF00108.24   260   8.4e-46  156.5   0.2   1   2   1.9e-46   2.3e-43  148.5   0.1     3   259     6   270     4   271 0.90 # 57544 # 58749 # -1 # ;gc_cont=0.653
+tig00002673_RagTag_82                  -            402 Thiolase_N           PF00108.24   260   8.4e-46  156.5   0.2   2   2       4.8   5.6e+03   -3.5   0.0    27    45   328   346   305   357 0.60 # 57544 # 58749 # -1 # ;gc_cont=0.653
+tig00061913_RagTag_4                   -            194 Thiolase_N           PF00108.24   260   1.7e-43  148.9   1.0   1   1   2.3e-46   2.7e-43  148.3   1.0    23   191    20   175     8   179 0.96 # 1775 # 2356 # -1 # ;gc_cont=0.608
+tig00001322_RagTag_178                 -            211 Thiolase_N           PF00108.24   260     1e-39  136.6   0.3   1   1   1.3e-42   1.5e-39  136.0   0.3     1   191     4   184     4   189 0.93 # 117615 # 118247 # -1 # ;gc_cont=0.635
+split22_split18_tig00000001_RagTag_136 -            395 Thiolase_N           PF00108.24   260   6.9e-26   91.2   1.5   1   1   2.3e-28   2.7e-25   89.3   1.5     1   258     6   228     6   230 0.87 # 103523 # 104707 # -1 # ;gc_cont=0.654
+tig00001279_RagTag_370                 -            224 Thiolase_N           PF00108.24   260   1.4e-21   77.1   0.0   1   1   1.9e-24   2.2e-21   76.5   0.0     1   128     7   147     7   205 0.83 # 257810 # 258481 # 1 # ;gc_cont=0.616
+tig00001279_RagTag_371                 -            169 Thiolase_N           PF00108.24   260   1.5e-12   47.5   0.0   1   1   1.9e-15   2.2e-12   47.0   0.0   212   259    21    70    13    71 0.93 # 258421 # 258927 # 1 # ;gc_cont=0.653
+tig00001322_RagTag_176                 -            135 Thiolase_N           PF00108.24   260   2.3e-12   46.9   0.0   1   1   2.9e-15   3.4e-12   46.3   0.0   219   258     4    43     1    45 0.93 # 117189 # 117593 # -1 # ;gc_cont=0.647
+tig00266306_RagTag_32                  -            345 Thiolase_N           PF00108.24   260   8.9e-05   22.0   0.5   1   2   1.3e-06    0.0015   18.0   0.2    83   112    93   122    69   128 0.91 # 20381 # 21415 # 1 # ;gc_cont=0.603
+tig00266306_RagTag_32                  -            345 Thiolase_N           PF00108.24   260   8.9e-05   22.0   0.5   2   2      0.11   1.3e+02    1.8   0.0    28    49   213   234   212   258 0.84 # 20381 # 21415 # 1 # ;gc_cont=0.603
+split25_split0_tig00000001_RagTag_25   -            268 Thiolase_N           PF00108.24   260   0.00024   20.6   2.1   1   2     0.032        38    3.6   0.0    31    93     1    66     1    77 0.74 # 19996 # 20799 # -1 # ;gc_cont=0.636
+split25_split0_tig00000001_RagTag_25   -            268 Thiolase_N           PF00108.24   260   0.00024   20.6   2.1   2   2   2.6e-06    0.0031   17.0   1.0    66   114    64   112    55   120 0.86 # 19996 # 20799 # -1 # ;gc_cont=0.636
+tig00060369_RagTag_14                  -            324 Thiolase_N           PF00108.24   260   0.00055   19.4   2.9   1   2   5.6e-07   0.00065   19.2   1.1    74   113   153   192   143   196 0.89 # 6541 # 7512 # 1 # ;gc_cont=0.648
+tig00060369_RagTag_14                  -            324 Thiolase_N           PF00108.24   260   0.00055   19.4   2.9   2   2      0.94   1.1e+03   -1.2   0.0   247   256   232   241   230   244 0.88 # 6541 # 7512 # 1 # ;gc_cont=0.648
+tig00000011_RagTag_1                   -            866 Thiolase_N           PF00108.24   260    0.0009   18.7   0.4   1   2   1.8e-06    0.0021   17.6   0.0    65   112   151   196   139   210 0.89 # 635 # 3232 # -1 # ;gc_cont=0.609
+tig00000011_RagTag_1                   -            866 Thiolase_N           PF00108.24   260    0.0009   18.7   0.4   2   2       4.4   5.1e+03   -3.4   0.1    34    63   584   613   573   623 0.52 # 635 # 3232 # -1 # ;gc_cont=0.609
+tig00088216_RagTag_1                   -            111 Thiolase_N           PF00108.24   260   0.00098   18.6   0.9   1   1   9.9e-07    0.0012   18.4   0.9    27   103    31   105    21   107 0.92 # 54 # 386 # -1 # ;gc_cont=0.667
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Thiolase_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_unclustered.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Thiolase_N.cluster_unclustered.domtbl -E 1e-3 steps/Boyce2018/Thiolase_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_unclustered.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:10 2020
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00000934_RagTag_889  -            437 Lyase_aromatic       PF00221.20   463  2.2e-157  523.7   0.0   1   1  7.4e-161  2.6e-157  523.4   0.0    53   461     1   404     1   406 0.97 # 471852 # 473162 # -1 # ;gc_cont=0.419
+tig00000934_RagTag_2808 -            346 Lyase_aromatic       PF00221.20   463   1.5e-99  333.0   0.0   1   1  4.7e-103   1.7e-99  332.9   0.0   147   458     2   326     1   331 0.96 # 1560977 # 1562014 # 1 # ;gc_cont=0.392
+tig00000934_RagTag_2807 -            136 Lyase_aromatic       PF00221.20   463   6.9e-40  136.3   0.0   1   1   2.2e-43   7.6e-40  136.2   0.0     1   129     7   134     7   135 0.97 # 1560528 # 1560935 # 1 # ;gc_cont=0.363
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Lyase_aromatic.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round1_4.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Lyase_aromatic.cluster_DBSCAN_round1_4.domtbl -E 1e-3 steps/Boyce2018/Lyase_aromatic.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round1_4.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:08 2020
+# [ok]

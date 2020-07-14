@@ -1,0 +1,22 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00001142_RagTag_263 -            144 TPP_enzyme_N         PF02776.19   172   3.4e-37  126.2   0.2   1   1   5.2e-40     4e-37  125.9   0.2     2   138     5   141     4   142 0.98 # 105410 # 105841 # -1 # ;gc_cont=0.391
+tig00045741_RagTag_25  -             94 TPP_enzyme_N         PF02776.19   172   4.6e-21   73.7   0.0   1   1   7.3e-24   5.6e-21   73.4   0.0     3    72     7    76     6    79 0.97 # 9782 # 10063 # 1 # ;gc_cont=0.450
+tig00046864_RagTag_6   -             94 TPP_enzyme_N         PF02776.19   172   2.6e-19   67.9   0.0   1   1   3.7e-22   2.8e-19   67.8   0.0    69   161     1    92     1    93 0.97 # 2088 # 2369 # -1 # ;gc_cont=0.429
+tig00091734_RagTag_12  -             75 TPP_enzyme_N         PF02776.19   172   9.4e-17   59.6   0.0   1   1   1.4e-19   1.1e-16   59.5   0.0     2    62     3    63     2    68 0.96 # 5934 # 6158 # -1 # ;gc_cont=0.364
+tig00045741_RagTag_26  -            160 TPP_enzyme_N         PF02776.19   172   1.7e-16   58.8   0.1   1   2   4.6e-19   3.6e-16   57.7   0.0    85   169     2    85     1    88 0.94 # 10041 # 10520 # 1 # ;gc_cont=0.400
+tig00045741_RagTag_26  -            160 TPP_enzyme_N         PF02776.19   172   1.7e-16   58.8   0.1   2   2      0.76   5.9e+02   -1.6   0.0   106   106   132   132   105   159 0.50 # 10041 # 10520 # 1 # ;gc_cont=0.400
+tig00129831_RagTag_12  -             54 TPP_enzyme_N         PF02776.19   172   1.7e-14   52.3   0.0   1   1   2.4e-17   1.9e-14   52.1   0.0    28    74     2    48     1    51 0.96 # 3596 # 3757 # -1 # ;gc_cont=0.444
+tig00091734_RagTag_11  -            151 TPP_enzyme_N         PF02776.19   172   1.8e-12   45.7   0.0   1   1   2.8e-15   2.2e-12   45.4   0.0    60   169     3   116     1   119 0.87 # 5537 # 5989 # -1 # ;gc_cont=0.371
+tig00129831_RagTag_11  -             63 TPP_enzyme_N         PF02776.19   172   0.00078   17.6   0.0   1   1     1e-06   0.00078   17.6   0.0    93   128     1    35     1    52 0.91 # 3371 # 3559 # -1 # ;gc_cont=0.392
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/TPP_enzyme_N.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/TPP_enzyme_N.cluster_DBSCAN_round2_43.domtbl -E 1e-3 steps/Boyce2018/TPP_enzyme_N.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:09 2020
+# [ok]

@@ -1,0 +1,21 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split35_split18_tig00000001_RagTag_233 -            455 Ald_Xan_dh_C2        PF02738.19   552   4.5e-98  326.9   1.1   1   1  9.6e-101   6.3e-98  326.4   1.1    11   289   164   445   154   453 0.95 # 209292 # 210656 # 1 # ;gc_cont=0.628
+split12_split18_tig00000001_RagTag_8   -           1026 Ald_Xan_dh_C2        PF02738.19   552   6.9e-72  240.5   0.1   1   3   2.8e-25   1.8e-22   77.4   0.2   317   448    45   181    29   204 0.87 # 5582 # 8659 # 1 # ;gc_cont=0.655
+split12_split18_tig00000001_RagTag_8   -           1026 Ald_Xan_dh_C2        PF02738.19   552   6.9e-72  240.5   0.1   2   3     8e-34   5.3e-31  105.5   0.0    12   250   311   555   301   594 0.83 # 5582 # 8659 # 1 # ;gc_cont=0.655
+split12_split18_tig00000001_RagTag_8   -           1026 Ald_Xan_dh_C2        PF02738.19   552   6.9e-72  240.5   0.1   3   3   3.1e-18     2e-15   54.1   0.0   446   552   583   685   557   685 0.84 # 5582 # 8659 # 1 # ;gc_cont=0.655
+split35_split18_tig00000001_RagTag_234 -            179 Ald_Xan_dh_C2        PF02738.19   552     2e-53  179.6   1.3   1   1   3.4e-56   2.2e-53  179.4   1.3   301   457     2   158     1   173 0.93 # 210662 # 211198 # 1 # ;gc_cont=0.605
+split42_split18_tig00000001_RagTag_123 -            312 Ald_Xan_dh_C2        PF02738.19   552   9.3e-51  170.7   6.7   1   1   1.6e-53   1.1e-50  170.5   6.7   290   551     5   253     1   254 0.89 # 127248 # 128183 # -1 # ;gc_cont=0.620
+split42_split18_tig00000001_RagTag_124 -            402 Ald_Xan_dh_C2        PF02738.19   552   6.6e-34  115.1   0.0   1   1   1.3e-36   8.8e-34  114.7   0.0    14   199   154   333   142   350 0.92 # 128224 # 129429 # -1 # ;gc_cont=0.638
+split35_split18_tig00000001_RagTag_235 -            165 Ald_Xan_dh_C2        PF02738.19   552     1e-32  111.2   0.1   1   1   1.9e-35   1.2e-32  110.9   0.1   480   552     3    75     1    75 0.99 # 211195 # 211689 # 1 # ;gc_cont=0.610
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Boyce2018/Ald_Xan_dh_C2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa
+# Option settings: hmmsearch --domtblout results/Boyce2018/Ald_Xan_dh_C2.cluster_DBSCAN_round154_0.domtbl -E 1e-3 steps/Boyce2018/Ald_Xan_dh_C2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:36:05 2020
+# [ok]

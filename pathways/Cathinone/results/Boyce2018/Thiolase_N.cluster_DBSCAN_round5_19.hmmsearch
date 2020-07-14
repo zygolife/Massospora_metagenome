@@ -1,0 +1,101 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Boyce2018/Thiolase_N.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round5_19.faa
+# per-dom hits tabular output:     results/Boyce2018/Thiolase_N.cluster_DBSCAN_round5_19.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Thiolase_N  [M=260]
+Accession:   PF00108.24
+Description: Thiolase, N-terminal domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                              -----------
+    2.3e-09   34.2   0.1    2.4e-08   30.9   0.0    2.2  2  split22_split0_tig00000034_RagTag_508  # 299408 # 300568 # -1 # ;gc_con
+    4.2e-06   23.5   0.7    4.9e-06   23.3   0.7    1.0  1  split22_split0_tig00000034_RagTag_422  # 253763 # 254164 # -1 # ;gc_con
+    5.9e-06   23.0   0.3    5.9e-06   23.0   0.3    1.8  2  split22_split0_tig00000034_RagTag_414  # 249903 # 251126 # -1 # ;gc_con
+
+
+Domain annotation for each sequence (and alignments):
+>> split22_split0_tig00000034_RagTag_508  # 299408 # 300568 # -1 # ;gc_cont=0.617
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.9   0.0   2.9e-11   2.4e-08      66     121 ..     134     187 ..     122     200 .. 0.86
+   2 ?    0.5   0.0     0.054        44      28      71 ..     253     296 ..     249     321 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 30.9 bits;  conditional E-value: 2.9e-11
+                                            HHHHTTS-TTSEEEEEE-GGGHHHHHHHHHHHHHHTTS-SEEEEEEEEESTTCGEE CS
+                             Thiolase_N  66 aalkagipeevpavtvnkvcsSglkavalaaqsiaageadvvvagGvEsmsnapta 121
+                                            +a+ + +  + pa t+  +csS+++a++ + + iaag +dv+++gG+ s+s+ p++
+  split22_split0_tig00000034_RagTag_508 134 LAHYLHL--DGPAYTISTACSSSARAIISGQRLIAAGLVDVALVGGADSLSRMPIN 187
+                                            5555555..6799***************************************9986 PP
+
+  == domain 2  score: 0.5 bits;  conditional E-value: 0.054
+                                            HHHHHHHHHHHTSHGGGEEEEEEE-SSCTTSTSCHHHHHHHHTT CS
+                             Thiolase_N  28 aealkallekagvdpeevdevivGnvlqagegqniarqaalkag 71 
+                                            ++a++ +l++a++ p++v ++ +   ++  ++q++a  +a  +g
+  split22_split0_tig00000034_RagTag_508 253 ERAMRMALQQANLLPQQVGYINLHGTATPLNDQMEAAVIARLSG 296
+                                            678999***************99999999999988877776666 PP
+
+>> split22_split0_tig00000034_RagTag_422  # 253763 # 254164 # -1 # ;gc_cont=0.567
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.3   0.7     6e-09   4.9e-06       7     113 ..      11     116 ..       9     129 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 23.3 bits;  conditional E-value: 6e-09
+                                            EEE--EETTSTTTTS-HHHHHHHHHHHHHHHHTSHGGGEEEEEEE-SSCTTSTSCHHHHHHHHTTS-TTSEE CS
+                             Thiolase_N   7 artpigkfggslkdlsaeeLlaealkallekagvdpeevdevivGnvlqagegqniarqaalkagipeevpa 78 
+                                            +rt i + + +  d ++  ++ +a++++le ag++p++v  +iv++  ++ +    a +++ +++i ++ +a
+  split22_split0_tig00000034_RagTag_422  11 TRTGIRERRIAAPDETVATMGFSAAQRALEMAGIEPNDVGLIIVATTSSSHAFPSSACMIQQMLEI-KDCAA 81 
+                                            578888888888999999*******************************999999999********.999** PP
+
+                                            EEEE-GGGHHHHHHHHHHHHHHTTS-SEEEEEEEE CS
+                             Thiolase_N  79 vtvnkvcsSglkavalaaqsiaageadvvvagGvE 113
+                                              +  +c+    a+  a q i+ g+++ ++++G+ 
+  split22_split0_tig00000034_RagTag_422  82 FDLAAACAGFTYALSVADQYIKNGAVKHALVIGAD 116
+                                            ********************************975 PP
+
+>> split22_split0_tig00000034_RagTag_414  # 249903 # 251126 # -1 # ;gc_cont=0.551
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.0   0.3   7.3e-09   5.9e-06      64     116 ..     145     195 ..     136     201 .. 0.87
+   2 ?   -2.0   0.1      0.31   2.6e+02      28      62 ..     281     315 ..     280     340 .. 0.61
+
+  Alignments for each domain:
+  == domain 1  score: 23.0 bits;  conditional E-value: 7.3e-09
+                                            HHHHHHTTS-TTSEEEEEE-GGGHHHHHHHHHHHHHHTTS-SEEEEEEEEEST CS
+                             Thiolase_N  64 rqaalkagipeevpavtvnkvcsSglkavalaaqsiaageadvvvagGvEsms 116
+                                             +++++ g+  + p++ +  +c Sg++ + +aa+ ia  +adv++agG+E+ s
+  split22_split0_tig00000034_RagTag_414 145 GHLSIMYGL--KGPSISIATACTSGVHNIGHAARIIAYNDADVMLAGGTEKAS 195
+                                            555666666..789999*********************************987 PP
+
+  == domain 2  score: -2.0 bits;  conditional E-value: 0.31
+                                            HHHHHHHHHHHTSHGGGEEEEEEE-SSCTTSTSCH CS
+                             Thiolase_N  28 aealkallekagvdpeevdevivGnvlqagegqni 62 
+                                            a+a+ ++l +a+++pe++ +v      + + ++++
+  split22_split0_tig00000034_RagTag_414 281 AAAMINALRDAQLTPEQIGYVNAHGTSTPAGDKAE 315
+                                            56777888888888888888755433333333333 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (260 nodes)
+Target sequences:                       2447  (366164 residues searched)
+Passed MSV filter:                        65  (0.0265631); expected 48.9 (0.02)
+Passed bias filter:                       40  (0.0163465); expected 48.9 (0.02)
+Passed Vit filter:                         8  (0.00326931); expected 2.4 (0.001)
+Passed Fwd filter:                         3  (0.00122599); expected 0.0 (1e-05)
+Initial search space (Z):               2447  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.02
+# Mc/sec: 4357.85
+//
+[ok]
