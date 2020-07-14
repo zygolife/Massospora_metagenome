@@ -1,0 +1,20 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split22_split0_tig00000001_RagTag_266  -            716 EsCHD1               -            720    5e-130  432.5   5.0   1   1  1.3e-132  6.4e-130  432.1   5.0    23   704    27   708     6   713 0.90 # 236837 # 238984 # 1 # ;gc_cont=0.579
+split18_split18_tig00000001_RagTag_129 -            189 EsCHD1               -            720     9e-32  107.7   0.1   1   1     2e-34     1e-31  107.5   0.1    93   209    20   136    13   172 0.93 # 117526 # 118092 # -1 # ;gc_cont=0.631
+split11_split18_tig00000001_RagTag_163 -            271 EsCHD1               -            720   1.7e-28   96.8   0.1   1   1     4e-31     2e-28   96.6   0.1     6   203     6   213     1   232 0.88 # 145188 # 146000 # 1 # ;gc_cont=0.604
+split18_split18_tig00000001_RagTag_127 -            368 EsCHD1               -            720   9.8e-19   64.6   0.0   1   1   2.6e-21   1.3e-18   64.2   0.0    18   192    30   206    18   220 0.87 # 115014 # 116117 # 1 # ;gc_cont=0.635
+split22_split0_tig00000001_RagTag_128  -            371 EsCHD1               -            720   8.3e-14   48.3   0.0   1   1   2.2e-16   1.1e-13   47.9   0.0    23   184    25   191     8   208 0.85 # 121683 # 122795 # -1 # ;gc_cont=0.638
+split34_split18_tig00000001_RagTag_8   -            208 EsCHD1               -            720   6.9e-13   45.2   1.8   1   1   1.6e-15   8.1e-13   45.0   1.8    54   188     2   134     1   144 0.83 # 7368 # 7991 # 1 # ;gc_cont=0.652
+split52_split18_tig00000001_RagTag_108 -            206 EsCHD1               -            720   2.9e-07   26.7   0.0   1   1   7.2e-10   3.6e-07   26.3   0.0   307   493     6   190     4   194 0.87 # 99039 # 99656 # 1 # ;gc_cont=0.633
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Groves_S2_genes/EsCHD1.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa
+# Option settings: hmmsearch --domtblout results/Groves_S2_genes/EsCHD1.cluster_DBSCAN_round3_20.domtbl -E 1e-3 steps/Groves_S2_genes/EsCHD1.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_20.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:42:35 2020
+# [ok]

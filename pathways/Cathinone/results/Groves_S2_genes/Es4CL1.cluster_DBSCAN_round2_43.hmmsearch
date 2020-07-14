@@ -1,0 +1,48 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/Es4CL1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/Es4CL1.cluster_DBSCAN_round2_43.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Es4CL1  [M=544]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    4.6e-06   24.0   0.0    4.6e-06   24.0   0.0    1.0  1  tig00091934_RagTag_18  # 5769 # 5984 # -1 # ;gc_cont=0.394
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00091934_RagTag_18  # 5769 # 5984 # -1 # ;gc_cont=0.394
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.0   0.0   7.5e-10   4.6e-06     418     463 ..      21      66 ..       6      71 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 24.0 bits;  conditional E-value: 7.5e-10
+                 Es4CL1 418 lhtgdigyiddddelfivdrvkeiikykgfqvapaeleallinhps 463
+                            + tgdigy+d d  l++++r k+ii   g ++ p e+e l+ + p+
+  tig00091934_RagTag_18  21 FETGDIGYLDADGFLYLLNRRKDIIISGGENIYPKEIEDLVYSLPK 66 
+                            579*************************************998886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (544 nodes)
+Target sequences:                       6176  (598731 residues searched)
+Passed MSV filter:                       138  (0.0223446); expected 123.5 (0.02)
+Passed bias filter:                      105  (0.0170013); expected 123.5 (0.02)
+Passed Vit filter:                        13  (0.00210492); expected 6.2 (0.001)
+Passed Fwd filter:                         2  (0.000323834); expected 0.1 (1e-05)
+Initial search space (Z):               6176  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.01s 00:00:00.06 Elapsed: 00:00:00.02
+# Mc/sec: 11022.67
+//
+[ok]

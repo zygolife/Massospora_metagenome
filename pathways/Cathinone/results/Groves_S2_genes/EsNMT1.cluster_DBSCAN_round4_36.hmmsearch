@@ -1,0 +1,53 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/EsNMT1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round4_36.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/EsNMT1.cluster_DBSCAN_round4_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsNMT1  [M=355]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                              -----------
+    0.00073   13.9   0.0    0.00084   13.6   0.0    1.1  1  split44_split18_tig00000001_RagTag_76  # 63333 # 63848 # -1 # ;gc_cont=
+
+
+Domain annotation for each sequence (and alignments):
+>> split44_split18_tig00000001_RagTag_76  # 63333 # 63848 # -1 # ;gc_cont=0.638
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.6   0.0   1.8e-06   0.00084     132     215 ..      33     111 ..      23     127 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 13.6 bits;  conditional E-value: 1.8e-06
+                                 EsNMT1 132 kildigcgwgsfslyvaerypkceitglcnsstqkafieqqcserrlcnvtiyaddistfdtestydriisi 203
+                                              +d+gcg g+ +  +aer+p++ +tg+  s     +i+     +rl  +     di t+      d i++ 
+  split44_split18_tig00000001_RagTag_76  33 TAVDLGCGPGNSTEVLAERFPQAHVTGMDSSG--DMLIDA---RKRLPALNFELADIGTWAPAQPCDVILAN 99 
+                                            568************************96543..455553...46777777777777777777666766666 PP
+
+                                 EsNMT1 204 emfehmknystl 215
+                                              ++ + +++tl
+  split44_split18_tig00000001_RagTag_76 100 ASLQWLPDHATL 111
+                                            666655555555 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (355 nodes)
+Target sequences:                        479  (106904 residues searched)
+Passed MSV filter:                         7  (0.0146138); expected 9.6 (0.02)
+Passed bias filter:                        7  (0.0146138); expected 9.6 (0.02)
+Passed Vit filter:                         1  (0.00208768); expected 0.5 (0.001)
+Passed Fwd filter:                         1  (0.00208768); expected 0.0 (1e-05)
+Initial search space (Z):                479  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.01u 0.01s 00:00:00.02 Elapsed: 00:00:00.00
+# Mc/sec: 5532.93
+//
+[ok]

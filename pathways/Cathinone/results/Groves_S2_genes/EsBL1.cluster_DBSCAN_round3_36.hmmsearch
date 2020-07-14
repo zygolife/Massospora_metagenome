@@ -1,0 +1,80 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/EsBL1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_36.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/EsBL1.cluster_DBSCAN_round3_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsBL1  [M=552]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    2.2e-58  194.3   0.4    1.2e-52  175.3   0.2    2.7  2  tig00001240_RagTag_196  # 131784 # 133418 # 1 # ;gc_cont=0.62
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001240_RagTag_196  # 131784 # 133418 # 1 # ;gc_cont=0.623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.0   0.0   2.8e-07   0.00045      20     116 ..      26     124 ..      12     144 .. 0.86
+   2 !  175.3   0.2   7.6e-56   1.2e-52     183     536 ..     188     534 ..     174     542 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 2.8e-07
+                   EsBL1  20 leraetvygdrtsviyg..dlrftwsqtadrcrrlasslvsldikrgdvvavlapnvpaiyelhfavpmaGavlntinirldarava 104
+                             ++r+   ++d  +++    ++r+tw q a+     a ++ +l++++gd + + apn       + a    G +l  in    ++ + 
+  tig00001240_RagTag_196  26 FDRTVALHPDGEALVVRhqQRRYTWRQLAETVDLHARAFLALGMQAGDRLGIWAPNCAEWCISQIASAKLGVILVNINPAYRSSELE 112
+                             678888888766655433489*********************************************************999999999 PP
+
+                   EsBL1 105 allshseakllf 116
+                              +l+ s  + l+
+  tig00001240_RagTag_196 113 YVLQQSGCQWLV 124
+                             999988777665 PP
+
+  == domain 2  score: 175.3 bits;  conditional E-value: 7.6e-56
+                   EsBL1 183 esialnytsGttsapkGvvyshrGaylsalsslllweldkkpvylwtlplfhcnGwtftwalaargGtnvclrk..vsaeeifsaia 267
+                             +++ ++ytsGtt  pkG  +sh  +  +   +    +l+ + + +  +pl+hc G  +      + Gt++   +  ++      a+a
+  tig00001240_RagTag_196 188 QAVNIQYTSGTTGFPKGATLSHHNILNNGYMVGESLGLTAQDRLVIPVPLYHCFGMVMGNLGCITHGTTMIYPNdgFDPLLTLTAVA 274
+                             78999***********************99999999********************9976555555555555432377788899*** PP
+
+                   EsBL1 268 ehsvthlcaaptvlnlilnaapserrklpkkvevltgGapppaavlkk.iealGf.dvthayGltettGpalvcawkdewdklsaee 352
+                             e + t l + pt++  +l+ +      l++    + +Ga+ p +v+++ i ++ + +v  ayG+tet   +l +  +d+ ++  +  
+  tig00001240_RagTag_196 275 EERATGLYGVPTMFIAMLDHPRLGDFDLSTLRTGIMAGATCPIEVMRRvISEMHMsEVQIAYGMTETSPVSLQTGADDDLERRVT-- 359
+                             ****************99997777778888778888999999999986257777637999*******987777766665443222.. PP
+
+                   EsBL1 353 rarlkarqGvrvlslseldvkdpetmksvakdGvtiGeivlrGntvmkGylkdveatekafe.GGwfhtGdlavvhadgyveikdrs 438
+                                + + q  ++l  + +d  d    ++va+   +iGe+  rG +vm Gy  +++at +a++  Gw+htGdla + a gyv i  r 
+  tig00001240_RagTag_196 360 --TVGRTQ--PQLENKIIDA-DG---NTVAH--GEIGELCTRGYSVMLGYWDNPDATREAIDdAGWMHTGDLASMDAHGYVCIAGRN 436
+                             ..222222..3333333332.33...34565..379***********************99637*********************** PP
+
+                   EsBL1 439 kdviisGGenissvevesvlyslpavleaavvarpdeywGetpcafvklkegavlseeeiiafcrerlpgymvpkrvvveedlpkta 525
+                             kd+ii GGen+   e+e+ ++++pav+++ vv+ pde++Ge+  a+vk + g v++e e+ ++c+ r+ ++  pk+  + +++p t 
+  tig00001240_RagTag_196 437 KDMIIRGGENVYPRELEEFFFTHPAVADVQVVGIPDERYGEAIVAWVKFHPGHVANELELQTWCKGRIAHFKTPKHFKFVDEFPMTV 523
+                             *************************************************************************************** PP
+
+                   EsBL1 526 tGkiqkevlrd 536
+                             tGkiqk+ +r+
+  tig00001240_RagTag_196 524 TGKIQKFRMRE 534
+                             *******9997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (552 nodes)
+Target sequences:                       1608  (319112 residues searched)
+Passed MSV filter:                        29  (0.0180348); expected 32.2 (0.02)
+Passed bias filter:                       24  (0.0149254); expected 32.2 (0.02)
+Passed Vit filter:                         2  (0.00124378); expected 1.6 (0.001)
+Passed Fwd filter:                         1  (0.000621891); expected 0.0 (1e-05)
+Initial search space (Z):               1608  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.00s 00:00:00.05 Elapsed: 00:00:00.07
+# Mc/sec: 2507.76
+//
+[ok]

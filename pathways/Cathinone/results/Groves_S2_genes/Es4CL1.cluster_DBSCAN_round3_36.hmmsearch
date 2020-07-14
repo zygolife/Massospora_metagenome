@@ -1,0 +1,73 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/Es4CL1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_36.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/Es4CL1.cluster_DBSCAN_round3_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Es4CL1  [M=544]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence               Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------               -----------
+    9.2e-55  182.8   0.0    1.2e-54  182.4   0.0    1.0  1  tig00001240_RagTag_196  # 131784 # 133418 # 1 # ;gc_cont=0.62
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001240_RagTag_196  # 131784 # 133418 # 1 # ;gc_cont=0.623
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  182.4   0.0   7.6e-58   1.2e-54      49     531 ..      45     529 ..      26     538 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 182.4 bits;  conditional E-value: 7.6e-58
+                  Es4CL1  49 gkvytyaevevssrkvaaglrklgvkkgdvvmlllqncaefvltflgaslrgavvttanpfytpaeiakqakasntrivvteaa... 132
+                             ++ yt+ ++  +    a ++ +lg++ gd + +  +ncae+ ++ ++++  g +    np y  +e+    + s ++ +v   +   
+  tig00001240_RagTag_196  45 QRRYTWRQLAETVDLHARAFLALGMQAGDRLGIWAPNCAEWCISQIASAKLGVILVNINPAYRSSELEYVLQQSGCQWLVCAGSfkt 131
+                             556677766666666788899***********************************************9999999998887655111 PP
+
+                  Es4CL1 133 ..yvdklkdlqnidgvvivtidepvpegckrfseltdaee...ead.vlesveidaedvvalpyssgttglpkgvklthrglvtsva 213
+                               y   l+ l+  d   ++++d   p g   +++l         ++    + +++ ++ v + y+sgttg+pkg  l+h++++    
+  tig00001240_RagTag_196 132 sdYHGMLQALNP-DLRGMISLDPSPPPGFLPWAQLSALGAgiaPDQlHRRQASLHFDQAVNIQYTSGTTGFPKGATLSHHNILNN-- 215
+                             115566777776.4446888998559999888887654331112222567889999************************99876.. PP
+
+                  Es4CL1 214 qqvdgenpnlyllsedvvlcvlplfhiyalnsvllcalrvgsavlim.pkfeitsllelidkykisvaavvppivlaiaksdeveke 299
+                               + ge   l l+++d ++  +pl+h + +    l ++  g++++   + f+  + l  +   + + +  vp + +a+    ++  +
+  tig00001240_RagTag_196 216 GYMVGE--SLGLTAQDRLVIPVPLYHCFGMVMGNLGCITHGTTMIYPnDGFDPLLTLTAVAEERATGLYGVPTMFIAMLDHPRLGDF 300
+                             455576..5888999**************99999999999999876414688888899999************************** PP
+
+                  Es4CL1 300 dlssvrlvlsgaaplgkeleealrkrfpnavlgqgygmteagpvlamslgfakepfpvksgscgtvvrnaevkivdsdtgvslprnk 386
+                             dls++r  +  +a    e+   +   +  + +   ygmte+ pv +++   a + +  +  + g    + e ki+d+d g ++++ +
+  tig00001240_RagTag_196 301 DLSTLRTGIMAGATCPIEVMRRVISEMHMSEVQIAYGMTETSPV-SLQT-GADDDLERRVTTVGRTQPQLENKIIDAD-GNTVAHGE 384
+                             *******9999999999999999999999999***********9.4444.48899999******************99.899***** PP
+
+                  Es4CL1 387 ageicirgaqimkgylndpeataetidkegwlhtgdigyiddddelfivdrvkeiikykgfqvapaeleallinhpsiadaavvalk 473
+                              ge+c rg  +m gy ++p+at e+id+ gw+htgd+  +d +  + i  r k++i   g +v p ele +++ hp +ad+ vv + 
+  tig00001240_RagTag_196 385 IGELCTRGYSVMLGYWDNPDATREAIDDAGWMHTGDLASMDAHGYVCIAGRNKDMIIRGGENVYPRELEEFFFTHPAVADVQVVGIP 471
+                             *************************************************************************************** PP
+
+                  Es4CL1 474 eelagevpvafvvksegsevseedikqfvekkvvfykrihkviftesipkapsgkilr 531
+                             +e  ge  va+v    g    e +++++ + ++ ++k  ++  f++  p++ +gki +
+  tig00001240_RagTag_196 472 DERYGEAIVAWVKFHPGHVANELELQTWCKGRIAHFKTPKHFKFVDEFPMTVTGKIQK 529
+                             ***********988889999999********************************976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (544 nodes)
+Target sequences:                       1608  (319112 residues searched)
+Passed MSV filter:                        26  (0.0161692); expected 32.2 (0.02)
+Passed bias filter:                       25  (0.0155473); expected 32.2 (0.02)
+Passed Vit filter:                         3  (0.00186567); expected 1.6 (0.001)
+Passed Fwd filter:                         1  (0.000621891); expected 0.0 (1e-05)
+Initial search space (Z):               1608  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.03u 0.01s 00:00:00.04 Elapsed: 00:00:00.04
+# Mc/sec: 4063.93
+//
+[ok]

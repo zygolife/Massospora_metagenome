@@ -1,0 +1,705 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/EsBDH1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_unclustered.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/EsBDH1.cluster_unclustered.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsBDH1  [M=1321]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                             -----------
+   8.3e-151  503.9   0.0     1e-150  503.6   0.0    1.0  1  split19_split0_tig00000034_RagTag_40  # 25012 # 26640 # 1 # ;gc_cont=0
+    2.1e-41  141.4   0.0    2.6e-41  141.1   0.0    1.0  1  tig00046055_RagTag_14                 # 11448 # 12359 # 1 # ;gc_cont=0
+    6.3e-34  116.6   0.0    6.8e-34  116.5   0.0    1.0  1  tig00046055_RagTag_11                 # 9682 # 10251 # 1 # ;gc_cont=0.
+    2.3e-33  114.7   5.0    2.9e-33  114.4   5.0    1.0  1  split2_tig00001062_RagTag_410         # 260576 # 261040 # 1 # ;gc_cont
+    5.4e-33  113.5   1.5    6.4e-33  113.3   1.5    1.0  1  tig00046055_RagTag_8                  # 8262 # 8660 # 1 # ;gc_cont=0.6
+    1.1e-32  112.5   0.0    1.3e-32  112.2   0.0    1.0  1  split1_split2_tig00001253_RagTag_108  # 80350 # 81405 # -1 # ;gc_cont=
+    1.3e-32  112.3   0.1    1.4e-32  112.1   0.1    1.0  1  tig00046055_RagTag_13                 # 10866 # 11195 # 1 # ;gc_cont=0
+    5.5e-29  100.2   1.6    7.4e-29   99.8   1.6    1.1  1  tig00005422_RagTag_31                 # 20540 # 21019 # -1 # ;gc_cont=
+    1.2e-28   99.1   0.0    1.6e-28   98.7   0.0    1.0  1  split2_tig00001062_RagTag_414         # 262024 # 263178 # 1 # ;gc_cont
+    3.5e-26   91.0   1.6    3.6e-26   90.9   1.6    1.0  1  split19_split0_tig00000034_RagTag_37  # 23157 # 23498 # 1 # ;gc_cont=0
+      1e-23   82.8   0.0    1.2e-23   82.5   0.0    1.0  1  split19_split0_tig00000034_RagTag_38  # 23807 # 24595 # 1 # ;gc_cont=0
+    1.9e-22   78.6   0.6    2.3e-22   78.3   0.6    1.1  1  split1_split18_tig00000001_RagTag_96  # 66327 # 66794 # -1 # ;gc_cont=
+    8.1e-22   76.5   0.8    9.9e-22   76.2   0.8    1.1  1  split0_tig00001274_RagTag_42          # 32886 # 33341 # 1 # ;gc_cont=0
+    5.3e-18   63.9   0.0    5.8e-18   63.7   0.0    1.0  1  split19_split0_tig00000034_RagTag_41  # 26630 # 26917 # 1 # ;gc_cont=0
+    2.9e-14   51.5   0.0    3.9e-14   51.0   0.0    1.1  1  split2_tig00001062_RagTag_415         # 263154 # 264332 # 1 # ;gc_cont
+    8.4e-13   46.6   0.8    9.1e-13   46.5   0.8    1.0  1  tig00092080_RagTag_30                 # 19697 # 19918 # -1 # ;gc_cont=
+    4.6e-11   40.9   0.0    3.8e-08   31.2   0.0    2.8  3  split1_split18_tig00000001_RagTag_95  # 64369 # 66327 # -1 # ;gc_cont=
+      9e-11   39.9   0.0    1.1e-10   39.7   0.0    1.0  1  split1_split2_tig00001253_RagTag_112  # 82466 # 82702 # -1 # ;gc_cont=
+    5.2e-10   37.4   0.0    6.7e-10   37.0   0.0    1.1  1  tig00046055_RagTag_9                  # 8803 # 9252 # 1 # ;gc_cont=0.6
+    8.1e-10   36.8   0.0    9.2e-10   36.6   0.0    1.0  1  tig00092080_RagTag_25                 # 17373 # 17948 # -1 # ;gc_cont=
+    2.2e-09   35.3   0.0    6.7e-06   23.8   0.0    2.8  3  split0_tig00001274_RagTag_43          # 33341 # 35050 # 1 # ;gc_cont=0
+    2.2e-08   32.0   0.1    2.6e-05   21.8   0.1    2.1  2  tig00005422_RagTag_30                 # 19392 # 20534 # -1 # ;gc_cont=
+    1.1e-07   29.7   0.0    1.2e-07   29.6   0.0    1.0  1  split19_split0_tig00000034_RagTag_39  # 24585 # 24944 # 1 # ;gc_cont=0
+    9.9e-07   26.5   0.0      1e-06   26.4   0.0    1.0  1  tig00046055_RagTag_10                 # 9310 # 9564 # 1 # ;gc_cont=0.6
+    3.5e-06   24.7   0.0      4e-06   24.5   0.0    1.0  1  tig00092080_RagTag_24                 # 16901 # 17350 # -1 # ;gc_cont=
+    7.5e-06   23.6   0.1    8.1e-06   23.5   0.1    1.0  1  split1_split2_tig00001253_RagTag_106  # 79224 # 79619 # -1 # ;gc_cont=
+    9.3e-06   23.3   0.0      1e-05   23.1   0.0    1.0  1  tig00092080_RagTag_23                 # 16339 # 16701 # -1 # ;gc_cont=
+    1.5e-05   22.7   0.0    0.00012   19.6   0.0    1.9  2  tig00005422_RagTag_29                 # 17011 # 19386 # -1 # ;gc_cont=
+      3e-05   21.6   0.7    3.6e-05   21.4   0.7    1.0  1  split1_split2_tig00001253_RagTag_107  # 79580 # 80332 # -1 # ;gc_cont=
+    0.00029   18.3   0.0    0.00029   18.3   0.0    1.0  1  split1_split2_tig00001253_RagTag_111  # 82386 # 82520 # -1 # ;gc_cont=
+    0.00064   17.2   0.0    0.00073   17.0   0.0    1.0  1  split2_tig00001062_RagTag_411         # 261037 # 261573 # 1 # ;gc_cont
+
+
+Domain annotation for each sequence (and alignments):
+>> split19_split0_tig00000034_RagTag_40  # 25012 # 26640 # 1 # ;gc_cont=0.610
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  503.6   0.0  1.7e-153    1e-150     699    1198 ..       3     526 ..       1     529 [. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 503.6 bits;  conditional E-value: 1.7e-153
+                                EsBDH1  699 ppiltiedalksesfhqstefklekGdldeclskseykiisgevrvGsqyhfyletqsalaipdedgcmtv 769 
+                                            +p+l +e al + sf q ++   ++Gd+d +l ++ +  +sg  ++G+q+hfyletq+a+++p+ed+  +v
+  split19_split0_tig00000034_RagTag_40    3 EPLLDVEQALAQGSFVQEPHI-HQRGDVDAALARAPH-RVSGSFHIGGQEHFYLETQTAMVVPGEDQQLQV 71  
+                                            699*************99976.689***********9.579****************************** PP
+
+                                EsBDH1  770 ysstqnPsklqkvvakvlalpeskvrvktkriGGgfGgkatrsasvavacalaayklkrPvrllldrktdm 840 
+                                            +sstqnP+ +qk+va+v++ + ++v++  +r+GGgfGgk+t++a va  ca+ a +  r  ++ l r  dm
+  split19_split0_tig00000034_RagTag_40   72 FSSTQNPTEVQKLVAEVMGISLNQVTIDMRRMGGGFGGKETQAAGVACLCAIVARQTGRAAKMRLSRRDDM 142 
+                                            *********************************************************************** PP
+
+                                EsBDH1  841 litGgrhpvlakykvgykedGkitalevelfinaGasldlslpvlerlllsadkvynvenlkiegkvcktn 911 
+                                             +tG+rhp++ +y  g++edG++ +++++l  n G sldls ++++r++++ad+ y +++ ++ g  c+tn
+  split19_split0_tig00000034_RagTag_40  143 RVTGKRHPFFVRYDAGVEEDGRLCGIKIDLAGNCGYSLDLSGSIVDRAMFHADNAYYLGDARVTGYRCRTN 213 
+                                            *********************************************************************** PP
+
+                                EsBDH1  912 lPsktalrGpgdtqgsliaeviiehvakalgldpelvrelnlqk..egselfyeqkvelyrldsvweklkv 980 
+                                              s+ta+rG+g++qg++ +e+i++h+a+  gldp ++r +n++   + +  +y+q+ve   ld+++e+l +
+  split19_split0_tig00000034_RagTag_40  214 TASNTAYRGFGGPQGMVAIEQIMDHIARDRGLDPLALRKRNYYGkqDRNITHYHQQVEDNLLDEITEQLEL 284 
+                                            ******************************************9733445679******************* PP
+
+                                EsBDH1  981 sssledrkkevdtfnkssrWkkrGlslvPikfevsfeakflncagalvqiytdgsisvehgGvelGqGldt 1051
+                                            ss+++ r+ e+  fn  s   krGl+l P+kf++sf++ fln+agal+ iytdg++ ++hgG e+GqGl+t
+  split19_split0_tig00000034_RagTag_40  285 SSDYQARRAEITAFNARSPLLKRGLALTPVKFGISFTSSFLNQAGALILIYTDGTVQLNHGGTEMGQGLNT 355 
+                                            *********************************************************************** PP
+
+                                EsBDH1 1052 kvaqvaatslsslidipieqiyvsetdtikvansastagsatselsgaavedackilkerlftvkkrl... 1119
+                                            kv q+ a +l    +i++++i ++ tdt kv+n+++ta+s  ++l g a ++a +il++r+ ++  +l   
+  split19_split0_tig00000034_RagTag_40  356 KVIQIVAEVL----QIETDKIQITPTDTGKVPNTSPTAASSGADLNGKAAQNAAEILRDRMTAMLCKLhqc 422 
+                                            **********....9*************************************************999999* PP
+
+                                EsBDH1 1120 ................dqlsfaelilkaslesidlsaqvyyv.pd.........skarsyvtfgaaaaeve 1164
+                                                            ++ +fae++ k  l+++ lsa +yy  p          + ++ y++fgaa+ ev 
+  split19_split0_tig00000034_RagTag_40  423 daaavsfrngvvrageKHYTFAEVA-KLALNQVPLSATGYYRvPGihydrlagrGTPFYYYAFGAACCEVV 492 
+                                            ***********************86.6779***********6598999*********************** PP
+
+                                EsBDH1 1165 vdlltgdttllqvdivydlgrslnpaidigqveg 1198
+                                            +d+ltg+ +ll+ di+ d+g slnpaidigq++g
+  split19_split0_tig00000034_RagTag_40  493 IDTLTGESRLLRADILHDVGASLNPAIDIGQLKG 526 
+                                            *******************************998 PP
+
+>> tig00046055_RagTag_14  # 11448 # 12359 # 1 # ;gc_cont=0.677
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  141.1   0.0   4.3e-44   2.6e-41    1165    1304 ..       3     139 ..       1     151 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 141.1 bits;  conditional E-value: 4.3e-44
+                 EsBDH1 1165 vdlltgdttllqvdivydlgrslnpaidigqvegafvqglgyialeevkvdrsgklvsdgtgtyklpsvddvplklkvellkdamn 1250
+                             +d+ltg+++ll+ di+ d+g slnpaid+gqveg f+qg+g+++ ee+ +   gkl++ g+ +yk+p+v d+p+ l+v+l+++  n
+  tig00046055_RagTag_14    3 IDTLTGEYKLLRTDILHDVGASLNPAIDLGQVEGGFLQGVGWLTCEEL-WSDQGKLLTSGPASYKIPAVADMPQDLRVQLVENRKN 87  
+                             7**********************************************7.6667********************************* PP
+
+                 EsBDH1 1251 qk.avlsskasgepplllasaafcaikdailaarkddkdngyfrldspatmevik 1304
+                             +  +v+ ska+gepp++l  aa caikda+ +   d + +   ++d+pat+e++ 
+  tig00046055_RagTag_14   88 PEdTVFHSKAVGEPPFMLGIAAWCAIKDAVASLG-DYRPQP--SIDAPATPERVL 139 
+                             863799***********************98875.555555..6********985 PP
+
+>> tig00046055_RagTag_11  # 9682 # 10251 # 1 # ;gc_cont=0.658
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  116.5   0.0   1.1e-36   6.8e-34     595     782 ..       2     185 ..       1     189 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 116.5 bits;  conditional E-value: 1.1e-36
+                 EsBDH1 595 yvddiplpnkslyaelvlskkplakiksiddskaleikgvlsflsakdipvgGkdlasvisdeelfadkivecvGqviGlvvadtree 682
+                            y+dd    ++ l+    ls +++a+i +id+s+  +i+gv   ++ +dip g kd+++++  + l+a ++ve+vGq++  v a   + 
+  tig00046055_RagTag_11   2 YIDDRLEFPNQLHVYARLSDRAHARILHIDTSACYNIPGVRLAITHEDIP-GLKDIGPLLPGDLLLAIDKVEFVGQPVLAVAARDLDS 88 
+                            8888666688999999**********************************.99*********************************** PP
+
+                 EsBDH1 683 aklaaelvkvkyieekppiltiedalksesfhqstefklekGdldeclskseykiisgevrvGsqyhfyletqsalaipdedgcmtvy 770
+                            a+ aa    ++y e++pp+l +  al+++ f    + + ++Gd   +l  + +   +g +++G+q+hfyletq + ++p+edg+m vy
+  tig00046055_RagTag_11  89 ARRAAMAAVIEY-EDLPPVLDVVQALRQQHFVL-DSHTHQRGDSAAALASAPH-RLQGSLHIGGQEHFYLETQISSVMPTEDGGMIVY 173
+                            ************.99***********9998765.677899*******999988.5689****************************** PP
+
+                 EsBDH1 771 sstqnPsklqkv 782
+                             stqnP+ +qk+
+  tig00046055_RagTag_11 174 CSTQNPTEVQKL 185
+                            **********96 PP
+
+>> split2_tig00001062_RagTag_410  # 260576 # 261040 # 1 # ;gc_cont=0.589
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  114.4   5.0   4.8e-36   2.9e-33      13     172 ..       1     148 [.       1     152 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 114.4 bits;  conditional E-value: 4.8e-36
+                         EsBDH1  13 lrvnGkkkevdellasktlleylrdelglkGlklgCgeGGCGaCtvmisktnpakgereeravnsClallgsveGmhvtt 92 
+                                    ++vnG+ ++++   ++ tll+ lr++l+l+G+k gC++G CGaCtv i            + v sCl+l +  +G  vt 
+  split2_tig00001062_RagTag_410   1 MQVNGQSQQMQ-VDPRVTLLDALREHLNLTGTKKGCDQGQCGACTVLING----------QRVLSCLTLAAQADGADVTS 69 
+                                    78******999.99*********************************953..........4599**************** PP
+
+                         EsBDH1  93 veGlGnskdglhpiqealvkahgsqCGfCtPGlvmsiyallraekkvndkhdieegiaGnlCrCtGyrPildafkvfakd 172
+                                    +eGl +++  lhp+q  ++++ + qCG+CtPG +ms  a +  e ++ ++ +i+e ++GnlCrC  y  i+da+k  a++
+  split2_tig00001062_RagTag_410  70 IEGLASTEGELHPVQRCFMENDAFQCGYCTPGQIMSAVACI-KEGHAGSDDEIREYMSGNLCRCGAYPHIVDAIKQAAAE 148
+                                    **************************************999.78899999************************987765 PP
+
+>> tig00046055_RagTag_8  # 8262 # 8660 # 1 # ;gc_cont=0.642
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  113.3   1.5   1.1e-35   6.4e-33      64     165 ..       9     108 ..       5     122 .. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 113.3 bits;  conditional E-value: 1.1e-35
+                EsBDH1  64 npakgereeravnsClallgsveGmhvttveGlGnskdglhpiqealvkahgsqCGfCtPGlvmsiyallraekkvndkhdieegiaGn 152
+                           ++ + +   r+ n+Cl+ + s++G ++  ve l  +   lh++q+a+v  hgsqCGfCtPG+vms++al + ++   ++++  e+++Gn
+  tig00046055_RagTag_8   9 DQGQSHIRYRSSNACLTFVSSLHGKQLLSVEDLKHQGR-LHSVQQAMVDCHGSQCGFCTPGFVMSLFALQK-NQPQANREQACEALSGN 95 
+                           5566677889***********************98887.******************************95.5555667788899**** PP
+
+                EsBDH1 153 lCrCtGyrPilda 165
+                           lCrCtGyrPilda
+  tig00046055_RagTag_8  96 LCRCTGYRPILDA 108
+                           ************8 PP
+
+>> split1_split2_tig00001253_RagTag_108  # 80350 # 81405 # -1 # ;gc_cont=0.636
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.2   0.0   2.2e-35   1.3e-32     574     903 ..       2     328 ..       1     337 [. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 112.2 bits;  conditional E-value: 2.2e-35
+                                EsBDH1 574 epvgqPaqklsaklqvsGeaeyvddiplpnkslyaelvlskkplakiksiddskaleikgvlsflsakdip.v 645
+                                           +++g+P  ++ + l+v+G+a y+ + p  ++ l++ +v s++++ ++ +id s+al+++gv+  +   + p +
+  split1_split2_tig00001253_RagTag_108   2 TAIGKPLDRVDGLLKVTGQARYAGEFPE-DGLLHGSVVSSTVAKGRVLRIDASRALALPGVVEVIHHLNRPkI 73 
+                                           699************************9.999****************************9988776655513 PP
+
+                                EsBDH1 646 gGkdlasvisd.e........elfadkivecvGqviGlvvadtreeaklaaelvkvkyieekppiltiedalk 709
+                                             +d  + ++d +        +l+ ++ v + Gq++ lv+ad  e a+ a  lv+++y  e++p  t   al+
+  split1_split2_tig00001253_RagTag_108  74 ASYD--EAFQDdDaadgspfrPLY-NDRVLYSGQPLALVIADNLELARHAGSLVDIEY--ETEPFETDLVALQ 141
+                                           3444..444441212221111233.56799****************************..9999999999*** PP
+
+                                EsBDH1 710 sesfhqstefklekGdldeclskseykiisgevrvGsqyhfyletqsalaipdedgcmtvysstqnPsklqkv 782
+                                            +++ + +    ++G+++     +     + +  +   +h  +e++++ ++++ dg+  ++  tq P+  q +
+  split1_split2_tig00001253_RagTag_108 142 EQAYASPQTPPAPRGNFQAEWAGAAV-SLDVHYSTPIEHHNPMEPHASTVLYQPDGTLHIHDKTQGPQNCQAY 213
+                                           ******99***********9988887.466777888999999******************************* PP
+
+                                EsBDH1 783 vakvlalpeskvrvktkriGGgfGgkatrsasvavacalaayklkrPvrllldrktdmlitGgrhpvlakykv 855
+                                           v  v++l +s+vr+ +  +GG+fG+      ++ +a  +a+  lkr vr++l r+ +m + G r   l + ++
+  split1_split2_tig00001253_RagTag_108 214 VQDVFGLDKSQVRIFAAFVGGAFGSGLRPQYQLPLA-VMASLALKRSVRVTLTRQ-QMFTFGYRPRTLQRLQM 284
+                                           ************************988777777765.589999*********997.7**************** PP
+
+                                EsBDH1 856 gykedGkitalevelfinaGasldlslpvlerlllsadkvynvenlki 903
+                                           g+  +G+++al    +  +    d+s  v+      +   y  +n+++
+  split1_split2_tig00001253_RagTag_108 285 GAAANGRLLALGHTAIGQTSRFEDFSEHVV----EWSGMLYHCDNVQL 328
+                                           ***********9888887777778884444....44444455555555 PP
+
+>> tig00046055_RagTag_13  # 10866 # 11195 # 1 # ;gc_cont=0.636
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  112.1   0.1   2.4e-35   1.4e-32     994    1101 ..       2     105 ..       1     108 [. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 112.1 bits;  conditional E-value: 2.4e-35
+                 EsBDH1  994 fnkssrWkkrGlslvPikfevsfeakflncagalvqiytdgsisvehgGvelGqGldtkvaqvaatslsslidipieqiyvsetdt 1079
+                             fn  s   k+Gl+l P+kf++sf+a fln+agal++iytdgsi ++hgG e+GqGl++kvaqv a ++    +++i +i ++ t+t
+  tig00046055_RagTag_13    2 FNVDSPVLKKGLALTPVKFGISFTASFLNQAGALIHIYTDGSIHLNHGGTEMGQGLNVKVAQVVAEVF----QVDIARIQITATNT 83  
+                             77778888************************************************************....9999********** PP
+
+                 EsBDH1 1080 ikvansastagsatselsgaav 1101
+                             +kv+n+++ta+s  ++l g a 
+  tig00046055_RagTag_13   84 DKVPNTSPTAASSGADLNGKAA 105 
+                             ****************998775 PP
+
+>> tig00005422_RagTag_31  # 20540 # 21019 # -1 # ;gc_cont=0.629
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.8   1.6   1.2e-31   7.4e-29      11     167 ..       8     151 ..       3     155 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 99.8 bits;  conditional E-value: 1.2e-31
+                 EsBDH1  11 ivlrvnGkkkevdellasktlleylrdelglkGlklgCgeGGCGaCtvmisktnpakgereeravnsClallgsveGmhvttveGlGn 98 
+                            + l+vnG+   v   +a++ ll  lr++l+l+G+k gCg G CGaCtv i             a  sC+ +l    G +++t eGlG 
+  tig00005422_RagTag_31   8 VALEVNGHVSDVS-AMADTPLLLVLRNDLQLNGPKYGCGLGECGACTVIIDG----------VAARSCVFPLSGAVGREIVTLEGLGT 84 
+                            5689******999.999********************************964..........46679********************9 PP
+
+                 EsBDH1  99 skdglhpiqealvkahgsqCGfCtPGlvmsiyallraekkvndkhdieegiaGnlCrCtGyrPildafk 167
+                             +   hp+q+a++ + ++qCG+C  G++m+  all   ++ +++ ++++ ++GnlCrC  +  il a++
+  tig00005422_RagTag_31  85 RQA-PHPVQQAFIDEQAAQCGYCLNGMIMTTKALL-DRNSNPSEAEVRNELSGNLCRCGTHIEILRAVR 151
+                            887.9******************************.88999*****************99999988876 PP
+
+>> split2_tig00001062_RagTag_414  # 262024 # 263178 # 1 # ;gc_cont=0.594
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   98.7   0.0   2.6e-31   1.6e-28     584     924 ..      34     368 ..      15     372 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 98.7 bits;  conditional E-value: 2.6e-31
+                         EsBDH1 584 saklqvsGeaeyvddiplpnkslyaelvlskkplakiksiddskaleikgvlsfls.akdipvg.Gkdla...svisdee 658
+                                     +k++v+Gea y+ +   p++ ly+ ++ s  +  +i ++ ++ka +  gvl+  +  +++ ++    +a   +  s  +
+  split2_tig00001062_RagTag_414  34 DGKVKVTGEARYALEH-QPENPLYGVVIQSVIASGRISRMATEKAQQAAGVLAVYThLNTLKINkPTAIAdggAAQSTYT 112
+                                    57899*******9885.68*****************************99987544145555431344553333344444 PP
+
+                         EsBDH1 659 lfadkivecvGqviGlvvadtreeaklaaelvkvkyieekppiltiedalksesfhqstefklekGdldeclskseykii 738
+                                       d+++   Gq iGlvva+t e+a  aa lv+++y +    i++ ++ ++ + +   ++  ++ Gd + ++ ++e +  
+  split2_tig00001062_RagTag_414 113 PIQDDVIIHNGQNIGLVVAETFEQATYAASLVEIEYETSDALIFATDEGVEPKPL---PKQDIDMGDAQSAMQQAEVR-L 188
+                                    5567788889**************************8888889999999999875...6778999************6.5 PP
+
+                         EsBDH1 739 sgevrvGsqyhfyletqsalaipdedgcmtvysstqnPsklqkvvakvlalpeskvrvktkriGGgfGgkatrsasvava 818
+                                    s    +   y + +e+++++a + +dg  tv+   q     q  +a+ ++   ++vr+++  +GGgfG+k    + va+a
+  split2_tig00001062_RagTag_414 189 SQRYTTPREYNMPMEPHACVAEW-QDGRITVWEPSQWVAGAQVEIAEWMGIEVEDVRIISPYVGGGFGSKPVPYTHVALA 267
+                                    7789999***********99877.5999***************************************************9 PP
+
+                         EsBDH1 819 calaayklkrPvrllldrktdmlitGgrhpvlakykvgykedGkitalevelfinaGasldlslpvlerlllsadkvynv 898
+                                    +a a+  lkrP+++ l r       Ggr +   + ++g+  dGki+a+ ++    +   +d+     ++    + ++y v
+  split2_tig00001062_RagTag_414 268 TA-ASRALKRPIKVSLTRPQTFTGLGGRPATSQQLELGASRDGKIQAI-IQRSFSETSLIDVFAENCSK---VTARMYAV 342
+                                    98.7889****************************************9.56566667778887555444...46789999 PP
+
+                         EsBDH1 899 enlkiegkvcktnlPsktalrGpgdt 924
+                                    +n++ + +v   n  +   +r p++t
+  split2_tig00001062_RagTag_414 343 GNVSAQHQVRPINTVTPGWMRAPVKT 368
+                                    99999999999999999999999876 PP
+
+>> split19_split0_tig00000034_RagTag_37  # 23157 # 23498 # 1 # ;gc_cont=0.588
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   90.9   1.6     6e-29   3.6e-26      16     124 ..       7     112 ..       1     113 [. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 90.9 bits;  conditional E-value: 6e-29
+                                EsBDH1  16 nGkkkevdellasktlleylrdelglkGlklgCgeGGCGaCtvmisktnpakgereeravnsClallgsveGm 88 
+                                           n +   +d l ++ t+l+ylr      G+k gC  G CGaC v + k+  ++ge++  +vnsCl+l+ +++G 
+  split19_split0_tig00000034_RagTag_37   7 NNQLVSEDALDPNLTVLNYLRTRQHRPGTKEGCASGDCGACSVTLGKA--VEGEMQYETVNSCLTLVSALQGK 77 
+                                           5555667788999********************************985..789******************** PP
+
+                                EsBDH1  89 hvttveGlGnskdglhpiqealvkahgsqCGfCtPG 124
+                                           +++tve l   +  lhp q+a+v  hgsqCGfCtP 
+  split19_split0_tig00000034_RagTag_37  78 QLITVEDLRHGRA-LHPAQQAMVDCHGSQCGFCTPA 112
+                                           ***********99.*********************7 PP
+
+>> split19_split0_tig00000034_RagTag_38  # 23807 # 24595 # 1 # ;gc_cont=0.592
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   82.5   0.0   2.1e-26   1.2e-23     325     529 ..      53     245 ..      13     251 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 82.5 bits;  conditional E-value: 2.1e-26
+                                EsBDH1 325 ssafkaivshlkkvaskqvrnvasvgGnliiarqlsfisdiaalllaaeakikivaskktetvvsiedflk.. 395
+                                           +s +  + + l+++as q+r  +++gGn+  a   s+i d +++lla +a++ + +  ++++++ +++f+   
+  split19_split0_tig00000034_RagTag_38  53 ASRIPGVSEMLQRFASLQIRLQGTLGGNIGNA---SPIGDASPVLLALNASLLL-QCGEQQRSLPLDQFFTgy 121
+                                           4555668899*******************999...****************966.5677889********999 PP
+
+                                EsBDH1 396 kevddkksellisiivPvltedkelvkeykaalrrdnavalvnaafkveltrdkdyirwklakvslayGgvaP 468
+                                           ++++++k+e +  i +  +t+   +v   k+++r d++++ v aaf+++l +        ++ + +a+Gg+a 
+  split19_split0_tig00000034_RagTag_38 122 RQTQLEKGEFIRAIRIDKVTVSPDFVAW-KVSKRLDDDISAVFAAFNLQLEQGI------VSSARIAFGGMAA 187
+                                           *************************986.*******************998764......5799********* PP
+
+                                EsBDH1 469 valravevekllkGksltaevlraalkllkkevvpskdapggkaeyrqslassllfklllW 529
+                                            ++ra+++e  l G++l+a ++  a  +l ++  p  d     ++yr  +a  ll +  +W
+  split19_split0_tig00000034_RagTag_38 188 TPQRARHCEAALVGQPLNAVTVSRAAAALAEDFQPLSDFR-ASSDYRLQVARNLLRR--YW 245
+                                           ***********************************99998.889*******999977..45 PP
+
+>> split1_split18_tig00000001_RagTag_96  # 66327 # 66794 # -1 # ;gc_cont=0.662
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.3   0.6   3.8e-25   2.3e-22      13     171 ..       3     147 ..       1     152 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 78.3 bits;  conditional E-value: 3.8e-25
+                                EsBDH1  13 lrvnGkkkevdellasktlleylrdelglkGlklgCgeGGCGaCtvmisktnpakgereeravnsClallgsv 85 
+                                           lr+n k  evd   a++ ll  +rd+lgl+G+k gCg   CGaC v +              v sC+++++ v
+  split1_split18_tig00000001_RagTag_96   3 LRINQKSYEVD-ADADTPLLWVIRDDLGLTGTKYGCGLAQCGACSVLVD----------GNVVRSCVTPVAGV 64 
+                                           78898888887.8999******************************974..........35799********* PP
+
+                                EsBDH1  86 eGmhvttveGlGnskdglhpiqealvkahgsqCGfCtPGlvmsiyallraekkvndkhdieegiaGnlCrCtG 158
+                                            G +vtt+e +     g   +  a v+   +qCG+C  G vm+  all  +  ++++ +ie ++  nlCrC  
+  split1_split18_tig00000001_RagTag_96  65 VGREVTTIEAIEADDVGK-RVVAAWVEHQVAQCGYCQSGQVMAATALL-KHTPAPSDAQIEAAM-INLCRCGT 134
+                                           ***********9887765.56678899999******************.5667899999*9987.5******* PP
+
+                                EsBDH1 159 yrPildafkvfak 171
+                                           y  i  a++ +a 
+  split1_split18_tig00000001_RagTag_96 135 YNAIRTAVHDLAV 147
+                                           ***9999887775 PP
+
+>> split0_tig00001274_RagTag_42  # 32886 # 33341 # 1 # ;gc_cont=0.647
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   76.2   0.8   1.6e-24   9.9e-22      13     172 ..       3     148 ..       1     150 [. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 76.2 bits;  conditional E-value: 1.6e-24
+                        EsBDH1  13 lrvnGkkkevdellasktlleylrdelglkGlklgCgeGGCGaCtvmisktnpakgereeravnsClallgsveGmhvttv 93 
+                                   lr+n +  evd   a++ ll  +rd+lgl+G+k gCg   CGaC v +              v sC+++++ v G ++tt+
+  split0_tig00001274_RagTag_42   3 LRINQQAYEVD-ADADTPLLWVIRDDLGLTGTKYGCGLAQCGACSVLVD----------GNVVRSCVTPVAGVVGREITTI 72 
+                                   67787777777.8899******************************974..........35799***************** PP
+
+                        EsBDH1  94 eGlGnskdglhpiqealvkahgsqCGfCtPGlvmsiyallraekkvndkhdieegiaGnlCrCtGyrPildafkvfakd 172
+                                   e +   + g   +  a v+   +qCG+C  G vm+  all  +  +++k +i+ ++  nlCrC  y  i  a+  +ak+
+  split0_tig00001274_RagTag_42  73 EAIETDEVGKRVV-AAWVERQVAQCGYCQSGQVMAATALL-KHTPAPSKAQIDAAM-INLCRCGTYNAIHAAVDDLAKQ 148
+                                   ****999987655.677888899*****************.67789******9887.5***********9999888876 PP
+
+>> split19_split0_tig00000034_RagTag_41  # 26630 # 26917 # 1 # ;gc_cont=0.608
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   63.7   0.0   9.6e-21   5.8e-18    1214    1294 ..       2      83 ..       1      90 [. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 63.7 bits;  conditional E-value: 9.6e-21
+                                EsBDH1 1214 vdrsgklvsdgtgtyklpsvddvplklkvellkdamnqk.avlsskasgepplllasaafcaikdailaar 1283
+                                            +   g+l++dg+ +yk+p++ dvp  l+v l+++  n+k +v+ ska+gepp++l  aa ca +da+ +  
+  split19_split0_tig00000034_RagTag_41    2 WSDKGQLLTDGPASYKIPAISDVPADLRVTLVENRKNPKdTVFHSKAVGEPPFMLGIAARCALQDAVASVN 72  
+                                            7789*********************************994699***************************9 PP
+
+                                EsBDH1 1284 kddkdngyfrl 1294
+                                               ++ g++rl
+  split19_split0_tig00000034_RagTag_41   73 DYRQHPGWMRL 83  
+                                            99999999997 PP
+
+>> split2_tig00001062_RagTag_415  # 263154 # 264332 # 1 # ;gc_cont=0.587
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   51.0   0.0   6.5e-17   3.9e-14    1025    1264 ..      83     361 ..      68     381 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 51.0 bits;  conditional E-value: 6.5e-17
+                         EsBDH1 1025 galvqiytdgsisvehgGvelGqGldtkvaqvaatslsslidipieqiyvsetdtikvansastagsatselsgaave 1102
+                                      a++ + + g+  v+ gG ++G G +t +aq aa  l     + + +i v+  dt ++++++ ++gs  +  ++aav+
+  split2_tig00001062_RagTag_415   83 EAKIILTPQGTFVVQCGGADIGTGTYTILAQTAADIL----GVASTTIEVQLGDT-ELPRAGVAGGSQLAGNVTAAVN 155 
+                                     67888899***************************99....78899999988888.599******************* PP
+
+                         EsBDH1 1103 dackilkerlftvkkrl...........................dqlsfaelilkaslesidlsaqvyyvpd...... 1147
+                                     d+ k ++ +l  ++ +l                             +sfa+l++ a  es+    ++   pd      
+  split2_tig00001062_RagTag_415  156 DTAKRMRYQLLKLASELsqsplkgtpasqltlngdgvqhnqrsdLAVSFAQLATLAPEESLT--VKGGTFPDdmsese 231 
+                                     *****************99***9999999999999998877764456888888777776654..4555557799**** PP
+
+                         EsBDH1 1148 .............skarsyvtfgaaaaevevdlltgdttllqvdivydlgrslnpaidigqvegafvqglgyialeev 1212
+                                                   + +s  ++ a   ev vd   g ++++++   +d gr  np +   q  g ++ g+g   +ee 
+  split2_tig00001062_RagTag_415  232 rdkmvrnlndgtrPEKFSAHSWSAQFVEVRVDEDFGTIRVKRMVAALDSGRLYNPKLARSQWIGGMIMGVGQALMEEG 309 
+                                     **********9887889999*********************************************************9 PP
+
+                         EsBDH1 1213 kvd.rsgklvsdgtgtyklpsvddvplklkvellkdamnqkavlsskasgepp 1264
+                                     ++d r+g+++ +   +y +p   d+p    +++  ++  + + +  k +ge  
+  split2_tig00001062_RagTag_415  310 IIDpRNGRVINNNLADYLVPVNGDIPSITTINV-GEPDFEATTMGGKPVGELG 361 
+                                     9999**********************8666654.3444555555666666655 PP
+
+>> tig00092080_RagTag_30  # 19697 # 19918 # -1 # ;gc_cont=0.640
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.5   0.8   1.5e-15   9.1e-13     107     170 ..       2      64 ..       1      69 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 46.5 bits;  conditional E-value: 1.5e-15
+                 EsBDH1 107 qealvkahgsqCGfCtPGlvmsiyallraekkvndkhdieegiaGnlCrCtGyrPildafkvfa 170
+                            q a+v++ + qCG+CtPG +ms  a +r e +  +++di+e ++GnlCrC  y  i+ a+++ a
+  tig00092080_RagTag_30   2 QAAFVEFDAFQCGYCTPGQIMSAVACIR-EGHTGSDEDIREYMSGNLCRCGAYPHIVTAVRTAA 64 
+                            78999**********************6.66778889**********************99876 PP
+
+>> split1_split18_tig00000001_RagTag_95  # 64369 # 66327 # -1 # ;gc_cont=0.662
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    5.0   0.0    0.0049         3    1022    1061 ..      57      96 ..      43     131 .. 0.89
+   2 ?    1.3   0.0     0.067        40     575     610 ..     209     243 ..     200     248 .. 0.89
+   3 !   31.2   0.0   6.3e-11   3.8e-08     640     862 ..     243     476 ..     235     486 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 5.0 bits;  conditional E-value: 0.0049
+                                EsBDH1 1022 ncagalvqiytdgsisvehgGvelGqGldtkvaqvaatsl 1061
+                                             + +a ++i +dg++ +    +e GqG +t +aq+    l
+  split1_split18_tig00000001_RagTag_95   57 TQVPAFLEIRPDGTVRLLSPFMEGGQGTHTAMAQIVGEEL 96  
+                                            5789******************************987655 PP
+
+  == domain 2  score: 1.3 bits;  conditional E-value: 0.067
+                                EsBDH1 575 pvgqPaqklsaklqvsGeaeyvddiplpnkslyael 610
+                                            +g+P+++l a  + +G a+y  d+++ ++ l+a++
+  split1_split18_tig00000001_RagTag_95 209 WIGKPVKRLDAYDKSTGKAQYSIDLKV-DGMLHAAV 243
+                                           589************************.89999975 PP
+
+  == domain 3  score: 31.2 bits;  conditional E-value: 6.3e-11
+                                EsBDH1 640 akdipvgGkdlasvisdeelfadkivecvGqviGl..vvadtreeaklaaelvkvkyieek..ppiltiedal 708
+                                           ++  p  G +++s+ +  ++ a k v+ v q+ G   vva+   +ak a e ++v++ e     ++ ++   +
+  split1_split18_tig00000001_RagTag_95 243 VQHAPRLGMTVGSLRNQAQVEAMKGVHSVHQLPGAvaVVAERWWHAKRAVEAIQVEWLEAAadSTVRAMPADF 315
+                                           5666777889999999999*************9963369******************7766545555555444 PP
+
+                                EsBDH1 709 kses...fhqstefklek....GdldeclskseykiisgevrvGsqyhfyletqsalaipdedgcmtvysstq 774
+                                            s+    f  +++   +     Gd+  +l +++ k++ +  +     h  le+ sala  + dg+ +v+   q
+  split1_split18_tig00000001_RagTag_95 316 SSDKyrdFLAAQQGPARDdeneGDVAGALANAKTKVE-ATYHNQYVNHAQLEPPSALARFNPDGTLEVWLPNQ 387
+                                           4443111443333222214456************876.555666677999*********************** PP
+
+                                EsBDH1 775 nPsklqkvvakvlalpeskvrvktkriGGgfGgkatr..sasvavacalaayklkrPvrllldrktdmlitGg 845
+                                           +P+  +  +ak  +l   k++  +  +GG fG       + +   a ala   + rPv+l+  r+ + l    
+  split1_split18_tig00000001_RagTag_95 388 APDMFRADIAKRTGLDPAKITLHSPLLGGFFGRHFLYdsANPYPQAIALA-KAVGRPVKLIWSREEEFLRDVL 459
+                                           ********************************987641155666666664.6799**********99999888 PP
+
+                                EsBDH1 846 rhpvlakykvgykedGk 862
+                                           r   + k++ +   +G 
+  split1_split18_tig00000001_RagTag_95 460 RPVAVVKFRAALDAQGL 476
+                                           88888888888877775 PP
+
+>> split1_split2_tig00001253_RagTag_112  # 82466 # 82702 # -1 # ;gc_cont=0.629
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   39.7   0.0   1.7e-13   1.1e-10      73     126 ..       6      58 ..       3      65 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 39.7 bits;  conditional E-value: 1.7e-13
+                                EsBDH1  73 ravnsClallgsveGmhvttveGlGnskdglhpiqealvkahgsqCGfCtPGlv 126
+                                           + +n+Cl+l +  +G ++tt+eGl +  + lhp+q+a++k  + qCG+CtP  +
+  split1_split2_tig00001253_RagTag_112   6 KRINACLTLAVMCNGAELTTIEGLADGDQ-LHPMQQAFIKHDAFQCGYCTPAKS 58 
+                                           569*********************99877.*********************765 PP
+
+>> tig00046055_RagTag_9  # 8803 # 9252 # 1 # ;gc_cont=0.644
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   37.0   0.0   1.1e-12   6.7e-10     278     413 ..      10     132 ..       5     146 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 37.0 bits;  conditional E-value: 1.1e-12
+                EsBDH1 278 vfidissvpelniltvkedgieiGaavtiadllesleekkklvsleessafkaivshlkkvaskqvrnvasvgGnliiarqlsfisdia 366
+                           v+i + +v+e++ +   +d +eiGaa  ++d  ++l ++           +  +   l+++as q+rn a++gGn+  a   s+i d  
+  tig00046055_RagTag_9  10 VMIYVGHVAEMKRIETFDDRLEIGAATPLTDCYQALTNE-----------YADFGHLLHRFASLQIRNQATLGGNIGNA---SPIGDSP 84 
+                           8999***************************99999765...........455777899*****************999...******* PP
+
+                EsBDH1 367 alllaaeakikivaskktetvvsiedflk..kevddkksellisiivPv 413
+                           +llla +a++ + + + +++++ ++d++   + +  + +e + ++ivP 
+  tig00046055_RagTag_9  85 PLLLALGAQLVLRKGE-RSRTLPLQDYFIdyRVTAREDGEFIEKVIVPA 132
+                           *********9887766.567888888775567777788999999***94 PP
+
+>> tig00092080_RagTag_25  # 17373 # 17948 # -1 # ;gc_cont=0.642
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.6   0.0   1.5e-12   9.2e-10     788     956 ..       2     165 ..       1     177 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 36.6 bits;  conditional E-value: 1.5e-12
+                 EsBDH1 788 alpeskvrvktkriGGgfGgkatrsasvavacalaayklkrPvrllldrktdmlitGgrhpvlakykvgykedGkitalevelfinaG 875
+                            +l + +vrv++  iGGgfG k+     va+ac+ aa  l rP+++ l r       Ggr     +  +g++ dG + +    ++ ++ 
+  tig00092080_RagTag_25   2 GLEMADVRVVSPFIGGGFGCKVAPHPHVAMACS-AARSLGRPLKVALTRPQTFTSYGGRPRTGQRLALGATRDGLLVS----VVHDGW 84 
+                            567899**************************8.7899***********************************96655....556666 PP
+
+                 EsBDH1 876 asldlslpvlerlllsadkvynvenlkiegkvcktnlPsktalrGpgdtqgsliaeviiehvakalgldpelvrelnlqke 956
+                            ++  ++ + le     +  +y   n+  +  +   n      +r pg+  ++   e+ ++ +a  l++dp  +r +n   e
+  tig00092080_RagTag_25  85 NETAMDDTHLEPSTSVTALMYATPNMLARHSLIPVNTVNPGWMRAPGENISTYALETAMDELAVKLAMDPVELRLRNWAAE 165
+                            66666667788888788889******************************************************9998765 PP
+
+>> split0_tig00001274_RagTag_43  # 33341 # 35050 # 1 # ;gc_cont=0.652
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.7   0.0    0.0016      0.96    1017    1061 ..      46      90 ..      33     126 .. 0.86
+   2 ?    1.5   0.0     0.059        36     575     611 ..     203     238 ..     190     268 .. 0.79
+   3 !   23.8   0.0   1.1e-08   6.7e-06     647     863 ..     244     471 ..     236     478 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.0016
+                        EsBDH1 1017 eakflncagalvqiytdgsisvehgGvelGqGldtkvaqvaatsl 1061
+                                    +a+   + +a ++i +dgs+ +    +e GqG +t +aq+    l
+  split0_tig00001274_RagTag_43   46 TAERGTQVPAFLEIRPDGSVRLLSPFMEGGQGTHTAMAQIVGEEL 90  
+                                    56666789*******************************987655 PP
+
+  == domain 2  score: 1.5 bits;  conditional E-value: 0.059
+                        EsBDH1 575 pvgqPaqklsaklqvsGeaeyvddiplpnkslyaelv 611
+                                    +g+P+++l a  + +G a y  d+++ ++ l+a++ 
+  split0_tig00001274_RagTag_43 203 WIGKPVKRLDAYDKSTGKALYSIDLKV-DNMLHAAVQ 238
+                                   689************************.999**9875 PP
+
+  == domain 3  score: 23.8 bits;  conditional E-value: 1.1e-08
+                        EsBDH1 647 GkdlasvisdeelfadkivecvGqviGl..vvadtreeaklaaelvkvkyieek.ppiltiedal....ksesfhqstefk 720
+                                   G +++++ +  ++ a k v+ v  + G   vva+   +ak a e ++v+++e    + l +  a     k   f  +++  
+  split0_tig00001274_RagTag_43 244 GMTVGNLRNQPQVEAMKGVHSVHVLPGAvaVVAERWWHAKRAVEAIQVDWQEAAaGSALRVMPADfssdKHRDFLAAQQGP 324
+                                   5566666666666777777777666664227999999*************8777656777766541111333444333322 PP
+
+                        EsBDH1 721 lek.....GdldeclskseykiisgevrvGsqyhfyletqsalaipdedgcmtvysstqnPsklqkvvakvlalpeskvrv 796
+                                     +     Gd+  +l  ++ +  ++  +     h  le+ sala  + dg+ +++   q+P+  +  +ak  +l   +++ 
+  split0_tig00001274_RagTag_43 325 -ARddeneGDVAAALKGAKTQ-LEATYHNQYLNHAQLEPPSALARFNPDGTLEIWLPNQAPDMFRADIAKRTGLDPANITL 403
+                                   .22122346666666665553.34444445556889********************************************* PP
+
+                        EsBDH1 797 ktkriGGgfGgkatr..sasvavacalaayklkrPvrllldrktdmlitGgrhpvlakykvgykedGki 863
+                                    +  +GG fG       + +   a ala   + rPv+l+  r+ + l    r   + k++ +  + G  
+  split0_tig00001274_RagTag_43 404 HSPLLGGFFGRHFLYdsANPYPQAIALA-KAVGRPVKLIWSREEEFLRDVLRPLAVVKFRAALDDKGLP 471
+                                   **********987641155666666664.6799**********99999888888888888888887755 PP
+
+>> tig00005422_RagTag_30  # 19392 # 20534 # -1 # ;gc_cont=0.657
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.8   0.1   4.3e-08   2.6e-05    1027    1106 ..      47     122 ..      41     161 .. 0.86
+   2 !    8.4   0.0   0.00047      0.28     563     640 ..     175     259 ..     136     270 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 21.8 bits;  conditional E-value: 4.3e-08
+                 EsBDH1 1027 lvqiytdgsisvehgGvelGqGldtkvaqvaatslsslidipieqiyvsetdtikvansastagsatselsgaavedack 1106
+                              + +  dg +    g v+lG G+ t +aq+ a  l    d+ ++q+ ++  dt +v+n + t +sat ++s+  + +a  
+  tig00005422_RagTag_30   47 FIAVNDDGLVYAFNGHVDLGTGIRTALAQIVAEEL----DLTMDQVKMVLGDTERVPNQGATIASATLQISAVPLRNAAA 122 
+                             578999*****************************....****************************9999777666654 PP
+
+  == domain 2  score: 8.4 bits;  conditional E-value: 0.00047
+                 EsBDH1 563 GkqvleesdnsepvgqPaqklsaklqvsGeaeyvddiplpnkslyaelv........lskkplakiksiddskaleikgvlsflsa 640
+                            G   l+  + +  vg+ a ++    +++Ge  yv d+++p + l+++++                + s+d+s + +i+gv++ + +
+  tig00005422_RagTag_30 175 GDAPLKAVEDYRLVGKGAARVDIPGKATGELTYVHDMRVP-GMLHGRVIrppyagldCGDFVGNSLLSVDESSIAHIPGVVAVVVI 259
+                            7777888899999**************************5.678887661111111023333445666677777777666666655 PP
+
+>> split19_split0_tig00000034_RagTag_39  # 24585 # 24944 # 1 # ;gc_cont=0.578
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   29.6   0.0   1.9e-10   1.2e-07     570     639 ..      19      88 ..       3      94 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 29.6 bits;  conditional E-value: 1.9e-10
+                                EsBDH1 570 sdnsepvgqPaqklsaklqvsGeaeyvddiplpnkslyaelvlskkplakiksiddskaleikgvlsfls 639
+                                            d ++ vg+  ++ sa+  vsGea ++dd p  ++ l+    ls+ ++a+i +id++   +i+gv+s l+
+  split19_split0_tig00000034_RagTag_39  19 ADLQSGVGRNHRHESAEKHVSGEARFIDDKPELPGLLHLCPRLSEHAHARILHIDVQPCYAIPGVVSVLT 88 
+                                           567889***********************************************************99875 PP
+
+>> tig00046055_RagTag_10  # 9310 # 9564 # 1 # ;gc_cont=0.643
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.4   0.0   1.7e-09     1e-06     460     527 ..       2      68 ..       1      80 [. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 26.4 bits;  conditional E-value: 1.7e-09
+                 EsBDH1 460 slayGgvaPvalravevekllkGksltaevlraalkllkkevvpskdapggkaeyrqslassllfkll 527
+                             +ayGg+a ++ ra  +e  l+Gk++t   ++aa  +l  +  p  d     ++yr   a+ ll k +
+  tig00046055_RagTag_10   2 RIAYGGMAAIPKRAAACEAALLGKPWTQANVEAACAALADDFKPLSDFR-ASKQYRLLTAQNLLRKCF 68 
+                            69******************************************99998.7899**999999998843 PP
+
+>> tig00092080_RagTag_24  # 16901 # 17350 # -1 # ;gc_cont=0.616
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   6.7e-09     4e-06    1025    1117 ..      25     112 ..      19     130 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 24.5 bits;  conditional E-value: 6.7e-09
+                 EsBDH1 1025 galvqiytdgsisvehgGvelGqGldtkvaqvaatslsslidipieqiyvsetdtikvansastagsatselsgaavedackilke 1110
+                              a++ i+ dg i v  +G +lG G +t +aq aa +l    d+p++ + vs  dt+ ++++  ++gs  ++  + av ++ k  ++
+  tig00092080_RagTag_24   25 EAKIVIHRDGRIEVLSAGTDLGTGTYTILAQTAAEVL----DVPTRSVKVSLGDTD-LPRAPIAGGSQLANNLTGAVYKTAKLARS 105 
+                             589**********************************....*************97.79999999**999999999*999999888 PP
+
+                 EsBDH1 1111 rlftvkk 1117
+                              l  v+ 
+  tig00092080_RagTag_24  106 ELIRVAT 112 
+                             8887765 PP
+
+>> split1_split2_tig00001253_RagTag_106  # 79224 # 79619 # -1 # ;gc_cont=0.604
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5   0.1   1.3e-08   8.1e-06    1170    1277 ..       6     114 ..       1     122 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 23.5 bits;  conditional E-value: 1.3e-08
+                                EsBDH1 1170 gdttllqvdivydlgrslnpaidigqvegafvqglgyialeevkvd.rsgklvsdgtgtyklpsvddvplk 1239
+                                            g +++ +v   +  gr +np +   q+ g  v g+g    ee k d + g+ + +   +y++p   d+   
+  split1_split2_tig00001253_RagTag_106    6 GTIKVSRVVSAIAAGRVVNPKMARSQILGGVVWGIGMALHEETKTDhQLGRYMNHSLAEYHIPVNADIG-E 75  
+                                            67778888888899*******************************9789**************999996.7 PP
+
+                                EsBDH1 1240 lkvellkdamnqkavlsskasgeppll.lasaafcaikd 1277
+                                            ++v ++++  +  + l sk +ge  ++ +a a+  ai  
+  split1_split2_tig00001253_RagTag_106   76 IDVVFVEEHDEIVNALGSKGVGEIGIVgVAAAVANAIYH 114 
+                                            9**********************9987456666666655 PP
+
+>> tig00092080_RagTag_23  # 16339 # 16701 # -1 # ;gc_cont=0.606
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.1   0.0   1.7e-08     1e-05    1181    1270 ..       5      94 ..       2     117 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 23.1 bits;  conditional E-value: 1.7e-08
+                 EsBDH1 1181 ydlgrslnpaidigqvegafvqglgyialeevkvd.rsgklvsdgtgtyklpsvddvplklkvellkdamnqkavlsskasgeppl 1265
+                             +d gr  np +   q  g ++ g+g    ee  +d r g++v     +y +p   dvp  + +++   +  q + l  ka+ge  +
+  tig00092080_RagTag_23    5 FDSGRVYNPRLAESQWMGGMIMGIGQALFEEGHIDrRDGRVVNASFADYVVPVNADVPEIITIDVGL-PDLQASALGGKAVGELGI 89  
+                             799******************************99679*********************99999744.5567778899****9877 PP
+
+                 EsBDH1 1266 llasa 1270
+                             +   a
+  tig00092080_RagTag_23   90 VGVAA 94  
+                             64333 PP
+
+>> tig00005422_RagTag_29  # 17011 # 19386 # -1 # ;gc_cont=0.652
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7   0.0       0.1        63     817     951 ..      20     163 ..       7     177 .. 0.70
+   2 !   19.6   0.0     2e-07   0.00012    1156    1241 ..     221     304 ..     205     336 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 0.7 bits;  conditional E-value: 0.1
+                 EsBDH1 817 vacalaayklkrPvrllldrktdmlitGgrhpvlakykvgykedGkitalevel.f.inaGasldlslp.vle..rlllsadkv.... 895
+                            + + l +  + +Pvr+ l r+ + l   +  + l     g + dG i a + e  +  n+   l l l+  +e   +++ + ++    
+  tig00005422_RagTag_29  20 ADALLLSRAVGKPVRVQLTREQEHLWEPKGTAQLMEVDGGLNADGSIAAYDFETsYpSNGAPTLALLLTgRVEpvAAMFEMGDRtsip 107
+                            4555556667789999999999999999999999999999999999999888862324555566654431222113455444331223 PP
+
+                 EsBDH1 896 .ynvenlkiegkvcktnlPsktalrGpgdtqgsliaeviiehvakalgldpelvrel 951
+                             y+++n+++      + +   + +rG +    ++  e++i+ +a a g dp   r +
+  tig00005422_RagTag_29 108 pYDIDNMRVTINDM-APIVRASWMRGVSALPNTFAHESYIDELAFAAGVDPVEYRLR 163
+                            37777777776644.44567899**********************999999776655 PP
+
+  == domain 2  score: 19.6 bits;  conditional E-value: 2e-07
+                 EsBDH1 1156 fgaaaaevevdlltgdttllqvdivydlgrslnpaidigqvegafvqglgyialeevkvdrsgklvsdgtgtyklpsvddvplklk 1241
+                             + a +a+v +d  tgd+ + +v i  d g+ +npa    q+ g  +q    +  e v +++s  + s+  g y + +  +vp+ ++
+  tig00005422_RagTag_29  221 WAAWVADVAIDRQTGDVSVTRVVIGHDSGMMINPAGVQHQIHGNVIQSTSRVLKERVTFEES-TVASKEWGGYPILTFPEVPQ-ID 304 
+                             3344789***************************************************9987.57888888899988888885.44 PP
+
+>> split1_split2_tig00001253_RagTag_107  # 79580 # 80332 # -1 # ;gc_cont=0.643
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.4   0.7   5.9e-08   3.6e-05    1015    1119 ..      74     172 ..      66     204 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 21.4 bits;  conditional E-value: 5.9e-08
+                                EsBDH1 1015 sfeakflncagalvqiytdgsisvehgGvelGqGldtkvaqvaatslsslidipi.eqiyvsetdtikvan 1084
+                                            ++ea  ++  +a+ +i + g ++v  +  ++G G +t + q+aa + +    + + +++++      +++ 
+  split1_split2_tig00001253_RagTag_107   74 VWEAMQMKA-SAKARIDAQGKLTVSSATTDIGTGTYTVMTQIAAQASG----VAVeDVVFLLGD--SSLPT 137 
+                                            699999987.9999******************************9984....444056676655..47899 PP
+
+                                EsBDH1 1085 sastagsatselsgaavedackilkerlftvkkrl 1119
+                                            +   +gs t   +g+av++ac+ l  +l +v+++ 
+  split1_split2_tig00001253_RagTag_107  138 APLQGGSFTVSSVGTAVQQACQALTGKLLAVARQT 172 
+                                            9999**************************99875 PP
+
+>> split1_split2_tig00001253_RagTag_111  # 82386 # 82520 # -1 # ;gc_cont=0.630
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.3   0.0   4.8e-07   0.00029     136     167 ..       6      37 ..       1      42 [. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 18.3 bits;  conditional E-value: 4.8e-07
+                                EsBDH1 136 ekkvndkhdieegiaGnlCrCtGyrPildafk 167
+                                           e +++d  +i+e ++GnlCrC  y  i da++
+  split1_split2_tig00001253_RagTag_111   6 EGRAHDTAQIKELMSGNLCRCGAYSNIRDAIE 37 
+                                           56789************************986 PP
+
+>> split2_tig00001062_RagTag_411  # 261037 # 261573 # 1 # ;gc_cont=0.587
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.0   0.0   1.2e-06   0.00073     274     355 ..      42     114 ..       6     127 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 17.0 bits;  conditional E-value: 1.2e-06
+                         EsBDH1 274 srskvfidissvpelniltvkedgieiGaavtiadllesleekkklvsleessafkaivshlkkvaskqvrnvasvgGnl 353
+                                    + +  +i is ++ l+ l   +d i+ Ga vt+++l +    k+         +  ai   l + as+q+rn+as+gGnl
+  split2_tig00001062_RagTag_411  42 FTPPQLIGISGLTALKNLQFDDDKITAGALVTMSQLADHPACKQ---------SAPAIYGSLWQAASPQIRNMASLGGNL 112
+                                    445568999***********************999877644333.........45899999******************9 PP
+
+                         EsBDH1 354 ii 355
+                                      
+  split2_tig00001062_RagTag_411 113 RQ 114
+                                    65 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1321 nodes)
+Target sequences:                      18824  (3034781 residues searched)
+Passed MSV filter:                       345  (0.0183277); expected 376.5 (0.02)
+Passed bias filter:                      302  (0.0160433); expected 376.5 (0.02)
+Passed Vit filter:                        63  (0.00334679); expected 18.8 (0.001)
+Passed Fwd filter:                        35  (0.00185933); expected 0.2 (1e-05)
+Initial search space (Z):              18824  [actual number of targets]
+Domain search space  (domZ):              31  [number of targets reported over threshold]
+# CPU time: 0.64u 0.03s 00:00:00.67 Elapsed: 00:00:00.38
+# Mc/sec: 10347.53
+//
+[ok]

@@ -1,0 +1,16 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split35_split18_tig00000001_RagTag_367 -            234 EsNMT6               -            473   4.2e-05   20.2   0.0   1   1   4.4e-08   5.8e-05   19.7   0.0   184   228    45    90    39   115 0.82 # 326775 # 327476 # -1 # ;gc_cont=0.620
+split5_tig00001040_RagTag_618          -            399 EsNMT6               -            473   0.00041   16.9   0.0   1   1   4.9e-07   0.00064   16.3   0.0   181   256   220   300   213   344 0.79 # 492611 # 493807 # -1 # ;gc_cont=0.634
+tig00001770_RagTag_47                  -            128 EsNMT6               -            473   0.00074   16.1   0.0   1   1   6.6e-07   0.00087   15.9   0.0   182   220    69   107    56   121 0.85 # 27933 # 28316 # 1 # ;gc_cont=0.471
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Groves_S2_genes/EsNMT6.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa
+# Option settings: hmmsearch --domtblout results/Groves_S2_genes/EsNMT6.cluster_DBSCAN_round154_0.domtbl -E 1e-3 steps/Groves_S2_genes/EsNMT6.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:42:41 2020
+# [ok]

@@ -1,0 +1,86 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/EsTA1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round5_19.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/EsTA1.cluster_DBSCAN_round5_19.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsTA1  [M=473]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+    3.4e-23   78.8   0.0    4.1e-23   78.6   0.0    1.0  1  split9_split0_tig00000034_RagTag_151     # 91822 # 92703 # -1 # ;gc_cont=
+    4.1e-06   22.5   0.0    8.6e-06   21.4   0.0    1.5  1  split18_split315_tig00000034_RagTag_325  # 198156 # 199475 # 1 # ;gc_cont
+
+
+Domain annotation for each sequence (and alignments):
+>> split9_split0_tig00000034_RagTag_151  # 91822 # 92703 # -1 # ;gc_cont=0.574
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.6   0.0   3.3e-26   4.1e-23      93     309 ..      24     240 ..      13     281 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 78.6 bits;  conditional E-value: 3.3e-26
+                                 EsTA1  93 gkpvirlavgepdfdspdpvveagkkaidegftrylpnagalelrtaishklkeengleyspdeilvsngakq 165
+                                            + ++ l v + df spd ++ea k     g   y  ++  + + +ai+  l      +  p+ i+v  g   
+  split9_split0_tig00000034_RagTag_151  24 DQDILPLWVADTDFRSPDCIIEAIKTRAAHGIFGYGDTPVEF-IDSAIA-WLASRYQWHVNPEWIVVLPGVVC 94 
+                                           5667789999*************************9998543.555665.68999999*************** PP
+
+                                 EsTA1 166 simqavlavcspgdeviipapywvsypemvrladassrvvstsled.dfllksevleavlneksrllilcsps 237
+                                            +  av a  +p +  i p+p +  + + ++la+     ++ +l++  +++  ++ e  l+ k rll+lc p 
+  split9_split0_tig00000034_RagTag_151  95 GLNLAVRAFTAPDELTIAPTPIYPPFRGSAKLAERGQLSLPLMLQQgRWVVDMDAAEDQLTGKERLLMLCNPQ 167
+                                           ************999***************************998636899********************** PP
+
+                                 EsTA1 238 npsgsvypkevleeiakvvakhprllvladevyekii.yppakhtsfaslpg.mfektltvnafskafamtgw 308
+                                           np g+vy ++ l++      kh  l+v +de++  ++  p a h  fasl     ++++t+ + sk+f ++g 
+  split9_split0_tig00000034_RagTag_151 168 NPGGTVYRRDELQAQLEFAQKH-DLIVCSDEIHSDLLlEPGAEHIPFASLSEdAAQRSVTLMSPSKSFNIAGL 239
+                                           **************99987777.699*******987615779********8526899************9996 PP
+
+                                 EsTA1 309 r 309
+                                            
+  split9_split0_tig00000034_RagTag_151 240 G 240
+                                           4 PP
+
+>> split18_split315_tig00000034_RagTag_325  # 198156 # 199475 # 1 # ;gc_cont=0.621
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.4   0.0     7e-09   8.6e-06     146     339 ..     156     345 ..     138     403 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 21.4 bits;  conditional E-value: 7e-09
+                                    EsTA1 146 eengleyspdeilvsngakqsimqavlavcspgdeviipapywv.sypemvrla.dassrvvstsleddf 213
+                                                +g++ spdei+++ ga +++  ++ ++  pgd v+i  p +  +   + rl  +a +  v ++   d+
+  split18_split315_tig00000034_RagTag_325 156 ARQGITLSPDEIVITSGALEALNLSLQSLTEPGDYVVIEQPSFYgALQAIERLKlKALAIPVDAKQGIDL 225
+                                              4579***********************************9966515555556641333333455555566 PP
+
+                                    EsTA1 214 llksevleavlneksrllilcspsnpsgsvypkevleeiakvvakhprllvladevyekiiyppakhtsf 283
+                                              +   e+l+    +     ++ +  np       e+ +++  ++a++ ++ ++ d+vy ++    a     
+  split18_split315_tig00000034_RagTag_325 226 IQLEEALQRWPVKACW--LMTTLQNPLSVTLTPERKQQLVTLLARY-QVPMIEDDVYAELWAGEA----- 287
+                                              6667777766554443..3567789988888889999999999997.566789999999876665..... PP
+
+                                    EsTA1 284 aslpg.mfek...tltvnafskafamtgwrlgylaapkrfvtacgriqeqlssgassiaq 339
+                                              a lp   +++    l   +fsk++ ++g+r+g++aa  + +    r+q  ++ ++s+  q
+  split18_split315_tig00000034_RagTag_325 288 APLPAkAWDRqgnVLHCGSFSKSL-VAGFRVGWVAAG-QHAQRIQRLQLMSTLSTSAPMQ 345
+                                              5565424665222688899***98.68*******997.5677888888777666555444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (473 nodes)
+Target sequences:                       2447  (366164 residues searched)
+Passed MSV filter:                        70  (0.0286065); expected 48.9 (0.02)
+Passed bias filter:                       60  (0.0245198); expected 48.9 (0.02)
+Passed Vit filter:                         7  (0.00286065); expected 2.4 (0.001)
+Passed Fwd filter:                         2  (0.000817327); expected 0.0 (1e-05)
+Initial search space (Z):               2447  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.05u 0.01s 00:00:00.06 Elapsed: 00:00:00.04
+# Mc/sec: 3738.06
+//
+[ok]

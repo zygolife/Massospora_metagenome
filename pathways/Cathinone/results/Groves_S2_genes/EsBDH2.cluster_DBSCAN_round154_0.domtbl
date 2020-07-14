@@ -1,0 +1,29 @@
+#                                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split12_split18_tig00000001_RagTag_126 -            494 EsBDH2               -            534  1.8e-157  522.7   0.0   1   1  8.4e-160  2.1e-157  522.5   0.0    53   533     4   488     1   489 0.97 # 115595 # 117076 # 1 # ;gc_cont=0.610
+split5_tig00001040_RagTag_386          -            498 EsBDH2               -            534  6.4e-150  497.8   0.3   1   1  3.1e-152  7.6e-150  497.6   0.3    55   524    21   493    10   497 0.98 # 318807 # 320300 # 1 # ;gc_cont=0.631
+split12_split18_tig00000001_RagTag_25  -            460 EsBDH2               -            534  4.4e-108  359.8   0.3   1   1  2.3e-110  5.7e-108  359.4   0.3    75   525     6   453     2   457 0.97 # 20733 # 22112 # -1 # ;gc_cont=0.612
+split1_split0_tig00001315_RagTag_144   -            261 EsBDH2               -            534   2.7e-87  291.1   0.0   1   1   1.4e-89   3.3e-87  290.8   0.0    54   303     3   249     1   253 0.98 # 103351 # 104133 # -1 # ;gc_cont=0.595
+split1_split0_tig00001315_RagTag_67    -            493 EsBDH2               -            534   1.5e-86  288.7   0.0   1   1   8.2e-89     2e-86  288.3   0.0    57   520    16   477     8   484 0.94 # 44069 # 45547 # 1 # ;gc_cont=0.634
+split35_split18_tig00000001_RagTag_470 -            489 EsBDH2               -            534   1.7e-53  179.6   0.0   1   1   4.7e-55   1.2e-52  176.9   0.0    54   514     2   459     1   473 0.89 # 406928 # 408394 # -1 # ;gc_cont=0.639
+split5_tig00001040_RagTag_627          -            476 EsBDH2               -            534     2e-52  176.1   0.0   1   1   1.1e-54   2.6e-52  175.7   0.0    99   526    23   447     5   455 0.87 # 499160 # 500587 # -1 # ;gc_cont=0.618
+split1_tig00001141_RagTag_795          -            330 EsBDH2               -            534   3.4e-51  172.0   3.1   1   1   1.8e-53   4.5e-51  171.6   3.1    47   341     5   295     2   302 0.94 # 568942 # 569931 # -1 # ;gc_cont=0.631
+split5_tig00001040_RagTag_772          -            186 EsBDH2               -            534   3.2e-50  168.8   0.1   1   1   1.5e-52   3.7e-50  168.6   0.1   223   397     2   176     1   183 0.98 # 603670 # 604227 # -1 # ;gc_cont=0.634
+split1_tig00001141_RagTag_81           -            434 EsBDH2               -            534   1.4e-48  163.4   0.0   1   1   2.3e-50   5.7e-48  161.4   0.0    54   467     2   411     1   418 0.90 # 54994 # 56295 # -1 # ;gc_cont=0.655
+split5_tig00001040_RagTag_771          -            141 EsBDH2               -            534   1.9e-44  149.8   0.0   1   1   8.1e-47     2e-44  149.7   0.0   402   530     3   135     1   139 0.95 # 603272 # 603694 # -1 # ;gc_cont=0.605
+split5_tig00001040_RagTag_773          -            173 EsBDH2               -            534     2e-31  106.8   0.1   1   1   9.3e-34   2.3e-31  106.6   0.1    52   178     5   129     1   138 0.95 # 604224 # 604742 # -1 # ;gc_cont=0.622
+split1_split0_tig00001315_RagTag_143   -            112 EsBDH2               -            534   9.8e-28   94.6   0.0   1   1   4.5e-30   1.1e-27   94.4   0.0   429   526     2    99     1   105 0.96 # 102676 # 103011 # -1 # ;gc_cont=0.598
+tig00007112_RagTag_52                  -            350 EsBDH2               -            534   1.9e-24   83.7   0.0   1   1   1.2e-26   2.8e-24   83.2   0.0   267   438   176   345   146   347 0.89 # 45988 # 47037 # -1 # ;gc_cont=0.594
+split1_tig00001141_RagTag_794          -            124 EsBDH2               -            534     5e-11   39.5   0.0   1   1   2.3e-13   5.6e-11   39.3   0.0   426   527     1   105     1   111 0.83 # 568416 # 568787 # -1 # ;gc_cont=0.610
+split5_tig00001040_RagTag_235          -            336 EsBDH2               -            534   6.4e-08   29.2   0.0   1   1   3.4e-10   8.4e-08   28.8   0.0   453   511     2    61     1    82 0.86 # 202989 # 203996 # 1 # ;gc_cont=0.595
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Groves_S2_genes/EsBDH2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa
+# Option settings: hmmsearch --domtblout results/Groves_S2_genes/EsBDH2.cluster_DBSCAN_round154_0.domtbl -E 1e-3 steps/Groves_S2_genes/EsBDH2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round154_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:42:33 2020
+# [ok]

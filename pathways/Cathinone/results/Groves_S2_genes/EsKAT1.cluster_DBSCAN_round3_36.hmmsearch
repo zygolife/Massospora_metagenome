@@ -1,0 +1,68 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/EsKAT1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round3_36.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/EsKAT1.cluster_DBSCAN_round3_36.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsKAT1  [M=460]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+    4.4e-69  229.7   6.5    1.8e-67  224.4   6.5    2.0  1  tig00001797_RagTag_56  # 33864 # 35069 # 1 # ;gc_cont=0.635
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001797_RagTag_56  # 33864 # 35069 # 1 # ;gc_cont=0.635
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  224.4   6.5   1.1e-70   1.8e-67      51     436 ..       5     400 ..       2     401 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 224.4 bits;  conditional E-value: 1.1e-70
+                 EsKAT1  51 vivaayrtplckskr.gsfkdtraddllapvlraviektgvkaeevgdivvgtvlapgsqrasecrlaaflagfpetvpvrtvnrqcs 137
+                            +i  a rtp  k k  g+++  ++ +l+a +l a+  ++++++++v div+g v   g q+a   + aa++a    +v+   +nr c+
+  tig00001797_RagTag_56   5 LIFDAIRTPRGKGKAdGALHSVKPVNLVAGLLTALARRSDLDTHQVDDIVLGCVTPVGDQGADIAKTAALVADWDISVAGVQINRFCA 92 
+                            578899******98548999******************************************************************** PP
+
+                 EsKAT1 138 sglqavadvvaaikagfydigigagvesmtvnalalegsvnakveankkakdcllplgitsenvaerfgvtreeqdkaaveshkkaaa 225
+                            sgl+av   +  ++ gf d+ +  gvesm+  ++ ++g     ++ + + +  + p gi ++ +a   g tre+ d  a++s++kaa 
+  tig00001797_RagTag_56  93 SGLEAVNLGAMKVRSGFEDLVVVGGVESMSRVPMGTDGGA-WVLDPQTNMHSHFTPQGIGADLIATLEGFTREDVDAFALHSQQKAAR 179
+                            ************************************9976.467888888999*********************************** PP
+
+                 EsKAT1 226 aiaagkfkdeiipvktkivdpktgeekavtisvddgirpntsladlaklkpafkkdgt.....t...............tagnssqvs 293
+                            a a g f+  +i v+ +        +  v +  d+ ir ++sl +l+klk  f   g      t               t gnss + 
+  tig00001797_RagTag_56 180 ARADGSFNKSLIAVQDQ--------NGIVLLDHDEFIRGDSSLEGLGKLKSSFEMMGQmgfdaTalrvyshverinhvhTPGNSSGIV 259
+                            ************99854........568999**********************9877422222122233333333333378******* PP
+
+                 EsKAT1 294 dgagavllmkrskalkkglpilgvfrsfavvgvdpavmgigpavaipaavkaagleiedidlfeineafasqfvycakkleldeekvn 381
+                            dga+ +l+   +k  + gl     + + av+  dp++m  gpa a   a+  agl +edidlfe+neafas  +   k +++d  +vn
+  tig00001797_RagTag_56 260 DGAALMLIGSEAKGRELGLQPRARIVATAVTSADPTIMLTGPAPATRKALVKAGLRVEDIDLFEVNEAFASVVLKFIKDMGIDAGRVN 347
+                            *******************999999999************************************************************ PP
+
+                 EsKAT1 382 vnggalalghplgatgarcvatllhemkkrgkdcrfgvismcigtgmgaaavlek 436
+                            vngg++a+ghplgatg   ++tll+e+  r    r+g+ ++c+g gmg a+++e+
+  tig00001797_RagTag_56 348 VNGGSIAMGHPLGATGCAILGTLLDELEVRQ--QRYGLATLCVGGGMGIATIIER 400
+                            ***************************9986..5******************996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (460 nodes)
+Target sequences:                       1608  (319112 residues searched)
+Passed MSV filter:                        46  (0.028607); expected 32.2 (0.02)
+Passed bias filter:                       32  (0.0199005); expected 32.2 (0.02)
+Passed Vit filter:                         4  (0.00248756); expected 1.6 (0.001)
+Passed Fwd filter:                         1  (0.000621891); expected 0.0 (1e-05)
+Initial search space (Z):               1608  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.05u 0.01s 00:00:00.06 Elapsed: 00:00:00.04
+# Mc/sec: 3035.62
+//
+[ok]

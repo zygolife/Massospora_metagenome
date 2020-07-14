@@ -1,0 +1,76 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/EsNMT1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_unclustered.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/EsNMT1.cluster_unclustered.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsNMT1  [M=355]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                              -----------
+    4.2e-22   79.1   0.1    5.8e-22   78.6   0.1    1.1  1  tig00001192_RagTag_519                 # 372832 # 374103 # 1 # ;gc_cont
+    4.4e-16   59.3   0.0    4.7e-16   59.2   0.0    1.0  1  split19_split0_tig00000034_RagTag_440  # 256857 # 257429 # 1 # ;gc_cont
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001192_RagTag_519  # 372832 # 374103 # 1 # ;gc_cont=0.604
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   78.6   0.1   6.2e-26   5.8e-22      78     298 ..     142     363 ..     131     389 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 78.6 bits;  conditional E-value: 6.2e-26
+                  EsNMT1  78 gqhyelptsffklvlgkhlkyssayfsehtrtldeaeeamlalycerakiedgqkildigcgwgsfslyvaerypkceitglcnsst 164
+                               hy+l   +f+  l   + ys+a f     tl++a+   l   c++  ++  +++l+ig gwgs++ly a++y  c++t    s  
+  tig00001192_RagTag_519 142 AAHYDLGNDLFEEFLDPTMMYSAAQFLSPDDTLEQAQLNKLERICQKLALKPSDHLLEIGTGWGSMALYAAQHYG-CKVTTTTLSKE 227
+                             67**********************************************************************995.*********** PP
+
+                  EsNMT1 165 qkafieqqcserrlc.nvtiyaddistfdtestydriisiemfehm..knystllkkiskwmnqecllfvhyfchktfayhfedvd. 247
+                             q a+ e++ +  rl  +vt+  +d    d    yd+++siem+e +  +   t +k+ ++ ++ + l++++ +  +    +fe+   
+  tig00001192_RagTag_519 228 QFAYTEKRIAALRLQdQVTLLLQDYR--DLTGQYDKLVSIEMIEAVghRFLPTYFKQCAHLLKSDGLMLLQAITIRE--QRFEQAKr 310
+                             **********999973699*999986..77889***********98324568*****************99987765..56777651 PP
+
+                  EsNMT1 248 eddwmaryfftggtmpasslllyf..qddvsvvdhwlingkhyaqtseewlkr 298
+                               d++ ry+f gg++p+   +l++  +d    + h    g hya+t   w + 
+  tig00001192_RagTag_519 311 SVDFIQRYIFPGGALPCVQNMLHIvsRDTDMNLLHMEDFGLHYARTLRLWHEN 363
+                             569*************98776665224444456788889*******9988654 PP
+
+>> split19_split0_tig00000034_RagTag_440  # 256857 # 257429 # 1 # ;gc_cont=0.517
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.2   0.0     5e-20   4.7e-16     112     233 ..      20     137 ..      13     176 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 59.2 bits;  conditional E-value: 5e-20
+                                 EsNMT1 112 eaeeamlalycerakiedgqkildigcgwgsfslyvaerypkceitglcnsstqkafieqqcserrlcnvti 183
+                                             a+ea l + c +  +e g  +ldigcgwg ++ + a +y  +++ g+  s+ q+ + +q+cs     +vti
+  split19_split0_tig00000034_RagTag_440  20 TAQEAKLDMICRKLALEPGMSLLDIGCGWGGLAEFAARHYG-VNVHGVTISAEQQKLAQQRCSG---LDVTI 87 
+                                            589******************************99887775.89*******************7...589** PP
+
+                                 EsNMT1 184 yaddistfdtestydriisiemfehm..knystllkkiskwmnqecllfvhy 233
+                                              +d    d +  +dri+s+ mfeh+  kny+t +  + + ++ + ++++h 
+  split19_split0_tig00000034_RagTag_440  88 LLQDYR--DLNEQFDRIVSVGMFEHVgpKNYTTYFDVVDRNLKPDGIFLLHT 137
+                                            ***986..67789************8789*******9999999888888886 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (355 nodes)
+Target sequences:                      18824  (3034781 residues searched)
+Passed MSV filter:                       288  (0.0152996); expected 376.5 (0.02)
+Passed bias filter:                      266  (0.0141309); expected 376.5 (0.02)
+Passed Vit filter:                        33  (0.00175308); expected 18.8 (0.001)
+Passed Fwd filter:                         5  (0.000265618); expected 0.2 (1e-05)
+Initial search space (Z):              18824  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.16u 0.01s 00:00:00.17 Elapsed: 00:00:00.08
+# Mc/sec: 13296.80
+//
+[ok]

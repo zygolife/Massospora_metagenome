@@ -1,0 +1,15 @@
+#                                                                               --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name           accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#   ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00000934_RagTag_2454 -            244 EsThDPC2             -            597   0.00036   18.4   0.0   1   1   8.1e-08   0.00043   18.2   0.0    33   198     7   171     3   194 0.70 # 1364549 # 1365280 # 1 # ;gc_cont=0.400
+tig00001084_RagTag_257  -            350 EsThDPC2             -            597   0.00058   17.8   0.0   1   1   1.1e-07   0.00058   17.8   0.0   446   502   201   257     2   267 0.82 # 134936 # 135985 # 1 # ;gc_cont=0.441
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Groves_S2_genes/EsThDPC2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round1_4.faa
+# Option settings: hmmsearch --domtblout results/Groves_S2_genes/EsThDPC2.cluster_DBSCAN_round1_4.domtbl -E 1e-3 steps/Groves_S2_genes/EsThDPC2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round1_4.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:42:49 2020
+# [ok]

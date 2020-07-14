@@ -1,0 +1,19 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+split45_split0_tig00000034_RagTag_627 -            143 EsRED2               -            252   1.2e-23   81.0   1.8   1   1     3e-26   1.3e-23   80.8   1.8     4   139     2   135     1   141 0.92 # 385479 # 385907 # 1 # ;gc_cont=0.583
+tig00025926_RagTag_15                 -            290 EsRED2               -            252   2.1e-23   80.1   1.6   1   1   6.3e-26   2.8e-23   79.7   1.6     6   208    20   220    15   242 0.87 # 8120 # 8989 # 1 # ;gc_cont=0.553
+split45_split0_tig00000034_RagTag_139 -            189 EsRED2               -            252   5.2e-14   49.4   0.4   1   1   2.6e-15   1.1e-12   45.0   0.4     8   192     3   168     1   179 0.85 # 83553 # 84119 # 1 # ;gc_cont=0.640
+split45_split0_tig00000034_RagTag_699 -            165 EsRED2               -            252   2.5e-13   47.1   0.0   1   1   6.6e-16   2.9e-13   46.9   0.0    64   188    39   160     9   162 0.82 # 423951 # 424445 # 1 # ;gc_cont=0.594
+split29_split0_tig00000034_RagTag_254 -            541 EsRED2               -            252     9e-09   32.2   0.0   1   1   3.2e-11   1.4e-08   31.6   0.0    86   197    46   154    16   170 0.80 # 149556 # 151178 # 1 # ;gc_cont=0.577
+split45_split0_tig00000034_RagTag_628 -             63 EsRED2               -            252   6.2e-07   26.2   0.0   1   1   1.4e-09   6.2e-07   26.2   0.0   203   250    14    61     1    62 0.86 # 386035 # 386223 # 1 # ;gc_cont=0.635
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Groves_S2_genes/EsRED2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa
+# Option settings: hmmsearch --domtblout results/Groves_S2_genes/EsRED2.cluster_DBSCAN_round71_2.domtbl -E 1e-3 steps/Groves_S2_genes/EsRED2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round71_2.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:42:44 2020
+# [ok]

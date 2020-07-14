@@ -1,0 +1,184 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/EsTA2.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round2_43.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/EsTA2.cluster_DBSCAN_round2_43.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsTA2  [M=410]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+    3.3e-25   87.4   0.3    4.2e-25   87.1   0.3    1.1  1  tig00001142_RagTag_787   # 358711 # 359601 # 1 # ;gc_cont=0.3
+    5.5e-15   53.8   0.0    6.4e-15   53.6   0.0    1.0  1  tig00001169_RagTag_191   # 86480 # 86989 # 1 # ;gc_cont=0.382
+    7.3e-15   53.4   0.1    7.5e-15   53.3   0.1    1.2  1  tig00001142_RagTag_220   # 88370 # 89059 # -1 # ;gc_cont=0.35
+    1.5e-14   52.3   0.0    1.8e-14   52.1   0.0    1.0  1  tig00001142_RagTag_1054  # 481724 # 482038 # 1 # ;gc_cont=0.4
+    5.8e-13   47.1   0.0    6.9e-13   46.9   0.0    1.0  1  tig00001142_RagTag_1055  # 482031 # 482657 # 1 # ;gc_cont=0.3
+    4.3e-08   31.1   0.0    4.6e-08   31.0   0.0    1.1  1  tig00001334_RagTag_18    # 7257 # 7661 # -1 # ;gc_cont=0.365
+    1.2e-05   23.1   0.0    1.3e-05   22.9   0.0    1.0  1  tig00001142_RagTag_1053  # 481447 # 481737 # 1 # ;gc_cont=0.3
+    0.00026   18.6   0.2    0.00032   18.3   0.2    1.0  1  tig00001169_RagTag_190   # 86118 # 86426 # 1 # ;gc_cont=0.350
+
+
+Domain annotation for each sequence (and alignments):
+>> tig00001142_RagTag_787  # 358711 # 359601 # 1 # ;gc_cont=0.382
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.1   0.3   5.5e-28   4.2e-25      49     301 ..       8     254 ..       4     280 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 87.1 bits;  conditional E-value: 5.5e-28
+                   EsTA2  49 fripkeaeaalvkaiasgkfntyapsegleqarravadflsk..glsydlsvddvyltagssqaidii.isvlaskeanillprpay 132
+                             f +p++ ++a   ai  ++   y+   gl + r+a ++f+ k  glsy  + d++ +t+g ++ai  + +s+l   + ++l+p pay
+  tig00001142_RagTag_787   8 FYTPEHVKQAGIAAIE-NNQSHYTGMAGLLELRQAASEFMNKkyGLSYA-AEDEILVTVGVTEAISSVlLSILV-AGDEVLIPAPAY 91 
+                             5667777777666654.56678******************993345554.4678***********866156665.5779******** PP
+
+                   EsTA2 133 pkyeallaeig.....iearfydlvpereweinldqlraiadentialiiinpnnpcgsvfsrehllevaqtakdlglliisdevya 214
+                             p ye l++  g     i++r  d+v   e    l+q     +    a+i+  p np g  ++r  +  +a++ k+  + +i+devy+
+  tig00001142_RagTag_787  92 PGYEPLITLAGgslveIDTRANDFVLTPEM---LEQAIVEREGKVKAVILNYPANPTGVTYNRGQIKALAEVLKKHEVFVIADEVYS 175
+                             *****9987652222266666666554442...5665545555667888888*********************************** PP
+
+                   EsTA2 215 divfndaefvplrelasivpvitigsiskkyavpgwrvgwlvicdphgvlkaskvtdaikklvnlvtdpatiiqaavpeilentpee 301
+                             ++ + d   v+++e+a     i + ++sk +a+ gwr+g +           + v + ik    lvt+ +t  q a  e l+n +++
+  tig00001142_RagTag_787 176 ELNYTDQPHVSIAEYAPEQ-TIVLNGLSKSHAMTGWRIGLIFAA-------RELVAQIIKTHQYLVTSASTQSQFAAIEALKNGADD 254
+                             ***************9875.67899**************87543.......455777788888888888888887777777776665 PP
+
+>> tig00001169_RagTag_191  # 86480 # 86989 # 1 # ;gc_cont=0.382
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.6   0.0   8.3e-18   6.4e-15     209     377 ..       2     164 ..       1     168 [. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 53.6 bits;  conditional E-value: 8.3e-18
+                   EsTA2 209 sdevyadivfndaefvplrelasivpvit..igsiskkyavpgwrvgwlvicdphgvlkaskvtdaikklvnlvtdpatiiqaavpe 293
+                             +d++y  +v+n aef ++  l+  +   t  i ++sk +a+ gwr+g l++ dp+ +   +k+        + +++p+++ q a  e
+  tig00001169_RagTag_191   2 ADDIYHRLVYNGAEFTAISSLSDEIRKRTtvINGVSKTFAMTGWRIG-LAVGDPEIISAMTKIA------SQTTSNPTAVAQYAAIE 81 
+                             8*********************98864332389**************.8999**9775555544......356889******99999 PP
+
+                   EsTA2 294 ilentpeefheqllqllseaadilydriqkidalscpskprgsmfsmikid.lsglldikddvefalklareesvlvvpgtilgl 377
+                              +e+  + f   +  +++e  +i+y ++ ++  ++   kp+g+++ + k+    ++++  d  +f+  +++e  v +v g  + l
+  tig00001169_RagTag_191  82 AFEERDNSFE-IMHAAFEERLNIIYGQLSEVPGFEL-VKPNGAFYLFPKVTkAMAMKGYSDVTDFTTAILEEAGVALVTGAGFVL 164
+                             9999988885.58899***************99985.69**********97256799******************9999876555 PP
+
+>> tig00001142_RagTag_220  # 88370 # 89059 # -1 # ;gc_cont=0.354
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.3   0.1   9.8e-18   7.5e-15     129     261 ..       5     134 ..       1     211 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 53.3 bits;  conditional E-value: 9.8e-18
+                   EsTA2 129 rpaypkyeallaeigiearfydlvpereweinldqlraiadentialiiinpnnpcgsvfsrehllevaqtakdlglliisdevyad 215
+                              p+y +        g +  ++ +  e++w  ++++lr +   nt  + + n  +p g+++s + l ev ++a+++   i++devy  
+  tig00001142_RagTag_220   5 YPSYQQLYDWPKTLGAQVDYWHIKEENNWLPQIEELRRLVKSNTKLICLNNAAQPTGAIMSPKLLSEVVEIARSVDAYILCDEVYLP 91 
+                             3555555555677899999******************************************************************98 PP
+
+                   EsTA2 216 ivfndaefvplrelasivpvitigsiskkyavpgwrvgwlvicdph 261
+                             +  +++ + p+++l +    i+  sisk y vpg rvgw+++ d +
+  tig00001142_RagTag_220  92 L-DEETPYSPIADLYEK--GISTNSISKTYSVPGIRVGWVATQDRD 134
+                             6.578889999999774..7999*******************9975 PP
+
+>> tig00001142_RagTag_1054  # 481724 # 482038 # 1 # ;gc_cont=0.403
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   52.1   0.0   2.4e-17   1.8e-14      96     196 ..       1     101 [.       1     103 [. 0.96
+
+  Alignments for each domain:
+  == domain 1  score: 52.1 bits;  conditional E-value: 2.4e-17
+                    EsTA2  96 lsvddvyltagssqaidiiisvlaskeanillprpaypkyeallaeigiearfydlvpereweinldqlraiadentialiiinpn 181
+                              +s +d++   g s+ i +++  l   + ++l+p p yp++ a ++  g  a++y    + +w  ++d++r+    nt a+++inpn
+  tig00001142_RagTag_1054   1 MSINDIFTGNGVSELIVMAMQGLLDTGDEVLIPMPDYPLWTASVSLAGGTAVHYLCDEQAGWFPDIDDIRSKITSNTKAIVLINPN 86 
+                              589***************************************************8888899************************* PP
+
+                    EsTA2 182 npcgsvfsrehllev 196
+                              np g+++s++ lle+
+  tig00001142_RagTag_1054  87 NPTGALYSKDLLLEI 101
+                              **********99988 PP
+
+>> tig00001142_RagTag_1055  # 482031 # 482657 # 1 # ;gc_cont=0.389
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.9   0.0   8.9e-16   6.9e-13     200     402 ..       2     202 ..       1     207 [. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 46.9 bits;  conditional E-value: 8.9e-16
+                    EsTA2 200 akdlglliisdevyadivfndaefvplrelasivpvitigsiskkyavpgwrvgwlvicdphgvlkaskvtdaikklvnlvtdpat 285
+                              a++  l+i sde+y  +v++ a  vp++ la  + v+t+ ++sk + + g+rvgw+v+   +  +k     + ++ l  +      
+  tig00001142_RagTag_1055   2 ARENNLIIFSDEIYDRLVMDGAVHVPIASLAPDLFVVTMNGLSKSHRIAGFRVGWMVLSGEKSHVKG--YIEGLNMLASMRLCSNV 85 
+                              7888999***************************************************999887775..46778888899899999 PP
+
+                    EsTA2 286 iiqaavpeilentpeefheqll..qllseaadilydriqkidalscpskprgsmfsmikidlsglldikddvefalklareesvlv 369
+                              + q+ v + l  t     + ll    + e  + +y+ i++i  ls   kp+ ++++++k+  + ++ i  + ++++ +     +l+
+  tig00001142_RagTag_1055  86 LAQSVVQTSLGGTQ-SVDKLLLpgGRVYEQREFIYKAINDIPGLSA-VKPQAAFYIFLKLTEKCIKLIMMN-NLSWTFEAG-KILL 167
+                              99999999998874.4555555334688999*************96.69***********99998877543.445554433.3455 PP
+
+                    EsTA2 370 vpgtilglk..nwirvsfgvpskllkealerieaf 402
+                              v g  +  k  +  r+ +    + l e  e++e f
+  tig00001142_RagTag_1055 168 VHGRGFNWKepDHFRIVYLPRVDELAEIQEKMERF 202
+                              55544444422677887777777777777887777 PP
+
+>> tig00001334_RagTag_18  # 7257 # 7661 # -1 # ;gc_cont=0.365
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.0   0.0   5.9e-11   4.6e-08     203     301 ..       4      94 ..       1     131 [. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 31.0 bits;  conditional E-value: 5.9e-11
+                  EsTA2 203 lglliisdevyadivfndaefvplrelasivpvitigsiskkyavpgwrvgwlvicdphgvlkaskvtdaikklvnlvtdpatiiqaa 290
+                              + +i+devy+++ + d   v+++e+a     i + ++sk +a+ gwr+g +           + v + ik    l t+ +t  q a
+  tig00001334_RagTag_18   4 HEVFVIADEVYSELNYTDQPHVSIAEYAPEQ-TIVLNGLSKSHAMTGWRIGLIFAA-------RELVAQIIKTHQYLATSASTQSQFA 83 
+                            56789**********************9875.67899**************87543.......3446666666666666666666666 PP
+
+                  EsTA2 291 vpeilentpee 301
+                              e l+n +++
+  tig00001334_RagTag_18  84 AIEALKNGADD 94 
+                            66666665554 PP
+
+>> tig00001142_RagTag_1053  # 481447 # 481737 # 1 # ;gc_cont=0.378
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.9   0.0   1.7e-08   1.3e-05      15      88 ..      15      85 ..       3      94 .. 0.86
+
+  Alignments for each domain:
+  == domain 1  score: 22.9 bits;  conditional E-value: 1.7e-08
+                    EsTA2 15 lgvrgiltdikaqldangktiislgqgdpatfecfripkeaeaalvkaiasgkfntyapsegleqarravadfl 88
+                               +rg + d ++++ ang  i+ l +g+pa f  f +p e  + l +  + +  ++y+ s+g+  ar+a+ ++ 
+  tig00001142_RagTag_1053 15 YDIRGPVLDEAQRMRANGEKILRLNTGNPAEFG-FLAPDEVISDLIQHAVDS--EGYSDSKGIFSARKAIMQYC 85
+                             469999**************************6.889999999999887766..69**************9996 PP
+
+>> tig00001169_RagTag_190  # 86118 # 86426 # 1 # ;gc_cont=0.350
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.3   0.2   4.2e-07   0.00032      93     185 ..       6      98 ..       2     101 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 18.3 bits;  conditional E-value: 4.2e-07
+                   EsTA2  93 sydlsvddvyltagssqaidiiisvlaskeanillprpaypkyeallaeigiearfydlvpereweinldqlraiadentialiiin 179
+                             +y++ ++++ +tag+  a+   +      + ++++p p +  y   +   g + +  +   e+++++ ++ql++     +  l++  
+  tig00001169_RagTag_190   6 NYEIQPNEILITAGAKFALYAYFMATVDPDDEVIIPAPYWVSYVDQVKMAGGNPVIVEANQENNFKVTVEQLEEARTSKSKILLLNS 92 
+                             699****************99999999999********************************************9999999999999 PP
+
+                   EsTA2 180 pnnpcg 185
+                             p np g
+  tig00001169_RagTag_190  93 PSNPTG 98 
+                             ****99 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (410 nodes)
+Target sequences:                       6176  (598731 residues searched)
+Passed MSV filter:                       157  (0.025421); expected 123.5 (0.02)
+Passed bias filter:                      116  (0.0187824); expected 123.5 (0.02)
+Passed Vit filter:                        21  (0.00340026); expected 6.2 (0.001)
+Passed Fwd filter:                         9  (0.00145725); expected 0.1 (1e-05)
+Initial search space (Z):               6176  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.05u 0.01s 00:00:00.06 Elapsed: 00:00:00.04
+# Mc/sec: 5892.59
+//
+[ok]

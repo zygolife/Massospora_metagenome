@@ -1,0 +1,116 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3 (Nov 2019); http://hmmer.org/
+# Copyright (C) 2019 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  steps/Groves_S2_genes/EsKAT1.hmm
+# target sequence database:        ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round59_0.faa
+# per-dom hits tabular output:     results/Groves_S2_genes/EsKAT1.cluster_DBSCAN_round59_0.domtbl
+# sequence reporting threshold:    E-value <= 0.001
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       EsKAT1  [M=460]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                             Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                             -----------
+    5.5e-92  306.6   1.0    6.3e-92  306.4   1.0    1.0  1  split3_split45_tig00005210_RagTag_13  # 6590 # 7753 # 1 # ;gc_cont=0.5
+    2.7e-37  126.3   1.0    2.7e-36  123.0   1.0    1.9  1  tig00026268_RagTag_29                 # 12775 # 13407 # -1 # ;gc_cont=
+    1.6e-11   41.4   1.1    2.5e-05   20.9   0.1    2.0  2  tig00026268_RagTag_30                 # 13419 # 13913 # -1 # ;gc_cont=
+
+
+Domain annotation for each sequence (and alignments):
+>> split3_split45_tig00005210_RagTag_13  # 6590 # 7753 # 1 # ;gc_cont=0.590
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  306.4   1.0   4.3e-95   6.3e-92      48     436 ..       2     386 ..       1     387 [. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 306.4 bits;  conditional E-value: 4.3e-95
+                                EsKAT1  48 ddvvivaayrtplckskrgsfkdtraddllapvlraviekt.gvkaeevgdivvgtvlapgsqrasecrlaaf 119
+                                           ++vvi+ a rtp+ +sk g+f+  ra+dl a ++r ++ +  +v+++ + div g v     q+    r aa+
+  split3_split45_tig00005210_RagTag_13   2 ENVVIIDAVRTPMGRSKGGAFRHVRAEDLSAHLMRELLSRNpAVNPTSLDDIVWGCVQQTLEQGFNIARNAAL 74 
+                                           579**********************************998648****************************** PP
+
+                                EsKAT1 120 lagfpetvpvrtvnrqcssglqavadvvaaikagfydigigagvesmtvnalalegsvnakveankkakdcll 192
+                                           la +p++vp  tvnr c s +qa+ d + ai +g  +  +  gve m   +++      + +       +   
+  split3_split45_tig00005210_RagTag_13  75 LAEIPHSVPATTVNRLCGSSMQALHDAARAIMVGDAQCCLIGGVEHMGHVPMNHGVDFHPGLGRT--VAKAAG 145
+                                           ****************************************************9999999988654..333445 PP
+
+                                EsKAT1 193 plgitsenvaerfgvtreeqdkaaveshkkaaaaiaagkfkdeiipvktkivdpktgeekavtisvddgirpn 265
+                                            +g+t+e +a+ + ++re+qd  a++sh++a  a+  g f  ei+       +++ g  k      d+ ir +
+  split3_split45_tig00005210_RagTag_13 146 MMGLTAEMLARMHHISREQQDAFALRSHQRAWQATQRGDFATEIVATYG---HDSDGILK--RYDFDEVIREE 213
+                                           69*****************************************986544...34444444..4678******* PP
+
+                                EsKAT1 266 tsladlaklkpafk.kdgtttagnssqvsdgagavllmkrskalkkglpilgvfrsfavvgvdpavmgigpav 337
+                                           ts  +la lkpaf   +gt tag ss +sdga+a+l+m  s a + gl     +rs+avvg+dp++mg gp  
+  split3_split45_tig00005210_RagTag_13 214 TSAEGLAALKPAFDpVNGTVTAGTSSALSDGAAAMLVMSESRARELGLTPRARIRSMAVVGCDPSIMGYGPVP 286
+                                           *************8359******************************************************** PP
+
+                                EsKAT1 338 aipaavkaagleiedidlfeineafasqfvycakklelde...ekvnvnggalalghplgatgarcvatllhe 407
+                                           a   a+k agl + did+fe+neafa+q + c k l+l e   +kvn+ngga+alghplg +gar  +tll+ 
+  split3_split45_tig00005210_RagTag_13 287 ASKLALKRAGLSVSDIDVFELNEAFAAQTLPCIKDLGLLEridDKVNLNGGAIALGHPLGCSGARISTTLLNI 359
+                                           ************************************98642338***************************** PP
+
+                                EsKAT1 408 mkkrgkdcrfgvismcigtgmgaaavlek 436
+                                           m +r  d rfg+ +mcig g g a+v+e+
+  split3_split45_tig00005210_RagTag_13 360 MERR--DARFGLATMCIGLGQGIATVFER 386
+                                           **98..89*******************96 PP
+
+>> tig00026268_RagTag_29  # 12775 # 13407 # -1 # ;gc_cont=0.624
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.0   1.0   1.8e-39   2.7e-36     256     437 ..      12     210 ..       8     210 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 123.0 bits;  conditional E-value: 1.8e-39
+                 EsKAT1 256 isvddgirpntsladlaklkpaf.kkdgtttagnssqvsdgagavllmkrskalkkglpilgvfrsfavvgvd.pavmgigpavaipa 341
+                            i  d+ +r n++  d a+l+paf +++g+ ta ns+ ++dga+av+lm+   a + g+  lg +rs+a + +     m +gpa a p 
+  tig00026268_RagTag_29  12 IDQDNNVRMNAKAEDYARLRPAFdRQHGSVTAANSTPLTDGAAAVILMREGRARELGIRPLGYLRSYAFTAIGvQQDMLLGPAYASPL 99 
+                            77899******************6678***************************************9866554135799********* PP
+
+                 EsKAT1 342 avkaagleiedidlfeineafasqfv..........ycakkl.......eldeekvnvnggalalghplgatgarcvatllhemkkrg 412
+                            a+  ag+   d+ l+++ eafa+q +          + ++ l       e++ee+ nv gg++a ghp+ atgar ++  l+e+++rg
+  tig00026268_RagTag_29 100 ALDRAGITTADLTLIDMHEAFAAQTLsnlhmfrderFAREVLnrphalgEVNEERFNVLGGSIAYGHPFAATGARMITQTLNELRRRG 187
+                            ***********************965222222222233333433333345899*********************************** PP
+
+                 EsKAT1 413 kdcrfgvismcigtgmgaaavleke 437
+                             +  +g+++ c + g+gaa +le e
+  tig00026268_RagTag_29 188 GG--LGLVTACAAGGLGAAMILEAE 210
+                            86..8*****************975 PP
+
+>> tig00026268_RagTag_30  # 13419 # 13913 # -1 # ;gc_cont=0.616
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.1     4e-08   5.9e-05     119     188 ..      25      94 ..       4     103 .. 0.84
+   2 !   20.9   0.1   1.7e-08   2.5e-05     192     227 ..     125     160 ..     118     164 .. 0.91
+
+  Alignments for each domain:
+  == domain 1  score: 19.7 bits;  conditional E-value: 4e-08
+                 EsKAT1 119 flagfpetvpvrtvnrqcssglqavadvvaaikagfydigigagvesmtvnalalegsvnakveankkak 188
+                            + +g+       +v r c++ +qava+v+  + ag    gi  g +s +v ++ + ++   ++   +ka+
+  tig00026268_RagTag_30  25 LSSGLSVHTDAYSVSRACATSFQAVANVAESLLAGTISAGIAGGADSSSVLPIGVSKTLARALVDLNKAR 94 
+                            5567777777789****************************************99998877776666665 PP
+
+  == domain 2  score: 20.9 bits;  conditional E-value: 1.7e-08
+                 EsKAT1 192 lplgitsenvaerfgvtreeqdkaaveshkkaaaai 227
+                            l +g t+e++a+ +g+tre qd  a++sh++aa a 
+  tig00026268_RagTag_30 125 LRMGDTAEQMAKSHGITREAQDALALRSHQHAARAG 160
+                            789******************************986 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (460 nodes)
+Target sequences:                       4344  (598812 residues searched)
+Passed MSV filter:                        92  (0.0211786); expected 86.9 (0.02)
+Passed bias filter:                       73  (0.0168048); expected 86.9 (0.02)
+Passed Vit filter:                        10  (0.00230203); expected 4.3 (0.001)
+Passed Fwd filter:                         4  (0.00092081); expected 0.0 (1e-05)
+Initial search space (Z):               4344  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.06u 0.01s 00:00:00.06 Elapsed: 00:00:00.04
+# Mc/sec: 5665.74
+//
+[ok]

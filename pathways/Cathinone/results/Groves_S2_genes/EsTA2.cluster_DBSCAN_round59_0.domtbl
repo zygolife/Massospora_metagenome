@@ -1,0 +1,20 @@
+#                                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                         accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                 ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+tig00007783_RagTag_52                 -            174 EsTA2                -            410     4e-25   86.7   0.0   1   1   7.3e-28   4.5e-25   86.5   0.0   155   263     9   117     2   149 0.90 # 24182 # 24703 # -1 # ;gc_cont=0.540
+split36_split0_tig00000034_RagTag_88  -            302 EsTA2                -            410   5.5e-18   63.1   0.0   1   1   1.1e-20   6.6e-18   62.9   0.0    64   260    55   250    14   289 0.82 # 51904 # 52809 # 1 # ;gc_cont=0.597
+split67_split0_tig00000034_RagTag_176 -            418 EsTA2                -            410   5.9e-16   56.5   0.0   1   1   1.3e-18   7.9e-16   56.0   0.0    80   259   166   336   106   401 0.75 # 106807 # 108060 # 1 # ;gc_cont=0.600
+tig00025807_RagTag_32                 -            484 EsTA2                -            410   1.5e-15   55.1   0.0   1   1   3.4e-18   2.1e-15   54.6   0.0    82   259   168   336   107   396 0.75 # 13511 # 14962 # 1 # ;gc_cont=0.594
+tig00003102_RagTag_3                  -            313 EsTA2                -            410   2.7e-08   31.2   0.0   1   1   5.6e-11   3.5e-08   30.9   0.0    94   261    67   233    38   255 0.85 # 1784 # 2722 # -1 # ;gc_cont=0.621
+tig00007783_RagTag_53                 -             67 EsTA2                -            410   0.00048   17.2   0.0   1   1     8e-07    0.0005   17.2   0.0    94   139    10    55     1    61 0.86 # 24687 # 24887 # -1 # ;gc_cont=0.572
+tig00025807_RagTag_33                 -            239 EsTA2                -            410   0.00066   16.8   0.0   1   1   1.3e-06   0.00079   16.5   0.0   150   273     8   127     4   229 0.79 # 15042 # 15758 # -1 # ;gc_cont=0.589
+#
+# Program:         hmmsearch
+# Version:         3.3 (Nov 2019)
+# Pipeline mode:   SEARCH
+# Query file:      steps/Groves_S2_genes/EsTA2.hmm
+# Target file:     ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round59_0.faa
+# Option settings: hmmsearch --domtblout results/Groves_S2_genes/EsTA2.cluster_DBSCAN_round59_0.domtbl -E 1e-3 steps/Groves_S2_genes/EsTA2.hmm ../../processed/EukRep_autometa_Bacteria/MAGs/cluster_DBSCAN_round59_0.faa 
+# Current dir:     /bigdata/stajichlab/shared/projects/ZyGoLife/Massospora/Massospora_metagenome/pathways/Cathinone
+# Date:            Mon Jul 13 21:42:47 2020
+# [ok]
