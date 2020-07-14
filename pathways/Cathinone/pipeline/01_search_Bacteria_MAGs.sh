@@ -15,17 +15,22 @@ CPU=$CPUS
 CUTOFF=1e-3
 INPUT=../../processed/EukRep_autometa_Bacteria/MAGs/
 OUT=results
-mkdir -p $OUT
-for HMM in $(ls steps/*.hmm)
+for DIR in Boyce2018 Groves_S2_genes
 do
+  OUT=$OUT/$DIR
+  mkdir -p $OUT
+
+  for HMM in $(ls steps/$DIR/*.hmm)
+  do
    step=$(basename $HMM .hmm)
 
-  parallel -j $CPU hmmsearch -E $CUTOFF --domtbl $OUT/$step.{/.}.domtbl $HMM {} \> $OUT/$step.{/.}.hmmsearch ::: $(ls $INPUT/*.faa)
-  parallel -j $CPU esl-sfetch --index {} ::: $(ls $INPUT/*.faa)
-  parallel -j $CPU grep -v "^#" $OUT/$step.{/.}.domtbl \| esl-sfetch -f {} - \> $OUT/$step.{/.}.hits.faa ::: $(ls $INPUT/*.faa)
-  for n in $(ls $OUT/*.faa)
-  do
-	name=$(basename $n .hits.faa)
-	perl -i -p -e "s/>/>$name|/" $n
-  done
-done
+   parallel -j $CPU hmmsearch -E $CUTOFF --domtbl $OUT/$step.{/.}.domtbl $HMM {} \> $OUT/$step.{/.}.hmmsearch ::: $(ls $INPUT/*.faa)
+   parallel -j $CPU esl-sfetch --index {} ::: $(ls $INPUT/*.faa)
+   parallel -j $CPU grep -v "^#" $OUT/$step.{/.}.domtbl \| esl-sfetch -f {} - \> $OUT/$step.{/.}.hits.faa ::: $(ls $INPUT/*.faa)
+   for n in $(ls $OUT/*.faa)
+   do
+	     name=$(basename $n .hits.faa)
+	     perl -i -p -e "s/>/>$name|/" $n
+     done
+   done
+ done
