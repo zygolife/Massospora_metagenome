@@ -1,0 +1,12 @@
+MAG	Aromatic amino acid lyase	AMP-binding enzyme	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain	Aldehyde dehydrogenase family	Molybdopterin-binding domain of aldehyde dehydrogenase	Thiolase, N-terminal domain	Thiamine pyrophosphate enzyme, N-terminal TPP binding domain	Aminotransferase class I and II	short chain dehydrogenase	Aldo/keto reductase family
+cluster_DBSCAN_round59_0	6	9	6	12	0	5	8	24	15	8
+cluster_DBSCAN_round2_5	5	58	24	44	3	20	20	32	48	9
+cluster_DBSCAN_round3_20	4	31	17	18	2	10	4	18	37	10
+cluster_DBSCAN_round154_0	0	40	20	19	8	10	3	32	31	3
+cluster_DBSCAN_round5_19	0	5	4	15	0	5	0	3	14	9
+cluster_DBSCAN_round71_2	0	7	5	3	0	4	6	17	9	6
+cluster_DBSCAN_round1_4	3	22	12	19	0	23	4	27	51	11
+cluster_unclustered	11	68	27	87	22	21	27	70	96	31
+cluster_DBSCAN_round2_43	0	6	8	4	0	8	9	15	27	12
+cluster_DBSCAN_round4_36	0	2	5	2	0	2	0	3	6	3
+cluster_DBSCAN_round3_36	0	3	8	5	3	2	0	8	8	0
