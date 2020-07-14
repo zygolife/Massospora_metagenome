@@ -1,0 +1,10 @@
+Ammonia lyase	Lyase_aromatic.hmm	Aromatic amino acid lyase	http://pfam.xfam.org/family/PF00221
+Co-A ligase	AMP-binding.hmm	AMP-binding enzyme	http://pfam.xfam.org/family/PF00501
+hydratase	3HCDH_N.hmm	3-hydroxyacyl-CoA dehydrogenase, NAD binding domain	http://pfam.xfam.org/family/PF02737
+dehydrogenase	Aldedh.hmm	Aldehyde dehydrogenase family	http://pfam.xfam.org/family/PF00171
+dehydrogenase	Ald_Xan_dh_C2.hmm	Molybdopterin-binding domain of aldehyde dehydrogenase	http://pfam.xfam.org/family/PF02738
+thiolase	Thiolase_N.hmm	Thiolase, N-terminal domain	http://pfam.xfam.org/family/PF00108
+carboligase	TPP_enzyme_N.hmm	Thiamine pyrophosphate enzyme, N-terminal TPP binding domain	http://pfam.xfam.org/family/PF02776
+transaminase	Aminotran_1_2.hmm	Aminotransferase class I and II	http://pfam.xfam.org/family/PF00155
+reductase	adh_short_C2.hmm	short chain dehydrogenase	http://pfam.xfam.org/family/PF00106
+reductase	Aldo_ket_red.hmm	Aldo/keto reductase family	http://pfam.xfam.org/family/PF00248
