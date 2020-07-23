@@ -1,0 +1,52 @@
+==================================================
+file name: Massospora_cicadina.2020-07-13.sorted.fasta
+sequences:         76874
+total length: 1283591284 bp  (1283122484 bp excl N/X-runs)
+GC level:         40.32 %
+bases masked: 1133325805 bp ( 88.33 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+SINEs:             5100      1019480 bp    0.08 %
+      ALUs            0            0 bp    0.00 %
+      MIRs            0            0 bp    0.00 %
+
+LINEs:            93769    152704678 bp   11.90 %
+      LINE1       21350     25711150 bp    2.00 %
+      LINE2           0            0 bp    0.00 %
+      L3/CR1          0            0 bp    0.00 %
+
+LTR elements:    368322    634571050 bp   49.46 %
+      ERVL            0            0 bp    0.00 %
+      ERVL-MaLRs      0            0 bp    0.00 %
+      ERV_classI      0            0 bp    0.00 %
+      ERV_classII  1187      1247679 bp    0.10 %
+
+DNA elements:     25659     14542835 bp    1.13 %
+     hAT-Charlie    550        69186 bp    0.01 %
+     TcMar-Tigger     0            0 bp    0.00 %
+
+Unclassified:    774671    332352405 bp   25.90 %
+
+Total interspersed repeats:1135190448 bp   88.47 %
+
+
+Small RNA:          232       243711 bp    0.02 %
+
+Satellites:           1           53 bp    0.00 %
+Simple repeats:   26953      1438376 bp    0.11 %
+Low complexity:    8503       493825 bp    0.04 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+  Runs of >=20 X/Ns in query were excluded in % calcs
+
+
+The query species was assumed to be homo          
+RepeatMasker Combined Database: Dfam_Consensus-20170127, RepBase-20170127
+        
+run with rmblastn version 2.9.0+
+The query was compared to classified sequences in ".../Massospora_cicadina.2020-07-13.repeatmodeler-library_plusRepBase.fasta"
+
